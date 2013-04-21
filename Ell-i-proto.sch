@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11535,7 +11535,11 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0.3048">
+<clearance class="0" value="0.1524"/>
+</class>
+<class number="1" name="power" width="0.508" drill="0.8128">
+<clearance class="1" value="0.2032"/>
 </class>
 </classes>
 <parts>
@@ -11798,7 +11802,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <instance part="GND14" gate="1" x="152.4" y="104.14"/>
 <instance part="GND15" gate="1" x="134.62" y="124.46"/>
 <instance part="GND16" gate="1" x="88.9" y="91.44"/>
-<instance part="GND17" gate="1" x="193.04" y="78.74"/>
+<instance part="GND17" gate="1" x="193.04" y="76.2"/>
 <instance part="GND18" gate="1" x="170.18" y="25.4"/>
 <instance part="GND19" gate="1" x="129.54" y="63.5"/>
 <instance part="GND20" gate="1" x="132.08" y="104.14"/>
@@ -11825,7 +11829,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="T2" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -11846,6 +11850,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="193.04" y1="78.74" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C42" gate="G$1" pin="1"/>
@@ -11907,7 +11912,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="149.86" y1="63.5" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MAG-CT-1" class="0">
+<net name="MAG-CT-1" class="1">
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="AC1"/>
@@ -11920,7 +11925,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="53.34" y="172.72"/>
 </segment>
 </net>
-<net name="MAG-CT-2" class="0">
+<net name="MAG-CT-2" class="1">
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="AC2"/>
@@ -11933,7 +11938,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="50.8" y="170.18"/>
 </segment>
 </net>
-<net name="RJ45-4-5" class="0">
+<net name="RJ45-4-5" class="1">
 <segment>
 <pinref part="C21" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="AC2"/>
@@ -11946,7 +11951,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="45.72" y="165.1"/>
 </segment>
 </net>
-<net name="RJ45-7-8" class="0">
+<net name="RJ45-7-8" class="1">
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="AC1"/>
@@ -11966,21 +11971,21 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="22.86" y1="109.22" x2="12.7" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N22741" class="0">
+<net name="N22741" class="1">
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N22792" class="0">
+<net name="N22792" class="1">
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="152.4" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N22914" class="0">
+<net name="N22914" class="1">
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -11996,21 +12001,21 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="33.02" y="139.7"/>
 </segment>
 </net>
-<net name="N23144" class="0">
+<net name="N23144" class="1">
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="152.4" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N23171" class="0">
+<net name="N23171" class="1">
 <segment>
 <pinref part="C24" gate="G$1" pin="2"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="152.4" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N23620" class="0">
+<net name="N23620" class="1">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
 <pinref part="U3" gate="G$1" pin="-"/>
@@ -12041,7 +12046,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="88.9" y="76.2"/>
 </segment>
 </net>
-<net name="V+" class="0">
+<net name="V+" class="1">
 <segment>
 <pinref part="D8" gate="G$1" pin="C"/>
 <pinref part="U3" gate="G$1" pin="+"/>
@@ -12077,7 +12082,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="99.06" y1="149.86" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N27571" class="0">
+<net name="N27571" class="1">
 <segment>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="T2" gate="G$1" pin="3"/>
@@ -12087,7 +12092,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="193.04" y="127"/>
 </segment>
 </net>
-<net name="N27735" class="0">
+<net name="N27735" class="1">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="R23" gate="G$1" pin="2"/>
@@ -12104,7 +12109,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="175.26" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N30165" class="0">
+<net name="N30165" class="1">
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
 <pinref part="D11" gate="G$1" pin="C"/>
@@ -12227,7 +12232,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="241.3" y1="109.22" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N62909" class="0">
+<net name="N62909" class="1">
 <segment>
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -12278,7 +12283,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="88.9" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N68062" class="0">
+<net name="N68062" class="1">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="T2" gate="G$1" pin="2"/>
@@ -12340,7 +12345,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="139.7" y="101.6"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="TAB"/>
 <pinref part="C33" gate="G$1" pin="1"/>
@@ -12355,7 +12360,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="264.16" y="157.48"/>
 </segment>
 </net>
-<net name="GNDI" class="0">
+<net name="GNDI" class="1">
 <segment>
 <pinref part="D14" gate="G$1" pin="A"/>
 <pinref part="GNDI4" gate="G$1" pin="GNDI"/>
@@ -12405,7 +12410,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <pinref part="GNDI22" gate="G$1" pin="GNDI"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="U5" gate="G$1" pin="IN"/>
 <pinref part="C32" gate="G$1" pin="1"/>
@@ -12451,7 +12456,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="176.53" y1="73.66" x2="176.53" y2="25.4" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
-<net name="PE" class="0">
+<net name="PE" class="1">
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="PE1" gate="M" pin="PE"/>
@@ -12527,21 +12532,21 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="226.06" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAG-CT-1" class="0">
+<net name="MAG-CT-1" class="1">
 <segment>
 <pinref part="T1" gate="G$1" pin="TXCT"/>
 <wire x1="43.18" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <label x="43.18" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MAG-CT-2" class="0">
+<net name="MAG-CT-2" class="1">
 <segment>
 <pinref part="T1" gate="G$1" pin="RXCT"/>
 <wire x1="43.18" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <label x="43.18" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RJ45-4-5" class="0">
+<net name="RJ45-4-5" class="1">
 <segment>
 <pinref part="J9" gate="G$1" pin="4"/>
 <pinref part="J9" gate="G$1" pin="5"/>
@@ -12553,7 +12558,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="17.78" y="99.06" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RJ45-7-8" class="0">
+<net name="RJ45-7-8" class="1">
 <segment>
 <pinref part="J9" gate="G$1" pin="7"/>
 <pinref part="J9" gate="G$1" pin="8"/>
@@ -12832,7 +12837,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="226.06" y="76.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -12893,7 +12898,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="152.4" y="119.38"/>
 </segment>
 </net>
-<net name="GNDI" class="0">
+<net name="GNDI" class="1">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="116.84" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
@@ -13695,7 +13700,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="27.94" y="137.16" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <pinref part="R34" gate="G$1" pin="1"/>
@@ -13775,7 +13780,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="175.26" y1="60.96" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GNDI" class="0">
+<net name="GNDI" class="1">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="GNDI3" gate="G$1" pin="GNDI"/>
@@ -13892,7 +13897,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <label x="233.68" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="J6" gate="G$1" pin="2"/>
