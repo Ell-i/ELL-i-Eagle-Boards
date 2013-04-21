@@ -12476,7 +12476,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <instance part="C13" gate="G$1" x="236.22" y="109.22" rot="R180"/>
 <instance part="C14" gate="G$1" x="73.66" y="71.12" rot="R90"/>
 <instance part="C15" gate="G$1" x="129.54" y="81.28"/>
-<instance part="C16" gate="G$1" x="73.66" y="66.04" rot="R90"/>
+<instance part="C16" gate="G$1" x="73.66" y="63.5" rot="R90"/>
 <instance part="C17" gate="G$1" x="149.86" y="78.74"/>
 <instance part="C18" gate="G$1" x="154.94" y="78.74"/>
 <instance part="C19" gate="G$1" x="165.1" y="78.74"/>
@@ -12591,8 +12591,8 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="T1" gate="G$1" pin="TD+"/>
-<wire x1="78.74" y1="66.04" x2="104.14" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="66.04" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="63.5" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
@@ -12759,8 +12759,8 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="T1" gate="G$1" pin="TX1+"/>
-<wire x1="71.12" y1="66.04" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="63.5" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="78.74" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="91.44" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
@@ -12986,13 +12986,13 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="C1" gate="G$1" x="50.8" y="104.14"/>
+<instance part="C1" gate="G$1" x="50.8" y="106.68"/>
 <instance part="C2" gate="G$1" x="83.82" y="149.86" rot="R180"/>
 <instance part="C3" gate="G$1" x="93.98" y="149.86" rot="R180"/>
 <instance part="C4" gate="G$1" x="53.34" y="83.82"/>
 <instance part="C5" gate="G$1" x="73.66" y="83.82"/>
-<instance part="C6" gate="G$1" x="198.12" y="55.88" rot="R180"/>
-<instance part="C7" gate="G$1" x="193.04" y="55.88" rot="R180"/>
+<instance part="C6" gate="G$1" x="200.66" y="55.88" rot="MR180"/>
+<instance part="C7" gate="G$1" x="195.58" y="55.88" rot="R180"/>
 <instance part="C8" gate="G$1" x="175.26" y="55.88" rot="R180"/>
 <instance part="C9" gate="G$1" x="180.34" y="55.88" rot="MR180"/>
 <instance part="D2" gate="G$1" x="152.4" y="162.56" rot="R270"/>
@@ -13017,7 +13017,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <instance part="D3" gate="G$1" x="25.4" y="66.04" rot="R90"/>
 <instance part="FB2" gate="G$1" x="73.66" y="144.78"/>
 <instance part="FB1" gate="G$1" x="73.66" y="157.48" rot="R180"/>
-<instance part="D1" gate="G$1" x="50.8" y="129.54" rot="R90"/>
+<instance part="D1" gate="G$1" x="50.8" y="132.08" rot="R90"/>
 <instance part="+3V5" gate="G$1" x="205.74" y="175.26"/>
 <instance part="+3V6" gate="G$1" x="218.44" y="53.34"/>
 <instance part="GNDI1" gate="G$1" x="43.18" y="17.78"/>
@@ -13026,15 +13026,15 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <instance part="GNDI2" gate="G$1" x="205.74" y="149.86"/>
 <instance part="GNDI3" gate="G$1" x="152.4" y="144.78"/>
 <instance part="+3V7" gate="G$1" x="152.4" y="172.72"/>
-<instance part="GNDI5" gate="G$1" x="50.8" y="93.98"/>
+<instance part="GNDI5" gate="G$1" x="50.8" y="96.52"/>
 <instance part="GNDI6" gate="G$1" x="172.72" y="43.18"/>
 <instance part="+3V8" gate="G$1" x="43.18" y="50.8"/>
 <instance part="GNDI8" gate="G$1" x="63.5" y="63.5"/>
 <instance part="+3V9" gate="G$1" x="172.72" y="71.12"/>
 <instance part="GNDI19" gate="G$1" x="198.12" y="83.82"/>
 <instance part="GNDI21" gate="G$1" x="58.42" y="144.78"/>
-<instance part="S1" gate="1" x="38.1" y="111.76" rot="R270"/>
-<instance part="GNDI23" gate="G$1" x="30.48" y="93.98"/>
+<instance part="S1" gate="1" x="38.1" y="114.3" rot="R270"/>
+<instance part="GNDI23" gate="G$1" x="30.48" y="96.52"/>
 <instance part="+3V11" gate="G$1" x="233.68" y="165.1"/>
 <instance part="GNDI24" gate="G$1" x="233.68" y="121.92"/>
 <instance part="PC14" gate="G$1" x="99.06" y="76.2" rot="R90"/>
@@ -13498,17 +13498,17 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="50.8" y1="111.76" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<junction x="50.8" y="111.76"/>
-<wire x1="50.8" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="114.3" x2="50.8" y2="127" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<junction x="50.8" y="114.3"/>
+<wire x1="50.8" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="109.22" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<junction x="50.8" y="109.22"/>
+<wire x1="50.8" y1="111.76" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<junction x="50.8" y="111.76"/>
 <pinref part="S1" gate="1" pin="S@1"/>
-<wire x1="43.18" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="60.96" y="111.76" size="1.016" layer="95" xref="yes"/>
+<wire x1="43.18" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
+<label x="60.96" y="114.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NRES_ETH" class="0">
@@ -13764,12 +13764,12 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="172.72" y1="68.58" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="66.04" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="200.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="60.96" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="193.04" y="66.04"/>
-<wire x1="193.04" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="60.96" x2="195.58" y2="66.04" width="0.1524" layer="91"/>
+<junction x="195.58" y="66.04"/>
+<wire x1="195.58" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="60.96" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <junction x="180.34" y="66.04"/>
@@ -13804,7 +13804,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GNDI5" gate="G$1" pin="GNDI"/>
-<wire x1="50.8" y1="99.06" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="101.6" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -13833,12 +13833,12 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
-<wire x1="33.02" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="96.52" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="114.3" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="99.06" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P@1"/>
-<wire x1="33.02" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<junction x="30.48" y="109.22"/>
+<wire x1="33.02" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<junction x="30.48" y="111.76"/>
 <pinref part="GNDI23" gate="G$1" pin="GNDI"/>
 </segment>
 <segment>
@@ -13870,16 +13870,16 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GNDI6" gate="G$1" pin="GNDI"/>
-<wire x1="198.12" y1="48.26" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="48.26" x2="200.66" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="45.72" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="53.34" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
 <junction x="175.26" y="48.26"/>
-<wire x1="193.04" y1="53.34" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
-<junction x="193.04" y="48.26"/>
+<wire x1="195.58" y1="53.34" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
+<junction x="195.58" y="48.26"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="53.34" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <junction x="180.34" y="48.26"/>
@@ -13940,7 +13940,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="132.08" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="134.62" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
