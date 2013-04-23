@@ -1285,6 +1285,12 @@ Source: GLX-S-88M.pdf</description>
 <text x="3.2" y="-1.3" size="1.016" layer="21">1</text>
 <text x="-4" y="-1.3" size="1.016" layer="21">2</text>
 </package>
+<package name="MOUNT_FIDUCIAL">
+<circle x="0" y="0" radius="0.5" width="2" layer="29"/>
+<smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.5" width="2.2" layer="41"/>
+<text x="-1.5" y="1.4" size="0.6096" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C_EU">
@@ -2118,6 +2124,12 @@ Source: GLX-S-88M.pdf</description>
 <pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="2" rot="R90"/>
 </symbol>
+<symbol name="MOUNT_FIDUCIAL">
+<circle x="0" y="0" radius="3.81" width="0.254" layer="94"/>
+<text x="-5.08" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+<circle x="0" y="0" radius="0.762" width="1.524" layer="94"/>
+<text x="-3.556" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C" prefix="C" uservalue="yes">
@@ -2863,6 +2875,18 @@ Source: GLX-S-88M.pdf</description>
 <connect gate="G$1" pin="P" pad="1 2"/>
 <connect gate="G$1" pin="S" pad="3 4"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOUNT_FIDUCIAL" prefix="FID">
+<gates>
+<gate name="G$1" symbol="MOUNT_FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOUNT_FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -18069,6 +18093,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="J11" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="C44" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="C43" library="rcl" deviceset="C-EU" device="C1206" value="1n 2kV"/>
+<part name="FID1" library="ell-i" deviceset="MOUNT_FIDUCIAL" device=""/>
+<part name="FID2" library="ell-i" deviceset="MOUNT_FIDUCIAL" device=""/>
+<part name="FID3" library="ell-i" deviceset="MOUNT_FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18172,6 +18199,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="J11" gate="A" x="60.96" y="91.44"/>
 <instance part="C44" gate="G$1" x="256.54" y="152.4"/>
 <instance part="C43" gate="G$1" x="175.26" y="40.64" rot="R90"/>
+<instance part="FID1" gate="G$1" x="109.22" y="15.24"/>
+<instance part="FID2" gate="G$1" x="127" y="15.24"/>
+<instance part="FID3" gate="G$1" x="144.78" y="15.24"/>
 </instances>
 <busses>
 </busses>
