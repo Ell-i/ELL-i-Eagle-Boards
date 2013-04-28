@@ -3797,8 +3797,8 @@ design rules under a new name.</description>
 <wire x1="38.85" y1="30.7" x2="38.85" y2="31.68" width="0.3" layer="1"/>
 <via x="33.2" y="30.5" extent="1-16" drill="0.3"/>
 <via x="34.8" y="29.8" extent="1-16" drill="0.3"/>
-<wire x1="8.94" y1="48.59" x2="8.9" y2="48.59" width="0.25" layer="1"/>
-<wire x1="8.9" y1="48.59" x2="8.9" y2="49.6" width="0.25" layer="1"/>
+<wire x1="8.94" y1="48.59" x2="8.9" y2="48.59" width="0.3" layer="1"/>
+<wire x1="8.9" y1="48.59" x2="8.9" y2="49.6" width="0.3" layer="1"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="U5" pad="3"/>
@@ -5453,30 +5453,6 @@ design rules under a new name.</description>
 <vertex x="2.9" y="34.7"/>
 <vertex x="0.1" y="34.7"/>
 </polygon>
-</signal>
-<signal name="IO1">
-<wire x1="17.6" y1="55" x2="11.2" y2="61.4" width="0.15" layer="16"/>
-<wire x1="11.2" y1="61.4" x2="2" y2="61.4" width="0.15" layer="16"/>
-</signal>
-<signal name="IO10">
-<wire x1="-7.7" y1="65.6" x2="-2.9" y2="60.8" width="0.15" layer="16"/>
-<wire x1="-2.9" y1="60.8" x2="10.8" y2="60.8" width="0.15" layer="16"/>
-<wire x1="10.8" y1="60.8" x2="19.1" y2="52.5" width="0.15" layer="16"/>
-</signal>
-<signal name="IO11">
-<wire x1="-8.1" y1="65.1" x2="-3.3" y2="60.3" width="0.15" layer="16"/>
-<wire x1="-3.3" y1="60.3" x2="10.4" y2="60.3" width="0.15" layer="16"/>
-<wire x1="10.4" y1="60.3" x2="18.8" y2="51.9" width="0.15" layer="16"/>
-</signal>
-<signal name="MOSI2">
-<wire x1="-8.5" y1="63.7" x2="-3.9" y2="59.1" width="0.15" layer="16"/>
-<wire x1="-3.9" y1="59.1" x2="10" y2="59.1" width="0.15" layer="16"/>
-<wire x1="10" y1="59.1" x2="15.2" y2="53.9" width="0.15" layer="16"/>
-</signal>
-<signal name="RX3">
-<wire x1="-8.3" y1="64.4" x2="-3.6" y2="59.7" width="0.15" layer="16"/>
-<wire x1="-3.6" y1="59.7" x2="10.2" y2="59.7" width="0.15" layer="16"/>
-<wire x1="10.2" y1="59.7" x2="19.7" y2="50.2" width="0.15" layer="16"/>
 </signal>
 <signal name="N$10">
 <wire x1="2.3" y1="40.9" x2="1.1" y2="40.9" width="0.25" layer="16"/>
