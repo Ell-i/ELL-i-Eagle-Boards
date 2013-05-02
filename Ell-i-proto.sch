@@ -1272,6 +1272,56 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <circle x="0" y="0" radius="2" width="0.8" layer="42"/>
 <hole x="0" y="0" drill="3.2"/>
 </package>
+<package name="FTDI-SER-6">
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="GND" x="-6.35" y="0" drill="1.016" shape="long" rot="R90" first="yes"/>
+<pad name="-CTS" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="VCC" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="TXD" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="RXD" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="-RTS" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-7.62" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.762" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="-7.62" y1="-1.27" x2="-6.985" y2="1.27" layer="21"/>
+<text x="-7.62" y="-2.54" size="1.016" layer="51">1 (GND)</text>
+</package>
+<package name="TSM-106-01-L-SH-REV">
+<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
+<smd name="1" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="2" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="3" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="4" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="5" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="6" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
+<hole x="5.08" y="0" drill="1.78"/>
+<hole x="-5.08" y="0" drill="1.78"/>
+<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
+<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
+<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
+<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
+<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
+<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
+<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8.675" y="3.535" size="1.27" layer="21">1</text>
+<text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C_EU">
@@ -2098,20 +2148,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <circle x="0" y="0" radius="0.762" width="1.524" layer="94"/>
 <text x="-3.556" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="PINHD6">
-<wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="10.16" x2="-6.35" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
 <symbol name="MOUNT_HOLE">
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
 <wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
@@ -2121,6 +2157,27 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
 <text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="FTDI-SER-6">
+<wire x1="3.81" y1="-10.16" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<text x="-6.35" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="7.62" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="-CTS" x="7.62" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VCC" x="7.62" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="TXD" x="7.62" y="0" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="RXD" x="7.62" y="2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="-RTS" x="7.62" y="5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<rectangle x1="-6.35" y1="-10.16" x2="3.81" y2="-8.89" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2860,32 +2917,58 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TSM-106-01-L-SH" prefix="J">
-<gates>
-<gate name="G$1" symbol="PINHD6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSM-106-01-L-SH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOUNT_HOLE">
 <gates>
 <gate name="G$1" symbol="MOUNT_HOLE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MOUNT_HOLE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FTDI-SER-6">
+<gates>
+<gate name="G$1" symbol="FTDI-SER-6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTDI-SER-6">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="-CTS"/>
+<connect gate="G$1" pin="-RTS" pad="-RTS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOR1" package="TSM-106-01-L-SH">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="2"/>
+<connect gate="G$1" pin="-RTS" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOR2" package="TSM-106-01-L-SH-REV">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="2"/>
+<connect gate="G$1" pin="-RTS" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -19003,13 +19086,13 @@ Source: 008-0260-0_E.pdf</description>
 <part name="FID2" library="ell-i" deviceset="MOUNT_FIDUCIAL" device=""/>
 <part name="FID3" library="ell-i" deviceset="MOUNT_FIDUCIAL" device=""/>
 <part name="Y1" library="crystal" deviceset="CRYSTAL" device="SM49"/>
-<part name="J1" library="ell-i" deviceset="TSM-106-01-L-SH" device=""/>
 <part name="C45" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="C34" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="C46" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="C47" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="C48" library="ell-i" deviceset="C" device="0805" value="22u"/>
 <part name="PE2" library="supply1" deviceset="PE" device=""/>
+<part name="U$4" library="ell-i" deviceset="FTDI-SER-6" device="-HOR2"/>
 </parts>
 <sheets>
 <sheet>
@@ -20400,7 +20483,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="U$2" gate="G$1" x="0" y="0"/>
 <instance part="S1" gate="G$1" x="38.1" y="114.3" rot="R270"/>
 <instance part="Y1" gate="G$1" x="63.5" y="76.2"/>
-<instance part="J1" gate="G$1" x="15.24" y="142.24" rot="R180"/>
+<instance part="U$4" gate="G$1" x="15.24" y="139.7" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -20821,8 +20904,8 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="25.4" y1="68.58" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="134.62" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="-RTS"/>
 </segment>
 </net>
 <net name="NINT_ETH" class="0">
@@ -20948,9 +21031,9 @@ Source: 008-0260-0_E.pdf</description>
 <label x="228.6" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="139.7" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <label x="27.94" y="139.7" size="1.016" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="U$4" gate="G$1" pin="TXD"/>
 </segment>
 </net>
 <net name="SCK1" class="0">
@@ -21046,8 +21129,8 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <label x="27.94" y="137.16" size="1.016" layer="95" xref="yes"/>
-<wire x1="17.78" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="U$4" gate="G$1" pin="RXD"/>
+<wire x1="22.86" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="1">
@@ -21158,8 +21241,8 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="GNDI21" gate="G$1" pin="GNDI"/>
-<wire x1="17.78" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="6"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
+<wire x1="22.86" y1="147.32" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="33.02" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
@@ -21277,8 +21360,8 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="50.8" y1="134.62" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="144.78" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="50.8" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="-CTS"/>
 </segment>
 </net>
 <net name="SWD" class="0">
