@@ -191,6 +191,7 @@
 <text x="27" y="4.3" size="1.27" layer="121" font="vector" ratio="15">J3</text>
 <text x="49.7" y="4.4" size="1.27" layer="121" font="vector" ratio="15">J5</text>
 <text x="72.7" y="4.4" size="1.27" layer="121" font="vector" ratio="15">J8</text>
+<text x="69.2" y="29.4" size="1.27" layer="121" font="vector" ratio="15" rot="R90">J6</text>
 </plain>
 <libraries>
 <library name="ell-i">
