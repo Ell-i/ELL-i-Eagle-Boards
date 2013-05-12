@@ -132,8 +132,8 @@
 <package name="0402">
 <wire x1="-0.245" y1="0.219" x2="0.245" y2="0.219" width="0.06" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.06" layer="51"/>
-<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.5" layer="1"/>
-<smd name="2" x="0.475" y="0" dx="0.45" dy="0.5" layer="1"/>
+<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<smd name="2" x="0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
 <text x="-0.935" y="0.362" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.935" y="-0.705" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
@@ -1071,21 +1071,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </polygon>
 <text x="-2.6" y="2.8" size="1.016" layer="25">&gt;NAME</text>
 <text x="-2.6" y="-3.8" size="1.016" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="31">
-<vertex x="-1.95" y="0.9"/>
-<vertex x="-1.55" y="1.45"/>
-<vertex x="-1" y="1.9"/>
-<vertex x="-0.55" y="2.05"/>
-<vertex x="-0.05" y="2.1"/>
-<vertex x="0.55" y="2.05"/>
-<vertex x="1.05" y="1.85"/>
-<vertex x="1.5" y="1.5"/>
-<vertex x="1.95" y="0.9"/>
-<vertex x="2.5" y="0.9"/>
-<vertex x="2.5" y="2.5"/>
-<vertex x="-2.5" y="2.5"/>
-<vertex x="-2.5" y="0.9"/>
-</polygon>
 <polygon width="0.1" layer="29">
 <vertex x="1.85" y="-0.7"/>
 <vertex x="1.7" y="-0.95"/>
@@ -1120,16 +1105,33 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <vertex x="-2.7" y="2.7"/>
 <vertex x="-2.7" y="0.7"/>
 </polygon>
-<polygon width="0.1" layer="31">
+<polygon width="0.3" layer="31">
+<vertex x="-1.95" y="0.9"/>
+<vertex x="-1.85" y="1.05"/>
+<vertex x="-1.6" y="1.4"/>
+<vertex x="-1" y="1.9"/>
+<vertex x="-0.5" y="2.1"/>
+<vertex x="0.5" y="2.1"/>
+<vertex x="1" y="1.9"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.9" y="1"/>
+<vertex x="1.95" y="0.9"/>
+<vertex x="2.5" y="0.9"/>
+<vertex x="2.5" y="2.5"/>
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.5" y="0.9"/>
+</polygon>
+<polygon width="0.3" layer="31">
 <vertex x="1.95" y="-0.9"/>
+<vertex x="1.85" y="-1.05"/>
 <vertex x="1.55" y="-1.45"/>
-<vertex x="1" y="-1.9"/>
-<vertex x="0.55" y="-2.05"/>
-<vertex x="0.05" y="-2.1"/>
-<vertex x="-0.55" y="-2.05"/>
-<vertex x="-1.05" y="-1.85"/>
-<vertex x="-1.5" y="-1.5"/>
-<vertex x="-1.85" y="-1.05"/>
+<vertex x="1.05" y="-1.9"/>
+<vertex x="0.55" y="-2.1"/>
+<vertex x="0" y="-2.15"/>
+<vertex x="-0.5" y="-2.1"/>
+<vertex x="-1" y="-1.9"/>
+<vertex x="-1.45" y="-1.6"/>
+<vertex x="-1.85" y="-1.1"/>
 <vertex x="-1.9" y="-0.9"/>
 <vertex x="-2.5" y="-0.9"/>
 <vertex x="-2.5" y="-2.5"/>
