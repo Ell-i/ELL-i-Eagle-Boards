@@ -17,17 +17,17 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -64,13 +64,13 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
@@ -383,8 +383,8 @@
 <package name="0402">
 <wire x1="-0.245" y1="0.219" x2="0.245" y2="0.219" width="0.06" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.06" layer="51"/>
-<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.5" layer="1"/>
-<smd name="2" x="0.475" y="0" dx="0.45" dy="0.5" layer="1"/>
+<smd name="1" x="-0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
+<smd name="2" x="0.475" y="0" dx="0.45" dy="0.6" layer="1"/>
 <text x="-0.935" y="0.362" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.935" y="-0.705" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
@@ -618,21 +618,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </polygon>
 <text x="-2.6" y="2.8" size="1.016" layer="25">&gt;NAME</text>
 <text x="-2.6" y="-3.8" size="1.016" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="31">
-<vertex x="-1.95" y="0.9"/>
-<vertex x="-1.55" y="1.45"/>
-<vertex x="-1" y="1.9"/>
-<vertex x="-0.55" y="2.05"/>
-<vertex x="-0.05" y="2.1"/>
-<vertex x="0.55" y="2.05"/>
-<vertex x="1.05" y="1.85"/>
-<vertex x="1.5" y="1.5"/>
-<vertex x="1.95" y="0.9"/>
-<vertex x="2.5" y="0.9"/>
-<vertex x="2.5" y="2.5"/>
-<vertex x="-2.5" y="2.5"/>
-<vertex x="-2.5" y="0.9"/>
-</polygon>
 <polygon width="0.1" layer="29">
 <vertex x="1.85" y="-0.7"/>
 <vertex x="1.7" y="-0.95"/>
@@ -667,16 +652,33 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <vertex x="-2.7" y="2.7"/>
 <vertex x="-2.7" y="0.7"/>
 </polygon>
-<polygon width="0.1" layer="31">
+<polygon width="0.3" layer="31">
+<vertex x="-1.95" y="0.9"/>
+<vertex x="-1.85" y="1.05"/>
+<vertex x="-1.6" y="1.4"/>
+<vertex x="-1" y="1.9"/>
+<vertex x="-0.5" y="2.1"/>
+<vertex x="0.5" y="2.1"/>
+<vertex x="1" y="1.9"/>
+<vertex x="1.5" y="1.5"/>
+<vertex x="1.9" y="1"/>
+<vertex x="1.95" y="0.9"/>
+<vertex x="2.5" y="0.9"/>
+<vertex x="2.5" y="2.5"/>
+<vertex x="-2.5" y="2.5"/>
+<vertex x="-2.5" y="0.9"/>
+</polygon>
+<polygon width="0.3" layer="31">
 <vertex x="1.95" y="-0.9"/>
+<vertex x="1.85" y="-1.05"/>
 <vertex x="1.55" y="-1.45"/>
-<vertex x="1" y="-1.9"/>
-<vertex x="0.55" y="-2.05"/>
-<vertex x="0.05" y="-2.1"/>
-<vertex x="-0.55" y="-2.05"/>
-<vertex x="-1.05" y="-1.85"/>
-<vertex x="-1.5" y="-1.5"/>
-<vertex x="-1.85" y="-1.05"/>
+<vertex x="1.05" y="-1.9"/>
+<vertex x="0.55" y="-2.1"/>
+<vertex x="0" y="-2.15"/>
+<vertex x="-0.5" y="-2.1"/>
+<vertex x="-1" y="-1.9"/>
+<vertex x="-1.45" y="-1.6"/>
+<vertex x="-1.85" y="-1.1"/>
 <vertex x="-1.9" y="-0.9"/>
 <vertex x="-2.5" y="-0.9"/>
 <vertex x="-2.5" y="-2.5"/>
