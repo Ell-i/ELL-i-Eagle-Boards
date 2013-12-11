@@ -1,0 +1,7 @@
+[Eagle]
+Version="06 04 00"
+Globals="Globals"
+
+[Globals]
+AutoSaveProject=0
+UsedLibrary="ell-i.lbr"
