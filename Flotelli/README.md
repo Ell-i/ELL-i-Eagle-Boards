@@ -1,4 +1,5 @@
-Eagle-examples
-==============
+Flotelli
+========
 
-Eagle example files and material for learning to use Eagle in Ell-i development.
+Ell-i floating-point (STM32F4) series MCU board.
+
