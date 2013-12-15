@@ -143,129 +143,6 @@
 <rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="41"/>
 </package>
-<package name="TSM-106-01-L-SH">
-<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
-<smd name="1" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="2" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="3" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="4" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="5" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="6" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
-<hole x="5.08" y="0" drill="1.78"/>
-<hole x="-5.08" y="0" drill="1.78"/>
-<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
-<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
-<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
-<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
-<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
-<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
-<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
-<text x="7.2" y="2.9" size="1.27" layer="21">1</text>
-</package>
-<package name="FTDI-SER-6">
-<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="GND" x="-6.35" y="0" drill="1.016" shape="long" rot="R90" first="yes"/>
-<pad name="-CTS" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="VCC" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="TXD" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="RXD" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="-RTS" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-7.62" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.762" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
-<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
-<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
-<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
-<rectangle x1="-7.62" y1="-1.27" x2="-6.985" y2="1.27" layer="21"/>
-<text x="-7.62" y="-2.54" size="1.016" layer="51">1 (GND)</text>
-</package>
-<package name="TSM-106-01-L-SH-REV">
-<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
-<smd name="1" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="2" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="3" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="4" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="5" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="6" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
-<hole x="5.08" y="0" drill="1.78"/>
-<hole x="-5.08" y="0" drill="1.78"/>
-<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
-<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
-<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
-<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
-<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
-<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
-<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-8.675" y="3.535" size="1.27" layer="21">1</text>
-<text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
-</package>
-<package name="TSM-106-01-L-SH-B-REV">
-<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
-<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
-<smd name="1" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="2" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="3" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="4" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="5" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<smd name="6" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
-<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
-<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
-<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
-<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
-<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
-<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
-<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-8.675" y="3.535" size="1.27" layer="21">1</text>
-<text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
-<pad name="SUPPORT-1" x="-5.08" y="0" drill="1.78" diameter="3"/>
-<pad name="SUPPORT-2" x="5.08" y="0" drill="1.78" diameter="3"/>
-</package>
-<package name="FTDI-SER-6-SIL">
-<pad name="RXD" x="0" y="3.81" drill="0.508"/>
-<pad name="TXD" x="0" y="1.27" drill="0.508"/>
-<pad name="VCC" x="0" y="-1.27" drill="0.508"/>
-<pad name="-CTS" x="0" y="-3.81" drill="0.508"/>
-<pad name="GND" x="0" y="-6.35" drill="0.508" first="yes"/>
-<pad name="-RTS" x="0" y="6.35" drill="0.508"/>
-<wire x1="-1.27" y1="7.62" x2="1.27" y2="7.62" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="7.62" x2="1.27" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-7.62" x2="-1.27" y2="-7.62" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-7.62" x2="-1.27" y2="-5.08" width="0.2032" layer="21"/>
-<text x="1.524" y="-6.985" size="1.27" layer="21">G</text>
-<text x="-1.397" y="-9.144" size="1.27" layer="51">ISP</text>
-<text x="-2.413" y="8.001" size="1.27" layer="21">&gt;NAME</text>
-<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="7.62" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-5.08" x2="-1.27" y2="-5.08" width="0.2032" layer="21"/>
-</package>
 <package name="VIA-0.3MM">
 <pad name="1" x="0" y="0" drill="0.3" diameter="0.6096" stop="no" thermals="no"/>
 </package>
@@ -286,27 +163,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="FTDI-SER-6">
-<wire x1="3.81" y1="-10.16" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
-<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<text x="-6.35" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GND" x="7.62" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="-CTS" x="7.62" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VCC" x="7.62" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="TXD" x="7.62" y="0" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="RXD" x="7.62" y="2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="-RTS" x="7.62" y="5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<rectangle x1="-6.35" y1="-10.16" x2="3.81" y2="-8.89" layer="94"/>
-</symbol>
 <symbol name="FERRITE">
 <wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -352,78 +208,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FTDI-SER-6">
-<gates>
-<gate name="G$1" symbol="FTDI-SER-6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FTDI-SER-6">
-<connects>
-<connect gate="G$1" pin="-CTS" pad="-CTS"/>
-<connect gate="G$1" pin="-RTS" pad="-RTS"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-HOR1" package="TSM-106-01-L-SH">
-<connects>
-<connect gate="G$1" pin="-CTS" pad="2"/>
-<connect gate="G$1" pin="-RTS" pad="6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-HOR2" package="TSM-106-01-L-SH-REV">
-<connects>
-<connect gate="G$1" pin="-CTS" pad="2"/>
-<connect gate="G$1" pin="-RTS" pad="6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-HOR2B" package="TSM-106-01-L-SH-B-REV">
-<connects>
-<connect gate="G$1" pin="-CTS" pad="2"/>
-<connect gate="G$1" pin="-RTS" pad="6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="RXD" pad="5"/>
-<connect gate="G$1" pin="TXD" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-PP" package="FTDI-SER-6-SIL">
-<connects>
-<connect gate="G$1" pin="-CTS" pad="-CTS"/>
-<connect gate="G$1" pin="-RTS" pad="-RTS"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LQM15" prefix="FB" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="FERRITE" x="0" y="0"/>
@@ -4771,6 +4555,185 @@ W = angled&lt;p&gt;
 <hole x="-4.8" y="1.5" drill="0.6"/>
 <hole x="4.8" y="1.5" drill="0.6"/>
 </package>
+<package name="FTDI-SER-6-SIL">
+<description>&lt;h3&gt;100 mil (0.1") pitch 6-contacts footprint&lt;/h3&gt;
+
+&lt;p&gt;This is an 0.1" pitch 6-contacts footprint, suitable for pogopins, with FTDIchip programming cable lables.&lt;/p&gt;</description>
+<pad name="RXD" x="-3.81" y="0" drill="0.508" rot="R90"/>
+<pad name="TXD" x="-1.27" y="0" drill="0.508" rot="R180"/>
+<pad name="VCC" x="1.27" y="0" drill="0.508" rot="R90"/>
+<pad name="-CTS" x="3.81" y="0" drill="0.508" rot="R90"/>
+<pad name="GND" x="6.35" y="0" drill="0.508" rot="R90" first="yes"/>
+<pad name="-RTS" x="-6.35" y="0" drill="0.508" rot="R90"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="5.08" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="7.62" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="5.08" y2="-1.27" width="0.2032" layer="21"/>
+<text x="9.144" y="-1.397" size="1.27" layer="51" rot="R90">ISP</text>
+<text x="-7.493" y="-2.794" size="1.27" layer="21">&gt;NAME</text>
+<wire x1="5.08" y1="-1.27" x2="-7.62" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.2032" layer="21"/>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
+<package name="FTDI-SER-6">
+<description>&lt;h3&gt;Ordinary 6-pin male header&lt;/h3&gt;
+
+&lt;p&gt;This is an ordinary, 6-pin male header, with FTDIchip programming cable lables.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="GND" x="-6.35" y="0" drill="1.016" shape="long" rot="R90" first="yes"/>
+<pad name="-CTS" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="VCC" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="TXD" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="RXD" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="-RTS" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-7.62" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.508" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
+<rectangle x1="-7.62" y1="-1.27" x2="-6.985" y2="1.27" layer="21"/>
+<text x="-7.62" y="-2.54" size="1.016" layer="51">1</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
+<package name="FTDI-TSM-106-01-L-SH">
+<description>&lt;h3&gt;Samtec TSM-106-01-L-SH 6-pin single row horizontal post header&lt;/h3&gt;
+
+&lt;p&gt;This is a standard 100 mil (0.1") pin header, with horisontal pins.  We have the footprint in three different variants, two of which have only the holes (in normal and reverse pin order), one with copper holes (vias).  This is the holes only variant, with normal pin order.&lt;/p&gt;
+
+&lt;ul&gt; 
+  &lt;li&gt;&lt;a href="http://www.samtec.com/documents/webfiles/pdf/tsm.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
+<smd name="1" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="2" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="3" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="4" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="5" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="6" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
+<hole x="5.08" y="0" drill="1.78"/>
+<hole x="-5.08" y="0" drill="1.78"/>
+<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
+<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
+<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
+<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
+<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
+<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
+<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
+<text x="7.2" y="2.9" size="1.27" layer="21">1</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
+<package name="FTDI-TSM-106-01-L-SH-REV">
+<description>&lt;h3&gt;Samtec TSM-106-01-L-SH 6-pin single row horizontal post header&lt;/h3&gt;
+
+&lt;p&gt;This is a standard 100 mil (0.1") pin header, with horisontal pins.  We have the footprint in three different variants, two of which have only the holes (in normal and reverse pin order).  This is the holes only variant, with reversed pin order.&lt;/p&gt;
+
+&lt;ul&gt; 
+  &lt;li&gt;&lt;a href="http://www.samtec.com/documents/webfiles/pdf/tsm.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
+<smd name="1" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="2" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="3" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="4" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="5" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="6" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
+<hole x="5.08" y="0" drill="1.78"/>
+<hole x="-5.08" y="0" drill="1.78"/>
+<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
+<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
+<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
+<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
+<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
+<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
+<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8.675" y="4.805" size="1.27" layer="21">1</text>
+<text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
+<package name="FTDI-TSM-106-01-L-SH-B-REV">
+<description>&lt;h3&gt;Samtec TSM-106-01-L-SH 6-pin single row horizontal post header&lt;/h3&gt;
+
+&lt;p&gt;This is a standard 100 mil (0.1") pin header, with horisontal pins.  We have the footprint in three different variants, two of which have only the holes (in normal and reverse pin order), one with copper holes (vias).  This is the one with vias and reverse pin order.&lt;/p&gt;
+
+&lt;ul&gt; 
+  &lt;li&gt;&lt;a href="http://www.samtec.com/documents/webfiles/pdf/tsm.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="7.62" y1="1.25" x2="7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.25" x2="-7.62" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.25" x2="-7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.25" x2="7.62" y2="1.25" width="0.127" layer="21"/>
+<wire x1="7.15" y1="-7.09" x2="-7.15" y2="-7.09" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-7.09" x2="-7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-7.15" y1="-1.25" x2="7.15" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="7.15" y1="-1.25" x2="7.15" y2="-7.09" width="0.127" layer="51"/>
+<smd name="1" x="-6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="2" x="-3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="3" x="-1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="4" x="1.27" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="5" x="3.81" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<smd name="6" x="6.35" y="5.28" dx="1.27" dy="3.17" layer="1"/>
+<text x="-5.71" y="-3" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-6.6" y1="1.3" x2="-6.1" y2="6.4" layer="51"/>
+<rectangle x1="-4.1" y1="1.3" x2="-3.6" y2="6.4" layer="51"/>
+<rectangle x1="-1.5" y1="1.3" x2="-1" y2="6.4" layer="51"/>
+<rectangle x1="1.05" y1="1.3" x2="1.55" y2="6.4" layer="51"/>
+<rectangle x1="3.55" y1="1.3" x2="4.05" y2="6.4" layer="51"/>
+<rectangle x1="6.1" y1="1.3" x2="6.6" y2="6.4" layer="51"/>
+<text x="-5.8" y="-4.9" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-8.675" y="4.805" size="1.27" layer="21">1</text>
+<text x="-7.98" y="-0.42" size="1.27" layer="21" rot="R90">GND</text>
+<pad name="SUPPORT-1" x="-5.08" y="0" drill="1.78" diameter="3"/>
+<pad name="SUPPORT-2" x="5.08" y="0" drill="1.78" diameter="3"/>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DF12-60-F">
@@ -4888,6 +4851,27 @@ W = angled&lt;p&gt;
 <pin name="32" x="12.7" y="-38.1" length="middle" rot="R180"/>
 <text x="-5.08" y="3.81" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="FTDI-SER-6">
+<wire x1="3.81" y1="-10.16" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-7.62" x2="2.54" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<text x="-6.35" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="GND" x="7.62" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="-CTS" x="7.62" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VCC" x="7.62" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="TXD" x="7.62" y="0" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="RXD" x="7.62" y="2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="-RTS" x="7.62" y="5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<rectangle x1="-6.35" y1="-10.16" x2="3.81" y2="-8.89" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -5015,6 +4999,81 @@ TinyDuino boards&lt;/a&gt;.&lt;/p&gt;</description>
 <connect gate="J" pin="7" pad="7"/>
 <connect gate="J" pin="8" pad="8"/>
 <connect gate="J" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FTDI-SER-6" prefix="J">
+<description>&lt;h3&gt;FTDI cable connector&lt;/h3&gt;
+
+In several package variant, including pogopin version.</description>
+<gates>
+<gate name="G$1" symbol="FTDI-SER-6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTDI-SER-6">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="-CTS"/>
+<connect gate="G$1" pin="-RTS" pad="-RTS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOR1" package="FTDI-TSM-106-01-L-SH">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="2"/>
+<connect gate="G$1" pin="-RTS" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOR2" package="FTDI-TSM-106-01-L-SH-REV">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="2"/>
+<connect gate="G$1" pin="-RTS" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HOR2B" package="FTDI-TSM-106-01-L-SH-B-REV">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="2"/>
+<connect gate="G$1" pin="-RTS" pad="6"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="RXD" pad="5"/>
+<connect gate="G$1" pin="TXD" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PP" package="FTDI-SER-6-SIL">
+<connects>
+<connect gate="G$1" pin="-CTS" pad="-CTS"/>
+<connect gate="G$1" pin="-RTS" pad="-RTS"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5551,7 +5610,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GNDI21" library="supply1" deviceset="GNDI" device=""/>
 <part name="U$2" library="alo" deviceset="FR-A4L" device=""/>
-<part name="J1" library="ell-i" deviceset="FTDI-SER-6" device="-PP" value="FTDI-SER-6-PP"/>
+<part name="J1" library="ELL-i-Connectors" deviceset="FTDI-SER-6" device="-PP" value="FTDI-SER-6-PP"/>
 <part name="+5V1" library="tinycircuits" deviceset="+5V" device="" value="+5V"/>
 <part name="VCC1" library="tinycircuits" deviceset="VCC" device="" value="VCC"/>
 <part name="VBATT2" library="tinycircuits" deviceset="VBATT" device="" value="VBATT"/>
