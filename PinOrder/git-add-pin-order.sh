@@ -8,5 +8,5 @@ if [ -f "$DIR/index.xml.gz" ] && [ "$DIR/index.xml.gz" -nt "$DIR/index.xml" ]; t
 fi
 
 git add ELL-i_pin_order.numbers/QuickLook/Thumbnail.jpg 
-git add -p "$DIR"
+git add "$DIR"
 
