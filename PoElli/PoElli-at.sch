@@ -4360,7 +4360,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="10nF"/>
 <part name="C22" library="ELL-i-Passives" deviceset="C" device="0805" value="10nF"/>
 <part name="C23" library="ELL-i-Passives" deviceset="C" device="0805" value="10nF"/>
-<part name="C24" library="ELL-i-Passives" deviceset="C" device="0805"/>
+<part name="C24" library="ELL-i-Passives" deviceset="C" device="0805" value="1nF"/>
 <part name="TP1" library="testpad" deviceset="PTR1" device="B2,54"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND3" device=""/>
 </parts>
