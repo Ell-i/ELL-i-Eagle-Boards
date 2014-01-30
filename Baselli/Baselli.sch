@@ -3048,6 +3048,303 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="ELL-i-Connectors">
+<description>&lt;h3&gt;Connectors -- ELL-i open source co-op Eagle libraries&lt;/h3&gt;
+
+&lt;p&gt;In this library you'll find connectors that are used in the ELL-i boards.&lt;/p&gt;
+
+&lt;p&gt;Whenever possible, we prefer to use the components from the &lt;a href="https://github.com/Ell-i/SparkFun-Eagle-Libraries"&gt;SparkFun Public Eagle PCB Footprints&lt;/a&gt;, as they are available from &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. Whenever possible, we also prefer to push our components to the SparkFun libraries.  However, this is not always possible, and therefore we have our own libraries that for the most part contain components that cannot be found in the SparkFun libraries.&lt;/p&gt;</description>
+<packages>
+<package name="DF12(4.0)-60DP-0.5V">
+<description>&lt;h3&gt;Hirose DF12 60-pin female (header) pattern with metal fitting and boss&lt;/h3&gt;
+
+&lt;p&gt;
+  &lt;a href="https://www.sparkfun.com/datasheets/Cellular%20Modules/ADH8066connector.pdf"&gt;Datasheet&lt;/a&gt; (from SparkFun)&lt;/p&gt;</description>
+<circle x="-7.2592" y="-2.9972" radius="0.127" width="0.127" layer="21"/>
+<circle x="-7.7164" y="-2.413" radius="0.127" width="0.127" layer="51"/>
+<wire x1="9.7319" y1="-2.7352" x2="-9.742" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="-2.7352" x2="-9.742" y2="2.7352" width="0.2" layer="39"/>
+<wire x1="8.8488" y1="-1.3975" x2="-8.892" y2="-1.4102" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="-1.4102" x2="-8.892" y2="1.2845" width="0.2032" layer="51"/>
+<wire x1="-8.892" y1="1.2845" x2="8.8488" y2="1.2972" width="0.2032" layer="51"/>
+<wire x1="8.7954" y1="-1.0943" x2="-8.8601" y2="-1.0867" width="0.2032" layer="21"/>
+<wire x1="8.8488" y1="1.2972" x2="8.8488" y2="-1.3975" width="0.2032" layer="51"/>
+<wire x1="9.7319" y1="2.7352" x2="9.7319" y2="-2.7352" width="0.2" layer="39"/>
+<wire x1="-9.742" y1="2.7352" x2="9.7319" y2="2.7352" width="0.2" layer="39"/>
+<rectangle x1="-4.3829" y1="1.651" x2="-3.1129" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-4.8833" y1="-1.9685" x2="-3.6133" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-4.8858" y1="1.6535" x2="-3.6158" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="1.6433" x2="-2.6151" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="-3.3847" y1="1.6459" x2="-2.1147" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="-2.8869" y1="1.6383" x2="-1.6169" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="1.6383" x2="-1.114" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.8836" y1="1.6383" x2="-0.6136" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-1.3858" y1="1.6409" x2="-0.1158" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="-0.8828" y1="1.6358" x2="0.3872" y2="1.839" layer="51" rot="R90"/>
+<rectangle x1="-0.3825" y1="1.6383" x2="0.8875" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="-5.3811" y1="1.6535" x2="-4.1111" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-5.8815" y1="1.6535" x2="-4.6115" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.3844" y1="1.6535" x2="-5.1144" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-6.8848" y1="1.651" x2="-5.6148" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="-7.3826" y1="1.6535" x2="-6.1126" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="1.6535" x2="-6.6155" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="-4.3804" y1="-1.9685" x2="-3.1104" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="-3.8851" y1="-1.971" x2="-2.6151" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-3.3822" y1="-1.971" x2="-2.1122" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="-2.8844" y1="-1.976" x2="-1.6144" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-2.384" y1="-1.976" x2="-1.114" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-1.881" y1="-1.9735" x2="-0.611" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-1.3807" y1="-1.9735" x2="-0.1107" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.8803" y1="-1.9735" x2="0.3897" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="-0.3799" y1="-1.976" x2="0.8901" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="-5.3836" y1="-1.9659" x2="-4.1136" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-5.884" y1="-1.9659" x2="-4.614" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.3819" y1="-1.9659" x2="-5.1119" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-6.8797" y1="-1.9659" x2="-5.6097" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.3852" y1="-1.9659" x2="-6.1152" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="-7.8855" y1="-1.9659" x2="-6.6155" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="1" x="-7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="2" x="-7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="3" x="-6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="4" x="-6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="5" x="-6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="6" x="-6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="7" x="-5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="8" x="-5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="9" x="-5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="10" x="-5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="11" x="-4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="12" x="-4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="13" x="-4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="14" x="-4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="15" x="-3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="16" x="-3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="17" x="-3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="18" x="-3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="19" x="-2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="20" x="-2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="21" x="-2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="22" x="-2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="23" x="-1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="24" x="-1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="25" x="-1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="26" x="-1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="27" x="-0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="28" x="-0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="29" x="-0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="30" x="-0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="31" x="0.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="32" x="0.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="F1" x="-9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<smd name="F2" x="9" y="0" dx="0.9" dy="1.8" layer="1"/>
+<text x="0" y="0" size="0.635" layer="25" align="center">&gt;NAME</text>
+<hole x="-8.3" y="1.5" drill="0.6"/>
+<hole x="8.3" y="1.5" drill="0.6"/>
+<rectangle x1="3.6171" y1="1.651" x2="4.8871" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="3.1167" y1="-1.9685" x2="4.3867" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="3.1142" y1="1.6535" x2="4.3842" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="1.6433" x2="5.3849" y2="1.8465" layer="51" rot="R90"/>
+<rectangle x1="4.6153" y1="1.6459" x2="5.8853" y2="1.8491" layer="51" rot="R90"/>
+<rectangle x1="5.1131" y1="1.6383" x2="6.3831" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="1.6383" x2="6.886" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.1164" y1="1.6383" x2="7.3864" y2="1.8415" layer="51" rot="R90"/>
+<rectangle x1="6.6142" y1="1.6409" x2="7.8842" y2="1.8441" layer="51" rot="R90"/>
+<rectangle x1="2.6189" y1="1.6535" x2="3.8889" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="2.1185" y1="1.6535" x2="3.3885" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.6156" y1="1.6535" x2="2.8856" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="1.1152" y1="1.651" x2="2.3852" y2="1.8542" layer="51" rot="R90"/>
+<rectangle x1="0.6174" y1="1.6535" x2="1.8874" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="1.6535" x2="1.3845" y2="1.8567" layer="51" rot="R90"/>
+<rectangle x1="3.6196" y1="-1.9685" x2="4.8896" y2="-1.7653" layer="51" rot="R90"/>
+<rectangle x1="4.1149" y1="-1.971" x2="5.3849" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="4.6178" y1="-1.971" x2="5.8878" y2="-1.7678" layer="51" rot="R90"/>
+<rectangle x1="5.1156" y1="-1.976" x2="6.3856" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="5.616" y1="-1.976" x2="6.886" y2="-1.7728" layer="51" rot="R90"/>
+<rectangle x1="6.119" y1="-1.9735" x2="7.389" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="6.6193" y1="-1.9735" x2="7.8893" y2="-1.7703" layer="51" rot="R90"/>
+<rectangle x1="2.6164" y1="-1.9659" x2="3.8864" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="2.116" y1="-1.9659" x2="3.386" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.6181" y1="-1.9659" x2="2.8881" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="1.1203" y1="-1.9659" x2="2.3903" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.6148" y1="-1.9659" x2="1.8848" y2="-1.7627" layer="51" rot="R90"/>
+<rectangle x1="0.1145" y1="-1.9659" x2="1.3845" y2="-1.7627" layer="51" rot="R90"/>
+<smd name="33" x="0.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="34" x="0.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="35" x="1.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="36" x="1.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="37" x="1.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="38" x="1.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="39" x="2.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="40" x="2.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="41" x="2.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="42" x="2.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="43" x="3.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="44" x="3.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="45" x="3.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="46" x="3.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="47" x="4.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="48" x="4.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="49" x="4.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="50" x="4.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="51" x="5.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="52" x="5.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="53" x="5.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="54" x="5.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="55" x="6.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="56" x="6.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="57" x="6.75" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="58" x="6.75" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="59" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
+<smd name="60" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ELLI-HEADER">
+<wire x1="12.7" y1="-40.64" x2="-12.7" y2="-40.64" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="38.1" x2="-12.7" y2="-40.64" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-40.64" x2="12.7" y2="38.1" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="38.1" x2="12.7" y2="38.1" width="0.4064" layer="94"/>
+<text x="2.54" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="39.37" size="1.778" layer="95">&gt;NAME</text>
+<pin name="SCL" x="-17.78" y="35.56" length="middle" swaplevel="1"/>
+<pin name="SDA" x="-17.78" y="33.02" length="middle" swaplevel="1"/>
+<pin name="AD3" x="-17.78" y="30.48" length="middle" direction="pas" swaplevel="1"/>
+<pin name="AD2" x="-17.78" y="27.94" length="middle" direction="pas" swaplevel="1"/>
+<pin name="AD1" x="-17.78" y="25.4" length="middle" direction="pas" swaplevel="1"/>
+<pin name="AD0" x="-17.78" y="22.86" length="middle" direction="pas" swaplevel="1"/>
+<pin name="AREF" x="-17.78" y="20.32" length="middle" direction="pas" swaplevel="1"/>
+<pin name="SCK" x="-17.78" y="17.78" length="middle" swaplevel="1"/>
+<pin name="MISO" x="-17.78" y="15.24" length="middle" swaplevel="1"/>
+<pin name="MOSI" x="-17.78" y="12.7" length="middle" swaplevel="1"/>
+<pin name="SS" x="-17.78" y="10.16" length="middle" swaplevel="1"/>
+<pin name="IO9" x="-17.78" y="7.62" length="middle" swaplevel="1"/>
+<pin name="IO8" x="-17.78" y="5.08" length="middle" swaplevel="1"/>
+<pin name="IO7" x="-17.78" y="2.54" length="middle" swaplevel="1"/>
+<pin name="IO6" x="-17.78" y="0" length="middle" swaplevel="1"/>
+<pin name="IO4" x="17.78" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="IO3" x="17.78" y="0" length="middle" swaplevel="1" rot="R180"/>
+<pin name="IO1" x="17.78" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="IO0" x="17.78" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="-RESET" x="17.78" y="10.16" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RSV0" x="17.78" y="12.7" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="RSV1" x="17.78" y="15.24" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="RSV2" x="17.78" y="17.78" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="GND@12" x="17.78" y="22.86" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VIN" x="17.78" y="25.4" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="5V" x="17.78" y="27.94" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="3.3V@6" x="17.78" y="30.48" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VBATT" x="17.78" y="33.02" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VCC(IO)" x="17.78" y="35.56" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="IO5" x="-17.78" y="-2.54" length="middle" swaplevel="1"/>
+<pin name="IO2" x="17.78" y="2.54" length="middle" swaplevel="1" rot="R180"/>
+<pin name="E0" x="-17.78" y="-5.08" length="middle"/>
+<pin name="E1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="E2" x="-17.78" y="-10.16" length="middle"/>
+<pin name="E3" x="-17.78" y="-12.7" length="middle"/>
+<pin name="E4" x="-17.78" y="-15.24" length="middle"/>
+<pin name="E5" x="-17.78" y="-17.78" length="middle"/>
+<pin name="E6" x="-17.78" y="-20.32" length="middle"/>
+<pin name="E7" x="-17.78" y="-22.86" length="middle"/>
+<pin name="E8" x="-17.78" y="-25.4" length="middle"/>
+<pin name="E9" x="-17.78" y="-27.94" length="middle"/>
+<pin name="E10" x="-17.78" y="-30.48" length="middle"/>
+<pin name="E11" x="-17.78" y="-33.02" length="middle"/>
+<pin name="SDA2" x="-17.78" y="-35.56" length="middle"/>
+<pin name="SCL2" x="-17.78" y="-38.1" length="middle"/>
+<pin name="TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="TXC" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="TX-" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RX+" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="RXC" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="RX-" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="GND@46" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="3.3V@48" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="E18" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="SCK2/CANTX" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="MISO2" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<pin name="MOSI2" x="17.78" y="-35.56" length="middle" rot="R180"/>
+<pin name="SS2/CANRX" x="17.78" y="-38.1" length="middle" rot="R180"/>
+<pin name="GND@14" x="17.78" y="20.32" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DF12-ELLI-HEADER">
+<gates>
+<gate name="E" symbol="ELLI-HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF12(4.0)-60DP-0.5V">
+<connects>
+<connect gate="E" pin="-RESET" pad="22"/>
+<connect gate="E" pin="3.3V@48" pad="48"/>
+<connect gate="E" pin="3.3V@6" pad="6"/>
+<connect gate="E" pin="5V" pad="8"/>
+<connect gate="E" pin="AD0" pad="11"/>
+<connect gate="E" pin="AD1" pad="9"/>
+<connect gate="E" pin="AD2" pad="7"/>
+<connect gate="E" pin="AD3" pad="5"/>
+<connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="E0" pad="33"/>
+<connect gate="E" pin="E1" pad="35"/>
+<connect gate="E" pin="E10" pad="53"/>
+<connect gate="E" pin="E11" pad="55"/>
+<connect gate="E" pin="E18" pad="52"/>
+<connect gate="E" pin="E19" pad="50"/>
+<connect gate="E" pin="E2" pad="37"/>
+<connect gate="E" pin="E3" pad="39"/>
+<connect gate="E" pin="E4" pad="41"/>
+<connect gate="E" pin="E5" pad="43"/>
+<connect gate="E" pin="E6" pad="45"/>
+<connect gate="E" pin="E7" pad="47"/>
+<connect gate="E" pin="E8" pad="49"/>
+<connect gate="E" pin="E9" pad="51"/>
+<connect gate="E" pin="GND@12" pad="12"/>
+<connect gate="E" pin="GND@14" pad="14"/>
+<connect gate="E" pin="GND@46" pad="46"/>
+<connect gate="E" pin="IO0" pad="24"/>
+<connect gate="E" pin="IO1" pad="26"/>
+<connect gate="E" pin="IO2" pad="28"/>
+<connect gate="E" pin="IO3" pad="30"/>
+<connect gate="E" pin="IO4" pad="32"/>
+<connect gate="E" pin="IO5" pad="31"/>
+<connect gate="E" pin="IO6" pad="29"/>
+<connect gate="E" pin="IO7" pad="27"/>
+<connect gate="E" pin="IO8" pad="25"/>
+<connect gate="E" pin="IO9" pad="23"/>
+<connect gate="E" pin="MISO" pad="17"/>
+<connect gate="E" pin="MISO2" pad="56"/>
+<connect gate="E" pin="MOSI" pad="19"/>
+<connect gate="E" pin="MOSI2" pad="58"/>
+<connect gate="E" pin="RSV0" pad="20"/>
+<connect gate="E" pin="RSV1" pad="18"/>
+<connect gate="E" pin="RSV2" pad="16"/>
+<connect gate="E" pin="RX+" pad="40"/>
+<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RXC" pad="42"/>
+<connect gate="E" pin="SCK" pad="15"/>
+<connect gate="E" pin="SCK2/CANTX" pad="54"/>
+<connect gate="E" pin="SCL" pad="1"/>
+<connect gate="E" pin="SCL2" pad="59"/>
+<connect gate="E" pin="SDA" pad="3"/>
+<connect gate="E" pin="SDA2" pad="57"/>
+<connect gate="E" pin="SS" pad="21"/>
+<connect gate="E" pin="SS2/CANRX" pad="60"/>
+<connect gate="E" pin="TX+" pad="34"/>
+<connect gate="E" pin="TX-" pad="38"/>
+<connect gate="E" pin="TXC" pad="36"/>
+<connect gate="E" pin="VBATT" pad="4"/>
+<connect gate="E" pin="VCC(IO)" pad="2"/>
+<connect gate="E" pin="VIN" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3117,6 +3414,7 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <part name="SW1" library="SparkFun-Electromechanical" deviceset="SW_DIP-8" device=""/>
 <part name="SW2" library="SparkFun-Electromechanical" deviceset="SW_DIP-8" device=""/>
 <part name="DIMENSIONS1" library="ELL-i-Boards" deviceset="DIN49073" device=""/>
+<part name="U$6" library="ELL-i-Connectors" deviceset="DF12-ELLI-HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3183,12 +3481,17 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <instance part="SW1" gate="A" x="78.74" y="73.66"/>
 <instance part="SW2" gate="A" x="106.68" y="139.7"/>
 <instance part="DIMENSIONS1" gate="G$1" x="5.08" y="5.08"/>
+<instance part="U$6" gate="E" x="200.66" y="81.28"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
 <segment>
 <wire x1="91.44" y1="15.24" x2="91.44" y2="175.26" width="0.762" layer="92"/>
-<wire x1="91.44" y1="15.24" x2="162.56" y2="15.24" width="0.762" layer="92"/>
+<wire x1="91.44" y1="15.24" x2="175.26" y2="15.24" width="0.762" layer="92"/>
+<wire x1="175.26" y1="15.24" x2="175.26" y2="30.48" width="0.762" layer="92"/>
+<wire x1="175.26" y1="30.48" x2="231.14" y2="30.48" width="0.762" layer="92"/>
+<wire x1="231.14" y1="30.48" x2="231.14" y2="88.9" width="0.762" layer="92"/>
+<wire x1="175.26" y1="30.48" x2="175.26" y2="116.84" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -3492,12 +3795,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="172.72" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="AD0"/>
+<wire x1="182.88" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="104.14" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <pinref part="U2" gate="PA" pin="PA2-ADC_IN2"/>
 <wire x1="50.8" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="167.64" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="AD1"/>
+<wire x1="182.88" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="106.68" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -3506,6 +3819,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="165.1" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO6"/>
+<wire x1="182.88" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="81.28" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A2" class="0">
 <segment>
@@ -3513,12 +3831,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="162.56" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="AD2"/>
+<wire x1="182.88" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="109.22" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <pinref part="U2" gate="PA" pin="PA5-ADC_IN5"/>
 <wire x1="50.8" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="160.02" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="AD3"/>
+<wire x1="182.88" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="111.76" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D12" class="0">
@@ -3532,6 +3860,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="111.76" y1="38.1" x2="93.98" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="38.1" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="MISO"/>
+<wire x1="182.88" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D1" class="0">
 <segment>
@@ -3539,12 +3872,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="149.86" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO1"/>
+<wire x1="218.44" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="86.36" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D0" class="0">
 <segment>
 <pinref part="U2" gate="PA" pin="PA10"/>
 <wire x1="50.8" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="147.32" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO0"/>
+<wire x1="218.44" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="88.9" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D3MCU" class="0">
@@ -3562,6 +3905,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="142.24" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO4"/>
+<wire x1="218.44" y1="78.74" x2="228.6" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="78.74" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D10" class="0">
 <segment>
@@ -3575,6 +3923,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="U$4" gate="G$2" pin="TDO"/>
 <wire x1="165.1" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SS"/>
+<wire x1="182.88" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="91.44" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D9" class="0">
 <segment>
@@ -3582,12 +3935,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="124.46" x2="88.9" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="124.46" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO9"/>
+<wire x1="182.88" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="88.9" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D7" class="0">
 <segment>
 <pinref part="U2" gate="PB" pin="PB1-ADC_IN9"/>
 <wire x1="50.8" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="121.92" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO7"/>
+<wire x1="182.88" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="83.82" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D13" class="0">
@@ -3601,12 +3964,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="111.76" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="40.64" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SCK"/>
+<wire x1="182.88" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="99.06" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
 <pinref part="U2" gate="PB" pin="PB4"/>
 <wire x1="50.8" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="114.3" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO5"/>
+<wire x1="182.88" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="78.74" x2="175.26" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D11" class="0">
@@ -3620,6 +3993,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="111.76" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="33.02" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="MOSI"/>
+<wire x1="182.88" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="93.98" x2="175.26" y2="91.44" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A5" class="0">
 <segment>
@@ -3632,6 +4010,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="162.56" y1="17.78" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="SCL/PT12C"/>
 <wire x1="162.56" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SCL"/>
+<wire x1="182.88" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D8MCU" class="0">
@@ -3654,6 +4037,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="160.02" y1="17.78" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="SDA/PT12D"/>
 <wire x1="160.02" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SDA"/>
+<wire x1="182.88" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="114.3" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3689,12 +4077,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="58.42" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="182.88" y1="66.04" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="66.04" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="E" pin="E4"/>
+</segment>
 </net>
 <net name="E5" class="0">
 <segment>
 <pinref part="U2" gate="PC" pin="PC1-ADC_IN11"/>
 <wire x1="50.8" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="55.88" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E5"/>
+<wire x1="182.88" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="63.5" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E6" class="0">
@@ -3703,12 +4101,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="53.34" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E6"/>
+<wire x1="182.88" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="60.96" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E7" class="0">
 <segment>
 <pinref part="U2" gate="PC" pin="PC3-ADC_IN13"/>
 <wire x1="50.8" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="50.8" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E7"/>
+<wire x1="182.88" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="58.42" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E8" class="0">
@@ -3717,12 +4125,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="48.26" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E8"/>
+<wire x1="182.88" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="55.88" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E9" class="0">
 <segment>
 <pinref part="U2" gate="PC" pin="PC5-ADC_IN15"/>
 <wire x1="50.8" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="45.72" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E9"/>
+<wire x1="182.88" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="53.34" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E10" class="0">
@@ -3731,12 +4149,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="43.18" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E10"/>
+<wire x1="182.88" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="50.8" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E11" class="0">
 <segment>
 <pinref part="U2" gate="PC" pin="PC7"/>
 <wire x1="50.8" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="40.64" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E11"/>
+<wire x1="182.88" y1="48.26" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="48.26" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E12" class="0">
@@ -3750,6 +4178,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="99.06" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="132.08" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SDA2"/>
+<wire x1="182.88" y1="45.72" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="45.72" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E13" class="0">
 <segment>
@@ -3762,12 +4195,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="99.06" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="129.54" x2="91.44" y2="127" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SCL2"/>
+<wire x1="182.88" y1="43.18" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="43.18" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E14" class="0">
 <segment>
 <pinref part="U2" gate="PB" pin="PB12"/>
 <wire x1="50.8" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="93.98" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SS2/CANRX"/>
+<wire x1="218.44" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="43.18" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E15" class="0">
@@ -3776,12 +4219,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="86.36" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="MOSI2"/>
+<wire x1="218.44" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="45.72" x2="231.14" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E16" class="0">
 <segment>
 <pinref part="U2" gate="PB" pin="PB14"/>
 <wire x1="50.8" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="88.9" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="MISO2"/>
+<wire x1="218.44" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="48.26" x2="231.14" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E17" class="0">
@@ -3790,12 +4243,22 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="50.8" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="91.44" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="SCK2/CANTX"/>
+<wire x1="218.44" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="50.8" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E18" class="0">
 <segment>
 <pinref part="U2" gate="PC" pin="PC11"/>
 <wire x1="50.8" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="30.48" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E18"/>
+<wire x1="218.44" y1="53.34" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="53.34" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E19" class="0">
@@ -3884,10 +4347,10 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="U2" gate="PC" pin="PC9"/>
 <wire x1="50.8" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="35.56" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="7.62" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="7.62" x2="172.72" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="7.62" x2="172.72" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="TDI"/>
-<wire x1="175.26" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -3895,10 +4358,10 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="U2" gate="PA" pin="PA14-SWCLK"/>
 <wire x1="50.8" y1="137.16" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="137.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="10.16" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="10.16" x2="172.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="10.16" x2="170.18" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="10.16" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="TCK"/>
-<wire x1="172.72" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="38.1" x2="157.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -3906,10 +4369,10 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="U2" gate="PA" pin="PA13-SWDIO"/>
 <wire x1="50.8" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="139.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="12.7" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="12.7" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$2" pin="TMS"/>
-<wire x1="170.18" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3969,6 +4432,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="99.06" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="147.32" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO3"/>
+<wire x1="218.44" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="81.28" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="D8" class="0">
 <segment>
@@ -3980,6 +4448,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="SW2" gate="A" pin="10"/>
 <wire x1="99.06" y1="144.78" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="144.78" x2="91.44" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="IO8"/>
+<wire x1="182.88" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="86.36" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E0" class="0">
@@ -3993,6 +4466,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="99.06" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="142.24" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E0"/>
+<wire x1="182.88" y1="76.2" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="76.2" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E1" class="0">
 <segment>
@@ -4004,6 +4482,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="SW2" gate="A" pin="12"/>
 <wire x1="99.06" y1="139.7" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="139.7" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E1"/>
+<wire x1="182.88" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="73.66" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E2" class="0">
@@ -4017,6 +4500,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="99.06" y1="137.16" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="137.16" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E2"/>
+<wire x1="182.88" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="71.12" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="E3" class="0">
 <segment>
@@ -4028,6 +4516,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pinref part="SW2" gate="A" pin="14"/>
 <wire x1="99.06" y1="134.62" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="134.62" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="E" pin="E3"/>
+<wire x1="182.88" y1="68.58" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="68.58" x2="175.26" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -4046,6 +4539,13 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <wire x1="63.5" y1="96.52" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="A" pin="15"/>
 <wire x1="63.5" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<pinref part="U$6" gate="E" pin="IO2"/>
+<wire x1="218.44" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="83.82" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
