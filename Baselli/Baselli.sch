@@ -4616,7 +4616,7 @@ to +5V in ELL-i bus?</text>
 ELL-i VCC(IO)?</text>
 <text x="40.64" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Top</text>
 <text x="162.56" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Bottom</text>
-<text x="-68.58" y="149.86" size="1.778" layer="91">Check STM32F72 VCCIO!</text>
+<text x="-68.58" y="149.86" size="1.778" layer="91">Check STM32F072 VCCIO!</text>
 <text x="-198.12" y="109.22" size="1.27" layer="91">A diode here?</text>
 </plain>
 <instances>
@@ -5932,6 +5932,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="243.84" y1="63.5" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="243.84" y="63.5"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
+<label x="226.06" y="25.4" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
