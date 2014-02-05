@@ -2195,43 +2195,43 @@ Source: 008-0260-0_E.pdf</description>
    &lt;li&gt;&lt;a href="http://www.latticesemi.com/~/media/Documents/DataSheets/MachXO23/MachXO2FamilyDataSheet.pdf"&gt;Datasheet&lt;/a&gt; (DS1035)&lt;/li&gt;.
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="MACHXO2-QFN32-256" x="0" y="0"/>
-<gate name="G$2" symbol="MACHXO2-ERB" x="22.86" y="45.72"/>
-<gate name="G$3" symbol="MACHXO2-QFN32-PWR" x="30.48" y="5.08"/>
+<gate name="IO" symbol="MACHXO2-QFN32-256" x="0" y="0"/>
+<gate name="ERB" symbol="MACHXO2-ERB" x="22.86" y="45.72"/>
+<gate name="PWR" symbol="MACHXO2-QFN32-PWR" x="30.48" y="5.08"/>
 </gates>
 <devices>
 <device name="" package="QFN-32">
 <connects>
-<connect gate="G$1" pin="PB_4A/6C/9A/11A/13A" pad="11"/>
-<connect gate="G$1" pin="PB_4B/6D/9B/11B/13B" pad="12"/>
-<connect gate="G$1" pin="PB_4C/10C/11A/16A/20A" pad="13"/>
-<connect gate="G$1" pin="PB_4D/10D/11B/16B/20B" pad="14"/>
-<connect gate="G$1" pin="PL_5C/7A/9A/12A/17A" pad="4"/>
-<connect gate="G$1" pin="PL_5D/7B/9B/12B/17B" pad="5"/>
-<connect gate="G$1" pin="PR_5A/5C/5C/7A/10A" pad="21"/>
-<connect gate="G$1" pin="PR_5B/5D/5D/7B/10B" pad="20"/>
-<connect gate="G$2" pin="CSSPIN/PB_2A..." pad="8"/>
-<connect gate="G$2" pin="DONE/PT17D" pad="23"/>
-<connect gate="G$2" pin="INITN/PT17C" pad="NC1"/>
-<connect gate="G$2" pin="JTAGENB/PT15C" pad="26"/>
-<connect gate="G$2" pin="MCLK/CCLK/PB6C" pad="9"/>
-<connect gate="G$2" pin="PB_2B/4B/4D/5B/4B" pad="NC2"/>
-<connect gate="G$2" pin="PROGRAMN/PT15D" pad="25"/>
-<connect gate="G$2" pin="SCL/PT12C" pad="28"/>
-<connect gate="G$2" pin="SDA/PT12D" pad="27"/>
-<connect gate="G$2" pin="SISPI/PB20D" pad="17"/>
-<connect gate="G$2" pin="SN/PB20C" pad="16"/>
-<connect gate="G$2" pin="SPISO/PB6D" pad="10"/>
-<connect gate="G$2" pin="TCK" pad="30"/>
-<connect gate="G$2" pin="TDI" pad="32"/>
-<connect gate="G$2" pin="TDO" pad="1"/>
-<connect gate="G$2" pin="TMS" pad="29"/>
-<connect gate="G$3" pin="GND" pad="3 22"/>
-<connect gate="G$3" pin="VCC" pad="2 18"/>
-<connect gate="G$3" pin="VCCIO0" pad="24 31"/>
-<connect gate="G$3" pin="VCCIO1" pad="19"/>
-<connect gate="G$3" pin="VCCIO2" pad="7 15"/>
-<connect gate="G$3" pin="VCCIO3" pad="6"/>
+<connect gate="ERB" pin="CSSPIN/PB_2A..." pad="8"/>
+<connect gate="ERB" pin="DONE/PT17D" pad="23"/>
+<connect gate="ERB" pin="INITN/PT17C" pad="NC1"/>
+<connect gate="ERB" pin="JTAGENB/PT15C" pad="26"/>
+<connect gate="ERB" pin="MCLK/CCLK/PB6C" pad="9"/>
+<connect gate="ERB" pin="PB_2B/4B/4D/5B/4B" pad="NC2"/>
+<connect gate="ERB" pin="PROGRAMN/PT15D" pad="25"/>
+<connect gate="ERB" pin="SCL/PT12C" pad="28"/>
+<connect gate="ERB" pin="SDA/PT12D" pad="27"/>
+<connect gate="ERB" pin="SISPI/PB20D" pad="17"/>
+<connect gate="ERB" pin="SN/PB20C" pad="16"/>
+<connect gate="ERB" pin="SPISO/PB6D" pad="10"/>
+<connect gate="ERB" pin="TCK" pad="30"/>
+<connect gate="ERB" pin="TDI" pad="32"/>
+<connect gate="ERB" pin="TDO" pad="1"/>
+<connect gate="ERB" pin="TMS" pad="29"/>
+<connect gate="IO" pin="PB_4A/6C/9A/11A/13A" pad="11"/>
+<connect gate="IO" pin="PB_4B/6D/9B/11B/13B" pad="12"/>
+<connect gate="IO" pin="PB_4C/10C/11A/16A/20A" pad="13"/>
+<connect gate="IO" pin="PB_4D/10D/11B/16B/20B" pad="14"/>
+<connect gate="IO" pin="PL_5C/7A/9A/12A/17A" pad="4"/>
+<connect gate="IO" pin="PL_5D/7B/9B/12B/17B" pad="5"/>
+<connect gate="IO" pin="PR_5A/5C/5C/7A/10A" pad="21"/>
+<connect gate="IO" pin="PR_5B/5D/5D/7B/10B" pad="20"/>
+<connect gate="PWR" pin="GND" pad="3 22"/>
+<connect gate="PWR" pin="VCC" pad="2 18"/>
+<connect gate="PWR" pin="VCCIO0" pad="24 31"/>
+<connect gate="PWR" pin="VCCIO1" pad="19"/>
+<connect gate="PWR" pin="VCCIO2" pad="7 15"/>
+<connect gate="PWR" pin="VCCIO3" pad="6"/>
 </connects>
 <technologies>
 <technology name="HC-4"/>
@@ -4777,9 +4777,9 @@ ELL-i VCC(IO)?</text>
 <instance part="U$1" gate="G$3" x="71.12" y="35.56"/>
 <instance part="U$1" gate="PDF" x="71.12" y="68.58"/>
 <instance part="U$3" gate="G$1" x="-289.56" y="0"/>
-<instance part="U1" gate="G$1" x="190.5" y="144.78" rot="MR0"/>
-<instance part="U1" gate="G$2" x="203.2" y="66.04"/>
-<instance part="U1" gate="G$3" x="-119.38" y="63.5" rot="R180"/>
+<instance part="U1" gate="IO" x="190.5" y="144.78" rot="MR0"/>
+<instance part="U1" gate="ERB" x="203.2" y="66.04"/>
+<instance part="U1" gate="PWR" x="-119.38" y="63.5" rot="R180"/>
 <instance part="U$5" gate="G$1" x="190.5" y="144.78" rot="MR0"/>
 <instance part="SW1" gate="A" x="121.92" y="68.58"/>
 <instance part="SW2" gate="A" x="152.4" y="139.7"/>
@@ -5032,24 +5032,24 @@ ELL-i VCC(IO)?</text>
 <wire x1="-241.3" y1="134.62" x2="-241.3" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$3" pin="VCC"/>
+<pinref part="U1" gate="PWR" pin="VCC"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="-129.54" y1="58.42" x2="-134.62" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="58.42" x2="-134.62" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$3" pin="VCCIO0"/>
+<pinref part="U1" gate="PWR" pin="VCCIO0"/>
 <wire x1="-134.62" y1="63.5" x2="-134.62" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="66.04" x2="-134.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="68.58" x2="-134.62" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="71.12" x2="-134.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="63.5" x2="-134.62" y2="63.5" width="0.1524" layer="91"/>
 <junction x="-134.62" y="63.5"/>
-<pinref part="U1" gate="G$3" pin="VCCIO1"/>
+<pinref part="U1" gate="PWR" pin="VCCIO1"/>
 <wire x1="-129.54" y1="66.04" x2="-134.62" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-134.62" y="66.04"/>
-<pinref part="U1" gate="G$3" pin="VCCIO2"/>
+<pinref part="U1" gate="PWR" pin="VCCIO2"/>
 <wire x1="-129.54" y1="68.58" x2="-134.62" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-134.62" y="68.58"/>
-<pinref part="U1" gate="G$3" pin="VCCIO3"/>
+<pinref part="U1" gate="PWR" pin="VCCIO3"/>
 <wire x1="-129.54" y1="71.12" x2="-134.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-134.62" y="71.12"/>
 </segment>
@@ -5156,7 +5156,7 @@ ELL-i VCC(IO)?</text>
 </segment>
 <segment>
 <pinref part="GNDI5" gate="G$1" pin="GNDI"/>
-<pinref part="U1" gate="G$3" pin="GND"/>
+<pinref part="U1" gate="PWR" pin="GND"/>
 <wire x1="-134.62" y1="53.34" x2="-134.62" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="55.88" x2="-129.54" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -5297,7 +5297,7 @@ ELL-i VCC(IO)?</text>
 <label x="132.08" y="154.94" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$2" pin="SPISO/PB6D"/>
+<pinref part="U1" gate="ERB" pin="SPISO/PB6D"/>
 <wire x1="180.34" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="60.96" x2="137.16" y2="58.42" width="0.1524" layer="91"/>
 <label x="139.7" y="60.96" size="1.27" layer="95"/>
@@ -5397,7 +5397,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="233.68" y1="68.58" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="38.1" x2="139.7" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="38.1" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="TDO"/>
+<pinref part="U1" gate="ERB" pin="TDO"/>
 <wire x1="233.68" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
 <label x="139.7" y="38.1" size="1.27" layer="95"/>
 <wire x1="233.68" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
@@ -5461,7 +5461,7 @@ ELL-i VCC(IO)?</text>
 <label x="132.08" y="114.3" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$2" pin="MCLK/CCLK/PB6C"/>
+<pinref part="U1" gate="ERB" pin="MCLK/CCLK/PB6C"/>
 <wire x1="180.34" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="63.5" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 <label x="139.7" y="63.5" size="1.27" layer="95"/>
@@ -5503,7 +5503,7 @@ ELL-i VCC(IO)?</text>
 <label x="132.08" y="109.22" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$2" pin="SISPI/PB20D"/>
+<pinref part="U1" gate="ERB" pin="SISPI/PB20D"/>
 <wire x1="180.34" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="55.88" x2="137.16" y2="53.34" width="0.1524" layer="91"/>
 <label x="139.7" y="55.88" size="1.27" layer="95"/>
@@ -5530,7 +5530,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="231.14" y1="50.8" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="40.64" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="40.64" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="SCL/PT12C"/>
+<pinref part="U1" gate="ERB" pin="SCL/PT12C"/>
 <wire x1="231.14" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
 <label x="139.7" y="40.64" size="1.27" layer="95"/>
 </segment>
@@ -5571,7 +5571,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="228.6" y1="48.26" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="43.18" x2="137.16" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="SDA/PT12D"/>
+<pinref part="U1" gate="ERB" pin="SDA/PT12D"/>
 <wire x1="228.6" y1="48.26" x2="226.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="139.7" y="43.18" size="1.27" layer="95"/>
 </segment>
@@ -5600,7 +5600,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="93.98" y1="5.08" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="5.08" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="CSSPIN/PB_2A..."/>
+<pinref part="U1" gate="ERB" pin="CSSPIN/PB_2A..."/>
 <label x="121.92" y="5.08" size="1.27" layer="95"/>
 </segment>
 </net>
@@ -5612,13 +5612,13 @@ ELL-i VCC(IO)?</text>
 <wire x1="139.7" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="154.94" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="149.86" x2="180.34" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PR_5A/5C/5C/7A/10A"/>
+<pinref part="U1" gate="IO" pin="PR_5A/5C/5C/7A/10A"/>
 <label x="147.32" y="154.94" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SN" class="0">
 <segment>
-<pinref part="U1" gate="G$2" pin="SN/PB20C"/>
+<pinref part="U1" gate="ERB" pin="SN/PB20C"/>
 <wire x1="180.34" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="53.34" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="12.7" x2="101.6" y2="12.7" width="0.1524" layer="91"/>
@@ -5948,7 +5948,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="78.74" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="101.6" x2="233.68" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="JTAGENB/PT15C"/>
+<pinref part="U1" gate="ERB" pin="JTAGENB/PT15C"/>
 <wire x1="233.68" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <label x="147.32" y="101.6" size="1.27" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -5970,7 +5970,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="170.18" y1="10.16" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="27.94" x2="241.3" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="27.94" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="PROGRAMN/PT15D"/>
+<pinref part="U1" gate="ERB" pin="PROGRAMN/PT15D"/>
 <wire x1="241.3" y1="81.28" x2="226.06" y2="81.28" width="0.1524" layer="91"/>
 <label x="121.92" y="10.16" size="1.27" layer="95"/>
 <label x="226.06" y="27.94" size="1.27" layer="95"/>
@@ -5978,7 +5978,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="DONE" class="0">
 <segment>
-<pinref part="U1" gate="G$2" pin="DONE/PT17D"/>
+<pinref part="U1" gate="ERB" pin="DONE/PT17D"/>
 <wire x1="226.06" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="76.2" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="A" pin="8"/>
@@ -5989,7 +5989,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PR_5B/5D/5D/7B/10B"/>
+<pinref part="U1" gate="IO" pin="PR_5B/5D/5D/7B/10B"/>
 <wire x1="180.34" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="147.32" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="A" pin="7"/>
@@ -5998,7 +5998,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB_4C/10C/11A/16A/20A"/>
+<pinref part="U1" gate="IO" pin="PB_4C/10C/11A/16A/20A"/>
 <pinref part="SW2" gate="A" pin="4"/>
 <wire x1="180.34" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="134.62" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
@@ -6007,7 +6007,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB_4D/10D/11B/16B/20B"/>
+<pinref part="U1" gate="IO" pin="PB_4D/10D/11B/16B/20B"/>
 <pinref part="SW2" gate="A" pin="3"/>
 <wire x1="180.34" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="132.08" x2="175.26" y2="134.62" width="0.1524" layer="91"/>
@@ -6016,7 +6016,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PL_5C/7A/9A/12A/17A"/>
+<pinref part="U1" gate="IO" pin="PL_5C/7A/9A/12A/17A"/>
 <wire x1="180.34" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="157.48" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="A" pin="2"/>
@@ -6025,7 +6025,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PL_5D/7B/9B/12B/17B"/>
+<pinref part="U1" gate="IO" pin="PL_5D/7B/9B/12B/17B"/>
 <wire x1="170.18" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="154.94" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="A" pin="1"/>
@@ -6041,7 +6041,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="172.72" y1="7.62" x2="172.72" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="25.4" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="25.4" x2="243.84" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="TDI"/>
+<pinref part="U1" gate="ERB" pin="TDI"/>
 <wire x1="243.84" y1="63.5" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 <label x="121.92" y="7.62" size="1.27" layer="95"/>
@@ -6060,7 +6060,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="167.64" y1="15.24" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="30.48" x2="238.76" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="30.48" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="TCK"/>
+<pinref part="U1" gate="ERB" pin="TCK"/>
 <wire x1="238.76" y1="60.96" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
 <label x="121.92" y="15.24" size="1.27" layer="95"/>
 <label x="226.06" y="30.48" size="1.27" layer="95"/>
@@ -6082,7 +6082,7 @@ ELL-i VCC(IO)?</text>
 <wire x1="165.1" y1="17.78" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="33.02" x2="236.22" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="TMS"/>
+<pinref part="U1" gate="ERB" pin="TMS"/>
 <wire x1="236.22" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
 <label x="121.92" y="17.78" size="1.27" layer="95"/>
 <label x="226.06" y="33.02" size="1.27" layer="95"/>
@@ -6121,7 +6121,7 @@ ELL-i VCC(IO)?</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB_4A/6C/9A/11A/13A"/>
+<pinref part="U1" gate="IO" pin="PB_4A/6C/9A/11A/13A"/>
 <wire x1="180.34" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SW2" gate="A" pin="6"/>
 </segment>
@@ -6129,7 +6129,7 @@ ELL-i VCC(IO)?</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SW2" gate="A" pin="5"/>
-<pinref part="U1" gate="G$1" pin="PB_4B/6D/9B/11B/13B"/>
+<pinref part="U1" gate="IO" pin="PB_4B/6D/9B/11B/13B"/>
 <wire x1="180.34" y1="139.7" x2="160.02" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
