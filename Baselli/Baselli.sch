@@ -3776,6 +3776,58 @@ In several package variant, including pogopin version.</description>
 <rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
 <rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
 </package>
+<package name="TP_5000">
+<description>&lt;h3&gt;Test loop.&lt;/h3&gt;
+&lt;p&gt;
+Allow for easy attachment of oscilloscope probe
+Inner dia of ring is 1.25 mm.
+Has 2.54 mm dia plastic ring,
+height off board approx 4.6 mm.
+&lt;/p&gt;
+&lt;p&gt;Keystone Electronics 5000. &lt;a href='http://www.keyelco.com/userAssets/file/M60-2p60.pdf'&gt;Datasheet&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Not reviewed.
+&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="1"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="TP_5021">
+<description>&lt;h3&gt;Test loop.&lt;/h3&gt;
+&lt;p&gt;
+2.54 mm dia,
+does not have a separate base.
+Height approx 2.5 mm off board.
+&lt;/p&gt;
+&lt;p&gt;Keystone Electronics 5021. 
+&lt;a href='http://www.keyelco.com/userAssets/file/M60-2p60.pdf'&gt;Datasheet&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Not reviewed.
+&lt;/p&gt;</description>
+<pad name="P$1" x="0" y="0" drill="1"/>
+<wire x1="1.3" y1="0.4" x2="1.3" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1.3" y1="0.4" x2="-1.3" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.4" x2="-1.3" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-0.4" x2="1.3" y2="-0.4" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="TP_BARE">
+<description>&lt;h3&gt;Bare copper test point &lt;/h3&gt;
+
+&lt;p&gt;
+2.54 mm dia bare copper area for probing.
+&lt;/p&gt;
+&lt;p&gt;
+Not reviewed.
+&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="100"/>
+<text x="-2.54" y="1.27" size="1.27" layer="1">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="1">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C_EU">
@@ -3797,6 +3849,27 @@ In several package variant, including pogopin version.</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="TEST_POINT">
+<description>Test point gives easier access to signals of interest.
+This could be a discrete test loop or just a bare copper pad.</description>
+<wire x1="0" y1="-7.62" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<rectangle x1="-0.508" y1="-5.08" x2="0.508" y2="-3.81" layer="94"/>
+<wire x1="0.762" y1="-0.508" x2="-0.762" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.016" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="-0.762" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.032" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="-0.762" y2="-3.048" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="2.54" visible="off" length="short" direction="out" rot="R270"/>
+<text x="-2.286" y="-7.366" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3887,6 +3960,40 @@ In several package variant, including pogopin version.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_POINT" prefix="TP">
+<description>&lt;h3&gt;Used for easier attachment of measuring equipment.&lt;/h3&gt;
+
+Has both test loops and bare copper area.</description>
+<gates>
+<gate name="TP$1" symbol="TEST_POINT" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="-5021" package="TP_5000">
+<connects>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5000" package="TP_5021">
+<connects>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-BARE" package="TP_BARE">
+<connects>
+<connect gate="TP$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4321,6 +4428,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="D1" library="SparkFun-LED" deviceset="WS2812B" device=""/>
 <part name="GNDI15" library="supply1" deviceset="GNDI" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
+<part name="TP1" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000"/>
 </parts>
 <sheets>
 <sheet>
@@ -4440,6 +4548,7 @@ VCCIO</text>
 <instance part="D1" gate="G$1" x="-76.2" y="50.8"/>
 <instance part="GNDI15" gate="G$1" x="-53.34" y="43.18"/>
 <instance part="P+2" gate="1" x="-88.9" y="63.5"/>
+<instance part="TP1" gate="TP$1" x="-88.9" y="45.72"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -6199,7 +6308,7 @@ VCCIO</text>
 <junction x="68.58" y="66.04"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="J3" gate="E" pin="5V"/>
 <wire x1="215.9" y1="325.12" x2="218.44" y2="325.12" width="0.1524" layer="91"/>
@@ -6231,14 +6340,21 @@ VCCIO</text>
 </net>
 <net name="PA7" class="0">
 <segment>
-<pinref part="U2" gate="PA" pin="PA7-ADC_IN7"/>
-<wire x1="73.66" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="83.82" y="154.94" size="1.27" layer="95"/>
-</segment>
-<segment>
 <pinref part="D1" gate="G$1" pin="DIN"/>
 <wire x1="-58.42" y1="55.88" x2="-50.8" y2="55.88" width="0.1524" layer="91"/>
-<label x="-53.34" y="55.88" size="1.27" layer="95"/>
+<label x="-50.8" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="PA" pin="PA7-ADC_IN7"/>
+<wire x1="73.66" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<label x="76.2" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="TP1" gate="TP$1" pin="P$1"/>
+<pinref part="D1" gate="G$1" pin="DOUT"/>
+<wire x1="-88.9" y1="48.26" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
