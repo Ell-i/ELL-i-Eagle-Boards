@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4429,6 +4429,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GNDI15" library="supply1" deviceset="GNDI" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="TP1" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000"/>
+<part name="R10" library="ELL-i-Passives" deviceset="R" device="0402" value="0"/>
+<part name="R11" library="ELL-i-Passives" deviceset="R" device="0805" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -4441,7 +4443,6 @@ to +5V in ELL-i bus?</text>
 ELL-i VCC(IO)?</text>
 <text x="40.64" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Top</text>
 <text x="162.56" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Bottom</text>
-<text x="-68.58" y="149.86" size="1.778" layer="91">Check STM32F072 VCCIO!</text>
 <text x="-198.12" y="109.22" size="1.27" layer="91">A diode here?</text>
 <text x="2.54" y="30.48" size="1.778" layer="91">In STM32F072 
 TQFP100, PF6 
@@ -4528,7 +4529,7 @@ VCCIO</text>
 <instance part="+3V4" gate="G$1" x="-134.62" y="78.74"/>
 <instance part="GNDI5" gate="G$1" x="-134.62" y="50.8"/>
 <instance part="+3V5" gate="G$1" x="114.3" y="337.82"/>
-<instance part="+3V8" gate="G$1" x="254" y="340.36"/>
+<instance part="+3V8" gate="G$1" x="254" y="342.9"/>
 <instance part="GNDI10" gate="G$1" x="114.3" y="314.96"/>
 <instance part="GNDI11" gate="G$1" x="254" y="314.96"/>
 <instance part="GNDI12" gate="G$1" x="114.3" y="269.24"/>
@@ -4549,6 +4550,8 @@ VCCIO</text>
 <instance part="GNDI15" gate="G$1" x="-53.34" y="43.18"/>
 <instance part="P+2" gate="1" x="-88.9" y="63.5"/>
 <instance part="TP1" gate="TP$1" x="-88.9" y="45.72"/>
+<instance part="R10" gate="G$1" x="246.38" y="332.74"/>
+<instance part="R11" gate="G$1" x="187.96" y="104.14"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -4804,23 +4807,19 @@ VCCIO</text>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="254" y1="337.82" x2="254" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="254" y1="340.36" x2="254" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="254" y1="332.74" x2="254" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="254" y1="327.66" x2="215.9" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="J3" gate="E" pin="3.3V@6"/>
-<pinref part="J3" gate="E" pin="VCC(IO)"/>
-<wire x1="215.9" y1="332.74" x2="254" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="332.74" x2="254" y2="332.74" width="0.1524" layer="91"/>
 <junction x="254" y="332.74"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="J2" gate="E" pin="3.3V@6"/>
-<wire x1="114.3" y1="335.28" x2="114.3" y2="332.74" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="332.74" x2="114.3" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="335.28" x2="114.3" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="327.66" x2="88.9" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="J2" gate="E" pin="VCC(IO)"/>
-<wire x1="114.3" y1="332.74" x2="88.9" y2="332.74" width="0.1524" layer="91"/>
-<junction x="114.3" y="332.74"/>
 </segment>
 <segment>
 <pinref part="J2" gate="E" pin="3.3V@48"/>
@@ -5734,21 +5733,12 @@ VCCIO</text>
 </net>
 <net name="JTAGENB" class="0">
 <segment>
-<pinref part="U1" gate="ERB" pin="JTAGENB/PT15C"/>
-<wire x1="137.16" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="104.14" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
 <label x="142.24" y="104.14" size="1.27" layer="95"/>
-<junction x="220.98" y="104.14"/>
-<wire x1="220.98" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="104.14" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
-<junction x="246.38" y="104.14"/>
 <wire x1="137.16" y1="104.14" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U2" gate="PB" pin="PB4"/>
 <wire x1="137.16" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PROGRAMN" class="0">
@@ -6177,8 +6167,8 @@ VCCIO</text>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="J3" gate="E" pin="VBATT"/>
-<wire x1="215.9" y1="330.2" x2="236.22" y2="330.2" width="0.1524" layer="91"/>
-<label x="236.22" y="330.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="215.9" y1="330.2" x2="231.14" y2="330.2" width="0.1524" layer="91"/>
+<label x="231.14" y="330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="E" pin="VBATT"/>
@@ -6307,6 +6297,9 @@ VCCIO</text>
 <wire x1="68.58" y1="60.96" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="68.58" y="66.04"/>
 </segment>
+<segment>
+<wire x1="25.4" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="1">
 <segment>
@@ -6350,11 +6343,46 @@ VCCIO</text>
 <label x="76.2" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VCCIO" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="VCC(IO)"/>
+<wire x1="88.9" y1="332.74" x2="91.44" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="332.74" x2="91.44" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="335.28" x2="99.06" y2="335.28" width="0.1524" layer="91"/>
+<label x="99.06" y="335.28" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="VCC(IO)"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="332.74" x2="220.98" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="332.74" x2="215.9" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="332.74" x2="220.98" y2="337.82" width="0.1524" layer="91"/>
+<junction x="220.98" y="332.74"/>
+<wire x1="220.98" y1="337.82" x2="231.14" y2="337.82" width="0.1524" layer="91"/>
+<label x="231.14" y="337.82" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DOUT" class="0">
 <segment>
 <pinref part="TP1" gate="TP$1" pin="P$1"/>
 <pinref part="D1" gate="G$1" pin="DOUT"/>
 <wire x1="-88.9" y1="48.26" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="JTAGENB$2" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="104.14" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
+<junction x="246.38" y="104.14"/>
+<pinref part="U1" gate="ERB" pin="JTAGENB/PT15C"/>
+<wire x1="220.98" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="104.14" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<junction x="220.98" y="104.14"/>
+<wire x1="220.98" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
