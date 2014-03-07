@@ -2183,7 +2183,7 @@ Source: 008-0260-0_E.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-STM32F0">
+<deviceset name="ELLI-STM32F0" prefix="U">
 <description>&lt;h3&gt;STM32F051/030 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a number of pseudo-symbols, meant to be used with a real STM32F0 MCU.  The pseudo-symbols list the ELL-i project functions for the STM32F0 MCU pins in a 64-pin package.&lt;/p&gt;
@@ -2266,7 +2266,7 @@ Source: 008-0260-0_E.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ELLI-MACHXO2-256">
+<deviceset name="ELLI-MACHXO2-256" prefix="U">
 <description>&lt;h3&gt;MachXO2 256 QFN32 ELL-i functions.&lt;/h3&gt;
 
 &lt;p&gt;This device contains a pseudo-symbols, meant to be used with a corresponding MachXO2-256 FPGA device.  The pseudo-symbols list the ELL-i project extra functions for the 32 pins FPGA package. Most of the functions in the QFN32 package are predefined by Lattice, though overrideable by a user design.&lt;/p&gt;
@@ -3270,8 +3270,8 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pin name="IO6" x="-17.78" y="0" length="middle" swaplevel="1"/>
 <pin name="IO4" x="17.78" y="-2.54" length="middle" swaplevel="1" rot="R180"/>
 <pin name="IO3" x="17.78" y="0" length="middle" swaplevel="1" rot="R180"/>
-<pin name="IO1" x="17.78" y="5.08" length="middle" swaplevel="1" rot="R180"/>
-<pin name="IO0" x="17.78" y="7.62" length="middle" swaplevel="1" rot="R180"/>
+<pin name="TX1/IO1" x="17.78" y="5.08" length="middle" swaplevel="1" rot="R180"/>
+<pin name="RX1/IO0" x="17.78" y="7.62" length="middle" swaplevel="1" rot="R180"/>
 <pin name="-RESET" x="17.78" y="10.16" length="middle" swaplevel="1" rot="R180"/>
 <pin name="RSV0" x="17.78" y="12.7" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="RSV1" x="17.78" y="15.24" length="middle" direction="pas" swaplevel="1" rot="R180"/>
@@ -3298,16 +3298,16 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <pin name="E11" x="-17.78" y="-33.02" length="middle"/>
 <pin name="SDA2" x="-17.78" y="-35.56" length="middle"/>
 <pin name="SCL2" x="-17.78" y="-38.1" length="middle"/>
-<pin name="TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="ETH_INT/TX+" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="ETH_MUX" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="TX-" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="ETH_SS/TX-" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="RX+" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="ETH_SPI_SS" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="BOOT0" x="17.78" y="-17.78" length="middle" rot="R180"/>
 <pin name="RX-" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="GND@46" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="3.3V@48" x="17.78" y="-22.86" length="middle" rot="R180"/>
-<pin name="E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
-<pin name="E18" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="TX2/E19" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2/E18" x="17.78" y="-27.94" length="middle" rot="R180"/>
 <pin name="SCK2/CANTX" x="17.78" y="-30.48" length="middle" rot="R180"/>
 <pin name="MISO2" x="17.78" y="-33.02" length="middle" rot="R180"/>
 <pin name="MOSI2" x="17.78" y="-35.56" length="middle" rot="R180"/>
@@ -3381,12 +3381,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="BOOT0" pad="44"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
 <connect gate="E" pin="E11" pad="55"/>
-<connect gate="E" pin="E18" pad="52"/>
-<connect gate="E" pin="E19" pad="50"/>
 <connect gate="E" pin="E2" pad="37"/>
 <connect gate="E" pin="E3" pad="39"/>
 <connect gate="E" pin="E4" pad="41"/>
@@ -3395,13 +3394,12 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="E7" pad="47"/>
 <connect gate="E" pin="E8" pad="49"/>
 <connect gate="E" pin="E9" pad="51"/>
-<connect gate="E" pin="ETH_MUX" pad="36"/>
-<connect gate="E" pin="ETH_SPI_SS" pad="42"/>
+<connect gate="E" pin="ETH_INT/TX+" pad="34"/>
+<connect gate="E" pin="ETH_MUX" pad="42"/>
+<connect gate="E" pin="ETH_SS/TX-" pad="36"/>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
-<connect gate="E" pin="IO0" pad="24"/>
-<connect gate="E" pin="IO1" pad="26"/>
 <connect gate="E" pin="IO2" pad="28"/>
 <connect gate="E" pin="IO3" pad="30"/>
 <connect gate="E" pin="IO4" pad="32"/>
@@ -3417,8 +3415,10 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
 <connect gate="E" pin="RSV2" pad="16"/>
-<connect gate="E" pin="RX+" pad="40"/>
-<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX+" pad="38"/>
+<connect gate="E" pin="RX-" pad="40"/>
+<connect gate="E" pin="RX1/IO0" pad="24"/>
+<connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
 <connect gate="E" pin="SCK2/CANTX" pad="54"/>
 <connect gate="E" pin="SCL" pad="1"/>
@@ -3427,8 +3427,8 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="SDA2" pad="57"/>
 <connect gate="E" pin="SS" pad="21"/>
 <connect gate="E" pin="SS2/CANRX" pad="60"/>
-<connect gate="E" pin="TX+" pad="34"/>
-<connect gate="E" pin="TX-" pad="38"/>
+<connect gate="E" pin="TX1/IO1" pad="26"/>
+<connect gate="E" pin="TX2/E19" pad="50"/>
 <connect gate="E" pin="VBATT" pad="4"/>
 <connect gate="E" pin="VCC(IO)" pad="2"/>
 <connect gate="E" pin="VIN" pad="10"/>
@@ -3448,12 +3448,11 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="AD2" pad="7"/>
 <connect gate="E" pin="AD3" pad="5"/>
 <connect gate="E" pin="AREF" pad="13"/>
+<connect gate="E" pin="BOOT0" pad="44"/>
 <connect gate="E" pin="E0" pad="33"/>
 <connect gate="E" pin="E1" pad="35"/>
 <connect gate="E" pin="E10" pad="53"/>
 <connect gate="E" pin="E11" pad="55"/>
-<connect gate="E" pin="E18" pad="52"/>
-<connect gate="E" pin="E19" pad="50"/>
 <connect gate="E" pin="E2" pad="37"/>
 <connect gate="E" pin="E3" pad="39"/>
 <connect gate="E" pin="E4" pad="41"/>
@@ -3462,13 +3461,12 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="E7" pad="47"/>
 <connect gate="E" pin="E8" pad="49"/>
 <connect gate="E" pin="E9" pad="51"/>
-<connect gate="E" pin="ETH_MUX" pad="36"/>
-<connect gate="E" pin="ETH_SPI_SS" pad="42"/>
+<connect gate="E" pin="ETH_INT/TX+" pad="34"/>
+<connect gate="E" pin="ETH_MUX" pad="42"/>
+<connect gate="E" pin="ETH_SS/TX-" pad="36"/>
 <connect gate="E" pin="GND@12" pad="12"/>
 <connect gate="E" pin="GND@14" pad="14"/>
 <connect gate="E" pin="GND@46" pad="46"/>
-<connect gate="E" pin="IO0" pad="24"/>
-<connect gate="E" pin="IO1" pad="26"/>
 <connect gate="E" pin="IO2" pad="28"/>
 <connect gate="E" pin="IO3" pad="30"/>
 <connect gate="E" pin="IO4" pad="32"/>
@@ -3484,8 +3482,10 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="RSV0" pad="20"/>
 <connect gate="E" pin="RSV1" pad="18"/>
 <connect gate="E" pin="RSV2" pad="16"/>
-<connect gate="E" pin="RX+" pad="40"/>
-<connect gate="E" pin="RX-" pad="44"/>
+<connect gate="E" pin="RX+" pad="38"/>
+<connect gate="E" pin="RX-" pad="40"/>
+<connect gate="E" pin="RX1/IO0" pad="24"/>
+<connect gate="E" pin="RX2/E18" pad="52"/>
 <connect gate="E" pin="SCK" pad="15"/>
 <connect gate="E" pin="SCK2/CANTX" pad="54"/>
 <connect gate="E" pin="SCL" pad="1"/>
@@ -3494,8 +3494,8 @@ as defined in the DIN 49073-1:2010-02 standard.&lt;/p&gt;
 <connect gate="E" pin="SDA2" pad="57"/>
 <connect gate="E" pin="SS" pad="21"/>
 <connect gate="E" pin="SS2/CANRX" pad="60"/>
-<connect gate="E" pin="TX+" pad="34"/>
-<connect gate="E" pin="TX-" pad="38"/>
+<connect gate="E" pin="TX1/IO1" pad="26"/>
+<connect gate="E" pin="TX2/E19" pad="50"/>
 <connect gate="E" pin="VBATT" pad="4"/>
 <connect gate="E" pin="VCC(IO)" pad="2"/>
 <connect gate="E" pin="VIN" pad="10"/>
@@ -4015,8 +4015,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
 <wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
 <wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
+<smd name="C" x="0" y="0.877" dx="1" dy="1" layer="1" roundness="30"/>
+<smd name="A" x="0" y="-0.877" dx="1" dy="1" layer="1" roundness="30"/>
 <text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
 </package>
@@ -4140,7 +4140,8 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </symbols>
 <devicesets>
 <deviceset name="LED-GREEN" prefix="D" uservalue="yes">
-<description>Various green LEDs&lt;br&gt;
+<description>&lt;B&gt;Various green LEDs&lt;br&gt;&lt;br&gt;&lt;/B&gt;
+Green LEDs used in SFE Production&lt;br&gt;&lt;br&gt;
 0603- DIO-00821&lt;br&gt;
 LARGE- DIO-00862&lt;br&gt;
 LILYPAD- DIO-09910&lt;br&gt;</description>
@@ -4393,7 +4394,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R5" library="ELL-i-Passives" deviceset="R" device="0402" value="2K2"/>
 <part name="R6" library="ELL-i-Passives" deviceset="R" device="0402" value="2K2"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="R7" library="ELL-i-Passives" deviceset="R" device="0402" value="4K7 (NP)"/>
+<part name="R7" library="ELL-i-Passives" deviceset="R" device="0603" value="4K7 (NP)"/>
 <part name="GNDI4" library="supply1" deviceset="GNDI" device=""/>
 <part name="R8" library="ELL-i-Passives" deviceset="R" device="0402" value="10K"/>
 <part name="GNDI9" library="supply1" deviceset="GNDI" device=""/>
@@ -4422,15 +4423,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="GNDI14" library="supply1" deviceset="GNDI" device=""/>
-<part name="R12" library="ELL-i-Passives" deviceset="R" device="0402" value="NP"/>
-<part name="R13" library="ELL-i-Passives" deviceset="R" device="0402" value="NP"/>
-<part name="R14" library="ELL-i-Passives" deviceset="R" device="0402" value="NP"/>
+<part name="R12" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
+<part name="R13" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
+<part name="R14" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
 <part name="D1" library="SparkFun-LED" deviceset="WS2812B" device=""/>
 <part name="GNDI15" library="supply1" deviceset="GNDI" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="TP1" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000"/>
 <part name="R10" library="ELL-i-Passives" deviceset="R" device="0402" value="0"/>
 <part name="R11" library="ELL-i-Passives" deviceset="R" device="0805" value="0"/>
+<part name="GNDI16" library="supply1" deviceset="GNDI" device=""/>
+<part name="R15" library="ELL-i-Passives" deviceset="R" device="0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -4443,7 +4446,6 @@ to +5V in ELL-i bus?</text>
 ELL-i VCC(IO)?</text>
 <text x="40.64" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Top</text>
 <text x="162.56" y="342.9" size="2.54" layer="91">ELL-i Expansion Connector Bottom</text>
-<text x="-198.12" y="109.22" size="1.27" layer="91">A diode here?</text>
 <text x="2.54" y="30.48" size="1.778" layer="91">In STM32F072 
 TQFP100, PF6 
 and PF7 pins 
@@ -4515,7 +4517,7 @@ VCCIO</text>
 <attribute name="NAME" x="-256.54" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-251.46" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="R33" gate="G$1" x="-246.38" y="104.14" rot="R90"/>
+<instance part="R33" gate="G$1" x="-203.2" y="104.14" rot="R90"/>
 <instance part="GNDI1" gate="G$1" x="-256.54" y="81.28"/>
 <instance part="J4" gate="G$1" x="-276.86" y="116.84" smashed="yes">
 <attribute name="VALUE" x="-281.94" y="127" size="1.778" layer="96"/>
@@ -4552,6 +4554,8 @@ VCCIO</text>
 <instance part="TP1" gate="TP$1" x="-88.9" y="45.72"/>
 <instance part="R10" gate="G$1" x="246.38" y="332.74"/>
 <instance part="R11" gate="G$1" x="187.96" y="104.14"/>
+<instance part="GNDI16" gate="G$1" x="-203.2" y="81.28"/>
+<instance part="R15" gate="G$1" x="-99.06" y="137.16" rot="R90"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -4602,19 +4606,9 @@ VCCIO</text>
 <wire x1="-111.76" y1="129.54" x2="-104.14" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="127" x2="-111.76" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="PWR" pin="VDDA"/>
-<wire x1="-99.06" y1="129.54" x2="-96.52" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="-99.06" y1="129.54" x2="-99.06" y2="132.08" width="0.1524" layer="91"/>
 <junction x="-99.06" y="129.54"/>
-<label x="-96.52" y="129.54" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="E" pin="AREF"/>
-<wire x1="53.34" y1="317.5" x2="50.8" y2="317.5" width="0.1524" layer="91"/>
-<label x="50.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="E" pin="AREF"/>
-<wire x1="180.34" y1="317.5" x2="177.8" y2="317.5" width="0.1524" layer="91"/>
-<label x="177.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PF0" class="0">
@@ -4923,15 +4917,15 @@ VCCIO</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
+<pinref part="GNDI16" gate="G$1" pin="GNDI"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="-203.2" y1="99.06" x2="-203.2" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
 <pinref part="GNDI1" gate="G$1" pin="GNDI"/>
 <pinref part="J4" gate="G$1" pin="GND"/>
 <wire x1="-269.24" y1="109.22" x2="-256.54" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-256.54" y1="109.22" x2="-256.54" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="-256.54" y1="96.52" x2="-256.54" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="99.06" x2="-246.38" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="96.52" x2="-256.54" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-256.54" y="96.52"/>
+<wire x1="-256.54" y1="109.22" x2="-256.54" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GNDI5" gate="G$1" pin="GNDI"/>
@@ -5112,12 +5106,12 @@ VCCIO</text>
 <label x="127" y="149.86" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO1"/>
+<pinref part="J2" gate="E" pin="TX1/IO1"/>
 <wire x1="88.9" y1="302.26" x2="106.68" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="302.26" x2="109.22" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO1"/>
+<pinref part="J3" gate="E" pin="TX1/IO1"/>
 <wire x1="215.9" y1="302.26" x2="243.84" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="302.26" x2="246.38" y2="299.72" width="0.1524" layer="91"/>
 </segment>
@@ -5135,12 +5129,12 @@ VCCIO</text>
 <label x="127" y="147.32" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO0"/>
+<pinref part="J2" gate="E" pin="RX1/IO0"/>
 <wire x1="88.9" y1="304.8" x2="106.68" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="304.8" x2="109.22" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO0"/>
+<pinref part="J3" gate="E" pin="RX1/IO0"/>
 <wire x1="215.9" y1="304.8" x2="243.84" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="304.8" x2="246.38" y2="302.26" width="0.1524" layer="91"/>
 </segment>
@@ -5703,12 +5697,12 @@ VCCIO</text>
 <label x="127" y="25.4" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E18"/>
+<pinref part="J2" gate="E" pin="RX2/E18"/>
 <wire x1="88.9" y1="269.24" x2="106.68" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="269.24" x2="109.22" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E18"/>
+<pinref part="J3" gate="E" pin="RX2/E18"/>
 <wire x1="215.9" y1="269.24" x2="243.84" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="269.24" x2="246.38" y2="266.7" width="0.1524" layer="91"/>
 </segment>
@@ -5721,12 +5715,12 @@ VCCIO</text>
 <label x="127" y="27.94" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E19"/>
+<pinref part="J2" gate="E" pin="TX2/E19"/>
 <wire x1="88.9" y1="271.78" x2="106.68" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="271.78" x2="109.22" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E19"/>
+<pinref part="J3" gate="E" pin="TX2/E19"/>
 <wire x1="215.9" y1="271.78" x2="243.84" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="271.78" x2="246.38" y2="269.24" width="0.1524" layer="91"/>
 </segment>
@@ -6088,18 +6082,28 @@ VCCIO</text>
 </net>
 <net name="BOOT0" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RSV2"/>
-<wire x1="88.9" y1="314.96" x2="99.06" y2="314.96" width="0.1524" layer="91"/>
-<label x="99.06" y="314.96" size="1.778" layer="95" xref="yes"/>
+<label x="91.44" y="279.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="J2" gate="E" pin="BOOT0"/>
+<wire x1="91.44" y1="279.4" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RSV2"/>
-<wire x1="215.9" y1="314.96" x2="236.22" y2="314.96" width="0.1524" layer="91"/>
-<label x="236.22" y="314.96" size="1.778" layer="95" xref="yes"/>
+<label x="218.44" y="279.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="J3" gate="E" pin="BOOT0"/>
+<wire x1="218.44" y1="279.4" x2="215.9" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-193.04" y1="106.68" x2="-193.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="-193.04" y="101.6" size="1.27" layer="95" xref="yes"/>
+<label x="-185.42" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="-203.2" y1="109.22" x2="-203.2" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="111.76" x2="-203.2" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="116.84" x2="-193.04" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U2" gate="CTL" pin="BOOT0"/>
+<wire x1="-187.96" y1="116.84" x2="-193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-203.2" y1="111.76" x2="-223.52" y2="111.76" width="0.1524" layer="91"/>
+<junction x="-203.2" y="111.76"/>
+<wire x1="-193.04" y1="111.76" x2="-193.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-193.04" y1="101.6" x2="-185.42" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-193.04" y="111.76"/>
 </segment>
 </net>
 <net name="NDSR1" class="0">
@@ -6116,59 +6120,11 @@ VCCIO</text>
 <label x="-256.54" y="114.3" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TX+" class="0">
-<segment>
-<pinref part="J2" gate="E" pin="TX+"/>
-<wire x1="88.9" y1="292.1" x2="91.44" y2="292.1" width="0.1524" layer="91"/>
-<label x="91.44" y="292.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="E" pin="TX+"/>
-<wire x1="215.9" y1="292.1" x2="218.44" y2="292.1" width="0.1524" layer="91"/>
-<label x="218.44" y="292.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TX-" class="0">
-<segment>
-<pinref part="J2" gate="E" pin="TX-"/>
-<wire x1="88.9" y1="289.56" x2="91.44" y2="289.56" width="0.1524" layer="91"/>
-<label x="91.44" y="289.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="E" pin="TX-"/>
-<wire x1="215.9" y1="289.56" x2="218.44" y2="289.56" width="0.1524" layer="91"/>
-<label x="218.44" y="289.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RX+" class="0">
-<segment>
-<pinref part="J2" gate="E" pin="RX+"/>
-<wire x1="88.9" y1="287.02" x2="91.44" y2="287.02" width="0.1524" layer="91"/>
-<label x="91.44" y="287.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="E" pin="RX+"/>
-<wire x1="215.9" y1="287.02" x2="218.44" y2="287.02" width="0.1524" layer="91"/>
-<label x="218.44" y="287.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RX-" class="0">
-<segment>
-<pinref part="J2" gate="E" pin="RX-"/>
-<wire x1="88.9" y1="284.48" x2="91.44" y2="284.48" width="0.1524" layer="91"/>
-<label x="91.44" y="284.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J3" gate="E" pin="RX-"/>
-<wire x1="215.9" y1="284.48" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
-<label x="218.44" y="284.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="J3" gate="E" pin="VBATT"/>
-<wire x1="215.9" y1="330.2" x2="231.14" y2="330.2" width="0.1524" layer="91"/>
-<label x="231.14" y="330.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="215.9" y1="330.2" x2="228.6" y2="330.2" width="0.1524" layer="91"/>
+<label x="228.6" y="330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="E" pin="VBATT"/>
@@ -6183,14 +6139,13 @@ VCCIO</text>
 </net>
 <net name="ETH_SS" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="ETH_SPI_SS"/>
-<wire x1="88.9" y1="279.4" x2="91.44" y2="279.4" width="0.1524" layer="91"/>
-<label x="91.44" y="279.4" size="1.778" layer="95" xref="yes"/>
+<label x="91.44" y="289.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="91.44" y1="289.56" x2="86.36" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="ETH_SPI_SS"/>
-<wire x1="215.9" y1="279.4" x2="218.44" y2="279.4" width="0.1524" layer="91"/>
-<label x="218.44" y="279.4" size="1.778" layer="95" xref="yes"/>
+<label x="218.44" y="289.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="E" pin="ETH_SS/TX-"/>
+<wire x1="218.44" y1="289.56" x2="215.9" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="PC" pin="PC13"/>
@@ -6238,19 +6193,13 @@ VCCIO</text>
 </net>
 <net name="BOOT0TX" class="0">
 <segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="-246.38" y1="109.22" x2="-246.38" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="TXD"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-269.24" y1="116.84" x2="-246.38" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="116.84" x2="-243.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="116.84" x2="-246.38" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-246.38" y="116.84"/>
-<junction x="-246.38" y="111.76"/>
-<pinref part="U2" gate="CTL" pin="BOOT0"/>
-<wire x1="-187.96" y1="116.84" x2="-193.04" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="116.84" x2="-193.04" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-193.04" y1="111.76" x2="-246.38" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="111.76" x2="-246.38" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6358,8 +6307,8 @@ VCCIO</text>
 <wire x1="220.98" y1="332.74" x2="215.9" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="332.74" x2="220.98" y2="337.82" width="0.1524" layer="91"/>
 <junction x="220.98" y="332.74"/>
-<wire x1="220.98" y1="337.82" x2="231.14" y2="337.82" width="0.1524" layer="91"/>
-<label x="231.14" y="337.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="220.98" y1="337.82" x2="228.6" y2="337.82" width="0.1524" layer="91"/>
+<label x="228.6" y="337.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DOUT" class="0">
@@ -6383,6 +6332,77 @@ VCCIO</text>
 <wire x1="220.98" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="AREF" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="AREF"/>
+<wire x1="53.34" y1="317.5" x2="50.8" y2="317.5" width="0.1524" layer="91"/>
+<label x="50.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="-99.06" y1="142.24" x2="-99.06" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="144.78" x2="-96.52" y2="144.78" width="0.1524" layer="91"/>
+<label x="-96.52" y="144.78" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="AREF"/>
+<wire x1="180.34" y1="317.5" x2="177.8" y2="317.5" width="0.1524" layer="91"/>
+<label x="177.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ETH_INT" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="ETH_INT/TX+"/>
+<wire x1="88.9" y1="292.1" x2="91.44" y2="292.1" width="0.1524" layer="91"/>
+<label x="91.44" y="292.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="PA" pin="PA1-ADC_IN1"/>
+<wire x1="73.66" y1="170.18" x2="76.2" y2="170.18" width="0.1524" layer="91"/>
+<label x="76.2" y="170.18" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="ETH_INT/TX+"/>
+<wire x1="215.9" y1="292.1" x2="218.44" y2="292.1" width="0.1524" layer="91"/>
+<label x="218.44" y="292.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RSV2" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="RSV2"/>
+<wire x1="88.9" y1="314.96" x2="91.44" y2="314.96" width="0.1524" layer="91"/>
+<label x="91.44" y="314.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="RSV2"/>
+<wire x1="215.9" y1="314.96" x2="218.44" y2="314.96" width="0.1524" layer="91"/>
+<label x="218.44" y="314.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ETH_RX-" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="RX-"/>
+<wire x1="88.9" y1="284.48" x2="91.44" y2="284.48" width="0.1524" layer="91"/>
+<label x="91.44" y="284.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="RX-"/>
+<wire x1="215.9" y1="284.48" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
+<label x="218.44" y="284.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ETH_RX+" class="0">
+<segment>
+<pinref part="J2" gate="E" pin="RX+"/>
+<wire x1="88.9" y1="287.02" x2="91.44" y2="287.02" width="0.1524" layer="91"/>
+<label x="91.44" y="287.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="E" pin="RX+"/>
+<wire x1="215.9" y1="287.02" x2="218.44" y2="287.02" width="0.1524" layer="91"/>
+<label x="218.44" y="287.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
