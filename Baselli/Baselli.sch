@@ -4036,7 +4036,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R12" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
 <part name="R13" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
 <part name="R14" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
-<part name="D1" library="SparkFun-LED" deviceset="WS2812B" device=""/>
+<part name="D1" library="SparkFun-LED" deviceset="WS2812B" device="" value="WS2182B"/>
 <part name="GNDI15" library="supply1" deviceset="GNDI" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="TP1" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000"/>
@@ -5756,7 +5756,8 @@ VCCIO</text>
 <net name="ETH_SS" class="0">
 <segment>
 <label x="91.44" y="289.56" size="1.27" layer="95" xref="yes"/>
-<wire x1="91.44" y1="289.56" x2="86.36" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="289.56" x2="88.9" y2="289.56" width="0.1524" layer="91"/>
+<pinref part="J2" gate="E" pin="ETH_SS/TX-"/>
 </segment>
 <segment>
 <label x="218.44" y="289.56" size="1.27" layer="95" xref="yes"/>
@@ -5818,7 +5819,7 @@ VCCIO</text>
 <wire x1="-231.14" y1="111.76" x2="-246.38" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="JTAGENB$3" class="0">
 <segment>
 <pinref part="J5" gate="A" pin="3"/>
 <wire x1="259.08" y1="73.66" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
@@ -5855,15 +5856,12 @@ VCCIO</text>
 <segment>
 <wire x1="114.3" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="PDF" pin="PF7"/>
-<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="60.96" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <junction x="68.58" y="66.04"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="25.4" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="1">
@@ -5951,11 +5949,6 @@ VCCIO</text>
 </segment>
 </net>
 <net name="AREF" class="0">
-<segment>
-<pinref part="J2" gate="E" pin="AREF"/>
-<wire x1="53.34" y1="317.5" x2="50.8" y2="317.5" width="0.1524" layer="91"/>
-<label x="50.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="-99.06" y1="142.24" x2="-99.06" y2="144.78" width="0.1524" layer="91"/>
