@@ -2789,22 +2789,22 @@ As defined for the Revistion 2 Pi.</description>
 &lt;ul&gt;
    &lt;li&gt;&lt;a href="http://www.coilcraft.com/eth1-230.cfm"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="P$1" x="-6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$2" x="-3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$3" x="-1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$4" x="1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$5" x="3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$6" x="6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
-<smd name="P$7" x="8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$8" x="8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$9" x="6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$10" x="3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$11" x="1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$12" x="-1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$13" x="-3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$14" x="-6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
-<smd name="P$15" x="-8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
-<smd name="P$16" x="-8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="1" x="-6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="2" x="-3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="4" x="1.27" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="5" x="3.81" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="6" x="6.35" y="8.001" dx="1.27" dy="2.032" layer="1"/>
+<smd name="7" x="8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="8" x="8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="9" x="6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="10" x="3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="11" x="1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="12" x="-1.27" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="13" x="-3.81" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="14" x="-6.35" y="-8.001" dx="1.27" dy="2.032" layer="1" rot="R180"/>
+<smd name="15" x="-8.128" y="-3.81" dx="1.27" dy="2.032" layer="1" rot="R90"/>
+<smd name="16" x="-8.128" y="-1.27" dx="1.27" dy="2.032" layer="1" rot="R90"/>
 <wire x1="8.255" y1="8.255" x2="8.255" y2="0" width="0.127" layer="21"/>
 <wire x1="8.255" y1="-8.255" x2="8.255" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-8.255" y1="-8.255" x2="-8.255" y2="-5.08" width="0.127" layer="21"/>
@@ -3077,18 +3077,18 @@ As defined for the Revistion 2 Pi.</description>
 <devices>
 <device name="-230NL" package="COILCRAFT-ETH1-230L">
 <connects>
-<connect gate="G$1" pin="RCT" pad="P$3"/>
-<connect gate="G$1" pin="RD+" pad="P$2"/>
-<connect gate="G$1" pin="RD-" pad="P$1"/>
-<connect gate="G$1" pin="RX+" pad="P$13"/>
-<connect gate="G$1" pin="RX-" pad="P$14"/>
-<connect gate="G$1" pin="RXCT" pad="P$12"/>
-<connect gate="G$1" pin="TCT" pad="P$4"/>
-<connect gate="G$1" pin="TD+" pad="P$6"/>
-<connect gate="G$1" pin="TD-" pad="P$5"/>
-<connect gate="G$1" pin="TX+" pad="P$9"/>
-<connect gate="G$1" pin="TX-" pad="P$10"/>
-<connect gate="G$1" pin="TXCT" pad="P$11"/>
+<connect gate="G$1" pin="RCT" pad="3"/>
+<connect gate="G$1" pin="RD+" pad="2"/>
+<connect gate="G$1" pin="RD-" pad="1"/>
+<connect gate="G$1" pin="RX+" pad="13"/>
+<connect gate="G$1" pin="RX-" pad="14"/>
+<connect gate="G$1" pin="RXCT" pad="12"/>
+<connect gate="G$1" pin="TCT" pad="4"/>
+<connect gate="G$1" pin="TD+" pad="6"/>
+<connect gate="G$1" pin="TD-" pad="5"/>
+<connect gate="G$1" pin="TX+" pad="9"/>
+<connect gate="G$1" pin="TX-" pad="10"/>
+<connect gate="G$1" pin="TXCT" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3501,29 +3501,29 @@ Not reviewed
 &lt;p&gt;
 &lt;a href="http://grabcad.com/library/soic-package-narrow-8-10-14-and-16-pins-1"&gt;Possible step model&lt;/a&gt;
 &lt;/p&gt;</description>
-<wire x1="-5" y1="2" x2="5" y2="2" width="0.127" layer="21"/>
-<wire x1="5" y1="2" x2="5" y2="-2" width="0.127" layer="21"/>
-<wire x1="5" y1="-2" x2="-5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.127" layer="21"/>
+<wire x1="-5" y1="1.75" x2="5" y2="1.75" width="0.127" layer="21"/>
+<wire x1="5" y1="1.75" x2="5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.75" x2="-5" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.75" x2="-5" y2="1.75" width="0.127" layer="21"/>
 <circle x="-4" y="-1" radius="0.5" width="0.127" layer="21"/>
-<smd name="P$4" x="-0.65" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.95" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$2" x="-3.25" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$1" x="-4.55" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$5" x="0.65" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$7" x="3.25" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$8" x="4.55" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$9" x="4.55" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$10" x="3.25" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$11" x="1.95" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$12" x="0.65" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$13" x="-0.65" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$14" x="-1.95" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$15" x="-3.25" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$16" x="-4.55" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
-<smd name="P$6" x="1.95" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="4" x="-0.65" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="3" x="-1.95" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="2" x="-3.25" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="1" x="-4.55" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="5" x="0.65" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="7" x="3.25" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="8" x="4.55" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="9" x="4.55" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="10" x="3.25" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="11" x="1.95" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="12" x="0.65" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="13" x="-0.65" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="14" x="-1.95" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="15" x="-3.25" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="16" x="-4.55" y="2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
+<smd name="6" x="1.95" y="-2.8" dx="1.75" dy="0.65" layer="1" rot="R90"/>
 <text x="-3" y="0" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3" y="-1.5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3682,10 +3682,12 @@ Not reviewed
 <pin name="!EN" x="15.24" y="-17.78" length="middle" direction="in" rot="R180"/>
 <pin name="GND" x="0" y="-27.94" length="middle" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="20.32" length="middle" direction="pwr" rot="R270"/>
-<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="2.54" y="19.05" size="1.778" layer="94">&gt;NAME</text>
+<text x="2.54" y="-27.94" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3785,22 +3787,22 @@ Quad 2:1 Multiplexer / Demultiplexer Bus Switch
 <devices>
 <device name="" package="SOIC-16-NARROW">
 <connects>
-<connect gate="G$1" pin="!EN" pad="P$15"/>
-<connect gate="G$1" pin="1A" pad="P$4"/>
-<connect gate="G$1" pin="1A0" pad="P$2"/>
-<connect gate="G$1" pin="1A1" pad="P$3"/>
-<connect gate="G$1" pin="2B" pad="P$7"/>
-<connect gate="G$1" pin="2B0" pad="P$5"/>
-<connect gate="G$1" pin="2B1" pad="P$6"/>
-<connect gate="G$1" pin="3C" pad="P$9"/>
-<connect gate="G$1" pin="3C0" pad="P$11"/>
-<connect gate="G$1" pin="3C1" pad="P$10"/>
-<connect gate="G$1" pin="4D" pad="P$12"/>
-<connect gate="G$1" pin="4D0" pad="P$14"/>
-<connect gate="G$1" pin="4D1" pad="P$13"/>
-<connect gate="G$1" pin="GND" pad="P$8"/>
-<connect gate="G$1" pin="S" pad="P$1"/>
-<connect gate="G$1" pin="VCC" pad="P$16"/>
+<connect gate="G$1" pin="!EN" pad="15"/>
+<connect gate="G$1" pin="1A" pad="4"/>
+<connect gate="G$1" pin="1A0" pad="2"/>
+<connect gate="G$1" pin="1A1" pad="3"/>
+<connect gate="G$1" pin="2B" pad="7"/>
+<connect gate="G$1" pin="2B0" pad="5"/>
+<connect gate="G$1" pin="2B1" pad="6"/>
+<connect gate="G$1" pin="3C" pad="9"/>
+<connect gate="G$1" pin="3C0" pad="11"/>
+<connect gate="G$1" pin="3C1" pad="10"/>
+<connect gate="G$1" pin="4D" pad="12"/>
+<connect gate="G$1" pin="4D0" pad="14"/>
+<connect gate="G$1" pin="4D1" pad="13"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5413,7 +5415,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U$1" library="ELL-i-PowerIC" deviceset="TPS2378" device=""/>
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP" device="-RJ45-MOLEX"/>
-<part name="T1" library="ELL-i-Transformers" deviceset="POE-ISOLATION" device="-230NL"/>
+<part name="T1" library="ELL-i-Transformers" deviceset="POE-ISOLATION" device="-230NL" value="Coilcraft 230NL"/>
 <part name="SV1" library="SparkFun-Boards" deviceset="RASPBERRYPI-GPIO" device="PTH"/>
 <part name="C1" library="ELL-i-Passives" deviceset="C" device="0805" value="1nF"/>
 <part name="L1" library="ELL-i-Passives" deviceset="FB" device=""/>
@@ -5562,7 +5564,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND26" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND27" library="supply1" deviceset="GNDA" device=""/>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="R15" library="ELL-i-Passives" deviceset="R" device="0805" value="47k"/>
@@ -5583,6 +5584,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="233.68" y="228.6" size="1.778" layer="91">WRONG FOOTPRINT FOR Y1</text>
 <text x="322.58" y="73.66" size="1.778" layer="91">Add ground</text>
 <text x="327.66" y="78.74" size="1.778" layer="91" rot="R90">Add 5V1 zen</text>
+<text x="347.98" y="261.62" size="1.778" layer="97" align="center">RasPi 3.3V 
+must float </text>
+<text x="294.64" y="243.84" size="1.778" layer="97" align="center">How about 
+VCC(IO)? 
+Set by MCU?</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="185.42" y="58.42"/>
@@ -5736,7 +5742,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND25" gate="1" x="355.6" y="287.02"/>
 <instance part="GND26" gate="1" x="302.26" y="177.8"/>
 <instance part="GND27" gate="1" x="299.72" y="218.44"/>
-<instance part="+3V5" gate="G$1" x="350.52" y="266.7"/>
 <instance part="+3V6" gate="G$1" x="299.72" y="238.76"/>
 <instance part="+3V7" gate="G$1" x="287.02" y="185.42"/>
 <instance part="R15" gate="G$1" x="287.02" y="208.28" rot="R90"/>
@@ -7132,16 +7137,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-48.26" y1="271.78" x2="-48.26" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="JP1" pin="3.3V@17"/>
-<wire x1="337.82" y1="261.62" x2="350.52" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="350.52" y1="261.62" x2="350.52" y2="264.16" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="JP1" pin="3.3V@1"/>
-<wire x1="337.82" y1="259.08" x2="350.52" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="259.08" x2="350.52" y2="261.62" width="0.1524" layer="91"/>
-<junction x="350.52" y="261.62"/>
-</segment>
-<segment>
 <pinref part="J1" gate="E" pin="3.3V@6"/>
 <wire x1="304.8" y1="233.68" x2="299.72" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
@@ -7361,4 +7356,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
