@@ -63,22 +63,26 @@ D10     D7     SMB
 D9      D8     SMB
 D8      D9     SMB
 
-MANUALLY NEXT:
+MANUALLY DONE:
 
-FB3     FB1    0402
-L1      FB2    1206    !!!!!!!!!!!!!!!!
-L2      FB3    1206    !!!!!!!!!!!!!!!!
-FB1     FB4    1206
-FB2     FB5    1206
+FB1     FB1    0402
+FB2     FB2    1206
+FB3     FB3    1206
+FB4     FB4    1206
+FB5     FB5    1206
+
+NOT TO BE CHANGED:
 
 X1      J1     RJ-45
 J1      J2     4-PIN
 -       J3     Conn Power w scr
 JP1     J4     Conn Power w scr
 
-Q2      Q1     SC70-3
-Q1      Q2     SOT-23
-U$3     Q3     VDFN-8  !!!!!!!!!!!!!!!
+MANUALLY DONE:
+
+Q1      Q1     SC70-3
+Q2      Q2     SOT-23
+Q3      Q3     VDFN-8
 -       Q4     SOT-223
 
 AUTOMATICALLY:
@@ -121,10 +125,12 @@ R19     R7     0402
 R30     R8     0402
 R29     R9     0402
 
-MANUALLY:
+MANUALLY DONE:
 
 T1      T1     ETH1
-U$7     T2     EP13   !!!!!!!!!!!!!!!!!!!!
+T2      T2     EP13
+
+NOT TO BE CHANGED:
 
 TP1    MUX
 TP10   SGND
@@ -137,11 +143,13 @@ TP7    3V3
 TP8    5V0
 TP9    GND
 
-U$4    U1     QFN-44   !!!!!!!!!!!!!!!!!!!!
-U3     U2     SOT-223
-U1     U3     TSSOP-16
-U$2    U4     MSOP-16  !!!!!!!!!!!!!!!!!!!!
-U$1    U5     SO-8
+MANUALLY DONE:
+
+U1     U1     QFN-44
+U2     U2     SOT-223
+U3     U3     TSSOP-16
+U4     U4     MSOP-16
+U5     U5     SO-8
 
 Y1     3225
 
