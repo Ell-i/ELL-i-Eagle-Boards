@@ -178,17 +178,6 @@
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BAS70" prefix="D">
@@ -212,22 +201,6 @@ General-purpose diode for high-speed switching</description>
 <connects>
 <connect gate="1" pin="A" pad="1"/>
 <connect gate="1" pin="C" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BAV20WS">
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD323">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2441,6 +2414,20 @@ Not reviewed
 <text x="-0.7" y="-0.2" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-0.8" y="1.55" size="0.3048" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOD323">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -2519,6 +2506,17 @@ Not reviewed
 <vertex x="0.762" y="-0.762"/>
 <vertex x="2.032" y="-0.762"/>
 </polygon>
+</symbol>
+<symbol name="D">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2614,6 +2612,34 @@ Rds(on) &amp;lt; 5R @ Vgs 2.7 V.
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV20WS" prefix="D">
+<description>&lt;h3&gt;Small Signal Switching Diodes, High Voltage&lt;/h3&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;Diodes &lt;a href="http://www.diodes.com/datasheets/ds30119.pdf"&gt;datasheet&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;Vishay &lt;a href="http://www.vishay.com/docs/85726/bav19ws.pdf"&gt;datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="-7-F"/>
+<technology name="-E3-08"/>
+<technology name="-E3-18"/>
+<technology name="-HE3-08"/>
+<technology name="-HE3-18"/>
+<technology name="Q-7-F"/>
 </technologies>
 </device>
 </devices>
@@ -5505,7 +5531,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0805" value="4u7"/>
 <part name="GND5" library="ell-i" deviceset="GND" device=""/>
 <part name="R13" library="ELL-i-Passives" deviceset="R" device="0402" value="6k04"/>
-<part name="U$5" library="TPS2378" deviceset="BAV20WS" device=""/>
+<part name="D15" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R14" library="ELL-i-Passives" deviceset="R" device="0805" value="2k"/>
 <part name="C9" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF"/>
 <part name="U3" library="ell-i" deviceset="NCP1117" device=""/>
@@ -5685,7 +5711,7 @@ left open</text>
 <instance part="C8" gate="G$1" x="261.62" y="78.74" rot="R90"/>
 <instance part="GND5" gate="1" x="269.24" y="76.2"/>
 <instance part="R13" gate="G$1" x="248.92" y="33.02" rot="R90"/>
-<instance part="U$5" gate="G$1" x="274.32" y="96.52" rot="R180"/>
+<instance part="D15" gate="G$1" x="274.32" y="96.52" rot="R180"/>
 <instance part="R14" gate="G$1" x="251.46" y="96.52" rot="R180"/>
 <instance part="C9" gate="G$1" x="251.46" y="104.14" rot="R90"/>
 <instance part="U3" gate="G$1" x="365.76" y="93.98"/>
@@ -6126,7 +6152,7 @@ left open</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <junction x="279.4" y="68.58"/>
-<pinref part="U$5" gate="G$1" pin="A"/>
+<pinref part="D15" gate="G$1" pin="A"/>
 <wire x1="276.86" y1="96.52" x2="279.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="279.4" y="96.52"/>
 <pinref part="U$7" gate="G$1" pin="PRI+"/>
@@ -6162,7 +6188,7 @@ left open</text>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="104.14" x2="256.54" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
+<pinref part="D15" gate="G$1" pin="C"/>
 <wire x1="271.78" y1="96.52" x2="264.16" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="104.14" x2="264.16" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>

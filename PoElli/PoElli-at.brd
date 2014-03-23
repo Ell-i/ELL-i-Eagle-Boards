@@ -1102,6 +1102,20 @@ Not reviewed
 <text x="-0.7" y="-0.2" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-0.8" y="1.55" size="0.3048" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOD323">
+<description>&lt;b&gt;Small Outline Diode&lt;/b&gt;</description>
+<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
+<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
+<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="TPS2378">
@@ -1874,7 +1888,7 @@ design rules under a new name.</description>
 <element name="R12" library="ELL-i-Passives" package="R0402" value="115k" x="52.07" y="76.2"/>
 <element name="C8" library="ELL-i-Passives" package="C0805" value="4u7" x="60.96" y="63.5"/>
 <element name="R13" library="ELL-i-Passives" package="R0402" value="6k04" x="49.53" y="76.2"/>
-<element name="U$5" library="TPS2378" package="SOD323" value="BAV20WS" x="38.1" y="53.34"/>
+<element name="D15" library="ELL-i-DIscreteSemi" package="SOD323" value="BAV20WS" x="38.1" y="53.34"/>
 <element name="R14" library="ELL-i-Passives" package="R0805" value="2k" x="95.25" y="68.58"/>
 <element name="C9" library="ELL-i-Passives" package="C0805" value="100nF" x="95.25" y="58.42"/>
 <element name="U3" library="ell-i" package="SOT223" value="NCP1117" x="68.58" y="15.24"/>
@@ -2176,7 +2190,7 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="8"/>
 <contactref element="U$3" pad="F1"/>
 <contactref element="R12" pad="1"/>
-<contactref element="U$5" pad="1"/>
+<contactref element="D15" pad="1"/>
 <contactref element="U$7" pad="5"/>
 <wire x1="37" y1="53.34" x2="4.52" y2="16.39" width="0" layer="19" extent="1-1"/>
 <wire x1="57.445" y1="54.74" x2="37" y2="53.34" width="0" layer="19" extent="1-1"/>
@@ -2205,7 +2219,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$33">
 <contactref element="C9" pad="2"/>
-<contactref element="U$5" pad="2"/>
+<contactref element="D15" pad="2"/>
 <contactref element="R14" pad="1"/>
 <wire x1="96.2" y1="58.42" x2="94.3" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="39.2" y1="53.34" x2="94.3" y2="68.58" width="0" layer="19" extent="1-1"/>
