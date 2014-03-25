@@ -5772,7 +5772,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="R38" library="ELL-i-Passives" deviceset="R" device="0603" value="0R"/>
+<part name="R38" library="ELL-i-Passives" deviceset="R" device="0603" value="0R NP"/>
 <part name="R25" library="ELL-i-Passives" deviceset="R" device="0603" value="100K"/>
 <part name="D11" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
 <part name="D13" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="SMB" value="TBD 18V"/>
@@ -5806,6 +5806,7 @@ left open</text>
 alternative to R25, D11 and D13.
 To be tested.</text>
 <text x="0" y="-15.24" size="1.778" layer="91">Add N-FET!</text>
+<text x="53.34" y="109.22" size="1.778" layer="97">1500V</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="50.8"/>
@@ -5876,12 +5877,12 @@ To be tested.</text>
 <instance part="GND15" gate="1" x="241.3" y="210.82"/>
 <instance part="GND16" gate="1" x="256.54" y="210.82"/>
 <instance part="R21" gate="G$1" x="-167.64" y="175.26" rot="R90"/>
-<instance part="R20" gate="G$1" x="-149.86" y="175.26" rot="R90"/>
-<instance part="R19" gate="G$1" x="-134.62" y="175.26" rot="R90"/>
+<instance part="R20" gate="G$1" x="-147.32" y="175.26" rot="R90"/>
+<instance part="R19" gate="G$1" x="-137.16" y="175.26" rot="R90"/>
 <instance part="R18" gate="G$1" x="-116.84" y="175.26" rot="R90"/>
 <instance part="C27" gate="G$1" x="-167.64" y="190.5"/>
-<instance part="C26" gate="G$1" x="-149.86" y="190.5"/>
-<instance part="C25" gate="G$1" x="-134.62" y="190.5"/>
+<instance part="C26" gate="G$1" x="-147.32" y="190.5" rot="MR0"/>
+<instance part="C25" gate="G$1" x="-137.16" y="190.5"/>
 <instance part="C24" gate="G$1" x="-116.84" y="190.5"/>
 <instance part="C31" gate="G$1" x="-142.24" y="157.48"/>
 <instance part="SUPPLY1" gate="G$1" x="-142.24" y="142.24"/>
@@ -5982,7 +5983,7 @@ To be tested.</text>
 <instance part="C33" gate="G$1" x="55.88" y="60.96"/>
 <instance part="R27" gate="G$1" x="55.88" y="45.72" rot="R270"/>
 <instance part="GND29" gate="1" x="55.88" y="33.02"/>
-<instance part="C28" gate="G$1" x="55.88" y="114.3" rot="R90"/>
+<instance part="C28" gate="G$1" x="54.356" y="114.3" rot="R90"/>
 <instance part="GND30" gate="1" x="71.12" y="109.22"/>
 <instance part="GND31" gate="1" x="43.18" y="109.22"/>
 </instances>
@@ -6041,12 +6042,13 @@ To be tested.</text>
 <pinref part="X1" gate="G$1" pin="POE-@7"/>
 <wire x1="-162.56" y1="259.08" x2="-147.32" y2="259.08" width="0.1524" layer="91"/>
 <junction x="-147.32" y="259.08"/>
-<wire x1="-147.32" y1="259.08" x2="-147.32" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="200.66" x2="-149.86" y2="200.66" width="0.1524" layer="91"/>
-<label x="-152.4" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-149.86" y1="200.66" x2="-152.4" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="193.04" x2="-149.86" y2="200.66" width="0.1524" layer="91"/>
-<junction x="-149.86" y="200.66"/>
+<wire x1="-147.32" y1="259.08" x2="-147.32" y2="205.74" width="0.1524" layer="91"/>
+<label x="-162.56" y="200.66" size="1.778" layer="95" xref="yes"/>
+<wire x1="-147.32" y1="193.04" x2="-147.32" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="200.66" x2="-165.1" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="200.66" x2="-165.1" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="205.74" x2="-147.32" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-147.32" y="205.74"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6434,16 +6436,16 @@ To be tested.</text>
 <junction x="-175.26" y="66.04"/>
 </segment>
 <segment>
-<wire x1="-134.62" y1="213.36" x2="-134.62" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="208.28" x2="-132.08" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="215.9" x2="-134.62" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="210.82" x2="-132.08" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="TXCT"/>
 <wire x1="-132.08" y1="238.76" x2="-134.62" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="238.76" x2="-134.62" y2="213.36" width="0.1524" layer="91"/>
-<junction x="-134.62" y="213.36"/>
-<wire x1="-116.84" y1="213.36" x2="-134.62" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="238.76" x2="-134.62" y2="215.9" width="0.1524" layer="91"/>
+<junction x="-134.62" y="215.9"/>
+<wire x1="-116.84" y1="215.9" x2="-134.62" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="193.04" x2="-116.84" y2="213.36" width="0.1524" layer="91"/>
-<label x="-132.08" y="208.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="-116.84" y1="193.04" x2="-116.84" y2="215.9" width="0.1524" layer="91"/>
+<label x="-132.08" y="210.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="POE_A-" class="0">
@@ -6457,15 +6459,14 @@ To be tested.</text>
 <label x="-180.34" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-137.16" y1="200.66" x2="-134.62" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="RXCT"/>
-<wire x1="-134.62" y1="200.66" x2="-132.08" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="200.66" x2="-132.08" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-132.08" y1="259.08" x2="-137.16" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="259.08" x2="-137.16" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <label x="-132.08" y="200.66" size="1.778" layer="95" xref="yes"/>
-<wire x1="-134.62" y1="193.04" x2="-134.62" y2="200.66" width="0.1524" layer="91"/>
-<junction x="-134.62" y="200.66"/>
+<wire x1="-137.16" y1="193.04" x2="-137.16" y2="200.66" width="0.1524" layer="91"/>
+<junction x="-137.16" y="200.66"/>
 </segment>
 </net>
 <net name="POE_B+" class="0">
@@ -6486,13 +6487,13 @@ To be tested.</text>
 <wire x1="-149.86" y1="251.46" x2="-149.86" y2="254" width="0.1524" layer="91"/>
 <junction x="-149.86" y="251.46"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="-167.64" y1="193.04" x2="-167.64" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="213.36" x2="-149.86" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="213.36" x2="-149.86" y2="251.46" width="0.1524" layer="91"/>
-<label x="-152.4" y="208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-149.86" y1="213.36" x2="-149.86" y2="208.28" width="0.1524" layer="91"/>
-<junction x="-149.86" y="213.36"/>
-<wire x1="-149.86" y1="208.28" x2="-152.4" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="193.04" x2="-167.64" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="210.82" x2="-167.64" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="215.9" x2="-149.86" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="215.9" x2="-149.86" y2="251.46" width="0.1524" layer="91"/>
+<label x="-162.56" y="210.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="-162.56" y1="210.82" x2="-167.64" y2="210.82" width="0.1524" layer="91"/>
+<junction x="-167.64" y="210.82"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -6861,7 +6862,7 @@ To be tested.</text>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="GND30" gate="1" pin="GNDA"/>
-<wire x1="60.96" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="59.436" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="114.3" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6973,14 +6974,14 @@ To be tested.</text>
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="-134.62" y1="180.34" x2="-134.62" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="180.34" x2="-137.16" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="-149.86" y1="185.42" x2="-149.86" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="185.42" x2="-147.32" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -7652,19 +7653,19 @@ To be tested.</text>
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="-134.62" y1="170.18" x2="-134.62" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="170.18" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="-167.64" y1="170.18" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="167.64" x2="-149.86" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-149.86" y="167.64"/>
-<wire x1="-149.86" y1="167.64" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="167.64" x2="-134.62" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="170.18" x2="-149.86" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-147.32" y="167.64"/>
+<wire x1="-147.32" y1="167.64" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="170.18" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="167.64" x2="-116.84" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="167.64" x2="-116.84" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-134.62" y="167.64"/>
+<wire x1="-137.16" y1="167.64" x2="-116.84" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-137.16" y="167.64"/>
 <wire x1="-142.24" y1="160.02" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-142.24" y="167.64"/>
 </segment>
@@ -7752,7 +7753,7 @@ To be tested.</text>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
 <pinref part="GND31" gate="1" pin="GND"/>
-<wire x1="53.34" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="51.816" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="114.3" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
