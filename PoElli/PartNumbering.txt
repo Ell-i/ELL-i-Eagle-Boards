@@ -1,0 +1,155 @@
+PoElli  Timo   Package
+
+C18     C1     0402
+C11     C10    0402
+C28     C11    0402
+C30     C12    0402
+C15     C13    0603
+C37     C14    0402
+C29     C15    0402
+C16     C16    CASE-A
+C39     C17    0402
+C17     C18    0402
+C12     C19    0402
+C19     C2     0402
+C13     C20    0402
+C9      C21    0805
+C38     C22    0603
+C10     C23    CASE-A
+C23     C24    0603
+C22     C25    0603
+C21     C26    0603
+C20     C27    0603
+-       C28    2220
+C7      C29    0805
+C14     C3     0402
+C8      C30    0805
+C24     C31    1210
+C3      C32    CASE-A
+-       C33    0805
+C1      C34    0603
+C2      C35    0805
+-       C36    0402
+C4      C37    0402
+C6      C38    0402
+C5      C39    0402
+C31     C4     0402
+C25     C40    0603
+C26     C41    0805
+C27     C42    0603
+C32     C5     0402
+C33     C6     0402
+C34     C7     0402
+C35     C8     0402
+C36     C9     0402
+
+D12     D1     0603
+D7      D10    SMB
+-       D11    SOD-123
+D1      D12    SMA
+-       D13    SOD-123
+D6      D14    SMB
+D5      D15    SMB
+D4      D16    SMB
+D3      D17    SMB
+D13     D18    SMB
+-       D19    SMB
+D11     D2     0603
+D15     D3     SOD-323
+D14     D4     SMA
+-       D5     SOD-123
+D2      D6     SOD-123
+D10     D7     SMB
+D9      D8     SMB
+D8      D9     SMB
+
+MANUALLY DONE:
+
+FB1     FB1    0402
+FB2     FB2    1206
+FB3     FB3    1206
+FB4     FB4    1206
+FB5     FB5    1206
+
+NOT TO BE CHANGED:
+
+X1      J1     RJ-45
+J1      J2     4-PIN
+-       J3     Conn Power w scr
+JP1     J4     Conn Power w scr
+
+MANUALLY DONE:
+
+Q1      Q1     SC70-3
+Q2      Q2     SOT-23
+Q3      Q3     VDFN-8
+-       Q4     SOT-223
+
+AUTOMATICALLY:
+
+R15     NEW
+R28     R1     0402
+R2      R10    0402
+R18     R11    0402
+R32     R12    0402
+R31     R13    0402
+R33     R14    0402
+R34     R15    0603
+R14     R16    1206
+R$      R17    0402
+R25     R18    0603
+R24     R19    0603
+R20     R2     0402
+R23     R20    0603
+R22     R21    0603
+R5      R22    0603
+R3      R23    0603
+R12     R24    0603
+-       R25    0603
+R6      R26    0603
+-       R27    0805
+R9      R28    0603
+R4      R29    0805
+R17     R3     0402
+R10     R30    0603
+R7      R31    0603
+R11     R32    0805
+R8      R33    0603
+R13     R34    0603
+R26     R35    0603
+R27     R36    0603
+R1      R5     0603
+R16     R4     0402
+R21     R6     0402
+R19     R7     0402
+R30     R8     0402
+R29     R9     0402
+
+MANUALLY DONE:
+
+T1      T1     ETH1
+T2      T2     EP13
+
+NOT TO BE CHANGED:
+
+TP1    MUX
+TP10   SGND
+TP2    nSS
+TP3    SCK
+TP4    MOSI
+TP5    MISO
+TP6    nINT
+TP7    3V3
+TP8    5V0
+TP9    GND
+
+MANUALLY DONE:
+
+U1     U1     QFN-44
+U2     U2     SOT-223
+U3     U3     TSSOP-16
+U4     U4     MSOP-16
+U5     U5     SO-8
+
+Y1     3225
+
