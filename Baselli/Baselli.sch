@@ -1617,6 +1617,98 @@
 <text x="3.175" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
 <circle x="0" y="0" radius="2.7" width="0.127" layer="21"/>
 </package>
+<package name="MOLEX-43860-0001">
+<description>&lt;h3&gt;Molex RJ45 Modular Jack, Right Angle, Low Profile, Inverted, 8P8C&lt;/h3&gt; 
+
+&lt;p&gt;Molex 43860-0001&lt;p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.molex.com/molex/products/datasheet.jsp?part=active/0438600001_MODULAR_JACKS_PLUG.xml"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-7.742" y1="-5.001" x2="-7.742" y2="9.907" width="0.2032" layer="51"/>
+<wire x1="-7.742" y1="9.907" x2="7.742" y2="9.907" width="0.2032" layer="51"/>
+<wire x1="7.742" y1="9.907" x2="7.742" y2="-5.001" width="0.2032" layer="51"/>
+<wire x1="7.742" y1="-5.001" x2="-7.742" y2="-5.001" width="0.2032" layer="51"/>
+<pad name="1" x="3.556" y="2.54" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="2" x="2.54" y="4.318" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="3" x="1.524" y="2.54" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="4" x="0.508" y="4.318" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="5" x="-0.508" y="2.54" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="6" x="-1.524" y="4.318" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="7" x="-2.54" y="2.54" drill="0.889" diameter="1.4224" rot="R180"/>
+<pad name="8" x="-3.556" y="4.318" drill="0.889" diameter="1.4224" rot="R180"/>
+<text x="-7.366" y="10.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.366" y="8.128" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="6.35" y="0" drill="3.2512"/>
+<hole x="-6.35" y="0" drill="3.2512"/>
+<wire x1="-3.556" y1="-4.826" x2="-3.556" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="-2.54" y1="-4.826" x2="-2.54" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="-1.524" y1="-4.826" x2="-1.524" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="-0.508" y1="-4.826" x2="-0.508" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="0.508" y1="-4.826" x2="0.508" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="1.524" y1="-4.826" x2="1.524" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="2.54" y1="-4.826" x2="2.54" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="3.556" y1="-4.826" x2="3.556" y2="-3.302" width="0.4064" layer="51"/>
+<wire x1="-5.334" y1="-4.826" x2="-5.334" y2="6.858" width="0.127" layer="51"/>
+<wire x1="-5.334" y1="6.858" x2="5.334" y2="6.858" width="0.127" layer="51"/>
+<wire x1="5.334" y1="6.858" x2="5.334" y2="-4.826" width="0.127" layer="51"/>
+</package>
+<package name="4UCON-04892">
+<description>&lt;h3&gt;SparkFun RJ45 8-pin connector&lt;/h3&gt;
+
+&lt;p&gt;Chinese &lt;a href="http://www.4uconnector.com/online/SearchPro.asp?FormName=ProSearch&amp;FormAction=search&amp;s_GroupNo=08&amp;s_keyword=04892"&gt;4UCON&lt;/a&gt; modular jack 04892, very low profile (11.65mm).  8P8C, black insulator without panel.  Stop split feet.  Gold plated 6U.&lt;/p&gt;
+
+&lt;p&gt;Footprint Copyright (c) SparkFun under Creative Commons Share Alike License.  Not proven in production, see the discussion at the SparkFun site.&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/643"&gt;SparkFun connector&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/716"&gt;SparkFun breakout board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is currently no 3D model for this connector.&lt;/p&gt;</description>
+<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<pad name="8" x="4.445" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="7" x="3.175" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="6" x="1.905" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="4" x="-0.635" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="2" x="-3.175" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="5" x="0.635" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="3" x="-1.905" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="1" x="-4.445" y="6.35" drill="1" diameter="1.8796" shape="square"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+</package>
+<package name="BELFUSE-SS-51-PD-T568A">
+<description>&lt;h3&gt;Belfuse SS-51 8-pin Punch Down Block &lt;/h3&gt;
+
+&lt;p&gt;This is an Belfuse SS-51 8-pin EIA 110 PCB punch down block.  EIA 110 punchdown blocks are used for fixed Ethernet installations, either in T568A or T568B pin order.&lt;/p&gt;
+
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://belfuse.com/ethernet/punch-down-blocks/"&gt;Product webpage.&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="http://belfuse.com/pdfs/CT510004.pdf"&gt;Datasheet.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pad name="1" x="-3.302" y="0" drill="1.1"/>
+<pad name="2" x="-6.604" y="0" drill="1.1"/>
+<pad name="3" x="6.604" y="0" drill="1.1"/>
+<pad name="4" x="16.51" y="0" drill="1.1"/>
+<pad name="5" x="13.208" y="0" drill="1.1"/>
+<pad name="6" x="3.302" y="0" drill="1.1"/>
+<pad name="7" x="-13.208" y="0" drill="1.1"/>
+<pad name="8" x="-16.51" y="0" drill="1.1"/>
+<wire x1="-19" y1="4" x2="19" y2="4" width="0.127" layer="21"/>
+<wire x1="19" y1="4" x2="19" y2="-4" width="0.127" layer="21"/>
+<wire x1="19" y1="-4" x2="-19" y2="-4" width="0.127" layer="21"/>
+<wire x1="-19" y1="-4" x2="-19" y2="4" width="0.127" layer="21"/>
+<text x="14" y="2" size="1.27" layer="21">BLUE</text>
+<text x="-18" y="2" size="1.27" layer="21">BROWN</text>
+<text x="-19" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-18" y="-3" size="1.27" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ELLI-HEADER">
@@ -1742,6 +1834,55 @@
 <text x="-0.762" y="2.54" size="1.778" layer="96" rot="R180" align="center-left">&gt;VALUE</text>
 <text x="-0.762" y="0" size="1.778" layer="95" rot="R180" align="center-left">&gt;NAME</text>
 <pin name="KL1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="POE-MDI">
+<description>&lt;h3&gt;Ethernet PoE 8-pin 8P8C female MDI-side jack.&lt;/h3&gt;</description>
+<wire x1="1.524" y1="10.668" x2="0" y2="10.668" width="0.254" layer="94"/>
+<wire x1="0" y1="10.668" x2="0" y2="9.652" width="0.254" layer="94"/>
+<wire x1="0" y1="9.652" x2="1.524" y2="9.652" width="0.254" layer="94"/>
+<wire x1="1.524" y1="8.128" x2="0" y2="8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="8.128" x2="0" y2="7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="7.112" x2="1.524" y2="7.112" width="0.254" layer="94"/>
+<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="11.43" x2="-0.381" y2="10.668" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="9.652" x2="-0.381" y2="8.128" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="7.112" x2="-0.381" y2="5.588" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="4.572" x2="-0.381" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="2.032" x2="-0.381" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-0.508" x2="-0.381" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-3.048" x2="-0.381" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-5.588" x2="-0.381" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-8.128" x2="-0.381" y2="-8.89" width="0.254" layer="94"/>
+<text x="1.27" y="12.192" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TX+@1" x="-2.54" y="10.16" length="short" direction="in" swaplevel="1"/>
+<pin name="TX-@2" x="-2.54" y="7.62" length="short" direction="in" swaplevel="1"/>
+<pin name="RX+@3" x="-2.54" y="5.08" length="short" direction="out" swaplevel="1"/>
+<pin name="POE+@4" x="-2.54" y="2.54" length="short" direction="pwr" swaplevel="1"/>
+<pin name="POE+@5" x="-2.54" y="0" length="short" direction="pwr" swaplevel="1"/>
+<pin name="RX-@6" x="-2.54" y="-2.54" length="short" direction="out" swaplevel="1"/>
+<pin name="POE-@7" x="-2.54" y="-5.08" length="short" direction="pwr" swaplevel="1"/>
+<pin name="POE-@8" x="-2.54" y="-7.62" length="short" direction="pwr" swaplevel="1"/>
+<wire x1="-0.254" y1="11.43" x2="12.7" y2="11.43" width="0.254" layer="94"/>
+<wire x1="12.7" y1="11.43" x2="12.7" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-8.89" x2="-0.254" y2="-8.89" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2009,6 +2150,67 @@ In several package variant, including pogopin version.</description>
 <device name="-2.5" package="M2.5-1">
 <connects>
 <connect gate="M" pin="KL1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POE-TP" prefix="X">
+<description>&lt;h3&gt;Twisted pair Power-over-Ethernet MDI connector&lt;/h3&gt;
+
+&lt;p&gt;This is an 8-pin female &lt;a href="https://en.wikipedia.org/wiki/Ethernet_over_twisted_pair"&gt;twisted pair Ethernet&lt;/a&gt; jack, either an &lt;a href="https://en.wikipedia.org/wiki/Registered_jack#RJ45"&gt;RJ45 jack&lt;/a&gt; or an &lt;a href="https://en.wikipedia.org/wiki/TIA/EIA-568-B"&gt;TIA/EIA-568&lt;/a&gt; punchdown jack.   These connector are common for Cat5, Cat5e, and Cat6 Ethernet cables.&lt;/p&gt;
+
+In the used symbol, the TX and RX pins are named according to the &lt;a href="https://en.wikipedia.org/wiki/Medium_dependent_interface"&gt;medium dependent interface&lt;/a&gt; or computer (non-switch) side order, i.e. transmit on pins 1 and 2 on pair 3 (green in T568A or orange in T568B) and receive on pins 3 and 6 on pair 2 (orange in T568A and green in T568B), and extra pairs according to the &lt;a href="https://en.wikipedia.org/wiki/Power_over_Ethernet"&gt;Power-over-Ethernet&lt;/a&gt; Mode B specification, i.e. pins 4–5 (pair 1) and 7–8 (pair 4) forming the sides of the 48V DC.  Hence, this symbol has 6 pin names while having 8 pins: TX+, TX-, RX+, RX-, POE+ and POE-, where the POE+ and POE- may be reversed at the network side, always requiring a diode bridge.&lt;/p&gt;
+
+&lt;p&gt;Please note that neither T568A nor T568B are de facto standards for residential or commercial data wiring. It is a choice the company terminating the wire makes. Most people use A as it is easier to remember. In terms of data integrity (does the data arrive without loss ) there is no difference between the two wiring standards. You select one wiring standard and maintain it. As long as you have a straight through jumper data will be transmitted without errors.&lt;/p&gt;
+
+&lt;p&gt;The ELL-i recommendation is to use T568A.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="POE-MDI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-RJ45-MOLEX" package="MOLEX-43860-0001">
+<connects>
+<connect gate="G$1" pin="POE+@4" pad="4"/>
+<connect gate="G$1" pin="POE+@5" pad="5"/>
+<connect gate="G$1" pin="POE-@7" pad="7"/>
+<connect gate="G$1" pin="POE-@8" pad="8"/>
+<connect gate="G$1" pin="RX+@3" pad="3"/>
+<connect gate="G$1" pin="RX-@6" pad="6"/>
+<connect gate="G$1" pin="TX+@1" pad="1"/>
+<connect gate="G$1" pin="TX-@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RJ45-4UCON" package="4UCON-04892">
+<connects>
+<connect gate="G$1" pin="POE+@4" pad="4"/>
+<connect gate="G$1" pin="POE+@5" pad="5"/>
+<connect gate="G$1" pin="POE-@7" pad="7"/>
+<connect gate="G$1" pin="POE-@8" pad="8"/>
+<connect gate="G$1" pin="RX+@3" pad="3"/>
+<connect gate="G$1" pin="RX-@6" pad="6"/>
+<connect gate="G$1" pin="TX+@1" pad="1"/>
+<connect gate="G$1" pin="TX-@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PD-BELFUSE-T568A" package="BELFUSE-SS-51-PD-T568A">
+<connects>
+<connect gate="G$1" pin="POE+@4" pad="4"/>
+<connect gate="G$1" pin="POE+@5" pad="5"/>
+<connect gate="G$1" pin="POE-@7" pad="7"/>
+<connect gate="G$1" pin="POE-@8" pad="8"/>
+<connect gate="G$1" pin="RX+@3" pad="3"/>
+<connect gate="G$1" pin="RX-@6" pad="6"/>
+<connect gate="G$1" pin="TX+@1" pad="1"/>
+<connect gate="G$1" pin="TX-@2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4405,6 +4607,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="X4" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="X5" library="ELL-i-Connectors" deviceset="POE-TP" device="-PD-BELFUSE-T568A"/>
 </parts>
 <sheets>
 <sheet>
@@ -4573,6 +4776,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="X4" gate="M" x="139.7" y="226.06"/>
 <instance part="X3" gate="M" x="139.7" y="220.98"/>
 <instance part="P+3" gate="1" x="-205.74" y="317.5"/>
+<instance part="X5" gate="G$1" x="-162.56" y="251.46"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">

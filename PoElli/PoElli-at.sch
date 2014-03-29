@@ -1837,6 +1837,20 @@ Has both test loops and bare copper area.</description>
 <text x="-2.6" y="4.7" size="1.27" layer="51">RJ-45</text>
 <text x="-2.5" y="6.4" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="M2-1">
+<description>M2 bolt</description>
+<pad name="1" x="0" y="0" drill="2.1" diameter="4.4" thermals="no"/>
+<text x="2.54" y="-1.905" size="1.27" layer="27" ratio="10" align="center-left">&gt;VALUE</text>
+<text x="2.54" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
+<circle x="0" y="0" radius="2.3" width="0.127" layer="21"/>
+</package>
+<package name="M2.5-1">
+<description>M2.5 bolt</description>
+<pad name="1" x="0" y="0" drill="2.6" diameter="5.2" thermals="no"/>
+<text x="3.175" y="-1.905" size="1.27" layer="27" ratio="10" align="center-left">&gt;VALUE</text>
+<text x="3.175" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
+<circle x="0" y="0" radius="2.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ELLI-HEADER">
@@ -1979,6 +1993,13 @@ Has both test loops and bare copper area.</description>
 <vertex x="-0.381" y="2.413"/>
 </polygon>
 <text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="M-BOLT">
+<wire x1="1.778" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<circle x="0.889" y="0" radius="0.898" width="0.254" layer="94"/>
+<text x="-0.762" y="2.54" size="1.778" layer="96" rot="R180" align="center-left">&gt;VALUE</text>
+<text x="-0.762" y="0" size="1.778" layer="95" rot="R180" align="center-left">&gt;NAME</text>
+<pin name="KL1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2146,6 +2167,30 @@ Has both test loops and bare copper area.</description>
 <connect gate="RJ45" pin="RX-@6" pad="6"/>
 <connect gate="RJ45" pin="TX+@1" pad="1"/>
 <connect gate="RJ45" pin="TX-@2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M-BOLT" prefix="X">
+<description>Metric bolt connector</description>
+<gates>
+<gate name="M" symbol="M-BOLT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2" package="M2-1">
+<connects>
+<connect gate="M" pin="KL1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2.5" package="M2.5-1">
+<connects>
+<connect gate="M" pin="KL1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5179,7 +5224,14 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="C48" library="ELL-i-Passives" deviceset="C" device="C1206" value="1nF"/>
 <part name="R10" library="ELL-i-Passives" deviceset="R" device="0603" value="100"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO" value="OPEN"/>
-<part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED-LEDS" device="" value="XMK-8788K5-BX1X"/>
+<part name="JP1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED-LEDS" device="" value="XMK-8788K5-BX1X"/>
+<part name="X1" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
+<part name="X2" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
+<part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
+<part name="X4" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
+<part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
+<part name="GND5" library="supply1" deviceset="GNDA" device=""/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5410,9 +5462,16 @@ of R39 and R37</text>
 <instance part="C48" gate="G$1" x="44.196" y="114.3" rot="R90"/>
 <instance part="R10" gate="G$1" x="7.62" y="101.6" rot="R180"/>
 <instance part="SJ3" gate="1" x="297.18" y="246.38" rot="R90"/>
-<instance part="X1" gate="RJ45" x="-170.18" y="251.46" rot="R180"/>
-<instance part="X1" gate="LED2" x="177.8" y="180.34" rot="R90"/>
-<instance part="X1" gate="LED1" x="187.96" y="180.34" rot="R90"/>
+<instance part="JP1" gate="RJ45" x="-170.18" y="251.46" rot="R180"/>
+<instance part="JP1" gate="LED2" x="177.8" y="180.34" rot="R90"/>
+<instance part="JP1" gate="LED1" x="187.96" y="180.34" rot="R90"/>
+<instance part="X1" gate="M" x="55.88" y="15.24"/>
+<instance part="X2" gate="M" x="55.88" y="7.62"/>
+<instance part="X3" gate="M" x="55.88" y="0"/>
+<instance part="X4" gate="M" x="57.658" y="-5.08" rot="MR0"/>
+<instance part="SUPPLY10" gate="VDD" x="71.12" y="5.08"/>
+<instance part="GND5" gate="1" x="63.5" y="2.54"/>
+<instance part="SUPPLY11" gate="G$1" x="63.5" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -5421,7 +5480,7 @@ of R39 and R37</text>
 <segment>
 <pinref part="T1" gate="G$1" pin="TX-"/>
 <wire x1="-162.56" y1="246.38" x2="-132.08" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="TX-@2"/>
+<pinref part="JP1" gate="RJ45" pin="TX-@2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5430,7 +5489,7 @@ of R39 and R37</text>
 <wire x1="-142.24" y1="243.84" x2="-142.24" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="TX+"/>
 <wire x1="-142.24" y1="231.14" x2="-132.08" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="TX+@1"/>
+<pinref part="JP1" gate="RJ45" pin="TX+@1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5439,7 +5498,7 @@ of R39 and R37</text>
 <wire x1="-142.24" y1="248.92" x2="-142.24" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="RX+"/>
 <wire x1="-142.24" y1="251.46" x2="-132.08" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="RX+@3"/>
+<pinref part="JP1" gate="RJ45" pin="RX+@3"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5448,7 +5507,7 @@ of R39 and R37</text>
 <wire x1="-142.24" y1="256.54" x2="-142.24" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="RX-"/>
 <wire x1="-142.24" y1="266.7" x2="-132.08" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="RX-@6"/>
+<pinref part="JP1" gate="RJ45" pin="RX-@6"/>
 </segment>
 </net>
 <net name="POE_B-" class="0">
@@ -5474,8 +5533,8 @@ of R39 and R37</text>
 <wire x1="-165.1" y1="200.66" x2="-165.1" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-165.1" y1="205.74" x2="-147.32" y2="205.74" width="0.1524" layer="91"/>
 <junction x="-147.32" y="205.74"/>
-<pinref part="X1" gate="RJ45" pin="POE-@7"/>
-<pinref part="X1" gate="RJ45" pin="POE-@8"/>
+<pinref part="JP1" gate="RJ45" pin="POE-@7"/>
+<pinref part="JP1" gate="RJ45" pin="POE-@8"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5660,6 +5719,9 @@ of R39 and R37</text>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="-5.08"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="X4" gate="M" pin="KL1"/>
+<wire x1="52.578" y1="-5.08" x2="33.02" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="33.02" y="-5.08"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="2"/>
@@ -5690,14 +5752,14 @@ of R39 and R37</text>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="RTN"/>
-<pinref part="X1" gate="RJ45" pin="GND@2"/>
+<pinref part="JP1" gate="RJ45" pin="GND@2"/>
 <wire x1="-167.64" y1="231.14" x2="-167.64" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="236.22" x2="-167.64" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="236.22" x2="-185.42" y2="236.22" width="0.1524" layer="91"/>
 <junction x="-167.64" y="236.22"/>
 <wire x1="-185.42" y1="236.22" x2="-185.42" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-185.42" y1="271.78" x2="-167.64" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="GND@0"/>
+<pinref part="JP1" gate="RJ45" pin="GND@0"/>
 <wire x1="-167.64" y1="271.78" x2="-167.64" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5916,6 +5978,12 @@ of R39 and R37</text>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
 <wire x1="195.58" y1="-15.24" x2="195.58" y2="0" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="X1" gate="M" pin="KL1"/>
+<wire x1="60.96" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
+<wire x1="63.5" y1="15.24" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="POE_A+" class="0">
 <segment>
@@ -5984,8 +6052,8 @@ of R39 and R37</text>
 <label x="-165.1" y="210.82" size="1.778" layer="95" xref="yes"/>
 <wire x1="-165.1" y1="210.82" x2="-167.64" y2="210.82" width="0.1524" layer="91"/>
 <junction x="-167.64" y="210.82"/>
-<pinref part="X1" gate="RJ45" pin="POE+@4"/>
-<pinref part="X1" gate="RJ45" pin="POE+@5"/>
+<pinref part="JP1" gate="RJ45" pin="POE+@4"/>
+<pinref part="JP1" gate="RJ45" pin="POE+@5"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -6097,12 +6165,12 @@ of R39 and R37</text>
 <segment>
 <wire x1="177.8" y1="177.8" x2="177.8" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GNDA"/>
-<pinref part="X1" gate="LED2" pin="C"/>
+<pinref part="JP1" gate="LED2" pin="C"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="177.8" x2="187.96" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GNDA"/>
-<pinref part="X1" gate="LED1" pin="C"/>
+<pinref part="JP1" gate="LED1" pin="C"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -6328,19 +6396,25 @@ of R39 and R37</text>
 <pinref part="GND33" gate="1" pin="GNDA"/>
 <wire x1="210.82" y1="-22.86" x2="210.82" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GNDA"/>
+<wire x1="63.5" y1="5.08" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="X2" gate="M" pin="KL1"/>
+<wire x1="63.5" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="187.96" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="X1" gate="LED2" pin="A"/>
+<pinref part="JP1" gate="LED2" pin="A"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="187.96" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="X1" gate="LED1" pin="A"/>
+<pinref part="JP1" gate="LED1" pin="A"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -6518,9 +6592,10 @@ of R39 and R37</text>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="101.6" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="PRI-"/>
-<wire x1="-124.46" y1="2.54" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="2.54" x2="-124.46" y2="83.82" width="0.1524" layer="91"/>
 <junction x="-124.46" y="86.36"/>
 <label x="-86.36" y="88.9" size="1.778" layer="95" rot="R180"/>
+<wire x1="-124.46" y1="83.82" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="86.36" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="78.74" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
@@ -6529,15 +6604,23 @@ of R39 and R37</text>
 <wire x1="-58.42" y1="83.82" x2="-58.42" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-58.42" y="86.36"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
-<wire x1="-124.46" y1="91.44" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="91.44" x2="-124.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="88.9" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="93.98" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-10.16" y="86.36"/>
+<wire x1="-124.46" y1="88.9" x2="-124.46" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="D19" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X3" gate="M" pin="KL1"/>
+<wire x1="60.96" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="VDD" pin="VDD"/>
+<wire x1="71.12" y1="0" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
