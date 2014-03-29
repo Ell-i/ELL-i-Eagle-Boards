@@ -4305,7 +4305,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="TP5" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
 <part name="R15" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
 <part name="R14" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="32-SMD" value="32.768 kHz"/>
+<part name="X2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="32-SMD" value="32.768 kHz"/>
 <part name="C1" library="ELL-i-Passives" deviceset="C" device="0402" value="15 pF"/>
 <part name="C11" library="ELL-i-Passives" deviceset="C" device="0402" value="15 pF"/>
 <part name="GNDI17" library="supply1" deviceset="GNDI" device=""/>
@@ -4465,7 +4465,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="TP5" gate="TP$1" x="-261.62" y="30.48"/>
 <instance part="R15" gate="G$1" x="119.38" y="104.14"/>
 <instance part="R14" gate="G$1" x="119.38" y="124.46"/>
-<instance part="Y1" gate="G$1" x="-147.32" y="160.02" smashed="yes" rot="R270">
+<instance part="X2" gate="G$1" x="-147.32" y="160.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="-152.4" y="155.956" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-162.56" y="160.02" size="1.778" layer="96"/>
 </instance>
@@ -6436,7 +6436,7 @@ Uncertainty about capacitor values etc.</text>
 <net name="OSC_OUT" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
+<pinref part="X2" gate="G$1" pin="2"/>
 <wire x1="-142.24" y1="154.94" x2="-147.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="154.94" x2="-147.32" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="154.94" x2="-162.56" y2="154.94" width="0.1524" layer="91"/>
@@ -6447,7 +6447,7 @@ Uncertainty about capacitor values etc.</text>
 <net name="OSC_IN" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="165.1" x2="-147.32" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="165.1" x2="-147.32" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="165.1" x2="-162.56" y2="165.1" width="0.1524" layer="91"/>
