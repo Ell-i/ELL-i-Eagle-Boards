@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5229,7 +5229,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="X2" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="X4" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
-<part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND5" library="supply1" deviceset="GNDA" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
@@ -5469,7 +5468,6 @@ of R39 and R37</text>
 <instance part="X2" gate="M" x="55.88" y="7.62"/>
 <instance part="X3" gate="M" x="55.88" y="0"/>
 <instance part="X4" gate="M" x="57.658" y="-5.08" rot="MR0"/>
-<instance part="SUPPLY10" gate="VDD" x="71.12" y="5.08"/>
 <instance part="GND5" gate="1" x="63.5" y="2.54"/>
 <instance part="SUPPLY11" gate="G$1" x="63.5" y="17.78"/>
 </instances>
@@ -6616,12 +6614,6 @@ of R39 and R37</text>
 <pinref part="D19" gate="G$1" pin="A"/>
 <wire x1="35.56" y1="-20.32" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="X3" gate="M" pin="KL1"/>
-<wire x1="60.96" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="VDD" pin="VDD"/>
-<wire x1="71.12" y1="0" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$54" class="0">
 <segment>
@@ -7320,7 +7312,14 @@ of R39 and R37</text>
 <segment>
 <pinref part="D19" gate="G$1" pin="C"/>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-20.32" x2="48.26" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-20.32" x2="43.18" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-20.32" x2="48.26" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-20.32" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="-20.32"/>
+<wire x1="43.18" y1="-12.7" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="X3" gate="M" pin="KL1"/>
+<wire x1="60.96" y1="0" x2="63.5" y2="0" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="-12.7" x2="63.5" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
