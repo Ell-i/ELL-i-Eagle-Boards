@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -931,32 +931,6 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <text x="2.54" y="0" size="1.27" layer="25" ratio="10" align="center-left">&gt;NAME</text>
 <circle x="0" y="0" radius="2.3" width="0.127" layer="21"/>
 </package>
-<package name="BELFUSE-SS-51-PD-T568A">
-<description>&lt;h3&gt;Belfuse SS-51 8-pin Punch Down Block &lt;/h3&gt;
-
-&lt;p&gt;This is an Belfuse SS-51 8-pin EIA 110 PCB punch down block.  EIA 110 punchdown blocks are used for fixed Ethernet installations, either in T568A or T568B pin order.&lt;/p&gt;
-
-&lt;ul&gt;
-   &lt;li&gt;&lt;a href="http://belfuse.com/ethernet/punch-down-blocks/"&gt;Product webpage.&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;a href="http://belfuse.com/pdfs/CT510004.pdf"&gt;Datasheet.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<pad name="1" x="-3.302" y="0" drill="1.1"/>
-<pad name="2" x="-6.604" y="0" drill="1.1"/>
-<pad name="3" x="6.604" y="0" drill="1.1"/>
-<pad name="4" x="16.51" y="0" drill="1.1"/>
-<pad name="5" x="13.208" y="0" drill="1.1"/>
-<pad name="6" x="3.302" y="0" drill="1.1"/>
-<pad name="7" x="-13.208" y="0" drill="1.1"/>
-<pad name="8" x="-16.51" y="0" drill="1.1"/>
-<wire x1="-19" y1="4" x2="19" y2="4" width="0.127" layer="21"/>
-<wire x1="19" y1="4" x2="19" y2="-4" width="0.127" layer="21"/>
-<wire x1="19" y1="-4" x2="-19" y2="-4" width="0.127" layer="21"/>
-<wire x1="-19" y1="-4" x2="-19" y2="4" width="0.127" layer="21"/>
-<text x="14" y="2" size="1.27" layer="21">BLUE</text>
-<text x="-18" y="2" size="1.27" layer="21">BROWN</text>
-<text x="-19" y="5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-18" y="-3" size="1.27" layer="25">&gt;VALUE</text>
-</package>
 </packages>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -1474,7 +1448,6 @@ design rules under a new name.</description>
 <element name="X2" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="48.5" y="39.5"/>
 <element name="X4" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="48.5" y="14.5"/>
 <element name="X3" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="5.5" y="14.5"/>
-<element name="X5" library="ELL-i-Connectors" package="BELFUSE-SS-51-PD-T568A" value="POE-TP-PD-BELFUSE-T568A" x="27" y="45" rot="R180"/>
 </elements>
 <signals>
 <signal name="VDDA">
@@ -2413,16 +2386,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="D4" pad="2"/>
 <wire x1="12.1" y1="16" x2="23.25" y2="23.25" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="POE+">
-<contactref element="X5" pad="4"/>
-<contactref element="X5" pad="5"/>
-<wire x1="13.792" y1="45" x2="10.49" y2="45" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="POE-">
-<contactref element="X5" pad="7"/>
-<contactref element="X5" pad="8"/>
-<wire x1="40.208" y1="45" x2="43.51" y2="45" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
