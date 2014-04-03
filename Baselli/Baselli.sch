@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,18 +43,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -143,18 +143,6 @@
 <rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="41"/>
 </package>
-<package name="SOD323_DIODE">
-<description>&lt;b&gt;SOD323 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
-<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
-<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
-<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
-<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
-<smd name="2" x="1.15" y="0" dx="0.8" dy="0.7" layer="1"/>
-<smd name="1" x="-1.15" y="0" dx="0.8" dy="0.7" layer="1"/>
-<text x="-1.3" y="0.9" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.3" y="-1.5" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="-0.5" y1="0.7" x2="-0.5" y2="-0.7" width="0.2" layer="21"/>
-</package>
 <package name="EVQQ2/P0">
 <smd name="1" x="3.4" y="-2" dx="3.2" dy="1" layer="1"/>
 <smd name="2" x="-3.4" y="-2" dx="3.2" dy="1" layer="1"/>
@@ -189,21 +177,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="DIODE_SCHOTTKY">
-<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<text x="-5.842" y="4.064" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.842" y="1.905" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="0.635" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="1.016" width="0.254" layer="94"/>
-</symbol>
 <symbol name="FERRITE">
 <wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
 <wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
@@ -255,22 +228,6 @@
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BAT60J" prefix="D">
-<gates>
-<gate name="G$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD323_DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4330,7 +4287,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="R4" library="ELL-i-Passives" deviceset="R" device="0402" value="1k5"/>
 <part name="GNDI1" library="supply1" deviceset="GNDI" device=""/>
 <part name="J1" library="ELL-i-Connectors" deviceset="FTDI-SER-6" device="-PP" value="FTDI-SER-6-PP"/>
-<part name="D3" library="ell-i" deviceset="BAT60J" device=""/>
+<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60J"/>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="ELL-i-Passives" deviceset="R" device="0402" value="10k"/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
@@ -4352,7 +4309,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GNDI12" library="supply1" deviceset="GNDI" device=""/>
 <part name="SJ5" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO" value="OPEN"/>
 <part name="SJ6" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO" value="OPEN"/>
-<part name="R23" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
+<part name="R23" library="ELL-i-Passives" deviceset="R" device="0603" value="NP"/>
 <part name="D5" library="SparkFun-LED" deviceset="WS2812B" device="" value="WS2182B"/>
 <part name="GNDI10" library="supply1" deviceset="GNDI" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -4360,7 +4317,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="SJ16" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="SJ15" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="GNDI6" library="supply1" deviceset="GNDI" device=""/>
-<part name="R5" library="ELL-i-Passives" deviceset="R" device="0805" value="10k"/>
+<part name="R5" library="ELL-i-Passives" deviceset="R" device="0603" value="10k"/>
 <part name="SJ8" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="SJ12" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="SJ11" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
@@ -4369,18 +4326,18 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="SJ7" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="SJ14" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
 <part name="SJ13" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="CLOSED"/>
-<part name="R18" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="R17" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="R16" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="R15" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="R14" library="ELL-i-Passives" deviceset="R" device="0805" value="0"/>
-<part name="R13" library="ELL-i-Passives" deviceset="R" device="0805" value="0"/>
+<part name="R18" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
+<part name="R17" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
+<part name="R16" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
+<part name="R15" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
+<part name="R14" library="ELL-i-Passives" deviceset="R" device="0603" value="0"/>
+<part name="R13" library="ELL-i-Passives" deviceset="R" device="0603" value="0"/>
 <part name="SW1" library="SparkFun-Electromechanical" deviceset="SW_DIP-2" device="-SMT-HALFSIZE" value="A6H-2101"/>
 <part name="DIMENSIONS1" library="ELL-i-Boards" deviceset="DIN49073" device="-OUTLINE"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="OLPADS1" library="ELL-i-Boards" deviceset="OUTLINE-PADS-10" device=""/>
 <part name="OLPADS2" library="ELL-i-Boards" deviceset="OUTLINE-PADS-10" device=""/>
-<part name="R10" library="ELL-i-Passives" deviceset="R" device="0805" value="NP"/>
+<part name="R10" library="ELL-i-Passives" deviceset="R" device="0603" value="NP"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="PASTE1&amp;2" value="1-2"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="PASTE1&amp;2" value="1-2"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY" device="PASTE1&amp;2" value="1-2"/>
@@ -4394,8 +4351,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="TP4" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
 <part name="TP5" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
-<part name="R11" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
-<part name="R12" library="ELL-i-Passives" deviceset="R" device="0805" value="180"/>
+<part name="R11" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
+<part name="R12" library="ELL-i-Passives" deviceset="R" device="0603" value="180"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="32-SMD" value="32.768 kHz"/>
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0402" value="15 pF"/>
 <part name="C9" library="ELL-i-Passives" deviceset="C" device="0402" value="15 pF"/>
@@ -4405,6 +4362,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="X4" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="C12" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C13" library="ELL-i-Passives" deviceset="C" device="0402" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4573,6 +4532,8 @@ Uncertainty about capacitor values etc.</text>
 <instance part="X4" gate="M" x="139.7" y="226.06"/>
 <instance part="X3" gate="M" x="139.7" y="220.98"/>
 <instance part="P+3" gate="1" x="-205.74" y="317.5"/>
+<instance part="C12" gate="G$1" x="-172.72" y="30.48"/>
+<instance part="C13" gate="G$1" x="-177.8" y="30.48" rot="MR0"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -4700,7 +4661,7 @@ Uncertainty about capacitor values etc.</text>
 <junction x="-198.12" y="106.68"/>
 <junction x="-205.74" y="106.68"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="-205.74" y1="106.68" x2="-205.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="106.68" x2="-205.74" y2="111.76" width="0.1524" layer="91"/>
 <junction x="-205.74" y="106.68"/>
 <pinref part="SW1" gate="G$1" pin="2"/>
 <wire x1="-213.36" y1="104.14" x2="-205.74" y2="104.14" width="0.1524" layer="91"/>
@@ -4760,6 +4721,14 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-228.6" y1="33.02" x2="-228.6" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="TP3" gate="TP$1" pin="P$1"/>
 <wire x1="-223.52" y1="38.1" x2="-223.52" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-172.72" y1="38.1" x2="-172.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="38.1" x2="-177.8" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="-177.8" y1="33.02" x2="-177.8" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="38.1" x2="-177.8" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-195.58" y="38.1"/>
+<junction x="-177.8" y="38.1"/>
 </segment>
 <segment>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
@@ -4915,6 +4884,14 @@ Uncertainty about capacitor values etc.</text>
 <junction x="-223.52" y="20.32"/>
 <pinref part="TP2" gate="TP$1" pin="P$1"/>
 <wire x1="-223.52" y1="20.32" x2="-223.52" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="-172.72" y1="20.32" x2="-172.72" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="20.32" x2="-177.8" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="25.4" x2="-177.8" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-195.58" y1="20.32" x2="-177.8" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-195.58" y="20.32"/>
+<junction x="-177.8" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
