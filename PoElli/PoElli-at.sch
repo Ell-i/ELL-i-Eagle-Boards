@@ -4530,6 +4530,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.778" y1="-1.651" x2="-0.762" y2="-1.27" layer="21"/>
 </package>
 <package name="DIPSWITCH-02-50MIL">
+<description>&lt;b&gt;DIP SWITCH&lt;/b&gt;
+&lt;p&gt;Half-size SMT DIP switch, 1.27 mm / 0.05" pitch. For example the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
 <wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
@@ -4640,17 +4646,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="RASPBERRYPI-SHIELD-FULLSIZE">
 <description>&lt;h3&gt;Raspberry Pi Shield&lt;/h3&gt;</description>
-<wire x1="63" y1="0" x2="63" y2="19" width="0.127" layer="46"/>
-<wire x1="63" y1="19" x2="85" y2="19" width="0.127" layer="46"/>
-<wire x1="39" y1="56" x2="39" y2="42" width="0.127" layer="46"/>
-<wire x1="52" y1="56" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="39" y1="42" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="85" y1="38.5" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="85" y1="23" x2="74" y2="23" width="0.127" layer="46"/>
-<wire x1="74" y1="23" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="16.2" y1="6" x2="16.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="8.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="16.2" y2="6" width="0.127" layer="46" curve="-180"/>
 <wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="20"/>
 <wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="20"/>
 <wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="20"/>
@@ -4738,6 +4733,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="19" x="25.4" y="50.8" drill="1"/>
 <pad name="P$1" x="25.5" y="18" drill="2.9"/>
 <pad name="P$2" x="80" y="43.5" drill="2.9"/>
+<circle x="12.2" y="6" radius="4" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -4953,8 +4949,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="1.778" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>

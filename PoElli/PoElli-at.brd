@@ -1346,6 +1346,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="DIPSWITCH-02-50MIL">
+<description>&lt;b&gt;DIP SWITCH&lt;/b&gt;
+&lt;p&gt;Half-size SMT DIP switch, 1.27 mm / 0.05" pitch. For example the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
 <wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
@@ -1385,17 +1391,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="RASPBERRYPI-SHIELD-FULLSIZE">
 <description>&lt;h3&gt;Raspberry Pi Shield&lt;/h3&gt;</description>
-<wire x1="63" y1="0" x2="63" y2="19" width="0.127" layer="46"/>
-<wire x1="63" y1="19" x2="85" y2="19" width="0.127" layer="46"/>
-<wire x1="39" y1="56" x2="39" y2="42" width="0.127" layer="46"/>
-<wire x1="52" y1="56" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="39" y1="42" x2="52" y2="42" width="0.127" layer="46"/>
-<wire x1="85" y1="38.5" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="85" y1="23" x2="74" y2="23" width="0.127" layer="46"/>
-<wire x1="74" y1="23" x2="74" y2="38.5" width="0.127" layer="46"/>
-<wire x1="16.2" y1="6" x2="16.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="8.2" y2="0" width="0.127" layer="46"/>
-<wire x1="8.2" y1="6" x2="16.2" y2="6" width="0.127" layer="46" curve="-180"/>
 <wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="20"/>
 <wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="20"/>
 <wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="20"/>
@@ -1483,6 +1478,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="19" x="25.4" y="50.8" drill="1"/>
 <pad name="P$1" x="25.5" y="18" drill="2.9"/>
 <pad name="P$2" x="80" y="43.5" drill="2.9"/>
+<circle x="12.2" y="6" radius="4" width="0.127" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1973,8 +1969,6 @@ design rules under a new name.</description>
 <contactref element="C29" pad="2"/>
 <contactref element="C30" pad="2"/>
 <contactref element="D13" pad="A"/>
-<contactref element="SV1" pad="1"/>
-<contactref element="SV1" pad="17"/>
 <contactref element="R27" pad="2"/>
 <contactref element="C28" pad="1"/>
 <contactref element="C36" pad="2"/>
@@ -2792,6 +2786,11 @@ design rules under a new name.</description>
 <contactref element="J1" pad="2"/>
 <contactref element="SJ3" pad="1"/>
 <wire x1="2.45" y1="16" x2="5.1999" y2="20.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="SV1" pad="1"/>
+<contactref element="SV1" pad="17"/>
+<wire x1="2.54" y1="50.8" x2="22.86" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
