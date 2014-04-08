@@ -595,13 +595,11 @@ Has both test loops and bare copper area.</description>
 &lt;ul&gt;
    &lt;li&gt;&lt;a href="http://www.te.com/catalog/products/en?q=1888250"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="-9.045" y1="10.84" x2="-9.045" y2="0" width="0.127" layer="20"/>
-<wire x1="9.045" y1="10.84" x2="9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="-9.045" y1="11.34" x2="-9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="9.045" y1="11.34" x2="9.045" y2="0" width="0.127" layer="20"/>
 <wire x1="-9.045" y1="11.34" x2="-9.045" y2="24.34" width="0.127" layer="21"/>
 <wire x1="9.045" y1="11.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
-<wire x1="-9.045" y1="10.84" x2="-8.545" y2="11.34" width="0.127" layer="20" curve="-90"/>
-<wire x1="9.045" y1="10.84" x2="8.545" y2="11.34" width="0.127" layer="20" curve="90"/>
-<wire x1="-8.545" y1="11.34" x2="8.545" y2="11.34" width="0.127" layer="20"/>
+<wire x1="-7.045" y1="11.34" x2="7.045" y2="11.34" width="0.127" layer="20"/>
 <wire x1="-9.045" y1="24.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
 <pad name="1" x="-3.556" y="20.98" drill="0.8"/>
 <pad name="2" x="-2.54" y="18.44" drill="0.8"/>
@@ -625,6 +623,8 @@ Has both test loops and bare copper area.</description>
 <pad name="GND@2" x="8.045" y="17.59" drill="1.55"/>
 <pad name="GND@3" x="-6" y="23.19" drill="1.55"/>
 <pad name="GND@4" x="6" y="23.19" drill="1.55"/>
+<wire x1="-9.045" y1="11.34" x2="-7.045" y2="11.34" width="0.127" layer="20" curve="-180"/>
+<wire x1="7.045" y1="11.34" x2="9.045" y2="11.34" width="0.127" layer="20" curve="-180"/>
 </package>
 </packages>
 <symbols>
@@ -1176,6 +1176,41 @@ Has both test loops and bare copper area.</description>
 <text x="-5.334" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-4.445" y="-2.794" radius="0.40160625" width="0.127" layer="21"/>
 </package>
+<package name="WE_EP13_SMD_10PIN_EMBEDDED">
+<wire x1="-8.9" y1="-6.7" x2="8.9" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="8.9" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="-8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="8.9" y1="6.7" x2="8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="-10" y1="7" x2="10" y2="7" width="0.127" layer="39"/>
+<wire x1="10" y1="7" x2="10" y2="-7" width="0.127" layer="39"/>
+<wire x1="10" y1="-7" x2="-10" y2="-7" width="0.127" layer="39"/>
+<wire x1="-10" y1="-7" x2="-10" y2="7" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="6.5" x2="4.5" y2="6.5" width="0" layer="20"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="4.5" y1="-6.5" x2="-4.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0" layer="20"/>
+<circle x="-6.6" y="-5" radius="0.2" width="0.127" layer="21"/>
+<smd name="6" x="8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="10" x="8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="5" x="-8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="1" x="-8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="7" x="8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="9" x="8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="4" x="-8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="2" x="-8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="8" x="8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<smd name="3" x="-8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<text x="-9.3" y="7.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.3" y="-9.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="-4.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="4.5" y1="6.5" x2="6.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-4.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="6.5" y1="-6.5" x2="4.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-5.5" y1="6.5" x2="-5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="-5" y1="5.5" x2="5" y2="5.5" width="2" layer="46"/>
+<wire x1="-5" y1="-5.5" x2="5" y2="-5.5" width="2" layer="46"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2PRIMARY-1SECONDARY">
@@ -1357,6 +1392,19 @@ Has both test loops and bare copper area.</description>
 </technologies>
 </device>
 <device name="750311689" package="WE_EP13_SMD_10PIN">
+<connects>
+<connect gate="G$1" pin="AUX+" pad="2"/>
+<connect gate="G$1" pin="AUX-" pad="1"/>
+<connect gate="G$1" pin="PRI+" pad="5"/>
+<connect gate="G$1" pin="PRI-" pad="3"/>
+<connect gate="G$1" pin="SEC+" pad="6 7"/>
+<connect gate="G$1" pin="SEC-" pad="9 10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EMBEDDED" package="WE_EP13_SMD_10PIN_EMBEDDED">
 <connects>
 <connect gate="G$1" pin="AUX+" pad="2"/>
 <connect gate="G$1" pin="AUX-" pad="1"/>
@@ -3408,7 +3456,7 @@ SPI or a standard parallel port
 <part name="D9" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="D8" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="D7" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="T2" library="ELL-i-Transformers" deviceset="FLYBACK" device="750311689" value="FLYBACK750311689"/>
+<part name="T2" library="ELL-i-Transformers" deviceset="FLYBACK" device="EMBEDDED" value="FLYBACKEMBEDDED"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM" value="M022.54MM"/>
 <part name="TP2" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
 <part name="TP3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>

@@ -110,6 +110,7 @@
 <layer number="219" name="219bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="220" name="220bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="221" name="connection" color="7" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="223" name="223bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
@@ -291,13 +292,11 @@
 &lt;ul&gt;
    &lt;li&gt;&lt;a href="http://www.te.com/catalog/products/en?q=1888250"&gt;Product web page&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="-9.045" y1="10.84" x2="-9.045" y2="0" width="0.127" layer="20"/>
-<wire x1="9.045" y1="10.84" x2="9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="-9.045" y1="11.34" x2="-9.045" y2="0" width="0.127" layer="20"/>
+<wire x1="9.045" y1="11.34" x2="9.045" y2="0" width="0.127" layer="20"/>
 <wire x1="-9.045" y1="11.34" x2="-9.045" y2="24.34" width="0.127" layer="21"/>
 <wire x1="9.045" y1="11.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
-<wire x1="-9.045" y1="10.84" x2="-8.545" y2="11.34" width="0.127" layer="20" curve="-90"/>
-<wire x1="9.045" y1="10.84" x2="8.545" y2="11.34" width="0.127" layer="20" curve="90"/>
-<wire x1="-8.545" y1="11.34" x2="8.545" y2="11.34" width="0.127" layer="20"/>
+<wire x1="-7.045" y1="11.34" x2="7.045" y2="11.34" width="0.127" layer="20"/>
 <wire x1="-9.045" y1="24.34" x2="9.045" y2="24.34" width="0.127" layer="21"/>
 <pad name="1" x="-3.556" y="20.98" drill="0.8"/>
 <pad name="2" x="-2.54" y="18.44" drill="0.8"/>
@@ -321,6 +320,8 @@
 <pad name="GND@2" x="8.045" y="17.59" drill="1.55"/>
 <pad name="GND@3" x="-6" y="23.19" drill="1.55"/>
 <pad name="GND@4" x="6" y="23.19" drill="1.55"/>
+<wire x1="-9.045" y1="11.34" x2="-7.045" y2="11.34" width="0.127" layer="20" curve="-180"/>
+<wire x1="7.045" y1="11.34" x2="9.045" y2="11.34" width="0.127" layer="20" curve="-180"/>
 </package>
 </packages>
 </library>
@@ -362,10 +363,7 @@
 <text x="-3.81" y="0" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-5.08" y="5.08" radius="1.27" width="0.127" layer="21"/>
 </package>
-<package name="WE_EP13_SMD_10PIN">
-<description>&lt;h3&gt;Transformer,  EP13 SMD 10 Pin&lt;/h3&gt;
-
-&lt;p&gt;Generic footprint for Würth Electronics EP13 SMD transformer packages; 10 pin variant.  Provided by Würth.&lt;/p&gt;</description>
+<package name="WE_EP13_SMD_10PIN_EMBEDDED">
 <wire x1="-8.9" y1="-6.7" x2="8.9" y2="-6.7" width="0.127" layer="21"/>
 <wire x1="-8.9" y1="6.7" x2="8.9" y2="6.7" width="0.127" layer="21"/>
 <wire x1="-8.9" y1="6.7" x2="-8.9" y2="-6.7" width="0.127" layer="51"/>
@@ -374,10 +372,10 @@
 <wire x1="10" y1="7" x2="10" y2="-7" width="0.127" layer="39"/>
 <wire x1="10" y1="-7" x2="-10" y2="-7" width="0.127" layer="39"/>
 <wire x1="-10" y1="-7" x2="-10" y2="7" width="0.127" layer="39"/>
-<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="43"/>
-<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="43"/>
-<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="43"/>
-<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.127" layer="43"/>
+<wire x1="-4.5" y1="6.5" x2="4.5" y2="6.5" width="0" layer="20"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="4.5" y1="-6.5" x2="-4.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0" layer="20"/>
 <circle x="-6.6" y="-5" radius="0.2" width="0.127" layer="21"/>
 <smd name="6" x="8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
 <smd name="10" x="8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
@@ -391,6 +389,14 @@
 <smd name="3" x="-8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
 <text x="-9.3" y="7.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-9.3" y="-9.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="-4.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="4.5" y1="6.5" x2="6.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-4.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="6.5" y1="-6.5" x2="4.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-5.5" y1="6.5" x2="-5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="-5" y1="5.5" x2="5" y2="5.5" width="2" layer="46"/>
+<wire x1="-5" y1="-5.5" x2="5" y2="-5.5" width="2" layer="46"/>
 </package>
 </packages>
 </library>
@@ -983,7 +989,7 @@ design rules under a new name.</description>
 <element name="D9" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="25" y="52"/>
 <element name="D8" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="25" y="56"/>
 <element name="D7" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="25" y="48"/>
-<element name="T2" library="ELL-i-Transformers" package="WE_EP13_SMD_10PIN" value="FLYBACK750311689" x="39.57" y="54.15" rot="R180"/>
+<element name="T2" library="ELL-i-Transformers" package="WE_EP13_SMD_10PIN_EMBEDDED" value="FLYBACKEMBEDDED" x="39.57" y="54.15" rot="R180"/>
 <element name="J4" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="M022.54MM" x="55.75" y="12.04" rot="R270"/>
 <element name="TP2" library="ELL-i-Passives" package="TP_5000" value="" x="3" y="65"/>
 <element name="TP3" library="ELL-i-Passives" package="TP_5000" value="" x="3" y="62" rot="R270"/>
@@ -996,13 +1002,13 @@ design rules under a new name.</description>
 <element name="TP1" library="ELL-i-Passives" package="TP_5021" value="" x="3" y="68" rot="R180"/>
 <element name="J3" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="M022.54MM" x="54.76" y="60.08" rot="R270"/>
 <element name="D19" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="23" y="25"/>
-<element name="X1" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="9.5" y="22.5"/>
-<element name="X2" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="9.5" y="47.5"/>
-<element name="X3" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="52.5" y="47.5"/>
-<element name="X4" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="52.5" y="22.5"/>
+<element name="X1" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="9.5" y="21.5"/>
+<element name="X2" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="9.5" y="48.5"/>
+<element name="X3" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="52.5" y="48.5"/>
+<element name="X4" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="52.5" y="21.5"/>
 <element name="U$1" library="ELL-i-Boards" package="NUCLEO-SHIELD-UNDERSIDE-SHORT" value="NUCLEO-SHIELD" x="58" y="0" rot="R90"/>
-<element name="U1" library="ELL-i-DigitalIC" package="TQFP44-0.8MM" value="ENC424J600" x="21" y="36"/>
-<element name="U$2" library="ELL-i-Connectors" package="TE1888250" value="POE-TP-SHIELDED-LEDSTE1888250" x="58" y="35" rot="R90"/>
+<element name="U1" library="ELL-i-DigitalIC" package="TQFP44-0.8MM" value="ENC424J600" x="25" y="36"/>
+<element name="U$2" library="ELL-i-Connectors" package="TE1888250" value="POE-TP-SHIELDED-LEDSTE1888250" x="59" y="36" rot="R90"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -1014,22 +1020,22 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="T1" pad="10"/>
 <contactref element="U$2" pad="2"/>
-<wire x1="36.73" y1="24.511" x2="39.56" y2="32.46" width="0" layer="19" extent="1-1"/>
+<wire x1="36.73" y1="24.511" x2="40.56" y2="33.46" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="T1" pad="9"/>
 <contactref element="U$2" pad="1"/>
-<wire x1="34.19" y1="24.511" x2="37.02" y2="31.444" width="0" layer="19" extent="1-1"/>
+<wire x1="34.19" y1="24.511" x2="38.02" y2="32.444" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="T1" pad="13"/>
 <contactref element="U$2" pad="3"/>
-<wire x1="44.35" y1="24.511" x2="37.02" y2="33.476" width="0" layer="19" extent="1-1"/>
+<wire x1="44.35" y1="24.511" x2="38.02" y2="34.476" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="T1" pad="14"/>
 <contactref element="U$2" pad="6"/>
-<wire x1="46.89" y1="24.511" x2="39.56" y2="36.524" width="0" layer="19" extent="1-1"/>
+<wire x1="46.89" y1="24.511" x2="40.56" y2="37.524" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POE_B-">
 <contactref element="D9" pad="A"/>
@@ -1075,8 +1081,8 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="4"/>
 <contactref element="U$2" pad="5"/>
 <wire x1="19.15" y1="60" x2="22.85" y2="60" width="0" layer="19" extent="1-1"/>
-<wire x1="37.02" y1="35.508" x2="22.85" y2="60" width="0" layer="19" extent="1-1"/>
-<wire x1="39.56" y1="34.492" x2="37.02" y2="35.508" width="0" layer="19" extent="1-1"/>
+<wire x1="38.02" y1="36.508" x2="22.85" y2="60" width="0" layer="19" extent="1-1"/>
+<wire x1="40.56" y1="35.492" x2="38.02" y2="36.508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="X3" pad="1"/>
@@ -1139,14 +1145,14 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="GND@3"/>
 <contactref element="U$2" pad="GND@2"/>
 <contactref element="U$2" pad="GND@4"/>
-<wire x1="34.81" y1="41" x2="40.41" y2="43.045" width="0" layer="19" extent="1-1"/>
-<wire x1="34.81" y1="29" x2="34.81" y2="41" width="0" layer="19" extent="1-1"/>
-<wire x1="40.41" y1="26.946" x2="34.81" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="35.81" y1="42" x2="41.41" y2="44.045" width="0" layer="19" extent="1-1"/>
+<wire x1="35.81" y1="30" x2="35.81" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="41.41" y1="27.946" x2="35.81" y2="30" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="U$2" pad="7"/>
 <contactref element="U$2" pad="8"/>
-<wire x1="37.02" y1="37.54" x2="39.56" y2="38.556" width="0" layer="19" extent="1-1"/>
+<wire x1="38.02" y1="38.54" x2="40.56" y2="39.556" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
