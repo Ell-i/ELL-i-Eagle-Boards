@@ -4314,7 +4314,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U4" library="ELL-i-DigitalIC" deviceset="LCMXO2-256*SG32" device="" technology="HC-4"/>
 <part name="U3" library="ELL-i-DigitalIC" deviceset="ELLI-MACHXO2-256" device=""/>
-<part name="J2" library="ELL-i-Connectors" deviceset="DF12-ELLI-*" device="HEADER-TOP"/>
+<part name="EXT1" library="ELL-i-Connectors" deviceset="DF12-ELLI-*" device="HEADER-TOP"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="+3V316" library="supply1" deviceset="+3V3" device=""/>
 <part name="GNDI19" library="supply1" deviceset="GNDI" device=""/>
@@ -4325,7 +4325,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GNDI15" library="supply1" deviceset="GNDI" device=""/>
 <part name="R21" library="ELL-i-Passives" deviceset="R" device="0402" value="10K"/>
 <part name="GNDI16" library="supply1" deviceset="GNDI" device=""/>
-<part name="J3" library="ELL-i-Connectors" deviceset="DF12-ELLI-*" device="RECEPTABLE-BOTTOM"/>
+<part name="EXB1" library="ELL-i-Connectors" deviceset="DF12-ELLI-*" device="RECEPTABLE-BOTTOM"/>
 <part name="C3" library="ELL-i-Passives" deviceset="C" device="0402" value="33n"/>
 <part name="R4" library="ELL-i-Passives" deviceset="R" device="0402" value="1k5"/>
 <part name="GNDI1" library="supply1" deviceset="GNDI" device=""/>
@@ -4471,7 +4471,7 @@ Uncertainty about capacitor values etc.</text>
 <attribute name="VALUE" x="-78.994" y="24.384" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U3" gate="G$1" x="180.34" y="147.32" rot="MR0"/>
-<instance part="J2" gate="E" x="71.12" y="297.18"/>
+<instance part="EXT1" gate="E" x="71.12" y="297.18"/>
 <instance part="FRAME3" gate="G$1" x="0" y="195.58"/>
 <instance part="+3V316" gate="G$1" x="266.7" y="116.84"/>
 <instance part="GNDI19" gate="G$1" x="266.7" y="43.18"/>
@@ -4482,7 +4482,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="GNDI15" gate="G$1" x="236.22" y="43.18"/>
 <instance part="R21" gate="G$1" x="246.38" y="96.52" rot="R270"/>
 <instance part="GNDI16" gate="G$1" x="246.38" y="86.36"/>
-<instance part="J3" gate="E" x="198.12" y="297.18"/>
+<instance part="EXB1" gate="E" x="198.12" y="297.18"/>
 <instance part="C3" gate="G$1" x="-238.76" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="-241.3" y="109.22" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-233.68" y="109.22" size="1.778" layer="96"/>
@@ -4707,12 +4707,12 @@ Uncertainty about capacitor values etc.</text>
 <junction x="-205.74" y="104.14"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="-RESET"/>
+<pinref part="EXT1" gate="E" pin="-RESET"/>
 <wire x1="88.9" y1="307.34" x2="99.06" y2="307.34" width="0.1524" layer="91"/>
 <label x="99.06" y="307.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="-RESET"/>
+<pinref part="EXB1" gate="E" pin="-RESET"/>
 <wire x1="215.9" y1="307.34" x2="236.22" y2="307.34" width="0.1524" layer="91"/>
 <label x="236.22" y="307.34" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -4824,33 +4824,33 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="254" y1="340.36" x2="254" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="254" y1="332.74" x2="254" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="254" y1="327.66" x2="215.9" y2="327.66" width="0.1524" layer="91"/>
-<pinref part="J3" gate="E" pin="3.3V@6"/>
+<pinref part="EXB1" gate="E" pin="3.3V@6"/>
 <pinref part="SJ16" gate="1" pin="2"/>
 <wire x1="251.46" y1="332.74" x2="254" y2="332.74" width="0.1524" layer="91"/>
 <junction x="254" y="332.74"/>
 </segment>
 <segment>
 <pinref part="+3V311" gate="G$1" pin="+3V3"/>
-<pinref part="J2" gate="E" pin="3.3V@6"/>
+<pinref part="EXT1" gate="E" pin="3.3V@6"/>
 <wire x1="114.3" y1="335.28" x2="114.3" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="327.66" x2="88.9" y2="327.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="3.3V@48"/>
+<pinref part="EXT1" gate="E" pin="3.3V@48"/>
 <wire x1="88.9" y1="274.32" x2="121.92" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="274.32" x2="121.92" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="+3V312" gate="G$1" pin="+3V3"/>
-<pinref part="J2" gate="E" pin="ETH_MUX"/>
+<pinref part="EXT1" gate="E" pin="ETH_MUX"/>
 <wire x1="121.92" y1="281.94" x2="121.92" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="281.94" x2="121.92" y2="281.94" width="0.1524" layer="91"/>
 <junction x="121.92" y="281.94"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="3.3V@48"/>
+<pinref part="EXB1" gate="E" pin="3.3V@48"/>
 <wire x1="215.9" y1="274.32" x2="259.08" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="274.32" x2="259.08" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="+3V315" gate="G$1" pin="+3V3"/>
-<pinref part="J3" gate="E" pin="ETH_MUX"/>
+<pinref part="EXB1" gate="E" pin="ETH_MUX"/>
 <wire x1="259.08" y1="281.94" x2="259.08" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="281.94" x2="259.08" y2="281.94" width="0.1524" layer="91"/>
 <junction x="259.08" y="281.94"/>
@@ -4980,31 +4980,31 @@ Uncertainty about capacitor values etc.</text>
 </segment>
 <segment>
 <pinref part="GNDI18" gate="G$1" pin="GNDI"/>
-<pinref part="J3" gate="E" pin="GND@14"/>
+<pinref part="EXB1" gate="E" pin="GND@14"/>
 <wire x1="254" y1="317.5" x2="215.9" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="J3" gate="E" pin="GND@12"/>
+<pinref part="EXB1" gate="E" pin="GND@12"/>
 <wire x1="215.9" y1="320.04" x2="254" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="254" y1="320.04" x2="254" y2="317.5" width="0.1524" layer="91"/>
 <junction x="254" y="317.5"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="GND@14"/>
+<pinref part="EXT1" gate="E" pin="GND@14"/>
 <pinref part="GNDI13" gate="G$1" pin="GNDI"/>
 <wire x1="88.9" y1="317.5" x2="114.3" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="J2" gate="E" pin="GND@12"/>
+<pinref part="EXT1" gate="E" pin="GND@12"/>
 <wire x1="88.9" y1="320.04" x2="114.3" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="320.04" x2="114.3" y2="317.5" width="0.1524" layer="91"/>
 <junction x="114.3" y="317.5"/>
 </segment>
 <segment>
 <pinref part="GNDI14" gate="G$1" pin="GNDI"/>
-<pinref part="J2" gate="E" pin="GND@46"/>
+<pinref part="EXT1" gate="E" pin="GND@46"/>
 <wire x1="114.3" y1="276.86" x2="114.3" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="276.86" x2="114.3" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GNDI17" gate="G$1" pin="GNDI"/>
-<pinref part="J3" gate="E" pin="GND@46"/>
+<pinref part="EXB1" gate="E" pin="GND@46"/>
 <wire x1="251.46" y1="276.86" x2="251.46" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="276.86" x2="251.46" y2="276.86" width="0.1524" layer="91"/>
 </segment>
@@ -5041,12 +5041,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="172.72" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="AD0"/>
+<pinref part="EXT1" gate="E" pin="AD0"/>
 <wire x1="53.34" y1="320.04" x2="40.64" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="320.04" x2="38.1" y2="317.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="AD0"/>
+<pinref part="EXB1" gate="E" pin="AD0"/>
 <wire x1="180.34" y1="320.04" x2="167.64" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="320.04" x2="165.1" y2="317.5" width="0.1524" layer="91"/>
 </segment>
@@ -5059,12 +5059,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="167.64" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="AD1"/>
+<pinref part="EXT1" gate="E" pin="AD1"/>
 <wire x1="53.34" y1="322.58" x2="40.64" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="322.58" x2="38.1" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="AD1"/>
+<pinref part="EXB1" gate="E" pin="AD1"/>
 <wire x1="180.34" y1="322.58" x2="167.64" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="322.58" x2="165.1" y2="320.04" width="0.1524" layer="91"/>
 </segment>
@@ -5077,12 +5077,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="165.1" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO6"/>
+<pinref part="EXT1" gate="E" pin="IO6"/>
 <wire x1="53.34" y1="297.18" x2="40.64" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="297.18" x2="38.1" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO6"/>
+<pinref part="EXB1" gate="E" pin="IO6"/>
 <wire x1="180.34" y1="297.18" x2="167.64" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="297.18" x2="165.1" y2="294.64" width="0.1524" layer="91"/>
 </segment>
@@ -5095,12 +5095,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="162.56" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="AD2"/>
+<pinref part="EXT1" gate="E" pin="AD2"/>
 <wire x1="53.34" y1="325.12" x2="40.64" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="325.12" x2="38.1" y2="322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="AD2"/>
+<pinref part="EXB1" gate="E" pin="AD2"/>
 <wire x1="180.34" y1="325.12" x2="167.64" y2="325.12" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="325.12" x2="165.1" y2="322.58" width="0.1524" layer="91"/>
 </segment>
@@ -5113,12 +5113,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="160.02" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="AD3"/>
+<pinref part="EXT1" gate="E" pin="AD3"/>
 <wire x1="53.34" y1="327.66" x2="40.64" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="327.66" x2="38.1" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="AD3"/>
+<pinref part="EXB1" gate="E" pin="AD3"/>
 <wire x1="180.34" y1="327.66" x2="167.64" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="327.66" x2="165.1" y2="325.12" width="0.1524" layer="91"/>
 </segment>
@@ -5137,12 +5137,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="134.62" y="63.5" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="MISO"/>
+<pinref part="EXT1" gate="E" pin="MISO"/>
 <wire x1="53.34" y1="312.42" x2="40.64" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="312.42" x2="38.1" y2="309.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="MISO"/>
+<pinref part="EXB1" gate="E" pin="MISO"/>
 <wire x1="180.34" y1="312.42" x2="167.64" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="312.42" x2="165.1" y2="309.88" width="0.1524" layer="91"/>
 </segment>
@@ -5155,12 +5155,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="149.86" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="TX1/IO1"/>
+<pinref part="EXT1" gate="E" pin="TX1/IO1"/>
 <wire x1="88.9" y1="302.26" x2="106.68" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="302.26" x2="109.22" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="TX1/IO1"/>
+<pinref part="EXB1" gate="E" pin="TX1/IO1"/>
 <wire x1="215.9" y1="302.26" x2="243.84" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="302.26" x2="246.38" y2="299.72" width="0.1524" layer="91"/>
 </segment>
@@ -5178,12 +5178,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="147.32" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="RX1/IO0"/>
+<pinref part="EXT1" gate="E" pin="RX1/IO0"/>
 <wire x1="88.9" y1="304.8" x2="106.68" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="304.8" x2="109.22" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RX1/IO0"/>
+<pinref part="EXB1" gate="E" pin="RX1/IO0"/>
 <wire x1="215.9" y1="304.8" x2="243.84" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="304.8" x2="246.38" y2="302.26" width="0.1524" layer="91"/>
 </segment>
@@ -5201,12 +5201,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="142.24" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO4"/>
+<pinref part="EXT1" gate="E" pin="IO4"/>
 <wire x1="88.9" y1="294.64" x2="106.68" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="294.64" x2="109.22" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO4"/>
+<pinref part="EXB1" gate="E" pin="IO4"/>
 <wire x1="215.9" y1="294.64" x2="243.84" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="294.64" x2="246.38" y2="292.1" width="0.1524" layer="91"/>
 </segment>
@@ -5240,12 +5240,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="J4" gate="A" pin="6"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SS"/>
+<pinref part="EXT1" gate="E" pin="SS"/>
 <wire x1="53.34" y1="307.34" x2="40.64" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="307.34" x2="38.1" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SS"/>
+<pinref part="EXB1" gate="E" pin="SS"/>
 <wire x1="180.34" y1="307.34" x2="167.64" y2="307.34" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="307.34" x2="165.1" y2="304.8" width="0.1524" layer="91"/>
 </segment>
@@ -5258,12 +5258,12 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="91.44" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO9"/>
+<pinref part="EXT1" gate="E" pin="IO9"/>
 <wire x1="53.34" y1="304.8" x2="40.64" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="304.8" x2="38.1" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO9"/>
+<pinref part="EXB1" gate="E" pin="IO9"/>
 <wire x1="180.34" y1="304.8" x2="167.64" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="304.8" x2="165.1" y2="302.26" width="0.1524" layer="91"/>
 </segment>
@@ -5282,12 +5282,12 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="88.9" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO7"/>
+<pinref part="EXT1" gate="E" pin="IO7"/>
 <wire x1="53.34" y1="299.72" x2="40.64" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="299.72" x2="38.1" y2="297.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO7"/>
+<pinref part="EXB1" gate="E" pin="IO7"/>
 <wire x1="180.34" y1="299.72" x2="167.64" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="299.72" x2="165.1" y2="297.18" width="0.1524" layer="91"/>
 </segment>
@@ -5314,12 +5314,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="134.62" y="66.04" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SCK"/>
+<pinref part="EXT1" gate="E" pin="SCK"/>
 <wire x1="53.34" y1="314.96" x2="40.64" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="314.96" x2="38.1" y2="312.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SCK"/>
+<pinref part="EXB1" gate="E" pin="SCK"/>
 <wire x1="180.34" y1="314.96" x2="167.64" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="314.96" x2="165.1" y2="312.42" width="0.1524" layer="91"/>
 </segment>
@@ -5332,12 +5332,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="U1" gate="PB" pin="PB1-ADC_IN9"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO5"/>
+<pinref part="EXT1" gate="E" pin="IO5"/>
 <wire x1="53.34" y1="294.64" x2="40.64" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="294.64" x2="38.1" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO5"/>
+<pinref part="EXB1" gate="E" pin="IO5"/>
 <wire x1="180.34" y1="294.64" x2="167.64" y2="294.64" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="294.64" x2="165.1" y2="292.1" width="0.1524" layer="91"/>
 </segment>
@@ -5356,12 +5356,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="134.62" y="58.42" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="MOSI"/>
+<pinref part="EXT1" gate="E" pin="MOSI"/>
 <wire x1="53.34" y1="309.88" x2="40.64" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="309.88" x2="38.1" y2="307.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="MOSI"/>
+<pinref part="EXB1" gate="E" pin="MOSI"/>
 <wire x1="180.34" y1="309.88" x2="167.64" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="309.88" x2="165.1" y2="307.34" width="0.1524" layer="91"/>
 </segment>
@@ -5382,7 +5382,7 @@ Uncertainty about capacitor values etc.</text>
 <label x="134.62" y="43.18" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SCL"/>
+<pinref part="EXT1" gate="E" pin="SCL"/>
 <wire x1="53.34" y1="332.74" x2="40.64" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="332.74" x2="38.1" y2="330.2" width="0.1524" layer="91"/>
 </segment>
@@ -5393,7 +5393,7 @@ Uncertainty about capacitor values etc.</text>
 <label x="7.62" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SCL"/>
+<pinref part="EXB1" gate="E" pin="SCL"/>
 <wire x1="180.34" y1="332.74" x2="167.64" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="332.74" x2="165.1" y2="330.2" width="0.1524" layer="91"/>
 </segment>
@@ -5414,7 +5414,7 @@ Uncertainty about capacitor values etc.</text>
 <label x="134.62" y="45.72" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SDA"/>
+<pinref part="EXT1" gate="E" pin="SDA"/>
 <wire x1="53.34" y1="330.2" x2="40.64" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="330.2" x2="38.1" y2="327.66" width="0.1524" layer="91"/>
 </segment>
@@ -5425,7 +5425,7 @@ Uncertainty about capacitor values etc.</text>
 <label x="7.62" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SDA"/>
+<pinref part="EXB1" gate="E" pin="SDA"/>
 <wire x1="180.34" y1="330.2" x2="167.64" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="330.2" x2="165.1" y2="327.66" width="0.1524" layer="91"/>
 </segment>
@@ -5472,10 +5472,10 @@ Uncertainty about capacitor values etc.</text>
 <segment>
 <wire x1="53.34" y1="281.94" x2="40.64" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="281.94" x2="38.1" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="J2" gate="E" pin="E4"/>
+<pinref part="EXT1" gate="E" pin="E4"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E4"/>
+<pinref part="EXB1" gate="E" pin="E4"/>
 <wire x1="180.34" y1="281.94" x2="167.64" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="281.94" x2="165.1" y2="279.4" width="0.1524" layer="91"/>
 </segment>
@@ -5488,12 +5488,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="50.8" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E5"/>
+<pinref part="EXT1" gate="E" pin="E5"/>
 <wire x1="53.34" y1="279.4" x2="40.64" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="279.4" x2="38.1" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E5"/>
+<pinref part="EXB1" gate="E" pin="E5"/>
 <wire x1="180.34" y1="279.4" x2="167.64" y2="279.4" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="279.4" x2="165.1" y2="276.86" width="0.1524" layer="91"/>
 </segment>
@@ -5506,12 +5506,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="48.26" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E6"/>
+<pinref part="EXT1" gate="E" pin="E6"/>
 <wire x1="53.34" y1="276.86" x2="40.64" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="276.86" x2="38.1" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E6"/>
+<pinref part="EXB1" gate="E" pin="E6"/>
 <wire x1="180.34" y1="276.86" x2="167.64" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="276.86" x2="165.1" y2="274.32" width="0.1524" layer="91"/>
 </segment>
@@ -5524,12 +5524,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="45.72" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E7"/>
+<pinref part="EXT1" gate="E" pin="E7"/>
 <wire x1="53.34" y1="274.32" x2="40.64" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="274.32" x2="38.1" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E7"/>
+<pinref part="EXB1" gate="E" pin="E7"/>
 <wire x1="180.34" y1="274.32" x2="167.64" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="274.32" x2="165.1" y2="271.78" width="0.1524" layer="91"/>
 </segment>
@@ -5542,12 +5542,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="43.18" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E8"/>
+<pinref part="EXT1" gate="E" pin="E8"/>
 <wire x1="53.34" y1="271.78" x2="40.64" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="271.78" x2="38.1" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E8"/>
+<pinref part="EXB1" gate="E" pin="E8"/>
 <wire x1="180.34" y1="271.78" x2="167.64" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="271.78" x2="165.1" y2="269.24" width="0.1524" layer="91"/>
 </segment>
@@ -5560,12 +5560,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="40.64" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E9"/>
+<pinref part="EXT1" gate="E" pin="E9"/>
 <wire x1="53.34" y1="269.24" x2="40.64" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="269.24" x2="38.1" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E9"/>
+<pinref part="EXB1" gate="E" pin="E9"/>
 <wire x1="180.34" y1="269.24" x2="167.64" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="269.24" x2="165.1" y2="266.7" width="0.1524" layer="91"/>
 </segment>
@@ -5578,12 +5578,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="38.1" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E10"/>
+<pinref part="EXT1" gate="E" pin="E10"/>
 <wire x1="53.34" y1="266.7" x2="40.64" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="266.7" x2="38.1" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E10"/>
+<pinref part="EXB1" gate="E" pin="E10"/>
 <wire x1="180.34" y1="266.7" x2="167.64" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="266.7" x2="165.1" y2="264.16" width="0.1524" layer="91"/>
 </segment>
@@ -5596,12 +5596,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="35.56" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E11"/>
+<pinref part="EXT1" gate="E" pin="E11"/>
 <wire x1="53.34" y1="264.16" x2="40.64" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="264.16" x2="38.1" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E11"/>
+<pinref part="EXB1" gate="E" pin="E11"/>
 <wire x1="180.34" y1="264.16" x2="167.64" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="264.16" x2="165.1" y2="261.62" width="0.1524" layer="91"/>
 </segment>
@@ -5620,12 +5620,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ13" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SDA2"/>
+<pinref part="EXT1" gate="E" pin="SDA2"/>
 <wire x1="53.34" y1="261.62" x2="40.64" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="261.62" x2="38.1" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SDA2"/>
+<pinref part="EXB1" gate="E" pin="SDA2"/>
 <wire x1="180.34" y1="261.62" x2="167.64" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="261.62" x2="165.1" y2="259.08" width="0.1524" layer="91"/>
 </segment>
@@ -5650,12 +5650,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ14" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SCL2"/>
+<pinref part="EXT1" gate="E" pin="SCL2"/>
 <wire x1="53.34" y1="259.08" x2="40.64" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="259.08" x2="38.1" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SCL2"/>
+<pinref part="EXB1" gate="E" pin="SCL2"/>
 <wire x1="180.34" y1="259.08" x2="167.64" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="259.08" x2="165.1" y2="256.54" width="0.1524" layer="91"/>
 </segment>
@@ -5674,12 +5674,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="93.98" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SS2/CANRX"/>
+<pinref part="EXT1" gate="E" pin="SS2/CANRX"/>
 <wire x1="88.9" y1="259.08" x2="106.68" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="259.08" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SS2/CANRX"/>
+<pinref part="EXB1" gate="E" pin="SS2/CANRX"/>
 <wire x1="215.9" y1="259.08" x2="243.84" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="259.08" x2="246.38" y2="256.54" width="0.1524" layer="91"/>
 </segment>
@@ -5692,12 +5692,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="86.36" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="MOSI2"/>
+<pinref part="EXT1" gate="E" pin="MOSI2"/>
 <wire x1="88.9" y1="261.62" x2="106.68" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="261.62" x2="109.22" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="MOSI2"/>
+<pinref part="EXB1" gate="E" pin="MOSI2"/>
 <wire x1="215.9" y1="261.62" x2="243.84" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="261.62" x2="246.38" y2="259.08" width="0.1524" layer="91"/>
 </segment>
@@ -5710,14 +5710,14 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="88.9" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="MISO2"/>
+<pinref part="EXT1" gate="E" pin="MISO2"/>
 <wire x1="88.9" y1="264.16" x2="106.68" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="264.16" x2="109.22" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="264.16" x2="243.84" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="264.16" x2="246.38" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="J3" gate="E" pin="MISO2"/>
+<pinref part="EXB1" gate="E" pin="MISO2"/>
 </segment>
 </net>
 <net name="E17" class="0">
@@ -5728,12 +5728,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="91.44" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="SCK2/CANTX"/>
+<pinref part="EXT1" gate="E" pin="SCK2/CANTX"/>
 <wire x1="88.9" y1="266.7" x2="106.68" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="266.7" x2="109.22" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="SCK2/CANTX"/>
+<pinref part="EXB1" gate="E" pin="SCK2/CANTX"/>
 <wire x1="215.9" y1="266.7" x2="243.84" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="266.7" x2="246.38" y2="264.16" width="0.1524" layer="91"/>
 </segment>
@@ -5746,12 +5746,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="25.4" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="RX2/E18"/>
+<pinref part="EXT1" gate="E" pin="RX2/E18"/>
 <wire x1="88.9" y1="269.24" x2="106.68" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="269.24" x2="109.22" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RX2/E18"/>
+<pinref part="EXB1" gate="E" pin="RX2/E18"/>
 <wire x1="215.9" y1="269.24" x2="243.84" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="269.24" x2="246.38" y2="266.7" width="0.1524" layer="91"/>
 </segment>
@@ -5764,12 +5764,12 @@ Uncertainty about capacitor values etc.</text>
 <label x="127" y="27.94" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="TX2/E19"/>
+<pinref part="EXT1" gate="E" pin="TX2/E19"/>
 <wire x1="88.9" y1="271.78" x2="106.68" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="271.78" x2="109.22" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="TX2/E19"/>
+<pinref part="EXB1" gate="E" pin="TX2/E19"/>
 <wire x1="215.9" y1="271.78" x2="243.84" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="271.78" x2="246.38" y2="269.24" width="0.1524" layer="91"/>
 </segment>
@@ -5943,12 +5943,12 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="73.66" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO3"/>
+<pinref part="EXT1" gate="E" pin="IO3"/>
 <wire x1="88.9" y1="297.18" x2="106.68" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="297.18" x2="109.22" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO3"/>
+<pinref part="EXB1" gate="E" pin="IO3"/>
 <wire x1="215.9" y1="297.18" x2="243.84" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="297.18" x2="246.38" y2="294.64" width="0.1524" layer="91"/>
 </segment>
@@ -5966,12 +5966,12 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="73.66" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="IO8"/>
+<pinref part="EXT1" gate="E" pin="IO8"/>
 <wire x1="53.34" y1="302.26" x2="40.64" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="302.26" x2="38.1" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO8"/>
+<pinref part="EXB1" gate="E" pin="IO8"/>
 <wire x1="180.34" y1="302.26" x2="167.64" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="302.26" x2="165.1" y2="299.72" width="0.1524" layer="91"/>
 </segment>
@@ -5990,12 +5990,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ9" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E0"/>
+<pinref part="EXT1" gate="E" pin="E0"/>
 <wire x1="53.34" y1="292.1" x2="40.64" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="292.1" x2="38.1" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E0"/>
+<pinref part="EXB1" gate="E" pin="E0"/>
 <wire x1="180.34" y1="292.1" x2="167.64" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="292.1" x2="165.1" y2="289.56" width="0.1524" layer="91"/>
 </segment>
@@ -6014,12 +6014,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ10" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E1"/>
+<pinref part="EXT1" gate="E" pin="E1"/>
 <wire x1="53.34" y1="289.56" x2="40.64" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="289.56" x2="38.1" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E1"/>
+<pinref part="EXB1" gate="E" pin="E1"/>
 <wire x1="180.34" y1="289.56" x2="167.64" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="289.56" x2="165.1" y2="287.02" width="0.1524" layer="91"/>
 </segment>
@@ -6038,12 +6038,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ11" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E2"/>
+<pinref part="EXT1" gate="E" pin="E2"/>
 <wire x1="53.34" y1="287.02" x2="40.64" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="287.02" x2="38.1" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E2"/>
+<pinref part="EXB1" gate="E" pin="E2"/>
 <wire x1="180.34" y1="287.02" x2="167.64" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="287.02" x2="165.1" y2="284.48" width="0.1524" layer="91"/>
 </segment>
@@ -6062,12 +6062,12 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SJ12" gate="1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="E3"/>
+<pinref part="EXT1" gate="E" pin="E3"/>
 <wire x1="53.34" y1="284.48" x2="40.64" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="284.48" x2="38.1" y2="281.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="E3"/>
+<pinref part="EXB1" gate="E" pin="E3"/>
 <wire x1="180.34" y1="284.48" x2="167.64" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="284.48" x2="165.1" y2="281.94" width="0.1524" layer="91"/>
 </segment>
@@ -6088,12 +6088,12 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="D2" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="IO2"/>
+<pinref part="EXT1" gate="E" pin="IO2"/>
 <wire x1="88.9" y1="299.72" x2="106.68" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="299.72" x2="109.22" y2="297.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="IO2"/>
+<pinref part="EXB1" gate="E" pin="IO2"/>
 <wire x1="215.9" y1="299.72" x2="243.84" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="299.72" x2="246.38" y2="297.18" width="0.1524" layer="91"/>
 </segment>
@@ -6109,12 +6109,12 @@ Uncertainty about capacitor values etc.</text>
 <net name="BOOT0" class="0">
 <segment>
 <label x="91.44" y="279.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="J2" gate="E" pin="BOOT0"/>
+<pinref part="EXT1" gate="E" pin="BOOT0"/>
 <wire x1="91.44" y1="279.4" x2="88.9" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="218.44" y="279.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="J3" gate="E" pin="BOOT0"/>
+<pinref part="EXB1" gate="E" pin="BOOT0"/>
 <wire x1="218.44" y1="279.4" x2="215.9" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6142,14 +6142,14 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="VBATT" class="0">
 <segment>
-<pinref part="J3" gate="E" pin="VBATT"/>
+<pinref part="EXB1" gate="E" pin="VBATT"/>
 <wire x1="215.9" y1="330.2" x2="223.52" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="330.2" x2="223.52" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="347.98" x2="215.9" y2="347.98" width="0.1524" layer="91"/>
 <label x="215.9" y="347.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="VBATT"/>
+<pinref part="EXT1" gate="E" pin="VBATT"/>
 <wire x1="88.9" y1="330.2" x2="93.98" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="330.2" x2="93.98" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="347.98" x2="86.36" y2="347.98" width="0.1524" layer="91"/>
@@ -6165,11 +6165,11 @@ Uncertainty about capacitor values etc.</text>
 <segment>
 <label x="91.44" y="289.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="91.44" y1="289.56" x2="88.9" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="J2" gate="E" pin="ETH_SS/TX-"/>
+<pinref part="EXT1" gate="E" pin="ETH_SS/TX-"/>
 </segment>
 <segment>
 <label x="218.44" y="289.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="E" pin="ETH_SS/TX-"/>
+<pinref part="EXB1" gate="E" pin="ETH_SS/TX-"/>
 <wire x1="218.44" y1="289.56" x2="215.9" y2="289.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6180,24 +6180,24 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="RSV1" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RSV1"/>
+<pinref part="EXT1" gate="E" pin="RSV1"/>
 <wire x1="88.9" y1="312.42" x2="91.44" y2="312.42" width="0.1524" layer="91"/>
 <label x="91.44" y="312.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RSV1"/>
+<pinref part="EXB1" gate="E" pin="RSV1"/>
 <wire x1="215.9" y1="312.42" x2="218.44" y2="312.42" width="0.1524" layer="91"/>
 <label x="218.44" y="312.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RSV0" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RSV0"/>
+<pinref part="EXT1" gate="E" pin="RSV0"/>
 <wire x1="88.9" y1="309.88" x2="91.44" y2="309.88" width="0.1524" layer="91"/>
 <label x="91.44" y="309.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RSV0"/>
+<pinref part="EXB1" gate="E" pin="RSV0"/>
 <wire x1="215.9" y1="309.88" x2="218.44" y2="309.88" width="0.1524" layer="91"/>
 <label x="218.44" y="309.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6300,12 +6300,12 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="+5V" class="1">
 <segment>
-<pinref part="J3" gate="E" pin="5V"/>
+<pinref part="EXB1" gate="E" pin="5V"/>
 <wire x1="215.9" y1="325.12" x2="218.44" y2="325.12" width="0.1524" layer="91"/>
 <label x="218.44" y="325.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="5V"/>
+<pinref part="EXT1" gate="E" pin="5V"/>
 <wire x1="88.9" y1="325.12" x2="91.44" y2="325.12" width="0.1524" layer="91"/>
 <label x="91.44" y="325.12" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6329,12 +6329,12 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="J3" gate="E" pin="VIN"/>
+<pinref part="EXB1" gate="E" pin="VIN"/>
 <wire x1="215.9" y1="322.58" x2="228.6" y2="322.58" width="0.1524" layer="91"/>
 <label x="228.6" y="322.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="VIN"/>
+<pinref part="EXT1" gate="E" pin="VIN"/>
 <wire x1="88.9" y1="322.58" x2="99.06" y2="322.58" width="0.1524" layer="91"/>
 <label x="99.06" y="322.58" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6353,14 +6353,14 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="VCCIO" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="VCC(IO)"/>
+<pinref part="EXT1" gate="E" pin="VCC(IO)"/>
 <wire x1="88.9" y1="332.74" x2="91.44" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="332.74" x2="91.44" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="342.9" x2="86.36" y2="342.9" width="0.1524" layer="91"/>
 <label x="86.36" y="342.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="VCC(IO)"/>
+<pinref part="EXB1" gate="E" pin="VCC(IO)"/>
 <pinref part="SJ16" gate="1" pin="1"/>
 <wire x1="241.3" y1="332.74" x2="220.98" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="332.74" x2="215.9" y2="332.74" width="0.1524" layer="91"/>
@@ -6431,19 +6431,19 @@ Uncertainty about capacitor values etc.</text>
 <label x="-96.52" y="144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="AREF"/>
+<pinref part="EXB1" gate="E" pin="AREF"/>
 <wire x1="180.34" y1="317.5" x2="177.8" y2="317.5" width="0.1524" layer="91"/>
 <label x="177.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="E" pin="AREF"/>
+<pinref part="EXT1" gate="E" pin="AREF"/>
 <wire x1="53.34" y1="317.5" x2="50.8" y2="317.5" width="0.1524" layer="91"/>
 <label x="50.8" y="317.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_INT" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="ETH_INT/TX+"/>
+<pinref part="EXT1" gate="E" pin="ETH_INT/TX+"/>
 <wire x1="88.9" y1="292.1" x2="91.44" y2="292.1" width="0.1524" layer="91"/>
 <label x="91.44" y="292.1" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6453,43 +6453,43 @@ Uncertainty about capacitor values etc.</text>
 <label x="76.2" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="ETH_INT/TX+"/>
+<pinref part="EXB1" gate="E" pin="ETH_INT/TX+"/>
 <wire x1="215.9" y1="292.1" x2="218.44" y2="292.1" width="0.1524" layer="91"/>
 <label x="218.44" y="292.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RSV2" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RSV2"/>
+<pinref part="EXT1" gate="E" pin="RSV2"/>
 <wire x1="88.9" y1="314.96" x2="91.44" y2="314.96" width="0.1524" layer="91"/>
 <label x="91.44" y="314.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RSV2"/>
+<pinref part="EXB1" gate="E" pin="RSV2"/>
 <wire x1="215.9" y1="314.96" x2="218.44" y2="314.96" width="0.1524" layer="91"/>
 <label x="218.44" y="314.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX-" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RX-"/>
+<pinref part="EXT1" gate="E" pin="RX-"/>
 <wire x1="88.9" y1="284.48" x2="91.44" y2="284.48" width="0.1524" layer="91"/>
 <label x="91.44" y="284.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RX-"/>
+<pinref part="EXB1" gate="E" pin="RX-"/>
 <wire x1="215.9" y1="284.48" x2="218.44" y2="284.48" width="0.1524" layer="91"/>
 <label x="218.44" y="284.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_RX+" class="0">
 <segment>
-<pinref part="J2" gate="E" pin="RX+"/>
+<pinref part="EXT1" gate="E" pin="RX+"/>
 <wire x1="88.9" y1="287.02" x2="91.44" y2="287.02" width="0.1524" layer="91"/>
 <label x="91.44" y="287.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="E" pin="RX+"/>
+<pinref part="EXB1" gate="E" pin="RX+"/>
 <wire x1="215.9" y1="287.02" x2="218.44" y2="287.02" width="0.1524" layer="91"/>
 <label x="218.44" y="287.02" size="1.27" layer="95" xref="yes"/>
 </segment>
