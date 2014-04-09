@@ -988,7 +988,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="T1" library="ELL-i-Transformers" package="COILCRAFT-ETH1-230L" value="Coilcraft 230NL" x="23.54" y="37.51" rot="MR180"/>
+<element name="T1" library="ELL-i-Transformers" package="COILCRAFT-ETH1-230L" value="Coilcraft 230NL" x="22.5" y="37.5" rot="MR180"/>
 <element name="SV1" library="ELL-i-Boards" package="RASPBERRYPI-SHIELD-CONNECTOR" value="RASPBERRY-SHIELDCONNECTOR" x="0" y="5" smashed="yes">
 <attribute name="NAME" x="10.54" y="53.8" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="34.04" y="53.8" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -1002,7 +1002,7 @@ design rules under a new name.</description>
 <element name="D9" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="49" y="18" rot="MR0"/>
 <element name="D8" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="49" y="22" rot="MR0"/>
 <element name="D7" library="ELL-i-DIscreteSemi" package="DIODE-B2100" value="B2100" x="49" y="8" rot="MR0"/>
-<element name="T2" library="ELL-i-Transformers" package="WE_EP13_SMD_10PIN_EMBEDDED" value="FLYBACKEMBEDDED" x="39.45" y="40.27" rot="MR90"/>
+<element name="T2" library="ELL-i-Transformers" package="WE_EP13_SMD_10PIN_EMBEDDED" value="FLYBACKEMBEDDED" x="39" y="40.3" rot="MR90"/>
 <element name="J4" library="SparkFun-Connectors" package="1X02_2.54_SCREWTERM" value="M022.54MM" x="2.25" y="6.96" rot="R90"/>
 <element name="U3" library="ELL-i-DigitalIC" package="SOIC-16-NARROW" value="FST3257" x="12.32" y="20.76" rot="MR270"/>
 <element name="TP2" library="ELL-i-Passives" package="TP_5000" value="" x="1.75" y="40.91"/>
@@ -1036,22 +1036,22 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="T1" pad="10"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="24.46" y1="18.74" x2="27.35" y2="45.511" width="0" layer="19" extent="16-16"/>
+<wire x1="24.46" y1="18.74" x2="26.31" y2="45.501" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="T1" pad="9"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="23.444" y1="21.28" x2="29.89" y2="45.511" width="0" layer="19" extent="16-16"/>
+<wire x1="23.444" y1="21.28" x2="28.85" y2="45.501" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="T1" pad="13"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="25.476" y1="21.28" x2="19.73" y2="45.511" width="0" layer="19" extent="16-16"/>
+<wire x1="25.476" y1="21.28" x2="18.69" y2="45.501" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="T1" pad="14"/>
 <contactref element="JP1" pad="6"/>
-<wire x1="28.524" y1="18.74" x2="17.19" y2="45.511" width="0" layer="19" extent="16-16"/>
+<wire x1="28.524" y1="18.74" x2="16.15" y2="45.501" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="POE_B-">
 <contactref element="D9" pad="A"/>
@@ -1102,7 +1102,7 @@ design rules under a new name.</description>
 <contactref element="D15" pad="C"/>
 <contactref element="T1" pad="12"/>
 <wire x1="39.41" y1="17.31" x2="51.15" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="22.27" y1="45.511" x2="39.41" y2="17.31" width="0" layer="19" extent="1-16"/>
+<wire x1="21.23" y1="45.501" x2="39.41" y2="17.31" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="POE_B+">
 <contactref element="D10" pad="A"/>
