@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,18 +39,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1179,6 +1179,41 @@ In the used symbol, the TX and RX pins are named according to the &lt;a href="ht
 <text x="-5.334" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-4.445" y="-2.794" radius="0.40160625" width="0.127" layer="21"/>
 </package>
+<package name="WE_EP13_SMD_10PIN_EMBEDDED">
+<wire x1="-8.9" y1="-6.7" x2="8.9" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="8.9" y2="6.7" width="0.127" layer="21"/>
+<wire x1="-8.9" y1="6.7" x2="-8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="8.9" y1="6.7" x2="8.9" y2="-6.7" width="0.127" layer="51"/>
+<wire x1="-10" y1="7" x2="10" y2="7" width="0.127" layer="39"/>
+<wire x1="10" y1="7" x2="10" y2="-7" width="0.127" layer="39"/>
+<wire x1="10" y1="-7" x2="-10" y2="-7" width="0.127" layer="39"/>
+<wire x1="-10" y1="-7" x2="-10" y2="7" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="6.5" x2="4.5" y2="6.5" width="0" layer="20"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="4.5" y1="-6.5" x2="-4.5" y2="-6.5" width="0" layer="20"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0" layer="20"/>
+<circle x="-6.6" y="-5" radius="0.2" width="0.127" layer="21"/>
+<smd name="6" x="8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="10" x="8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="5" x="-8.18" y="4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="1" x="-8.18" y="-4.96" dx="1.88" dy="1.143" layer="1"/>
+<smd name="7" x="8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="9" x="8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="4" x="-8.18" y="2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="2" x="-8.18" y="-2.48" dx="1.88" dy="1.143" layer="1"/>
+<smd name="8" x="8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<smd name="3" x="-8.18" y="0" dx="1.88" dy="1.143" layer="1"/>
+<text x="-9.3" y="7.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9.3" y="-9.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.5" y1="6.5" x2="-4.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="4.5" y1="6.5" x2="6.5" y2="6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-4.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="6.5" y1="-6.5" x2="4.5" y2="-6.5" width="0" layer="20" curve="-180"/>
+<wire x1="-5.5" y1="6.5" x2="-5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="5.5" y1="6.5" x2="5.5" y2="-6.5" width="2" layer="46"/>
+<wire x1="-5" y1="5.5" x2="5" y2="5.5" width="2" layer="46"/>
+<wire x1="-5" y1="-5.5" x2="5" y2="-5.5" width="2" layer="46"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2PRIMARY-1SECONDARY">
@@ -1360,6 +1395,19 @@ In the used symbol, the TX and RX pins are named according to the &lt;a href="ht
 </technologies>
 </device>
 <device name="750311689" package="WE_EP13_SMD_10PIN">
+<connects>
+<connect gate="G$1" pin="AUX+" pad="2"/>
+<connect gate="G$1" pin="AUX-" pad="1"/>
+<connect gate="G$1" pin="PRI+" pad="5"/>
+<connect gate="G$1" pin="PRI-" pad="3"/>
+<connect gate="G$1" pin="SEC+" pad="6 7"/>
+<connect gate="G$1" pin="SEC-" pad="9 10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EMBEDDED" package="WE_EP13_SMD_10PIN_EMBEDDED">
 <connects>
 <connect gate="G$1" pin="AUX+" pad="2"/>
 <connect gate="G$1" pin="AUX-" pad="1"/>
@@ -2356,6 +2404,59 @@ Standard A4 size frame in Landscape</description>
 <pad name="P$2" x="80" y="43.5" drill="2.9"/>
 <circle x="12.2" y="6" radius="4" width="0.127" layer="51"/>
 </package>
+<package name="RASPBERRYPI-SHIELD-CONNECTOR">
+<wire x1="85.14" y1="56.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="0.14" y1="0.075" x2="85.14" y2="0.075" width="0.127" layer="49"/>
+<wire x1="85.14" y1="0.075" x2="85.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.615" y1="51.725" x2="3.465" y2="51.725" width="0.127" layer="21"/>
+<wire x1="3.465" y1="51.725" x2="3.465" y2="49.875" width="0.127" layer="21" curve="1.965897"/>
+<wire x1="3.465" y1="49.875" x2="1.615" y2="49.875" width="0.127" layer="21"/>
+<wire x1="1.615" y1="49.875" x2="1.615" y2="51.725" width="0.127" layer="21"/>
+<wire x1="0.14" y1="0.075" x2="0.14" y2="56.075" width="0.127" layer="49"/>
+<wire x1="1.14" y1="49.575" x2="34.34" y2="49.575" width="0.127" layer="21"/>
+<wire x1="34.34" y1="49.575" x2="34.34" y2="54.575" width="0.127" layer="21"/>
+<wire x1="34.34" y1="54.575" x2="1.14" y2="54.575" width="0.127" layer="21"/>
+<wire x1="1.14" y1="54.575" x2="1.14" y2="49.575" width="0.127" layer="21"/>
+<wire x1="0.24" y1="16.775" x2="0.24" y2="16.675" width="0.05" layer="51"/>
+<wire x1="68.44" y1="56.1" x2="68.54" y2="56.1" width="0.127" layer="51"/>
+<circle x="2.54" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
+<circle x="7.62" y="53.34" radius="1.0152" width="0.1524" layer="52"/>
+<pad name="1" x="2.54" y="50.8" drill="1" shape="square"/>
+<pad name="2" x="2.54" y="53.34" drill="1" diameter="1.6764"/>
+<pad name="3" x="5.08" y="50.8" drill="1"/>
+<pad name="4" x="5.08" y="53.34" drill="1"/>
+<pad name="5" x="7.62" y="50.8" drill="1"/>
+<pad name="6" x="7.62" y="53.34" drill="1" diameter="1.6764"/>
+<pad name="7" x="10.16" y="50.8" drill="1"/>
+<pad name="8" x="10.16" y="53.34" drill="1"/>
+<pad name="9" x="12.7" y="50.8" drill="1"/>
+<pad name="10" x="12.7" y="53.34" drill="1"/>
+<pad name="11" x="15.24" y="50.8" drill="1"/>
+<pad name="12" x="15.24" y="53.34" drill="1"/>
+<pad name="13" x="17.78" y="50.8" drill="1"/>
+<pad name="14" x="17.78" y="53.34" drill="1"/>
+<pad name="15" x="20.32" y="50.8" drill="1"/>
+<pad name="16" x="20.32" y="53.34" drill="1"/>
+<pad name="17" x="22.86" y="50.8" drill="1"/>
+<pad name="18" x="22.86" y="53.34" drill="1"/>
+<pad name="20" x="25.4" y="53.34" drill="1"/>
+<pad name="21" x="27.94" y="50.8" drill="1"/>
+<pad name="22" x="27.94" y="53.34" drill="1"/>
+<pad name="23" x="30.48" y="50.8" drill="1"/>
+<pad name="24" x="30.48" y="53.34" drill="1"/>
+<pad name="25" x="33.02" y="50.8" drill="1"/>
+<pad name="26" x="33.02" y="53.34" drill="1"/>
+<text x="10.54" y="48.8" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
+<text x="3.04" y="48.3" size="1.27" layer="21" ratio="10" rot="R180">1</text>
+<text x="36.8" y="54.3" size="1.27" layer="21" ratio="10" rot="R180">26</text>
+<text x="34.04" y="48.8" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
+<text x="1.8436" y="48.8039" size="0.4064" layer="51">3v3</text>
+<text x="2.1686" y="55.0289" size="0.4064" layer="51">5v</text>
+<text x="7.1186" y="54.9789" size="0.4064" layer="51">GND</text>
+<text x="36.8" y="51.3" size="1.27" layer="21" ratio="10" rot="R180">25</text>
+<text x="0.94" y="-1.6" size="1.27" layer="51">Board 56x85mm H=16mm</text>
+<pad name="19" x="25.4" y="50.8" drill="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RASPBERRYPI-GPIO">
@@ -2400,6 +2501,39 @@ Standard A4 size frame in Landscape</description>
 </gates>
 <devices>
 <device name="" package="RASPBERRYPI-SHIELD-FULLSIZE">
+<connects>
+<connect gate="G$1" pin="3.3V@1" pad="1"/>
+<connect gate="G$1" pin="3.3V@17" pad="17"/>
+<connect gate="G$1" pin="5V@2" pad="2"/>
+<connect gate="G$1" pin="5V@4" pad="4"/>
+<connect gate="G$1" pin="CE0" pad="24"/>
+<connect gate="G$1" pin="CE1" pad="26"/>
+<connect gate="G$1" pin="GND@14" pad="14"/>
+<connect gate="G$1" pin="GND@20" pad="20"/>
+<connect gate="G$1" pin="GND@25" pad="25"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="GP17" pad="11"/>
+<connect gate="G$1" pin="GP18" pad="12"/>
+<connect gate="G$1" pin="GP22" pad="15"/>
+<connect gate="G$1" pin="GP23" pad="16"/>
+<connect gate="G$1" pin="GP24" pad="18"/>
+<connect gate="G$1" pin="GP25" pad="22"/>
+<connect gate="G$1" pin="GP27" pad="13"/>
+<connect gate="G$1" pin="GP4" pad="7"/>
+<connect gate="G$1" pin="MISO" pad="21"/>
+<connect gate="G$1" pin="MOSI" pad="19"/>
+<connect gate="G$1" pin="RXI" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="TXO" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CONNECTOR" package="RASPBERRYPI-SHIELD-CONNECTOR">
 <connects>
 <connect gate="G$1" pin="3.3V@1" pad="1"/>
 <connect gate="G$1" pin="3.3V@17" pad="17"/>
@@ -2524,7 +2658,7 @@ Standard A4 size frame in Landscape</description>
 <instance part="D9" gate="G$1" x="43.18" y="88.9" rot="R90"/>
 <instance part="D8" gate="G$1" x="38.1" y="88.9" rot="R90"/>
 <instance part="D7" gate="G$1" x="33.02" y="88.9" rot="R90"/>
-<instance part="T2" gate="G$1" x="205.74" y="43.18"/>
+<instance part="T2" gate="G$1" x="170.18" y="68.58"/>
 <instance part="J4" gate="G$1" x="7.62" y="7.62"/>
 <instance part="U3" gate="G$1" x="147.32" y="152.4"/>
 <instance part="TP2" gate="TP$1" x="132.08" y="93.98" rot="R90"/>
