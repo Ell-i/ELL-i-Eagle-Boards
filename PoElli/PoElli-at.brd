@@ -392,42 +392,6 @@
 <smd name="59" x="7.25" y="-1.8001" dx="0.3" dy="1.6" layer="1"/>
 <smd name="60" x="7.25" y="1.8001" dx="0.3" dy="1.6" layer="1"/>
 </package>
-<package name="XMK-8788K5-BX1X">
-<wire x1="8.7" y1="0" x2="-8.7" y2="0" width="0.127" layer="46"/>
-<wire x1="-8.7" y1="0" x2="-8.7" y2="-2" width="0.127" layer="46" curve="180"/>
-<wire x1="8.7" y1="0" x2="8.7" y2="-2" width="0.127" layer="46" curve="-180"/>
-<pad name="SGND3" x="-9.65" y="-9.4" drill="1" diameter="2.54" shape="square"/>
-<pad name="SGND4" x="9.65" y="-9.4" drill="1" diameter="2.54" shape="square"/>
-<pad name="SGND1" x="-9.65" y="-5.2" drill="1" diameter="2.54" shape="square"/>
-<pad name="SGND2" x="9.65" y="-5.2" drill="1" diameter="2.54" shape="square"/>
-<wire x1="-8.35" y1="-13.5" x2="-8.35" y2="-3.6" width="0.127" layer="46"/>
-<wire x1="-8.35" y1="-3.6" x2="-8.7" y2="-3" width="0.127" layer="46" curve="-97"/>
-<wire x1="-8.7" y1="-3" x2="-8.7" y2="-2" width="0.127" layer="46"/>
-<wire x1="8.35" y1="-3.6" x2="8.35" y2="-13.5" width="0.127" layer="46"/>
-<wire x1="8.7" y1="-2" x2="8.7" y2="-3" width="0.127" layer="46"/>
-<wire x1="8.35" y1="-3.6" x2="8.7" y2="-3" width="0.127" layer="46" curve="97"/>
-<wire x1="-8.35" y1="-13.5" x2="8.35" y2="-13.5" width="0.127" layer="46"/>
-<pad name="12" x="7.175" y="2.6" drill="1"/>
-<pad name="11" x="4.885" y="3.6" drill="1"/>
-<pad name="4" x="-0.51" y="1.5" drill="0.9" diameter="1.27"/>
-<pad name="5" x="0.51" y="2.6" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="6" x="1.53" y="1.6" drill="0.9" diameter="1.27"/>
-<pad name="7" x="2.55" y="2.6" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="8" x="3.57" y="1.6" drill="0.9" diameter="1.27"/>
-<pad name="3" x="-1.53" y="2.5" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="2" x="-2.55" y="1.5" drill="0.9" diameter="1.27"/>
-<pad name="1" x="-3.57" y="2.5" drill="0.9" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="9" x="-7.175" y="1.6" drill="1"/>
-<pad name="10" x="-4.885" y="4.46" drill="1"/>
-<text x="-4.7" y="2" size="1.016" layer="51">1</text>
-<text x="4.5" y="1" size="1.016" layer="51">8</text>
-<text x="8.1" y="3.1" size="1.016" layer="51">12</text>
-<text x="-5.6" y="5.4" size="1.016" layer="51">10</text>
-<text x="5.5" y="4.5" size="1.016" layer="51">11</text>
-<text x="-8.8" y="1.1" size="1.016" layer="51">9</text>
-<text x="-2.6" y="4.7" size="1.27" layer="51">RJ-45</text>
-<text x="-2.5" y="6.4" size="1.27" layer="25">&gt;NAME</text>
-</package>
 <package name="M2-1">
 <description>M2 bolt</description>
 <pad name="1" x="0" y="0" drill="2.1" diameter="4.4" thermals="no"/>
