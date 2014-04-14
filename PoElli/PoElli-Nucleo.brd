@@ -72,6 +72,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -1016,6 +1017,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="DIPSWITCH-02-50MIL">
+<description>&lt;b&gt;DIP SWITCH&lt;/b&gt;
+&lt;p&gt;Half-size SMT DIP switch, 1.27 mm / 0.05" pitch. For example the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
 <wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
@@ -1495,8 +1502,7 @@ design rules under a new name.</description>
 <element name="TP6" library="ELL-i-Passives" package="TP_5021" value="" x="4.01" y="49.04" rot="R90"/>
 <element name="TP7" library="ELL-i-Passives" package="TP_5021" value="" x="4" y="52"/>
 <element name="TP9" library="ELL-i-Passives" package="TP_5021" value="" x="4" y="56"/>
-<element name="TP1" library="ELL-i-Passives" package="TP_5021" value="" x="4" y="31"/>
-<element name="SW1" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="" x="2.5" y="5.5"/>
+<element name="SW1" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="A6H2101" x="2.5" y="5.5"/>
 <element name="R38" library="SparkFun-Passives" package="SJ_2S-NO" value="OPEN" x="41" y="27" rot="MR0"/>
 <element name="R25" library="ELL-i-Passives" package="R0603" value="100K" x="48" y="37" rot="R90"/>
 <element name="D11" library="ELL-i-DIscreteSemi" package="SOD-323" value="BAS70J" x="43" y="34" rot="R90"/>
@@ -1516,7 +1522,7 @@ design rules under a new name.</description>
 <element name="C46" library="ELL-i-Passives" package="C0805" value="22uF" x="31" y="38" rot="R180"/>
 <element name="C47" library="ELL-i-Passives" package="C0805" value="22uF" x="31" y="40" rot="R180"/>
 <element name="C48" library="ELL-i-Passives" package="C1206" value="1nF" x="75" y="21" rot="R180"/>
-<element name="SW2" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="" x="2.5" y="20" rot="R180"/>
+<element name="SW2" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="A6H2101" x="2.5" y="20" rot="R180"/>
 <element name="CN7" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN7" x="7.78" y="3.25"/>
 <element name="CN10" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN10" x="7.78" y="64.21"/>
 <element name="NUCLEO" library="ELL-i-Boards" package="NUCLEO-SHIELD-UNDERSIDE-EXTENDED-OUTLINE" value="NUCLEO-SHIELD-OUTLINE-EXTENDED" x="0" y="0"/>
@@ -1591,8 +1597,8 @@ design rules under a new name.</description>
 <contactref element="D12" pad="2"/>
 <contactref element="C35" pad="2"/>
 <contactref element="U5" pad="4"/>
-<contactref element="R29" pad="1"/>
 <contactref element="U5" pad="POWERPAD"/>
+<contactref element="R29" pad="1"/>
 <wire x1="40.6" y1="43.15" x2="40.6" y2="46" width="0" layer="19" extent="1-1"/>
 <wire x1="43.9" y1="42.3" x2="40.6" y2="43.15" width="0" layer="19" extent="1-1"/>
 <wire x1="52" y1="35" x2="43.9" y2="42.3" width="0" layer="19" extent="1-1"/>
@@ -1643,10 +1649,6 @@ design rules under a new name.</description>
 <contactref element="C36" pad="2"/>
 <contactref element="Q4" pad="3"/>
 <contactref element="C48" pad="1"/>
-<contactref element="X1" pad="S1"/>
-<contactref element="X1" pad="S2"/>
-<wire x1="73" y1="29.9" x2="73" y2="46.1" width="0" layer="19" extent="1-1"/>
-<wire x1="76.4" y1="25" x2="73" y2="29.9" width="0" layer="19" extent="1-1"/>
 <wire x1="76.4" y1="21" x2="76.4" y2="25" width="0" layer="19" extent="1-1"/>
 <wire x1="77" y1="16.8" x2="76.4" y2="21" width="0" layer="19" extent="1-1"/>
 <wire x1="75" y1="16.8" x2="77" y2="16.8" width="0" layer="19" extent="1-1"/>
@@ -1672,9 +1674,9 @@ design rules under a new name.</description>
 <wire x1="35.1886" y1="16.5988" x2="42" y2="19.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U4_SS">
-<contactref element="C37" pad="1"/>
 <contactref element="U4" pad="10"/>
 <contactref element="R38" pad="1"/>
+<contactref element="C37" pad="1"/>
 <wire x1="49.4" y1="21.25" x2="51.525" y2="21" width="0" layer="19" extent="1-1"/>
 <wire x1="41.45" y1="27" x2="49.4" y2="21.25" width="0" layer="19" extent="1-16"/>
 </signal>
@@ -1927,7 +1929,7 @@ design rules under a new name.</description>
 <contactref element="U6" pad="11"/>
 <wire x1="20.25" y1="45.8" x2="21.525" y2="45.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$46">
+<signal name="VCAP">
 <contactref element="C13" pad="1"/>
 <contactref element="C14" pad="1"/>
 <contactref element="U6" pad="43"/>
@@ -1950,6 +1952,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="SGND">
 <contactref element="C31" pad="2"/>
+<contactref element="X1" pad="S1"/>
+<contactref element="X1" pad="S2"/>
+<wire x1="63" y1="46.4" x2="73" y2="46.1" width="0" layer="19" extent="1-1"/>
+<wire x1="73" y1="29.9" x2="73" y2="46.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$48">
 <contactref element="R21" pad="2"/>
@@ -2024,9 +2030,6 @@ design rules under a new name.</description>
 <wire x1="75" y1="15.2" x2="77" y2="15.2" width="0" layer="19" extent="1-1"/>
 <wire x1="73" y1="16.8" x2="75" y2="15.2" width="0" layer="19" extent="1-1"/>
 <wire x1="53.875" y1="37.875" x2="73" y2="16.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ETH_MUX">
-<contactref element="TP1" pad="P$1"/>
 </signal>
 <signal name="N$40">
 <contactref element="R5" pad="1"/>
