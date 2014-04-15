@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,18 +39,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="10" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -72,6 +72,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -943,7 +944,10 @@ Has both test loops and bare copper area.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POE-TP-SHIELDED-LEDS">
+<deviceset name="POE-TP-SHIELDED-LEDS" prefix="X">
+<description>&lt;h3&gt;Twisted pair Power-over-Ethernet MDI connector, with protective ground and LEDs&lt;/h3&gt;
+
+&lt;p&gt;8-wire Ethernet jack, with a protective ground and status LEDs.  See the POE-TP device for more information.&lt;/p&gt;</description>
 <gates>
 <gate name="RJ45" symbol="POE-MDI-SHIELDED" x="0" y="0"/>
 <gate name="LED2" symbol="LED" x="0" y="17.78"/>
@@ -2152,7 +2156,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A4L" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;
+<description>&lt;b&gt;Schematic Frame-European Format&lt;/b&gt;
 &lt;br&gt;&lt;br&gt;
 Standard A4 size frame in Landscape</description>
 <gates>
@@ -2173,7 +2177,7 @@ Standard A4 size frame in Landscape</description>
 </packages>
 <symbols>
 <symbol name="SGND">
-<pin name="RTN" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="SGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <wire x1="-2.032" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="2.54" y="-0.762" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
@@ -2549,44 +2553,44 @@ SPI or a standard parallel port
 &lt;p&gt;Whenever possible, we prefer to use the components from the &lt;a href="https://github.com/Ell-i/SparkFun-Eagle-Libraries"&gt;SparkFun Public Eagle PCB Footprints&lt;/a&gt;, as they are available from &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. Whenever possible, we also prefer to push our components to the SparkFun libraries.  However, this is not always possible, and therefore we have our own libraries that for the most part contain components that cannot be found in the SparkFun libraries.&lt;/p&gt;</description>
 <packages>
 <package name="NUCLEO-HEADER">
-<pad name="37" x="45.72" y="0" drill="0.8" rot="R90"/>
-<pad name="35" x="43.18" y="0" drill="0.8" rot="R90"/>
-<pad name="33" x="40.64" y="0" drill="0.8" rot="R90"/>
-<pad name="31" x="38.1" y="0" drill="0.8" rot="R90"/>
-<pad name="29" x="35.56" y="0" drill="0.8" rot="R90"/>
-<pad name="27" x="33.02" y="0" drill="0.8" rot="R90"/>
-<pad name="25" x="30.48" y="0" drill="0.8" rot="R90"/>
-<pad name="23" x="27.94" y="0" drill="0.8" rot="R90"/>
-<pad name="21" x="25.4" y="0" drill="0.8" rot="R90"/>
-<pad name="19" x="22.86" y="0" drill="0.8" rot="R90"/>
-<pad name="17" x="20.32" y="0" drill="0.8" rot="R90"/>
-<pad name="15" x="17.78" y="0" drill="0.8" rot="R90"/>
-<pad name="13" x="15.24" y="0" drill="0.8" rot="R90"/>
-<pad name="11" x="12.7" y="0" drill="0.8" rot="R90"/>
-<pad name="9" x="10.16" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="7.78" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="38" x="45.72" y="2.54" drill="0.8" rot="R90"/>
-<pad name="36" x="43.18" y="2.54" drill="0.8" rot="R90"/>
-<pad name="34" x="40.64" y="2.54" drill="0.8" rot="R90"/>
-<pad name="32" x="38.1" y="2.54" drill="0.8" rot="R90"/>
-<pad name="30" x="35.56" y="2.54" drill="0.8" rot="R90"/>
-<pad name="28" x="33.02" y="2.54" drill="0.8" rot="R90"/>
-<pad name="26" x="30.48" y="2.54" drill="0.8" rot="R90"/>
-<pad name="24" x="27.94" y="2.54" drill="0.8" rot="R90"/>
-<pad name="22" x="25.4" y="2.54" drill="0.8" rot="R90"/>
-<pad name="20" x="22.86" y="2.54" drill="0.8" rot="R90"/>
-<pad name="18" x="20.32" y="2.54" drill="0.8" rot="R90"/>
-<pad name="16" x="17.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="14" x="15.24" y="2.54" drill="0.8" rot="R90"/>
-<pad name="12" x="12.7" y="2.54" drill="0.8" rot="R90"/>
-<pad name="10" x="10.16" y="2.54" drill="0.8" rot="R90"/>
-<pad name="8" x="7.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="6" x="5.08" y="2.54" drill="0.8" rot="R90"/>
-<pad name="4" x="2.54" y="2.54" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
+<pad name="37" x="22.86" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="35" x="20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="33" x="17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="31" x="15.24" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="29" x="12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="27" x="10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="25" x="7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="23" x="5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="21" x="2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="19" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="17" x="-2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="15" x="-5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="13" x="-7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="11" x="-10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="9" x="-12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="7" x="-15.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="5" x="-17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="3" x="-20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="1" x="-22.86" y="-1.27" drill="0.8" shape="square" rot="R90"/>
+<pad name="38" x="22.86" y="1.27" drill="0.8" rot="R90"/>
+<pad name="36" x="20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="34" x="17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="32" x="15.24" y="1.27" drill="0.8" rot="R90"/>
+<pad name="30" x="12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="28" x="10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="26" x="7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="24" x="5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="22" x="2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="20" x="0" y="1.27" drill="0.8" rot="R90"/>
+<pad name="18" x="-2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="16" x="-5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="14" x="-7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="12" x="-10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="10" x="-12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="8" x="-15.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="6" x="-17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="4" x="-20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2" x="-22.86" y="1.27" drill="0.8" rot="R90"/>
 </package>
 <package name="NUCLEO-SHIELD-UNDERSIDE-SHORT-OUTLINE">
 <wire x1="0" y1="1" x2="0" y2="69" width="0.127" layer="49"/>
@@ -2715,51 +2719,51 @@ SPI or a standard parallel port
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NUCLEO-CN7">
+<deviceset name="NUCLEO-CN7" prefix="CN7">
 <gates>
-<gate name="G$1" symbol="NUCLEO_CN7_ALL_PINS" x="0" y="0"/>
+<gate name="CN7" symbol="NUCLEO_CN7_ALL_PINS" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="NUCLEO-HEADER">
 <connects>
-<connect gate="G$1" pin="11_PF7" pad="11"/>
-<connect gate="G$1" pin="13_PA13" pad="13"/>
-<connect gate="G$1" pin="15_PA14" pad="15"/>
-<connect gate="G$1" pin="17_PA15" pad="17"/>
-<connect gate="G$1" pin="19_GND" pad="19"/>
-<connect gate="G$1" pin="1_PC10" pad="1"/>
-<connect gate="G$1" pin="21_PB7" pad="21"/>
-<connect gate="G$1" pin="23_PC13" pad="23"/>
-<connect gate="G$1" pin="25_PC14" pad="25"/>
-<connect gate="G$1" pin="27_PC15" pad="27"/>
-<connect gate="G$1" pin="29_PF0" pad="29"/>
-<connect gate="G$1" pin="31_PF1" pad="31"/>
-<connect gate="G$1" pin="33_VBAT" pad="33"/>
-<connect gate="G$1" pin="35_PC2" pad="35"/>
-<connect gate="G$1" pin="37_PC3" pad="37"/>
-<connect gate="G$1" pin="3V3_12" pad="12"/>
-<connect gate="G$1" pin="3V3_16" pad="16"/>
-<connect gate="G$1" pin="3_PC12" pad="3"/>
-<connect gate="G$1" pin="5V_18" pad="18"/>
-<connect gate="G$1" pin="5_VDD" pad="5"/>
-<connect gate="G$1" pin="7_BOOT0" pad="7"/>
-<connect gate="G$1" pin="9_PF6" pad="9"/>
-<connect gate="G$1" pin="E5V_6" pad="6"/>
-<connect gate="G$1" pin="GND_20" pad="20"/>
-<connect gate="G$1" pin="GND_22" pad="22"/>
-<connect gate="G$1" pin="GND_8" pad="8"/>
-<connect gate="G$1" pin="NC_10" pad="10"/>
-<connect gate="G$1" pin="NC_26" pad="26"/>
-<connect gate="G$1" pin="NRST_14" pad="14"/>
-<connect gate="G$1" pin="PA0_28" pad="28"/>
-<connect gate="G$1" pin="PA1_30" pad="30"/>
-<connect gate="G$1" pin="PA4_32" pad="32"/>
-<connect gate="G$1" pin="PB0_34" pad="34"/>
-<connect gate="G$1" pin="PC11_2" pad="2"/>
-<connect gate="G$1" pin="PC1_36" pad="36"/>
-<connect gate="G$1" pin="PC2_38" pad="38"/>
-<connect gate="G$1" pin="PD2_4" pad="4"/>
-<connect gate="G$1" pin="VIN_24" pad="24"/>
+<connect gate="CN7" pin="11_PF7" pad="11"/>
+<connect gate="CN7" pin="13_PA13" pad="13"/>
+<connect gate="CN7" pin="15_PA14" pad="15"/>
+<connect gate="CN7" pin="17_PA15" pad="17"/>
+<connect gate="CN7" pin="19_GND" pad="19"/>
+<connect gate="CN7" pin="1_PC10" pad="1"/>
+<connect gate="CN7" pin="21_PB7" pad="21"/>
+<connect gate="CN7" pin="23_PC13" pad="23"/>
+<connect gate="CN7" pin="25_PC14" pad="25"/>
+<connect gate="CN7" pin="27_PC15" pad="27"/>
+<connect gate="CN7" pin="29_PF0" pad="29"/>
+<connect gate="CN7" pin="31_PF1" pad="31"/>
+<connect gate="CN7" pin="33_VBAT" pad="33"/>
+<connect gate="CN7" pin="35_PC2" pad="35"/>
+<connect gate="CN7" pin="37_PC3" pad="37"/>
+<connect gate="CN7" pin="3V3_12" pad="12"/>
+<connect gate="CN7" pin="3V3_16" pad="16"/>
+<connect gate="CN7" pin="3_PC12" pad="3"/>
+<connect gate="CN7" pin="5V_18" pad="18"/>
+<connect gate="CN7" pin="5_VDD" pad="5"/>
+<connect gate="CN7" pin="7_BOOT0" pad="7"/>
+<connect gate="CN7" pin="9_PF6" pad="9"/>
+<connect gate="CN7" pin="E5V_6" pad="6"/>
+<connect gate="CN7" pin="GND_20" pad="20"/>
+<connect gate="CN7" pin="GND_22" pad="22"/>
+<connect gate="CN7" pin="GND_8" pad="8"/>
+<connect gate="CN7" pin="NC_10" pad="10"/>
+<connect gate="CN7" pin="NC_26" pad="26"/>
+<connect gate="CN7" pin="NRST_14" pad="14"/>
+<connect gate="CN7" pin="PA0_28" pad="28"/>
+<connect gate="CN7" pin="PA1_30" pad="30"/>
+<connect gate="CN7" pin="PA4_32" pad="32"/>
+<connect gate="CN7" pin="PB0_34" pad="34"/>
+<connect gate="CN7" pin="PC11_2" pad="2"/>
+<connect gate="CN7" pin="PC1_36" pad="36"/>
+<connect gate="CN7" pin="PC2_38" pad="38"/>
+<connect gate="CN7" pin="PD2_4" pad="4"/>
+<connect gate="CN7" pin="VIN_24" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2767,51 +2771,51 @@ SPI or a standard parallel port
 </device>
 </devices>
 </deviceset>
-<deviceset name="NUCLEO-CN10">
+<deviceset name="NUCLEO-CN10" prefix="CN10">
 <gates>
-<gate name="G$1" symbol="NUCLEO_CN10_ALL_PINS" x="0" y="0"/>
+<gate name="CN10" symbol="NUCLEO_CN10_ALL_PINS" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="NUCLEO-HEADER">
 <connects>
-<connect gate="G$1" pin="11_PA5" pad="11"/>
-<connect gate="G$1" pin="13_PA6" pad="13"/>
-<connect gate="G$1" pin="15_PA7" pad="15"/>
-<connect gate="G$1" pin="17_PB7" pad="17"/>
-<connect gate="G$1" pin="19_PC7" pad="19"/>
-<connect gate="G$1" pin="1_PC9" pad="1"/>
-<connect gate="G$1" pin="21_PA9" pad="21"/>
-<connect gate="G$1" pin="23_PA8" pad="23"/>
-<connect gate="G$1" pin="25_PB10" pad="25"/>
-<connect gate="G$1" pin="27_PB4" pad="27"/>
-<connect gate="G$1" pin="29_PB5" pad="29"/>
-<connect gate="G$1" pin="31_PB3" pad="31"/>
-<connect gate="G$1" pin="33_PA10" pad="33"/>
-<connect gate="G$1" pin="35_PA2" pad="35"/>
-<connect gate="G$1" pin="37_PA3" pad="37"/>
-<connect gate="G$1" pin="3_PB8" pad="3"/>
-<connect gate="G$1" pin="5_PB9" pad="5"/>
-<connect gate="G$1" pin="7_AVDD" pad="7"/>
-<connect gate="G$1" pin="9_GND" pad="9"/>
-<connect gate="G$1" pin="AGND_32" pad="32"/>
-<connect gate="G$1" pin="GND_20" pad="20"/>
-<connect gate="G$1" pin="PA11_14" pad="14"/>
-<connect gate="G$1" pin="PA12_12" pad="12"/>
-<connect gate="G$1" pin="PB11_18" pad="18"/>
-<connect gate="G$1" pin="PB12_16" pad="16"/>
-<connect gate="G$1" pin="PB13_30" pad="30"/>
-<connect gate="G$1" pin="PB14_28" pad="28"/>
-<connect gate="G$1" pin="PB15_26" pad="26"/>
-<connect gate="G$1" pin="PB1_24" pad="24"/>
-<connect gate="G$1" pin="PB2_22" pad="22"/>
-<connect gate="G$1" pin="PC4_34" pad="34"/>
-<connect gate="G$1" pin="PC5_6" pad="6"/>
-<connect gate="G$1" pin="PC6_4" pad="4"/>
-<connect gate="G$1" pin="PC8_2" pad="2"/>
-<connect gate="G$1" pin="PD8_10" pad="10"/>
-<connect gate="G$1" pin="PF4_38" pad="38"/>
-<connect gate="G$1" pin="PF5_36" pad="36"/>
-<connect gate="G$1" pin="U5V_8" pad="8"/>
+<connect gate="CN10" pin="11_PA5" pad="11"/>
+<connect gate="CN10" pin="13_PA6" pad="13"/>
+<connect gate="CN10" pin="15_PA7" pad="15"/>
+<connect gate="CN10" pin="17_PB7" pad="17"/>
+<connect gate="CN10" pin="19_PC7" pad="19"/>
+<connect gate="CN10" pin="1_PC9" pad="1"/>
+<connect gate="CN10" pin="21_PA9" pad="21"/>
+<connect gate="CN10" pin="23_PA8" pad="23"/>
+<connect gate="CN10" pin="25_PB10" pad="25"/>
+<connect gate="CN10" pin="27_PB4" pad="27"/>
+<connect gate="CN10" pin="29_PB5" pad="29"/>
+<connect gate="CN10" pin="31_PB3" pad="31"/>
+<connect gate="CN10" pin="33_PA10" pad="33"/>
+<connect gate="CN10" pin="35_PA2" pad="35"/>
+<connect gate="CN10" pin="37_PA3" pad="37"/>
+<connect gate="CN10" pin="3_PB8" pad="3"/>
+<connect gate="CN10" pin="5_PB9" pad="5"/>
+<connect gate="CN10" pin="7_AVDD" pad="7"/>
+<connect gate="CN10" pin="9_GND" pad="9"/>
+<connect gate="CN10" pin="AGND_32" pad="32"/>
+<connect gate="CN10" pin="GND_20" pad="20"/>
+<connect gate="CN10" pin="PA11_14" pad="14"/>
+<connect gate="CN10" pin="PA12_12" pad="12"/>
+<connect gate="CN10" pin="PB11_18" pad="18"/>
+<connect gate="CN10" pin="PB12_16" pad="16"/>
+<connect gate="CN10" pin="PB13_30" pad="30"/>
+<connect gate="CN10" pin="PB14_28" pad="28"/>
+<connect gate="CN10" pin="PB15_26" pad="26"/>
+<connect gate="CN10" pin="PB1_24" pad="24"/>
+<connect gate="CN10" pin="PB2_22" pad="22"/>
+<connect gate="CN10" pin="PC4_34" pad="34"/>
+<connect gate="CN10" pin="PC5_6" pad="6"/>
+<connect gate="CN10" pin="PC6_4" pad="4"/>
+<connect gate="CN10" pin="PC8_2" pad="2"/>
+<connect gate="CN10" pin="PD8_10" pad="10"/>
+<connect gate="CN10" pin="PF4_38" pad="38"/>
+<connect gate="CN10" pin="PF5_36" pad="36"/>
+<connect gate="CN10" pin="U5V_8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2919,8 +2923,8 @@ SPI or a standard parallel port
 <instance part="X4" gate="M" x="88.138" y="66.04" rot="MR0"/>
 <instance part="U1" gate="ENC424J600" x="162.56" y="129.54"/>
 <instance part="U$2" gate="RJ45" x="30.48" y="142.24" rot="R180"/>
-<instance part="CN7" gate="G$1" x="246.38" y="139.7"/>
-<instance part="CN10" gate="G$1" x="208.28" y="139.7"/>
+<instance part="CN7" gate="CN7" x="246.38" y="139.7"/>
+<instance part="CN10" gate="CN10" x="208.28" y="139.7"/>
 <instance part="NUCLEO" gate="G$1" x="226.06" y="172.72"/>
 </instances>
 <busses>
@@ -3007,7 +3011,7 @@ SPI or a standard parallel port
 </net>
 <net name="RTN" class="0">
 <segment>
-<pinref part="SUPPLY9" gate="G$1" pin="RTN"/>
+<pinref part="SUPPLY9" gate="G$1" pin="SGND"/>
 <wire x1="33.02" y1="121.92" x2="33.02" y2="127" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="127" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="127" x2="15.24" y2="127" width="0.1524" layer="91"/>

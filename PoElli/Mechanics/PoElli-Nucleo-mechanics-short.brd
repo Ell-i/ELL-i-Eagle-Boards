@@ -72,6 +72,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -713,44 +714,44 @@ Not reviewed
 &lt;p&gt;Whenever possible, we prefer to use the components from the &lt;a href="https://github.com/Ell-i/SparkFun-Eagle-Libraries"&gt;SparkFun Public Eagle PCB Footprints&lt;/a&gt;, as they are available from &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;. Whenever possible, we also prefer to push our components to the SparkFun libraries.  However, this is not always possible, and therefore we have our own libraries that for the most part contain components that cannot be found in the SparkFun libraries.&lt;/p&gt;</description>
 <packages>
 <package name="NUCLEO-HEADER">
-<pad name="37" x="45.72" y="0" drill="0.8" rot="R90"/>
-<pad name="35" x="43.18" y="0" drill="0.8" rot="R90"/>
-<pad name="33" x="40.64" y="0" drill="0.8" rot="R90"/>
-<pad name="31" x="38.1" y="0" drill="0.8" rot="R90"/>
-<pad name="29" x="35.56" y="0" drill="0.8" rot="R90"/>
-<pad name="27" x="33.02" y="0" drill="0.8" rot="R90"/>
-<pad name="25" x="30.48" y="0" drill="0.8" rot="R90"/>
-<pad name="23" x="27.94" y="0" drill="0.8" rot="R90"/>
-<pad name="21" x="25.4" y="0" drill="0.8" rot="R90"/>
-<pad name="19" x="22.86" y="0" drill="0.8" rot="R90"/>
-<pad name="17" x="20.32" y="0" drill="0.8" rot="R90"/>
-<pad name="15" x="17.78" y="0" drill="0.8" rot="R90"/>
-<pad name="13" x="15.24" y="0" drill="0.8" rot="R90"/>
-<pad name="11" x="12.7" y="0" drill="0.8" rot="R90"/>
-<pad name="9" x="10.16" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="7.78" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.8" rot="R90"/>
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="38" x="45.72" y="2.54" drill="0.8" rot="R90"/>
-<pad name="36" x="43.18" y="2.54" drill="0.8" rot="R90"/>
-<pad name="34" x="40.64" y="2.54" drill="0.8" rot="R90"/>
-<pad name="32" x="38.1" y="2.54" drill="0.8" rot="R90"/>
-<pad name="30" x="35.56" y="2.54" drill="0.8" rot="R90"/>
-<pad name="28" x="33.02" y="2.54" drill="0.8" rot="R90"/>
-<pad name="26" x="30.48" y="2.54" drill="0.8" rot="R90"/>
-<pad name="24" x="27.94" y="2.54" drill="0.8" rot="R90"/>
-<pad name="22" x="25.4" y="2.54" drill="0.8" rot="R90"/>
-<pad name="20" x="22.86" y="2.54" drill="0.8" rot="R90"/>
-<pad name="18" x="20.32" y="2.54" drill="0.8" rot="R90"/>
-<pad name="16" x="17.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="14" x="15.24" y="2.54" drill="0.8" rot="R90"/>
-<pad name="12" x="12.7" y="2.54" drill="0.8" rot="R90"/>
-<pad name="10" x="10.16" y="2.54" drill="0.8" rot="R90"/>
-<pad name="8" x="7.78" y="2.54" drill="0.8" rot="R90"/>
-<pad name="6" x="5.08" y="2.54" drill="0.8" rot="R90"/>
-<pad name="4" x="2.54" y="2.54" drill="0.8" rot="R90"/>
-<pad name="2" x="0" y="2.54" drill="0.8" rot="R90"/>
+<pad name="37" x="22.86" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="35" x="20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="33" x="17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="31" x="15.24" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="29" x="12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="27" x="10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="25" x="7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="23" x="5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="21" x="2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="19" x="0" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="17" x="-2.54" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="15" x="-5.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="13" x="-7.62" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="11" x="-10.16" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="9" x="-12.7" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="7" x="-15.08" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="5" x="-17.78" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="3" x="-20.32" y="-1.27" drill="0.8" rot="R90"/>
+<pad name="1" x="-22.86" y="-1.27" drill="0.8" shape="square" rot="R90"/>
+<pad name="38" x="22.86" y="1.27" drill="0.8" rot="R90"/>
+<pad name="36" x="20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="34" x="17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="32" x="15.24" y="1.27" drill="0.8" rot="R90"/>
+<pad name="30" x="12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="28" x="10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="26" x="7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="24" x="5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="22" x="2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="20" x="0" y="1.27" drill="0.8" rot="R90"/>
+<pad name="18" x="-2.54" y="1.27" drill="0.8" rot="R90"/>
+<pad name="16" x="-5.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="14" x="-7.62" y="1.27" drill="0.8" rot="R90"/>
+<pad name="12" x="-10.16" y="1.27" drill="0.8" rot="R90"/>
+<pad name="10" x="-12.7" y="1.27" drill="0.8" rot="R90"/>
+<pad name="8" x="-15.08" y="1.27" drill="0.8" rot="R90"/>
+<pad name="6" x="-17.78" y="1.27" drill="0.8" rot="R90"/>
+<pad name="4" x="-20.32" y="1.27" drill="0.8" rot="R90"/>
+<pad name="2" x="-22.86" y="1.27" drill="0.8" rot="R90"/>
 </package>
 <package name="NUCLEO-SHIELD-UNDERSIDE-SHORT-OUTLINE">
 <wire x1="0" y1="1" x2="0" y2="69" width="0.127" layer="49"/>
@@ -983,8 +984,8 @@ design rules under a new name.</description>
 <element name="X4" library="ELL-i-Connectors" package="M2-1" value="M-BOLT-2" x="52.5" y="48.5"/>
 <element name="U1" library="ELL-i-DigitalIC" package="TQFP44-0.8MM" value="ENC424J600" x="20" y="55"/>
 <element name="U$2" library="ELL-i-Connectors" package="TE1888250" value="POE-TP-SHIELDED-LEDSTE1888250" x="59" y="36" rot="R90"/>
-<element name="CN7" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN7" x="7.78" y="3.25"/>
-<element name="CN10" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN10" x="7.78" y="64.21"/>
+<element name="CN7" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN7" x="30.64" y="4.52"/>
+<element name="CN10" library="ELL-i-Boards" package="NUCLEO-HEADER" value="NUCLEO-CN10" x="30.64" y="65.48"/>
 <element name="NUCLEO" library="ELL-i-Boards" package="NUCLEO-SHIELD-UNDERSIDE-SHORT-OUTLINE" value="NUCLEO-OUTLINE-SHORT" x="0" y="0"/>
 </elements>
 <signals>
