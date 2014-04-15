@@ -5296,6 +5296,12 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="PoE 48V 1A" width="0" drill="0">
+</class>
+<class number="2" name="High current 3A (low voltage)" width="0" drill="0">
+</class>
+<class number="3" name="High voltage 200V and current 1A" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="U5" library="ELL-i-PowerIC" deviceset="TPS2378" device=""/>
@@ -5737,14 +5743,14 @@ of R39 and R37</text>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <pinref part="T1" gate="G$1" pin="TX-"/>
 <wire x1="-162.56" y1="246.38" x2="-132.08" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="X5" gate="G$1" pin="TX-@2"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <wire x1="-162.56" y1="243.84" x2="-142.24" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="243.84" x2="-142.24" y2="231.14" width="0.1524" layer="91"/>
@@ -5753,7 +5759,7 @@ of R39 and R37</text>
 <pinref part="X5" gate="G$1" pin="TX+@1"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="1">
 <segment>
 <wire x1="-162.56" y1="248.92" x2="-142.24" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="248.92" x2="-142.24" y2="251.46" width="0.1524" layer="91"/>
@@ -5762,7 +5768,7 @@ of R39 and R37</text>
 <pinref part="X5" gate="G$1" pin="RX+@3"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="1">
 <segment>
 <wire x1="-162.56" y1="256.54" x2="-142.24" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="256.54" x2="-142.24" y2="266.7" width="0.1524" layer="91"/>
@@ -5771,7 +5777,7 @@ of R39 and R37</text>
 <pinref part="X5" gate="G$1" pin="RX-@6"/>
 </segment>
 </net>
-<net name="POE_B-" class="0">
+<net name="POE_B-" class="1">
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="D16" gate="G$1" pin="C"/>
@@ -5798,7 +5804,7 @@ of R39 and R37</text>
 <pinref part="X5" gate="G$1" pin="POE-@8"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="1">
 <segment>
 <pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="55.88" x2="-149.86" y2="86.36" width="0.1524" layer="91"/>
@@ -5822,7 +5828,7 @@ of R39 and R37</text>
 <junction x="-160.02" y="86.36"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="1">
 <segment>
 <wire x1="-149.86" y1="17.78" x2="-147.32" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
@@ -5846,7 +5852,7 @@ of R39 and R37</text>
 <wire x1="-175.26" y1="20.32" x2="-175.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VSS" class="0">
+<net name="VSS" class="1">
 <segment>
 <pinref part="FB3" gate="G$1" pin="2"/>
 <wire x1="-132.08" y1="17.78" x2="-129.54" y2="17.78" width="0.1524" layer="91"/>
@@ -5961,7 +5967,7 @@ of R39 and R37</text>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="N$27" class="1">
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="R32" gate="G$1" pin="1"/>
@@ -5972,7 +5978,7 @@ of R39 and R37</text>
 <junction x="27.94" y="35.56"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="N$28" class="3">
 <segment>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
@@ -6030,7 +6036,7 @@ of R39 and R37</text>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="UNREG_5V+" class="0">
+<net name="UNREG_5V+" class="2">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -6047,7 +6053,7 @@ of R39 and R37</text>
 <label x="58.42" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="2">
 <segment>
 <wire x1="137.16" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
@@ -6131,7 +6137,7 @@ of R39 and R37</text>
 <wire x1="-12.7" y1="299.72" x2="-12.7" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="POE_A+" class="0">
+<net name="POE_A+" class="1">
 <segment>
 <pinref part="D14" gate="G$1" pin="C"/>
 <wire x1="-175.26" y1="58.42" x2="-175.26" y2="25.4" width="0.1524" layer="91"/>
@@ -6154,7 +6160,7 @@ of R39 and R37</text>
 <label x="-132.08" y="210.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="POE_A-" class="0">
+<net name="POE_A-" class="1">
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
 <pinref part="D15" gate="G$1" pin="C"/>
@@ -6175,7 +6181,7 @@ of R39 and R37</text>
 <junction x="-137.16" y="200.66"/>
 </segment>
 </net>
-<net name="POE_B+" class="0">
+<net name="POE_B+" class="1">
 <segment>
 <pinref part="D10" gate="G$1" pin="A"/>
 <pinref part="D17" gate="G$1" pin="C"/>
@@ -6211,7 +6217,7 @@ of R39 and R37</text>
 <wire x1="25.4" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GNDA" class="0">
+<net name="GNDA" class="2">
 <segment>
 <pinref part="GND6" gate="1" pin="GNDA"/>
 <wire x1="160.02" y1="213.36" x2="160.02" y2="208.28" width="0.1524" layer="91"/>
@@ -6653,7 +6659,7 @@ of R39 and R37</text>
 <wire x1="-147.32" y1="185.42" x2="-147.32" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="N$53" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="-172.72" y1="-20.32" x2="-162.56" y2="-20.32" width="0.1524" layer="91"/>
@@ -6666,7 +6672,7 @@ of R39 and R37</text>
 <junction x="-149.86" y="-7.62"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="N$55" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-172.72" y1="-22.86" x2="-162.56" y2="-22.86" width="0.1524" layer="91"/>
@@ -6679,7 +6685,7 @@ of R39 and R37</text>
 <junction x="-149.86" y="-38.1"/>
 </segment>
 </net>
-<net name="VDD" class="0">
+<net name="VDD" class="1">
 <segment>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
 <wire x1="22.86" y1="-15.24" x2="22.86" y2="-20.32" width="0.1524" layer="91"/>
@@ -7030,7 +7036,7 @@ of R39 and R37</text>
 <label x="104.14" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -7419,7 +7425,7 @@ of R39 and R37</text>
 <pinref part="Q4" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="N$10" class="1">
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="91"/>
@@ -7440,7 +7446,7 @@ of R39 and R37</text>
 <wire x1="121.92" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="N$21" class="1">
 <segment>
 <pinref part="D19" gate="G$1" pin="C"/>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -7469,7 +7475,7 @@ of R39 and R37</text>
 <wire x1="297.18" y1="238.76" x2="297.18" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RTN" class="0">
+<net name="RTN" class="1">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="58.42" x2="-40.64" y2="55.88" width="0.1524" layer="91"/>

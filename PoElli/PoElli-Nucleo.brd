@@ -1229,6 +1229,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="PoE 48V 1A" width="0" drill="0">
+</class>
+<class number="2" name="High current 3A (low voltage)" width="0" drill="0">
+</class>
+<class number="3" name="High voltage 200V 1A" width="0" drill="0">
+</class>
 </classes>
 <designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
@@ -1535,27 +1541,27 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
+<signal name="N$1" class="1">
 <contactref element="T1" pad="10"/>
 <contactref element="X1" pad="2"/>
 <wire x1="62.7" y1="34.825" x2="77.501" y2="63.31" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
+<signal name="N$2" class="1">
 <contactref element="T1" pad="9"/>
 <contactref element="X1" pad="1"/>
 <wire x1="62.7" y1="33.555" x2="77.501" y2="65.85" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="N$3" class="1">
 <contactref element="T1" pad="13"/>
 <contactref element="X1" pad="3"/>
 <wire x1="62.7" y1="36.095" x2="77.501" y2="55.69" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
+<signal name="N$4" class="1">
 <contactref element="T1" pad="14"/>
 <contactref element="X1" pad="6"/>
 <wire x1="62.7" y1="39.905" x2="77.501" y2="53.15" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="POE_B-">
+<signal name="POE_B-" class="1">
 <contactref element="D9" pad="A"/>
 <contactref element="D16" pad="C"/>
 <contactref element="C26" pad="1"/>
@@ -1566,7 +1572,7 @@ design rules under a new name.</description>
 <wire x1="47.85" y1="53" x2="62.7" y2="42.445" width="0" layer="19" extent="1-1"/>
 <wire x1="44.15" y1="53" x2="47.85" y2="53" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$6">
+<signal name="N$6" class="1">
 <contactref element="C34" pad="1"/>
 <contactref element="FB2" pad="1"/>
 <contactref element="D7" pad="C"/>
@@ -1579,7 +1585,7 @@ design rules under a new name.</description>
 <wire x1="48.6" y1="46" x2="52.15" y2="49.5" width="0" layer="19" extent="1-1"/>
 <wire x1="46.8" y1="46" x2="48.6" y2="46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$8">
+<signal name="N$8" class="1">
 <contactref element="C34" pad="2"/>
 <contactref element="FB3" pad="1"/>
 <contactref element="D17" pad="A"/>
@@ -1592,7 +1598,7 @@ design rules under a new name.</description>
 <wire x1="43.4" y1="46" x2="39.85" y2="49.5" width="0" layer="19" extent="1-1"/>
 <wire x1="45.2" y1="46" x2="43.4" y2="46" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VSS">
+<signal name="VSS" class="1">
 <contactref element="FB3" pad="2"/>
 <contactref element="D12" pad="2"/>
 <contactref element="C35" pad="2"/>
@@ -1624,7 +1630,7 @@ design rules under a new name.</description>
 <wire x1="43" y1="32.9" x2="44.8" y2="30" width="0" layer="19" extent="1-1"/>
 <wire x1="44.6" y1="23.25" x2="44.8" y2="30" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RTN" airwireshidden="yes">
+<signal name="RTN" class="1" airwireshidden="yes">
 <contactref element="R26" pad="1"/>
 <contactref element="C32" pad="C"/>
 <contactref element="C37" pad="2"/>
@@ -1709,7 +1715,7 @@ design rules under a new name.</description>
 <wire x1="44" y1="15.025" x2="44.6" y2="21.25" width="0" layer="19" extent="1-1"/>
 <wire x1="46.2" y1="14" x2="44" y2="15.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$27">
+<signal name="N$27" class="1">
 <contactref element="Q3" pad="1"/>
 <contactref element="Q3" pad="2"/>
 <contactref element="Q3" pad="3"/>
@@ -1720,7 +1726,7 @@ design rules under a new name.</description>
 <wire x1="47.8" y1="14" x2="49.725" y2="15.5" width="0" layer="19" extent="1-1"/>
 <wire x1="53.55" y1="14" x2="51.025" y2="15.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$28">
+<signal name="N$28" class="3">
 <contactref element="Q3" pad="5"/>
 <contactref element="Q3" pad="6"/>
 <contactref element="Q3" pad="7"/>
@@ -1763,7 +1769,7 @@ design rules under a new name.</description>
 <wire x1="68.4" y1="5" x2="70.1" y2="2" width="0" layer="19" extent="1-1"/>
 <wire x1="64.95" y1="2" x2="68.4" y2="5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="POE_A+">
+<signal name="POE_A+" class="1">
 <contactref element="D14" pad="C"/>
 <contactref element="T1" pad="11"/>
 <contactref element="C24" pad="1"/>
@@ -1772,7 +1778,7 @@ design rules under a new name.</description>
 <wire x1="47.85" y1="49.5" x2="57.8" y2="49.5" width="0" layer="19" extent="1-1"/>
 <wire x1="44.15" y1="49.5" x2="47.85" y2="49.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="POE_A-">
+<signal name="POE_A-" class="1">
 <contactref element="D8" pad="A"/>
 <contactref element="D15" pad="C"/>
 <contactref element="T1" pad="12"/>
@@ -1781,7 +1787,7 @@ design rules under a new name.</description>
 <wire x1="47.85" y1="56" x2="57.8" y2="48" width="0" layer="19" extent="1-1"/>
 <wire x1="44.15" y1="56" x2="47.85" y2="56" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="POE_B+">
+<signal name="POE_B+" class="1">
 <contactref element="D10" pad="A"/>
 <contactref element="D17" pad="C"/>
 <contactref element="C27" pad="1"/>
@@ -1797,7 +1803,7 @@ design rules under a new name.</description>
 <contactref element="T2" pad="2"/>
 <wire x1="66.48" y1="8.32" x2="55.5" y2="20.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GNDA">
+<signal name="GNDA" class="2">
 <contactref element="R6" pad="1"/>
 <contactref element="C13" pad="2"/>
 <contactref element="C14" pad="2"/>
@@ -1977,21 +1983,21 @@ design rules under a new name.</description>
 <contactref element="R20" pad="2"/>
 <wire x1="66.8" y1="49.6" x2="68.2" y2="49.6" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$53">
+<signal name="N$53" class="1">
 <contactref element="J4" pad="P2"/>
 <contactref element="FB4" pad="1"/>
 <contactref element="C40" pad="1"/>
 <wire x1="72" y1="3.8" x2="74" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="75" y1="2.25" x2="72" y2="3.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$55">
+<signal name="N$55" class="1">
 <contactref element="J4" pad="P1"/>
 <contactref element="FB5" pad="1"/>
 <contactref element="C40" pad="2"/>
 <wire x1="77.54" y1="2.25" x2="77" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="72" y1="2.2" x2="77.54" y2="2.25" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VDD" airwireshidden="yes">
+<signal name="VDD" class="1" airwireshidden="yes">
 <contactref element="D18" pad="C"/>
 <contactref element="D12" pad="1"/>
 <contactref element="FB2" pad="2"/>
@@ -2120,7 +2126,7 @@ design rules under a new name.</description>
 <wire x1="10.55" y1="53.9" x2="38.26" y2="64.21" width="0" layer="19" extent="1-1"/>
 <wire x1="4" y1="42" x2="10.55" y2="53.9" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$76">
+<signal name="N$76" class="1">
 <contactref element="C41" pad="1"/>
 <contactref element="D18" pad="A"/>
 <contactref element="R35" pad="2"/>
@@ -2230,7 +2236,7 @@ design rules under a new name.</description>
 <contactref element="J3" pad="P1"/>
 <wire x1="57.46" y1="2.25" x2="54.15" y2="11" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="VIN">
+<signal name="VIN" class="2">
 <contactref element="R15" pad="2"/>
 <contactref element="C23" pad="+"/>
 <contactref element="D4" pad="C"/>
@@ -2249,7 +2255,7 @@ design rules under a new name.</description>
 <wire x1="29" y1="25" x2="33.2" y2="25" width="0" layer="19" extent="1-1"/>
 <wire x1="35.72" y1="5.79" x2="33.35" y2="22" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="UNREG_6V+">
+<signal name="UNREG_6V+" class="2">
 <contactref element="T2" pad="7"/>
 <contactref element="T2" pad="6"/>
 <contactref element="D4" pad="A"/>
