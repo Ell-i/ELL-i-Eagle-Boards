@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -461,9 +461,9 @@
 <smd name="58" x="-5.75" y="-0.75" dx="1.2" dy="0.3" layer="1"/>
 <smd name="59" x="-5.75" y="-1.25" dx="1.2" dy="0.3" layer="1"/>
 <smd name="60" x="-5.75" y="-1.75" dx="1.2" dy="0.3" layer="1"/>
-<smd name="61" x="-5.75" y="-3.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="61" x="-5.75" y="-2.25" dx="1.2" dy="0.3" layer="1"/>
 <smd name="62" x="-5.75" y="-2.75" dx="1.2" dy="0.3" layer="1"/>
-<smd name="63" x="-5.75" y="-2.25" dx="1.2" dy="0.3" layer="1"/>
+<smd name="63" x="-5.75" y="-3.25" dx="1.2" dy="0.3" layer="1"/>
 <smd name="64" x="-5.75" y="-3.75" dx="1.2" dy="0.3" layer="1"/>
 <text x="-2.54" y="1.27" size="0.635" layer="25" font="vector" ratio="24">&gt;NAME</text>
 <text x="-2.54" y="-1.27" size="0.635" layer="27" font="vector" ratio="24">&gt;VALUE</text>
@@ -746,7 +746,7 @@
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<text x="-4.064" y="8.636" size="1.778" layer="94">&gt;NAME</text>
+<text x="-4.064" y="8.636" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="ELLI-SMALL-STM32-PA">
 <description>&lt;h3&gt;ELL-i functions for STM32F Port A&lt;/h3&gt;
@@ -937,7 +937,7 @@
 <gate name="PDF" symbol="STM32-PDF-LQFP64" x="22.86" y="-22.86"/>
 </gates>
 <devices>
-<device name="" package="LQFP64">
+<device name="T" package="LQFP64">
 <connects>
 <connect gate="CTL" pin="BOOT0" pad="60"/>
 <connect gate="CTL" pin="NRST" pad="7"/>
@@ -1003,7 +1003,15 @@
 <connect gate="PWR" pin="VSSA" pad="12"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="4">
+<attribute name="FLASH" value="16K"/>
+</technology>
+<technology name="6">
+<attribute name="FLASH" value="32K"/>
+</technology>
+<technology name="8">
+<attribute name="FLASH" value="64K"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -4270,13 +4278,13 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <class number="0" name="default" width="0.1" drill="0.3">
 <clearance class="0" value="0.1"/>
 </class>
-<class number="1" name="power" width="0.3" drill="0.3">
+<class number="1" name="power" width="0.3" drill="0.5">
 <clearance class="1" value="0.15"/>
 </class>
 <class number="2" name="high_voltage" width="0.15" drill="0.3">
 <clearance class="2" value="0.5"/>
 </class>
-<class number="3" name="high_power" width="0.5" drill="0.3">
+<class number="3" name="high_power" width="0.5" drill="0.6">
 <clearance class="3" value="0.15"/>
 </class>
 </classes>
@@ -4286,8 +4294,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="C1" library="ELL-i-Passives" deviceset="C" device="0402" value="22pF"/>
 <part name="C2" library="ELL-i-Passives" deviceset="C" device="0402" value="22pF"/>
 <part name="C7" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
-<part name="C6" library="ELL-i-Passives" deviceset="C" device="0402" value="1uF"/>
-<part name="C4" library="ELL-i-Passives" deviceset="C" device="0402" value="1uF"/>
+<part name="C6" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C4" library="ELL-i-Passives" deviceset="C" device="0402" value="4.7uF"/>
 <part name="C5" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="R1" library="ELL-i-Passives" deviceset="R" device="0402" value="150R"/>
@@ -4309,7 +4317,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="GNDI7" library="supply1" deviceset="GNDI" device=""/>
 <part name="FRAME4" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="S1" library="ell-i" deviceset="EVQQ2/P0" device=""/>
-<part name="U1" library="ELL-i-DigitalIC" deviceset="STM32F051R" device=""/>
+<part name="U1" library="ELL-i-DigitalIC" deviceset="STM32F051R" device="T" technology="8"/>
 <part name="U2" library="ELL-i-DigitalIC" deviceset="ELLI-STM32F0" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U4" library="ELL-i-DigitalIC" deviceset="LCMXO2-256*SG32" device="" technology="HC-4"/>
@@ -4405,6 +4413,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="X4" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="C12" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4432,7 +4441,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="C7" gate="G$1" x="-195.58" y="30.48"/>
 <instance part="C6" gate="G$1" x="-200.66" y="30.48" rot="MR0"/>
 <instance part="C4" gate="G$1" x="-228.6" y="30.48" rot="MR0"/>
-<instance part="C5" gate="G$1" x="-223.52" y="30.48"/>
+<instance part="C5" gate="G$1" x="-218.44" y="30.48"/>
 <instance part="D1" gate="G$1" x="-261.62" y="152.4"/>
 <instance part="R1" gate="G$1" x="-261.62" y="142.24" rot="R270"/>
 <instance part="R3" gate="G$1" x="-210.82" y="137.16" rot="R270"/>
@@ -4573,6 +4582,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="X4" gate="M" x="139.7" y="226.06"/>
 <instance part="X3" gate="M" x="139.7" y="220.98"/>
 <instance part="P+3" gate="1" x="-205.74" y="317.5"/>
+<instance part="C12" gate="G$1" x="-205.74" y="30.48" rot="MR0"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -4749,9 +4759,10 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-200.66" y1="33.02" x2="-200.66" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-200.66" y="38.1"/>
-<wire x1="-200.66" y1="38.1" x2="-223.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-200.66" y1="38.1" x2="-205.74" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-223.52" y1="33.02" x2="-223.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="38.1" x2="-218.44" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-218.44" y1="38.1" x2="-223.52" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-223.52" y="38.1"/>
 <wire x1="-223.52" y1="38.1" x2="-228.6" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="38.1" x2="-231.14" y2="38.1" width="0.1524" layer="91"/>
@@ -4760,6 +4771,11 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-228.6" y1="33.02" x2="-228.6" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="TP3" gate="TP$1" pin="P$1"/>
 <wire x1="-223.52" y1="38.1" x2="-223.52" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-205.74" y1="33.02" x2="-205.74" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-205.74" y="38.1"/>
+<wire x1="-218.44" y1="33.02" x2="-218.44" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-218.44" y="38.1"/>
 </segment>
 <segment>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
@@ -4903,7 +4919,9 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-195.58" y1="20.32" x2="-195.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="17.78" x2="-231.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-195.58" y1="20.32" x2="-200.66" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="20.32" x2="-223.52" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-200.66" y1="20.32" x2="-205.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-205.74" y1="20.32" x2="-218.44" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-218.44" y1="20.32" x2="-223.52" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-223.52" y1="20.32" x2="-228.6" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="20.32" x2="-231.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-228.6" y1="25.4" x2="-228.6" y2="20.32" width="0.1524" layer="91"/>
@@ -4911,10 +4929,14 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-200.66" y1="25.4" x2="-200.66" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-200.66" y="20.32"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-223.52" y1="25.4" x2="-223.52" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-223.52" y="20.32"/>
 <pinref part="TP2" gate="TP$1" pin="P$1"/>
 <wire x1="-223.52" y1="20.32" x2="-223.52" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="-205.74" y1="25.4" x2="-205.74" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-205.74" y="20.32"/>
+<wire x1="-218.44" y1="25.4" x2="-218.44" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-218.44" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
