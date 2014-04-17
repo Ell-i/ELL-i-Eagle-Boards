@@ -4656,7 +4656,7 @@ Uncertainty about capacitor values etc.</text>
 </bus>
 </busses>
 <nets>
-<net name="VDDA" class="0">
+<net name="VDDA" class="1">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -4712,7 +4712,7 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VSSA" class="0">
+<net name="VSSA" class="1">
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -6018,7 +6018,7 @@ Uncertainty about capacitor values etc.</text>
 <junction x="236.22" y="76.2"/>
 </segment>
 </net>
-<net name="PF4" class="0">
+<net name="PF4" class="1">
 <segment>
 <pinref part="U1" gate="PDF" pin="PF4"/>
 <wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
@@ -6030,7 +6030,7 @@ Uncertainty about capacitor values etc.</text>
 <junction x="73.66" y="73.66"/>
 </segment>
 </net>
-<net name="PF5" class="0">
+<net name="PF5" class="1">
 <segment>
 <pinref part="U1" gate="PDF" pin="PF5"/>
 <wire x1="83.82" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
@@ -6252,7 +6252,7 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="SW1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VCC-IN" class="0">
+<net name="VCC-IN" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="VCC"/>
 <wire x1="-269.24" y1="99.06" x2="-264.16" y2="99.06" width="0.1524" layer="91"/>
@@ -6382,7 +6382,7 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="Q2" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="PF6" class="0">
+<net name="PF6" class="1">
 <segment>
 <wire x1="104.14" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U1" gate="PDF" pin="PF6"/>
@@ -6402,7 +6402,7 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="261.62" y1="68.58" x2="261.62" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PF7" class="0">
+<net name="PF7" class="1">
 <segment>
 <wire x1="114.3" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="PDF" pin="PF7"/>
@@ -6473,7 +6473,7 @@ Uncertainty about capacitor values etc.</text>
 <label x="76.2" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VCCIO" class="0">
+<net name="VCCIO" class="1">
 <segment>
 <pinref part="EXT1" gate="E" pin="VCC(IO)"/>
 <wire x1="88.9" y1="332.74" x2="91.44" y2="332.74" width="0.1524" layer="91"/>
@@ -6545,7 +6545,7 @@ Uncertainty about capacitor values etc.</text>
 <junction x="246.38" y="104.14"/>
 </segment>
 </net>
-<net name="AREF" class="0">
+<net name="AREF" class="1">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-99.06" y1="142.24" x2="-99.06" y2="144.78" width="0.1524" layer="91"/>
@@ -6625,7 +6625,7 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-231.14" y1="106.68" x2="-233.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VCCIO1" class="1">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO1"/>
 <wire x1="-104.14" y1="48.26" x2="-127" y2="48.26" width="0.1524" layer="91"/>
@@ -6637,7 +6637,7 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="-132.08" y1="68.58" x2="-132.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="VCCIO2" class="1">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO2"/>
 <pinref part="SJ3" gate="G$1" pin="2"/>
@@ -6653,7 +6653,7 @@ Uncertainty about capacitor values etc.</text>
 <junction x="-121.92" y="50.8"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="VCCIO3" class="1">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO3"/>
 <pinref part="SJ4" gate="G$1" pin="2"/>
@@ -6679,7 +6679,7 @@ Uncertainty about capacitor values etc.</text>
 <wire x1="81.28" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="VCCIO0" class="1">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO0"/>
 <wire x1="-104.14" y1="45.72" x2="-132.08" y2="45.72" width="0.1524" layer="91"/>
