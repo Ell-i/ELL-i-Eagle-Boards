@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.5.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1078,7 +1078,7 @@
 <connect gate="IO" pin="PL_5D/7B/9B/12B/17B" pad="5"/>
 <connect gate="IO" pin="PR_5A/5C/5C/7A/10A" pad="21"/>
 <connect gate="IO" pin="PR_5B/5D/5D/7B/10B" pad="20"/>
-<connect gate="PWR" pin="GND" pad="3 22"/>
+<connect gate="PWR" pin="GND" pad="3 22 EP"/>
 <connect gate="PWR" pin="VCC" pad="2 18"/>
 <connect gate="PWR" pin="VCCIO0" pad="24 31"/>
 <connect gate="PWR" pin="VCCIO1" pad="19"/>
@@ -2867,13 +2867,13 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 </deviceset>
 <deviceset name="DIODE-SCHOTTKY" prefix="D">
 <description>&lt;b&gt;Schottky diodes&lt;/b&gt;
-
 &lt;ul&gt;
 &lt;li&gt;BAT20J 1A 23V 0.62Vf&lt;/li&gt;
 &lt;li&gt;BAT60J 3A 10V 0.53Vf (&lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001944.pdf"&gt;Datasheet&lt;/a&gt;) &lt;/li&gt;
 &lt;li&gt;RB751 120mA 40V 0.37Vf&lt;/li&gt;
 &lt;li&gt;PMEG4005EJ 0.5A 40V 0.42Vf&lt;/li&gt;
 &lt;li&gt;MBRA140 1A 40V 0.5Vf&lt;/li&gt;
+&lt;li&gt;B340A  3A 40V SMA &lt;/li&gt;
 &lt;li&gt;MBR120 20V 1A SOD123FL (&lt;a href="http://www.mouser.com/ds/2/308/MBR120VLSFT1-D-107081.pdf"&gt;Datasheet&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
@@ -2925,6 +2925,18 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <technology name="">
 <attribute name="PROD_ID" value="DIO-10955" constant="no"/>
 <attribute name="VALUE" value="PMEG4005EJ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-B340A" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09886"/>
+<attribute name="VALUE" value="B340A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3000,6 +3012,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.778" y1="-1.651" x2="-0.762" y2="-1.27" layer="21"/>
 </package>
 <package name="DIPSWITCH-02-50MIL">
+<description>&lt;b&gt;DIP SWITCH&lt;/b&gt;
+&lt;p&gt;Half-size SMT DIP switch, 1.27 mm / 0.05" pitch. For example the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A6H-2101 or A6H-2102 in Omron A6H series; &lt;a href="http://www.omron.com/ecb/products/pdf/en-a6h.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Digikey &lt;a href="http://www.digikey.com/product-detail/en/A6H-2101/A6H-2101-ND/1811590"&gt;A6H-2101-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <wire x1="-2.032" y1="-2.413" x2="2.032" y2="-2.413" width="0.2032" layer="21"/>
 <wire x1="2.032" y1="2.413" x2="-2.032" y2="2.413" width="0.2032" layer="21"/>
 <wire x1="-2.032" y1="2.413" x2="-2.032" y2="-2.413" width="0.2032" layer="21"/>
@@ -3137,7 +3155,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A4L" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;
+<description>&lt;b&gt;Schematic Frame-European Format&lt;/b&gt;
 &lt;br&gt;&lt;br&gt;
 Standard A4 size frame in Landscape</description>
 <gates>
@@ -4414,6 +4432,14 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="X3" library="ELL-i-Connectors" deviceset="M-BOLT" device="-2"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="C12" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C13" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C14" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C15" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C16" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C17" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C18" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C19" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
+<part name="C20" library="ELL-i-Passives" deviceset="C" device="0402" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -4475,9 +4501,9 @@ Uncertainty about capacitor values etc.</text>
 <instance part="FRAME2" gate="G$1" x="-289.56" y="0"/>
 <instance part="U4" gate="IO" x="180.34" y="147.32" rot="MR0"/>
 <instance part="U4" gate="ERB" x="190.5" y="68.58"/>
-<instance part="U4" gate="PWR" x="-104.14" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="-100.584" y="48.006" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-78.994" y="24.384" size="1.778" layer="96" rot="R180"/>
+<instance part="U4" gate="PWR" x="-93.98" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="-90.424" y="58.166" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-68.834" y="34.544" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U3" gate="G$1" x="180.34" y="147.32" rot="MR0"/>
 <instance part="EXT1" gate="E" x="71.12" y="297.18"/>
@@ -4489,7 +4515,7 @@ Uncertainty about capacitor values etc.</text>
 <instance part="+3V310" gate="G$1" x="17.78" y="144.78"/>
 <instance part="R20" gate="G$1" x="236.22" y="55.88" rot="R270"/>
 <instance part="GNDI15" gate="G$1" x="236.22" y="43.18"/>
-<instance part="R21" gate="G$1" x="246.38" y="96.52" rot="R270"/>
+<instance part="R21" gate="G$1" x="246.38" y="96.52" rot="R90"/>
 <instance part="GNDI16" gate="G$1" x="246.38" y="86.36"/>
 <instance part="EXB1" gate="E" x="198.12" y="297.18"/>
 <instance part="C3" gate="G$1" x="-238.76" y="106.68" smashed="yes" rot="R90">
@@ -4507,8 +4533,8 @@ Uncertainty about capacitor values etc.</text>
 </instance>
 <instance part="+3V34" gate="G$1" x="-205.74" y="121.92"/>
 <instance part="R2" gate="G$1" x="-254" y="101.6"/>
-<instance part="+3V35" gate="G$1" x="-157.48" y="96.52"/>
-<instance part="GNDI9" gate="G$1" x="-124.46" y="22.86"/>
+<instance part="+3V35" gate="G$1" x="-157.48" y="106.68"/>
+<instance part="GNDI9" gate="G$1" x="-124.46" y="15.24"/>
 <instance part="+3V311" gate="G$1" x="114.3" y="337.82"/>
 <instance part="+3V314" gate="G$1" x="254" y="342.9"/>
 <instance part="GNDI13" gate="G$1" x="114.3" y="314.96"/>
@@ -4555,10 +4581,10 @@ Uncertainty about capacitor values etc.</text>
 <instance part="OLPADS1" gate="G$1" x="-218.44" y="297.18"/>
 <instance part="OLPADS2" gate="G$1" x="-149.86" y="297.18"/>
 <instance part="R10" gate="G$1" x="15.24" y="68.58"/>
-<instance part="SJ1" gate="G$1" x="-139.7" y="50.8" rot="R90"/>
-<instance part="SJ2" gate="G$1" x="-132.08" y="63.5" rot="R90"/>
-<instance part="SJ3" gate="G$1" x="-124.46" y="76.2" rot="R90"/>
-<instance part="SJ4" gate="G$1" x="-116.84" y="88.9" rot="R90"/>
+<instance part="SJ1" gate="G$1" x="-139.7" y="60.96" rot="R90"/>
+<instance part="SJ2" gate="G$1" x="-132.08" y="73.66" rot="R90"/>
+<instance part="SJ3" gate="G$1" x="-124.46" y="86.36" rot="R90"/>
+<instance part="SJ4" gate="G$1" x="-116.84" y="99.06" rot="R90"/>
 <instance part="D4" gate="G$1" x="-58.42" y="162.56" rot="R180"/>
 <instance part="D2" gate="G$1" x="-246.38" y="78.74"/>
 <instance part="+3V32" gate="G$1" x="-236.22" y="88.9"/>
@@ -4583,6 +4609,14 @@ Uncertainty about capacitor values etc.</text>
 <instance part="X3" gate="M" x="139.7" y="220.98"/>
 <instance part="P+3" gate="1" x="-205.74" y="317.5"/>
 <instance part="C12" gate="G$1" x="-205.74" y="30.48" rot="MR0"/>
+<instance part="C13" gate="G$1" x="-111.76" y="33.02"/>
+<instance part="C14" gate="G$1" x="-116.84" y="33.02"/>
+<instance part="C15" gate="G$1" x="-127" y="33.02"/>
+<instance part="C16" gate="G$1" x="-132.08" y="33.02"/>
+<instance part="C17" gate="G$1" x="-142.24" y="33.02"/>
+<instance part="C18" gate="G$1" x="-147.32" y="33.02"/>
+<instance part="C19" gate="G$1" x="-137.16" y="33.02"/>
+<instance part="C20" gate="G$1" x="-121.92" y="33.02"/>
 </instances>
 <busses>
 <bus name="A[0..5],D[0..13],E[0..19]">
@@ -4816,24 +4850,32 @@ Uncertainty about capacitor values etc.</text>
 <segment>
 <pinref part="U4" gate="PWR" pin="VCC"/>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
-<wire x1="-114.3" y1="30.48" x2="-157.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="30.48" x2="-157.48" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="40.64" x2="-142.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="40.64" x2="-147.32" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="40.64" x2="-157.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="40.64" x2="-157.48" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="50.8" x2="-157.48" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="63.5" x2="-157.48" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="76.2" x2="-157.48" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-157.48" y1="88.9" x2="-157.48" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="50.8" x2="-157.48" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-157.48" y="50.8"/>
+<wire x1="-157.48" y1="60.96" x2="-157.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="73.66" x2="-157.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="86.36" x2="-157.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="99.06" x2="-157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="60.96" x2="-157.48" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-157.48" y="60.96"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="-137.16" y1="63.5" x2="-157.48" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-157.48" y="63.5"/>
+<wire x1="-137.16" y1="73.66" x2="-157.48" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-157.48" y="73.66"/>
 <pinref part="SJ3" gate="G$1" pin="1"/>
-<wire x1="-129.54" y1="76.2" x2="-157.48" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-157.48" y="76.2"/>
+<wire x1="-129.54" y1="86.36" x2="-157.48" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-157.48" y="86.36"/>
 <pinref part="SJ4" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="88.9" x2="-157.48" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-157.48" y="88.9"/>
+<wire x1="-121.92" y1="99.06" x2="-157.48" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-157.48" y="99.06"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-142.24" y1="35.56" x2="-142.24" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-142.24" y="40.64"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-147.32" y1="40.64" x2="-147.32" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-147.32" y="40.64"/>
 </segment>
 <segment>
 <pinref part="+3V314" gate="G$1" pin="+3V3"/>
@@ -4979,11 +5021,6 @@ Uncertainty about capacitor values etc.</text>
 <pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="GNDI16" gate="G$1" pin="GNDI"/>
-<wire x1="246.38" y1="88.9" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="GNDI6" gate="G$1" pin="GNDI"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-193.04" y1="83.82" x2="-193.04" y2="76.2" width="0.1524" layer="91"/>
@@ -4997,8 +5034,42 @@ Uncertainty about capacitor values etc.</text>
 <segment>
 <pinref part="GNDI9" gate="G$1" pin="GNDI"/>
 <pinref part="U4" gate="PWR" pin="GND"/>
-<wire x1="-124.46" y1="25.4" x2="-124.46" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="27.94" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-127" y1="25.4" x2="-124.46" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="25.4" x2="-121.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="25.4" x2="-116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="25.4" x2="-106.68" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="25.4" x2="-106.68" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="38.1" x2="-104.14" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="-111.76" y1="27.94" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-111.76" y="25.4"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="27.94" x2="-116.84" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-116.84" y="25.4"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="-127" y1="27.94" x2="-127" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-127" y="25.4"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="-132.08" y1="27.94" x2="-132.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="25.4" x2="-127" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="-142.24" y1="27.94" x2="-142.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="25.4" x2="-137.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-132.08" y="25.4"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="25.4" x2="-132.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="27.94" x2="-147.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="25.4" x2="-142.24" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-142.24" y="25.4"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="27.94" x2="-137.16" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-137.16" y="25.4"/>
+<wire x1="-124.46" y1="17.78" x2="-124.46" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-124.46" y="25.4"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-121.92" y1="27.94" x2="-121.92" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-121.92" y="25.4"/>
 </segment>
 <segment>
 <pinref part="GNDI18" gate="G$1" pin="GNDI"/>
@@ -5053,6 +5124,11 @@ Uncertainty about capacitor values etc.</text>
 <junction x="-129.54" y="160.02"/>
 <wire x1="-127" y1="160.02" x2="-127" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GNDI8" gate="G$1" pin="GNDI"/>
+</segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="GNDI16" gate="G$1" pin="GNDI"/>
+<wire x1="246.38" y1="91.44" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -6397,23 +6473,23 @@ Uncertainty about capacitor values etc.</text>
 <label x="7.62" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-111.76" y1="88.9" x2="-106.68" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="88.9" x2="-106.68" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="96.52" x2="-101.6" y2="96.52" width="0.1524" layer="91"/>
-<label x="-101.6" y="96.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="-111.76" y1="99.06" x2="-106.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="99.06" x2="-106.68" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="106.68" x2="-101.6" y2="106.68" width="0.1524" layer="91"/>
+<label x="-101.6" y="106.68" size="1.778" layer="95" xref="yes"/>
 <pinref part="SJ4" gate="G$1" pin="3"/>
 <pinref part="SJ1" gate="G$1" pin="3"/>
-<wire x1="-134.62" y1="50.8" x2="-106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="50.8" x2="-106.68" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="60.96" x2="-106.68" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="60.96" x2="-106.68" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="-106.68" y1="63.5" x2="-127" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="63.5" x2="-106.68" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-106.68" y="63.5"/>
+<wire x1="-106.68" y1="73.66" x2="-127" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="73.66" x2="-106.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-106.68" y="73.66"/>
 <pinref part="SJ3" gate="G$1" pin="3"/>
-<wire x1="-106.68" y1="76.2" x2="-119.38" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="88.9" x2="-106.68" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-106.68" y="88.9"/>
-<junction x="-106.68" y="76.2"/>
+<wire x1="-106.68" y1="86.36" x2="-119.38" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="99.06" x2="-106.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-106.68" y="99.06"/>
+<junction x="-106.68" y="86.36"/>
 </segment>
 <segment>
 <pinref part="TP5" gate="TP$1" pin="P$1"/>
@@ -6431,18 +6507,18 @@ Uncertainty about capacitor values etc.</text>
 </net>
 <net name="JTAGENB" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="104.14" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-<junction x="246.38" y="104.14"/>
 <pinref part="U4" gate="ERB" pin="JTAGENB/PT15C"/>
 <wire x1="220.98" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="104.14" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
 <junction x="220.98" y="104.14"/>
 <wire x1="220.98" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SJ15" gate="1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="101.6" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
+<junction x="246.38" y="104.14"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -6528,25 +6604,41 @@ Uncertainty about capacitor values etc.</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO1"/>
+<wire x1="-104.14" y1="48.26" x2="-127" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-127" y1="48.26" x2="-132.08" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="-127" y1="35.56" x2="-127" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-127" y="48.26"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="-114.3" y1="38.1" x2="-132.08" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-132.08" y1="38.1" x2="-132.08" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="68.58" x2="-132.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO2"/>
 <pinref part="SJ3" gate="G$1" pin="2"/>
-<wire x1="-114.3" y1="40.64" x2="-124.46" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="40.64" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="50.8" x2="-116.84" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="50.8" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="50.8" x2="-124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="50.8" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="35.56" x2="-116.84" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-116.84" y="50.8"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="35.56" x2="-121.92" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-121.92" y="50.8"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO3"/>
 <pinref part="SJ4" gate="G$1" pin="2"/>
-<wire x1="-114.3" y1="43.18" x2="-116.84" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="43.18" x2="-116.84" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="53.34" x2="-111.76" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="53.34" x2="-116.84" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="53.34" x2="-116.84" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="-111.76" y1="35.56" x2="-111.76" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-111.76" y="53.34"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -6566,9 +6658,17 @@ Uncertainty about capacitor values etc.</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U4" gate="PWR" pin="VCCIO0"/>
-<wire x1="-114.3" y1="35.56" x2="-139.7" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="45.72" x2="-132.08" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
-<wire x1="-139.7" y1="35.56" x2="-139.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="45.72" x2="-137.16" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="45.72" x2="-139.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="45.72" x2="-139.7" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="35.56" x2="-132.08" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-132.08" y="45.72"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="-137.16" y1="35.56" x2="-137.16" y2="45.72" width="0.1524" layer="91"/>
+<junction x="-137.16" y="45.72"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -6583,25 +6683,6 @@ Uncertainty about capacitor values etc.</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,-40.64,129.54,U2PWR,VSS,GNDI,,,"/>
-<approved hash="104,1,-66.04,129.54,U2PWR,VDD,+3V3,,,"/>
-<approved hash="104,1,88.9,320.04,J2,GND,GNDI,,,"/>
-<approved hash="104,1,88.9,325.12,J2,5V,+5V,,,"/>
-<approved hash="104,1,88.9,327.66,J2,3.3V,+3V3,,,"/>
-<approved hash="104,1,88.9,332.74,J2,VCC(IO),VCCIO,,,"/>
-<approved hash="104,1,88.9,317.5,J2,GND,GNDI,,,"/>
-<approved hash="104,1,215.9,320.04,J3,GND,GNDI,,,"/>
-<approved hash="104,1,215.9,325.12,J3,5V,+5V,,,"/>
-<approved hash="104,1,215.9,327.66,J3,3.3V,+3V3,,,"/>
-<approved hash="104,1,215.9,332.74,J3,VCC(IO),VCCIO,,,"/>
-<approved hash="104,1,215.9,317.5,J3,GND,GNDI,,,"/>
-<approved hash="104,1,259.08,76.2,J5,1,+3V3,,,"/>
-<approved hash="104,1,259.08,71.12,J5,5,GNDI,,,"/>
-<approved hash="104,1,259.08,66.04,J5,9,GNDI,,,"/>
-<approved hash="104,1,-63.5,43.18,D1,VDD,+5V,,,"/>
-<approved hash="104,1,-40.64,35.56,D1,VSS,GNDI,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
