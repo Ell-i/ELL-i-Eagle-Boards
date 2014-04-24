@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4541,11 +4541,12 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="PoE 48V 1A" width="0" drill="0">
+<class number="1" name="PoE 48V 1A" width="0.4" drill="0">
 </class>
-<class number="2" name="High current 3A (low voltage)" width="0" drill="0">
+<class number="2" name="High current 3A (low voltage)" width="0.8" drill="0">
 </class>
-<class number="3" name="High voltage 200V 1A" width="0" drill="0">
+<class number="3" name="High voltage 200V 1A" width="0.8" drill="0">
+<clearance class="3" value="0.5"/>
 </class>
 </classes>
 <parts>

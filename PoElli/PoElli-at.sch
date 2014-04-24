@@ -5300,7 +5300,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 </class>
 <class number="2" name="High current 3A (low voltage)" width="0.8" drill="0">
 </class>
-<class number="3" name="High voltage 200V and current 1A" width="0.8" drill="0.4">
+<class number="3" name="High voltage 200V and current 1A" width="0.8" drill="0">
 <clearance class="3" value="0.5"/>
 </class>
 </classes>
