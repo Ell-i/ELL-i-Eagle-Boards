@@ -75,8 +75,8 @@
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="bSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="bSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -2193,8 +2193,8 @@ design rules under a new name.</description>
 <contactref element="Q4" pad="3"/>
 <contactref element="C48" pad="1"/>
 <polygon width="0.15" layer="16">
-<vertex x="81.6" y="19.7"/>
-<vertex x="56.3" y="19.7"/>
+<vertex x="81.6" y="19.8"/>
+<vertex x="56.3" y="19.8"/>
 <vertex x="56.3" y="30.5"/>
 <vertex x="38" y="30.5"/>
 <vertex x="38" y="-4.9"/>
@@ -2202,8 +2202,8 @@ design rules under a new name.</description>
 </polygon>
 <via x="78.3" y="18.9" extent="1-16" drill="0.4"/>
 <polygon width="0.15" layer="1">
-<vertex x="81.6" y="19.7"/>
-<vertex x="56.3" y="19.7"/>
+<vertex x="81.6" y="19.8"/>
+<vertex x="56.3" y="19.8"/>
 <vertex x="56.3" y="30.5"/>
 <vertex x="38" y="30.5"/>
 <vertex x="38" y="-4.9"/>
@@ -2258,8 +2258,8 @@ design rules under a new name.</description>
 <via x="59.7" y="17.1" extent="1-16" drill="0.4"/>
 <via x="55.8" y="18.35" extent="1-16" drill="0.4"/>
 <polygon width="0.15" layer="2">
-<vertex x="81.6" y="19.7"/>
-<vertex x="56.3" y="19.7"/>
+<vertex x="81.6" y="19.8"/>
+<vertex x="56.3" y="19.8"/>
 <vertex x="56.3" y="30.5"/>
 <vertex x="38" y="30.5"/>
 <vertex x="38" y="-4.9"/>
@@ -2640,7 +2640,7 @@ design rules under a new name.</description>
 <via x="66.5" y="22.9" extent="1-16" drill="0.4"/>
 <via x="69" y="22.9" extent="1-16" drill="0.4"/>
 <via x="78.3" y="33.3" extent="1-16" drill="0.4"/>
-<via x="75.5" y="32.3" extent="1-16" drill="0.4"/>
+<via x="75.5" y="32.2" extent="1-16" drill="0.4"/>
 <via x="69.7" y="32.5" extent="1-16" drill="0.4"/>
 <via x="63.8" y="32.3" extent="1-16" drill="0.4"/>
 <via x="67.2" y="32.2" extent="1-16" drill="0.4"/>
@@ -2837,9 +2837,8 @@ design rules under a new name.</description>
 <wire x1="63" y1="45" x2="63.1" y2="44.9" width="0.4" layer="1"/>
 <via x="63.1" y="44.9" extent="1-16" drill="0.4"/>
 <wire x1="63.1" y1="44.9" x2="70.9" y2="44.9" width="0.4" layer="2"/>
-<wire x1="70.9" y1="44.9" x2="73" y2="47" width="0.4" layer="2"/>
-<wire x1="73" y1="47" x2="73" y2="49.2" width="0.4" layer="2"/>
-<wire x1="73" y1="49.2" x2="73.1" y2="49.3" width="0.4" layer="2"/>
+<wire x1="70.9" y1="44.9" x2="73.1" y2="47.1" width="0.4" layer="2"/>
+<wire x1="73.1" y1="47.1" x2="73.1" y2="49.3" width="0.4" layer="2"/>
 <via x="73.1" y="49.3" extent="1-16" drill="0.4"/>
 <wire x1="73.1" y1="49.3" x2="73.1" y2="46.2" width="0.4" layer="1"/>
 <wire x1="73.1" y1="46.2" x2="73" y2="46.1" width="0.4" layer="1"/>
@@ -2914,10 +2913,8 @@ design rules under a new name.</description>
 <contactref element="R25" pad="1"/>
 <contactref element="D19" pad="A"/>
 <polygon width="0.15" layer="15">
-<vertex x="39.8" y="-2"/>
-<vertex x="39.8" y="22.3"/>
-<vertex x="37.5" y="22.3"/>
-<vertex x="37.5" y="44.8"/>
+<vertex x="37.7" y="-1.9"/>
+<vertex x="37.7" y="44.8"/>
 <vertex x="84" y="44.8"/>
 <vertex x="84" y="-2"/>
 </polygon>
@@ -3113,19 +3110,19 @@ design rules under a new name.</description>
 <polygon width="0.15" layer="15">
 <vertex x="28.2" y="-2.2"/>
 <vertex x="28.2" y="8.4"/>
-<vertex x="18.8" y="8.4"/>
-<vertex x="18.8" y="22.3"/>
-<vertex x="36.4" y="22.3"/>
-<vertex x="36.4" y="46"/>
+<vertex x="19.3" y="8.4"/>
+<vertex x="19.3" y="22.3"/>
+<vertex x="36.9" y="22.3"/>
+<vertex x="36.9" y="46"/>
 <vertex x="81.1" y="46"/>
 <vertex x="81.1" y="70.9"/>
 <vertex x="-2.3" y="70.9"/>
 <vertex x="-2.3" y="48.6"/>
-<vertex x="30.1" y="48.6"/>
-<vertex x="30.1" y="30.6"/>
-<vertex x="9.8" y="30.6"/>
-<vertex x="9.8" y="48.45"/>
-<vertex x="-2.3" y="48.45"/>
+<vertex x="29.9" y="48.6"/>
+<vertex x="29.9" y="30.6"/>
+<vertex x="10" y="30.6"/>
+<vertex x="10" y="48.5"/>
+<vertex x="-2.3" y="48.5"/>
 <vertex x="-2.3" y="-2.2"/>
 </polygon>
 <wire x1="29.575" y1="49.7" x2="30.2" y2="49.7" width="0.15" layer="1"/>
@@ -3472,12 +3469,12 @@ design rules under a new name.</description>
 <contactref element="C47" pad="1"/>
 <contactref element="CN7" pad="24"/>
 <polygon width="0.15" layer="15">
-<vertex x="38.8" y="-2"/>
+<vertex x="36.9" y="-2"/>
 <vertex x="29.2" y="-2"/>
 <vertex x="29.2" y="9.4"/>
-<vertex x="19.7" y="9.4"/>
-<vertex x="19.7" y="21.3"/>
-<vertex x="38.8" y="21.3"/>
+<vertex x="20.1" y="9.4"/>
+<vertex x="20.1" y="21.5"/>
+<vertex x="36.9" y="21.5"/>
 </polygon>
 <via x="33.3" y="13.8" extent="1-16" drill="0.4"/>
 <via x="33.3" y="11.7" extent="1-16" drill="0.4"/>
