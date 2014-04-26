@@ -4579,7 +4579,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0603" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206" value="2k"/>
-<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF"/>
+<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF 100V"/>
 <part name="D17" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="D16" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="D15" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
@@ -4705,6 +4705,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED" device="-RJ45-MOLEX-85502-5008"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="YELLOW"/>
+<part name="R10" library="ELL-i-Passives" deviceset="R" device="0603" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -4714,7 +4715,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <text x="-177.8" y="172.72" size="1.778" layer="91">100V</text>
 <text x="-17.78" y="83.82" size="1.778" layer="97" rot="R180">100V</text>
 <text x="10.16" y="60.96" size="1.778" layer="97">25V</text>
-<text x="2.54" y="104.14" size="1.778" layer="97" rot="R90">100V</text>
 <text x="-68.58" y="96.52" size="1.778" layer="97">R38 solder bridge is a potential
 alternative to R25, D11 and D13.
 To be tested.</text>
@@ -4761,9 +4761,9 @@ replacement of R29</text>
 <instance part="R24" gate="G$1" x="15.24" y="53.34" rot="R180"/>
 <instance part="C30" gate="G$1" x="10.16" y="66.04" rot="R90"/>
 <instance part="R34" gate="G$1" x="-5.08" y="12.7" rot="R90"/>
-<instance part="D3" gate="G$1" x="22.86" y="93.98" rot="R180"/>
-<instance part="R16" gate="G$1" x="-2.54" y="93.98" rot="R180"/>
-<instance part="C21" gate="G$1" x="-5.08" y="101.6" rot="R90"/>
+<instance part="D3" gate="G$1" x="20.32" y="93.98" rot="R180"/>
+<instance part="R16" gate="G$1" x="-5.08" y="93.98" rot="R180"/>
+<instance part="C21" gate="G$1" x="-10.16" y="101.6" rot="R90"/>
 <instance part="D17" gate="G$1" x="-160.02" y="22.86" rot="R90"/>
 <instance part="D16" gate="G$1" x="-165.1" y="22.86" rot="R90"/>
 <instance part="D15" gate="G$1" x="-170.18" y="22.86" rot="R90"/>
@@ -4892,6 +4892,7 @@ replacement of R29</text>
 <instance part="X1" gate="G$1" x="-165.1" y="251.46" rot="R180"/>
 <instance part="D1" gate="G$1" x="185.42" y="180.34"/>
 <instance part="D2" gate="G$1" x="195.58" y="180.34"/>
+<instance part="R10" gate="G$1" x="2.54" y="101.6" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5249,7 +5250,7 @@ replacement of R29</text>
 <wire x1="20.32" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <junction x="27.94" y="53.34"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <junction x="27.94" y="93.98"/>
 <pinref part="T2" gate="G$1" pin="PRI+"/>
 <pinref part="C33" gate="G$1" pin="1"/>
@@ -5287,14 +5288,14 @@ replacement of R29</text>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="101.6" x2="0" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="20.32" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="101.6" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="101.6" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
-<junction x="12.7" y="93.98"/>
+<wire x1="0" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
+<junction x="10.16" y="93.98"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="POE_A+" class="1">
@@ -5803,17 +5804,16 @@ replacement of R29</text>
 <junction x="-40.64" y="86.36"/>
 <wire x1="-40.64" y1="86.36" x2="-15.24" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="VIN"/>
-<wire x1="-15.24" y1="86.36" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-15.24" y="86.36"/>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="93.98" x2="-15.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-15.24" y="86.36"/>
-<wire x1="-10.16" y1="93.98" x2="-10.16" y2="101.6" width="0.1524" layer="91"/>
-<junction x="-10.16" y="93.98"/>
+<wire x1="-15.24" y1="93.98" x2="-15.24" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-15.24" y="93.98"/>
 <pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="101.6" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="101.6" x2="-12.7" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="T2" gate="G$1" pin="PRI-"/>
 <wire x1="-124.46" y1="2.54" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-124.46" y="86.36"/>
@@ -5827,8 +5827,8 @@ replacement of R29</text>
 <junction x="-58.42" y="86.36"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
 <wire x1="-124.46" y1="91.44" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="93.98" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-10.16" y="86.36"/>
+<wire x1="-15.24" y1="93.98" x2="-15.24" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-15.24" y="86.36"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
@@ -6341,6 +6341,13 @@ replacement of R29</text>
 <wire x1="342.9" y1="304.8" x2="342.9" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="292.1" x2="337.82" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="CN7" pin="PD2_4"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="101.6" x2="-2.54" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

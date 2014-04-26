@@ -5335,7 +5335,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0603" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206" value="2k"/>
-<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF"/>
+<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF 100V"/>
 <part name="U2" library="ELL-i-PowerIC" deviceset="NCP1117" device=""/>
 <part name="EXT1" library="ELL-i-Connectors" deviceset="DF12-ELLI-*" device="HEADER-TOP"/>
 <part name="D17" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
@@ -5504,6 +5504,9 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="YELLOW"/>
 <part name="OUTLINE1" library="ELL-i-Boards" deviceset="RASPBERRY-OUTLINE" device=""/>
+<part name="C49" library="ELL-i-Passives" deviceset="C" device="0402" value="10nF"/>
+<part name="C50" library="ELL-i-Passives" deviceset="C" device="0402" value="10nF"/>
+<part name="GND31" library="supply1" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5513,14 +5516,13 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <text x="-177.8" y="172.72" size="1.778" layer="91">100V</text>
 <text x="-17.78" y="83.82" size="1.778" layer="97" rot="R180">100V</text>
 <text x="10.16" y="60.96" size="1.778" layer="97">25V</text>
-<text x="2.54" y="104.14" size="1.778" layer="97" rot="R90">100V</text>
 <text x="347.98" y="261.62" size="1.778" layer="97" align="center">RasPi 3.3V 
 must float </text>
 <text x="-68.58" y="96.52" size="1.778" layer="97">R38 solder bridge is a potential
 alternative to R25, D11 and D13.
 To be tested.</text>
 <text x="43.18" y="101.6" size="1.778" layer="97">2kV</text>
-<text x="-66.04" y="279.4" size="1.778" layer="98">C10 and C19 close 
+<text x="-66.04" y="280.416" size="1.778" layer="98">C10 and C19 close 
 to transformer pins</text>
 <text x="-150.622" y="55.372" size="1.778" layer="97" rot="R90">100V</text>
 <text x="-120.396" y="54.61" size="1.778" layer="97" rot="R90">100V</text>
@@ -5536,6 +5538,8 @@ of R39 and R37</text>
 <text x="-182.88" y="299.72" size="1.778" layer="91">TODO:
 - Review XMK RJ-45 connector
 - Review SOT-323 and SOT-23 layouts</text>
+<text x="-66.04" y="274.32" size="1.778" layer="98">C50 and C49 are alternative
+layouts on the bottom side</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
@@ -5740,6 +5744,9 @@ of R39 and R37</text>
 <instance part="D1" gate="G$1" x="177.8" y="182.88"/>
 <instance part="D2" gate="G$1" x="187.96" y="182.88"/>
 <instance part="OUTLINE1" gate="G$1" x="111.76" y="144.78"/>
+<instance part="C49" gate="G$1" x="-73.66" y="220.98" rot="R180"/>
+<instance part="C50" gate="G$1" x="-88.9" y="279.4" rot="MR180"/>
+<instance part="GND31" gate="1" x="-88.9" y="271.78"/>
 </instances>
 <busses>
 </busses>
@@ -6382,8 +6389,13 @@ of R39 and R37</text>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="218.44" x2="-83.82" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="218.44" x2="-83.82" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GNDA"/>
+<pinref part="C49" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="215.9" x2="-83.82" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="215.9" x2="-73.66" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="215.9" x2="-73.66" y2="218.44" width="0.1524" layer="91"/>
+<junction x="-83.82" y="215.9"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -6555,6 +6567,11 @@ of R39 and R37</text>
 <wire x1="63.5" y1="5.08" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="X2" gate="M" pin="KL1"/>
 <wire x1="63.5" y1="7.62" x2="60.96" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C50" gate="G$1" pin="1"/>
+<wire x1="-88.9" y1="276.86" x2="-88.9" y2="274.32" width="0.1524" layer="91"/>
+<pinref part="GND31" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -6926,6 +6943,12 @@ of R39 and R37</text>
 <wire x1="-83.82" y1="287.02" x2="-76.2" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="287.02" x2="-76.2" y2="284.48" width="0.1524" layer="91"/>
 <junction x="-83.82" y="287.02"/>
+<pinref part="C50" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="287.02" x2="-88.9" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="287.02" x2="-88.9" y2="284.48" width="0.1524" layer="91"/>
+<pinref part="C49" gate="G$1" pin="2"/>
+<wire x1="-83.82" y1="238.76" x2="-73.66" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="238.76" x2="-73.66" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="U3_VCC" class="0">
