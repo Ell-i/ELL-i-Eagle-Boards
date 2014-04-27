@@ -163,6 +163,12 @@
 PoE shield proto</text>
 <text x="68" y="61.2" size="1.778" layer="122" font="vector" ratio="15" rot="MR0">https://github.com/Ell-i/ELL-i-Eagle-Boards</text>
 <text x="8.8" y="61.8" size="1.5" layer="113" font="vector" ratio="15" rot="MR270">https://github.com/Ell-i/ELL-i-Eagle-Boards</text>
+<rectangle x1="29.7" y1="71.4" x2="42.7" y2="75.1" layer="41"/>
+<text x="3.6" y="57.4" size="2.54" layer="1" font="vector" ratio="20" rot="R90">1</text>
+<text x="3.5" y="60.3" size="2.54" layer="2" font="vector" ratio="20" rot="R90">2</text>
+<text x="3.6" y="63.6" size="2.54" layer="15" font="vector" ratio="20" rot="R90">3</text>
+<rectangle x1="29.7" y1="71.4" x2="42.7" y2="75.1" layer="42"/>
+<text x="3.6" y="66.6" size="2.54" layer="16" font="vector" ratio="20" rot="R90">4</text>
 </plain>
 <libraries>
 <library name="ELL-i-PowerIC">
@@ -1385,7 +1391,7 @@ design rules under a new name.</description>
 <param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.41mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1860,9 +1866,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.66" y="52.57" size="0.6096" layer="21" font="vector"/>
 <attribute name="VALUE" x="1.46" y="49.46" size="1.27" layer="21"/>
 </element>
-<element name="TP9" library="ELL-i-Passives" package="TP_5021" value="" x="4" y="56" smashed="yes">
-<attribute name="NAME" x="2.96" y="56.67" size="0.6096" layer="21" font="vector"/>
-<attribute name="VALUE" x="1.46" y="53.46" size="1.27" layer="21"/>
+<element name="TP9" library="ELL-i-Passives" package="TP_5021" value="" x="4" y="55.3" smashed="yes">
+<attribute name="NAME" x="2.96" y="55.97" size="0.6096" layer="21" font="vector"/>
+<attribute name="VALUE" x="1.46" y="52.76" size="1.27" layer="21"/>
 </element>
 <element name="SW1" library="SparkFun-Electromechanical" package="DIPSWITCH-02-50MIL" value="A6H2101" x="2.5" y="5.5" smashed="yes">
 <attribute name="VALUE" x="0.595" y="-0.596" size="1.27" layer="27" ratio="10"/>
@@ -2688,7 +2694,7 @@ design rules under a new name.</description>
 <via x="6.8" y="45.1" extent="1-16" drill="0.4"/>
 <via x="9.7" y="49.4" extent="1-16" drill="0.4"/>
 <via x="5" y="47.3" extent="1-16" drill="0.4"/>
-<via x="2.6" y="67.2" extent="1-16" drill="0.4"/>
+<via x="5.5" y="67" extent="1-16" drill="0.4"/>
 <via x="1.7" y="32" extent="1-16" drill="0.4"/>
 <via x="10" y="31.4" extent="1-16" drill="0.4"/>
 <via x="13.6" y="31.8" extent="1-16" drill="0.4"/>
@@ -3117,12 +3123,12 @@ design rules under a new name.</description>
 <vertex x="81.1" y="46"/>
 <vertex x="81.1" y="70.9"/>
 <vertex x="-2.3" y="70.9"/>
-<vertex x="-2.3" y="48.6"/>
-<vertex x="29.9" y="48.6"/>
+<vertex x="-2.3" y="51.4"/>
+<vertex x="29.9" y="51.4"/>
 <vertex x="29.9" y="30.6"/>
 <vertex x="10" y="30.6"/>
-<vertex x="10" y="48.5"/>
-<vertex x="-2.3" y="48.5"/>
+<vertex x="10" y="51.3"/>
+<vertex x="-2.3" y="51.3"/>
 <vertex x="-2.3" y="-2.2"/>
 </polygon>
 <wire x1="29.575" y1="49.7" x2="30.2" y2="49.7" width="0.15" layer="1"/>
@@ -3272,8 +3278,8 @@ design rules under a new name.</description>
 <polygon width="0.15" layer="15">
 <vertex x="11.1" y="31.5"/>
 <vertex x="28.9" y="31.5"/>
-<vertex x="28.9" y="47.7"/>
-<vertex x="11.1" y="47.7"/>
+<vertex x="28.9" y="50.5"/>
+<vertex x="11.1" y="50.5"/>
 </polygon>
 <wire x1="28.625" y1="47.9" x2="27.9" y2="47.3" width="0.15" layer="1"/>
 <via x="27.9" y="47.3" extent="1-16" drill="0.25"/>
@@ -3577,6 +3583,32 @@ design rules under a new name.</description>
 <contactref element="C21" pad="2"/>
 <contactref element="R10" pad="2"/>
 <wire x1="69.45" y1="4.9" x2="68.3" y2="4.9" width="0.4" layer="1"/>
+</signal>
+<signal name="N$199">
+<polygon width="0.2" layer="15" pour="cutout">
+<vertex x="0.6" y="56.7"/>
+<vertex x="4.1" y="56.7"/>
+<vertex x="4.1" y="69.4"/>
+<vertex x="0.6" y="69.4"/>
+</polygon>
+<polygon width="0.2" layer="2" pour="cutout">
+<vertex x="0.6" y="56.7"/>
+<vertex x="4.1" y="56.7"/>
+<vertex x="4.1" y="69.4"/>
+<vertex x="0.6" y="69.4"/>
+</polygon>
+<polygon width="0.2" layer="16" pour="cutout">
+<vertex x="0.6" y="56.7"/>
+<vertex x="4.1" y="56.7"/>
+<vertex x="4.1" y="69.4"/>
+<vertex x="0.6" y="69.4"/>
+</polygon>
+<polygon width="0.2" layer="1" pour="cutout">
+<vertex x="0.6" y="56.7"/>
+<vertex x="4.1" y="56.7"/>
+<vertex x="4.1" y="69.4"/>
+<vertex x="0.6" y="69.4"/>
+</polygon>
 </signal>
 </signals>
 </board>
