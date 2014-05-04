@@ -7954,21 +7954,15 @@ Default - Pulled up</text>
 <wire x1="200.66" y1="-144.78" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="215.9" y1="-106.68" x2="220.98" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="-109.22" x2="215.9" y2="-106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S1"/>
 <wire x1="223.52" y1="-121.92" x2="220.98" y2="-121.92" width="0.1524" layer="91"/>
 <pinref part="VCC" gate="VCC" pin="VCC"/>
-<wire x1="220.98" y1="-104.14" x2="220.98" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-104.14" x2="220.98" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="S2"/>
+<wire x1="220.98" y1="-106.68" x2="220.98" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="-132.08" x2="241.3" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-132.08" x2="238.76" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-132.08" x2="241.3" y2="-137.16" width="0.1524" layer="91"/>
@@ -7976,6 +7970,10 @@ Default - Pulled up</text>
 <wire x1="241.3" y1="-137.16" x2="220.98" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-137.16" x2="220.98" y2="-121.92" width="0.1524" layer="91"/>
 <junction x="220.98" y="-121.92"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="-109.22" x2="215.9" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-106.68" x2="220.98" y2="-106.68" width="0.1524" layer="91"/>
+<junction x="220.98" y="-106.68"/>
 </segment>
 </net>
 <net name="HVBUS1" class="0">
