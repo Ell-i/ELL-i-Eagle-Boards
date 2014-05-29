@@ -6170,7 +6170,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U5" library="ell-i" deviceset="NCP1117" device=""/>
 <part name="C16" library="ELL-i-Passives" deviceset="CPOL" device="6032" value="47u"/>
 <part name="C17" library="ELL-i-Passives" deviceset="C" device="0805" value="47pF"/>
-<part name="C39" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF"/>
+<part name="C39" library="ELL-i-Passives" deviceset="C" device="0805" value="10uF"/>
 <part name="TP2" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021"/>
 <part name="TP3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021"/>
 <part name="TP4" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021"/>
