@@ -4705,7 +4705,6 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED" device="-RJ45-MOLEX-85502-5008"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="YELLOW"/>
-<part name="R10" library="ELL-i-Passives" deviceset="R" device="0603" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -4892,7 +4891,6 @@ replacement of R29</text>
 <instance part="X1" gate="G$1" x="-165.1" y="251.46" rot="R180"/>
 <instance part="D1" gate="G$1" x="185.42" y="180.34"/>
 <instance part="D2" gate="G$1" x="195.58" y="180.34"/>
-<instance part="R10" gate="G$1" x="2.54" y="101.6" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5294,7 +5292,6 @@ replacement of R29</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="0" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <junction x="10.16" y="93.98"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6346,8 +6343,7 @@ replacement of R29</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="101.6" x2="-2.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="101.6" x2="-5.08" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
