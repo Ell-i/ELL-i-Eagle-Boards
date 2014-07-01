@@ -5287,12 +5287,13 @@ replacement of R29</text>
 <net name="N$33" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="17.78" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="101.6" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="0" y1="93.98" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
-<junction x="10.16" y="93.98"/>
-<wire x1="7.62" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="0" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="101.6" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<junction x="7.62" y="93.98"/>
 </segment>
 </net>
 <net name="POE_A+" class="1">
@@ -6338,12 +6339,6 @@ replacement of R29</text>
 <wire x1="342.9" y1="304.8" x2="342.9" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="292.1" x2="337.82" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="CN7" gate="CN7" pin="PD2_4"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="101.6" x2="-5.08" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
