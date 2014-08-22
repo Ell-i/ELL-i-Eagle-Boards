@@ -1387,6 +1387,56 @@ Footprint with extended pads for handsoldering. &lt;a href="http://www.fairchild
 <rectangle x1="-0.4875" y1="1.275" x2="-0.1625" y2="1.725" layer="51"/>
 <rectangle x1="0.1325" y1="1.275" x2="0.4575" y2="1.725" layer="51"/>
 </package>
+<package name="MBS1">
+<description>&lt;h3&gt;MBS-1&lt;/h3&gt;
+&lt;p&gt;
+Small rectifier package. 
+&lt;ul&gt;
+&lt;li&gt;Pads are as manufacturer recommends, 1.0*0.8 mm.&lt;/li&gt;
+&lt;li&gt;Dimensions are drawn in Measures layer.&lt;/li&gt;
+&lt;li&gt;Silkscreen is in tPlace layer, 0.15 mm width.&lt;/li&gt;
+&lt;li&gt;Name is at tDocu and tNames layers.&lt;/li&gt;
+&lt;li&gt;Footprint has 0.5 mm placement courtyard in tKeepout layer.&lt;/li&gt;
+&lt;li&gt;Assembly drawing is in tDocu layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href="http://www.mccsemi.com/up_pdf/MB12S-MB110S%28MBS-1%29.pdf"&gt;drawing&lt;/a&gt;
+&lt;/p&gt;</description>
+<wire x1="1.95" y1="-2.35" x2="-1.95" y2="-2.35" width="0.127" layer="47"/>
+<wire x1="-1.95" y1="-2.35" x2="-1.95" y2="2.35" width="0.127" layer="47"/>
+<wire x1="-1.95" y1="2.35" x2="1.95" y2="2.35" width="0.127" layer="47"/>
+<wire x1="1.95" y1="2.35" x2="1.95" y2="-2.35" width="0.127" layer="47"/>
+<wire x1="2" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="47"/>
+<wire x1="3.5" y1="1.5" x2="3.5" y2="1" width="0.127" layer="47"/>
+<wire x1="3.5" y1="1" x2="2" y2="1" width="0.127" layer="47"/>
+<wire x1="2" y1="-1.5" x2="3.5" y2="-1.5" width="0.127" layer="47"/>
+<wire x1="3.5" y1="-1.5" x2="3.5" y2="-1" width="0.127" layer="47"/>
+<wire x1="3.5" y1="-1" x2="2" y2="-1" width="0.127" layer="47"/>
+<wire x1="-2" y1="1.5" x2="-3.5" y2="1.5" width="0.127" layer="47"/>
+<wire x1="-3.5" y1="1.5" x2="-3.5" y2="1" width="0.127" layer="47"/>
+<wire x1="-3.5" y1="1" x2="-2" y2="1" width="0.127" layer="47"/>
+<wire x1="-2" y1="-1.5" x2="-3.5" y2="-1.5" width="0.127" layer="47"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="-1" width="0.127" layer="47"/>
+<wire x1="-3.5" y1="-1" x2="-2" y2="-1" width="0.127" layer="47"/>
+<text x="-1.5" y="0" size="1.27" layer="47">~</text>
+<text x="-1.5" y="-2.5" size="1.27" layer="47">~</text>
+<text x="0.5" y="0.5" size="1.27" layer="47">+</text>
+<text x="0.5" y="-2" size="1.27" layer="47">-</text>
+<smd name="AC1" x="-3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="AC2" x="-3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="+" x="3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="-" x="3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
+<wire x1="2.5" y1="2.6" x2="-3.5" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.6" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
+<rectangle x1="-4.1" y1="-2.9" x2="4.1" y2="2.9" layer="39"/>
+<wire x1="-4" y1="2.8" x2="4" y2="2.8" width="0.127" layer="51"/>
+<wire x1="4" y1="2.8" x2="4" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="4" y1="-2.8" x2="-4" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-4" y1="-2.8" x2="-4" y2="2.8" width="0.127" layer="51"/>
+<text x="0" y="0" size="1.5" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE-SCHOTTKY">
@@ -1457,6 +1507,27 @@ Footprint with extended pads for handsoldering. &lt;a href="http://www.fairchild
 <pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <wire x1="0" y1="-1.27" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BRIDGE-RECTIFIER">
+<description>&lt;h3&gt;Single phase bridge rectifier&lt;/h3&gt;</description>
+<pin name="AC1" x="-10.16" y="5.08" length="middle" direction="in"/>
+<pin name="AC2" x="-10.16" y="-5.08" length="middle" direction="in"/>
+<pin name="+" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="-" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-2.54"/>
+<vertex x="2.54" y="2.54"/>
+<vertex x="5.08" y="0"/>
+</polygon>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="94"/>
+<text x="-7.62" y="5.08" size="1.778" layer="94">~</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="94">~</text>
+<text x="10.16" y="5.08" size="1.778" layer="94">+</text>
+<text x="10.16" y="-5.08" size="1.778" layer="94">-</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1605,6 +1676,25 @@ General-purpose diode for high-speed switching.
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BRIDGE-RECTIFIER">
+<description>&lt;h3&gt;Rectifier bridge, single phase&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="BRIDGE-RECTIFIER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MBS1">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="AC1" pad="AC1"/>
+<connect gate="G$1" pin="AC2" pad="AC2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4662,13 +4752,13 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <parts>
 <part name="U5" library="ELL-i-PowerIC" deviceset="TPS2378" device=""/>
 <part name="T1" library="ELL-i-Transformers" deviceset="POE-ISOLATION" device="-230NL" value="Coilcraft 230NL"/>
-<part name="C34" library="ELL-i-Passives" deviceset="C" device="0402-B" value="10nF 100V"/>
+<part name="C34" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
 <part name="FB2" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
 <part name="FB3" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
 <part name="D12" library="ELL-i-DIscreteSemi" deviceset="SMAJ58A" device="" value="SMAJ58A"/>
 <part name="C35" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
-<part name="R23" library="ELL-i-Passives" deviceset="R" device="0603" value="24k9"/>
-<part name="R29" library="ELL-i-Passives" deviceset="R" device="0805" value="63R4"/>
+<part name="R23" library="ELL-i-Passives" deviceset="R" device="0805-A" value="24k9"/>
+<part name="R29" library="ELL-i-Passives" deviceset="R" device="0805-A" value="63R4"/>
 <part name="C32" library="ELL-i-Passives" deviceset="C" device="1206-A" value="10uF 100 V"/>
 <part name="R22" library="ELL-i-Passives" deviceset="R" device="0603" value="357k"/>
 <part name="R26" library="ELL-i-Passives" deviceset="R" device="0603" value="16k5"/>
@@ -4689,14 +4779,6 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206" value="2k"/>
 <part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF 100V"/>
-<part name="D17" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D16" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D15" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D14" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D10" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D9" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D8" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="D7" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="R4" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
@@ -4730,14 +4812,14 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="R35" library="ELL-i-Passives" deviceset="R" device="0805-A" value="237k"/>
 <part name="R36" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10k"/>
 <part name="D18" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="R5" library="ELL-i-Passives" deviceset="R" device="0603" value="10R"/>
+<part name="R5" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10R"/>
 <part name="C19" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" deviceset="GNDA" device=""/>
 <part name="R9" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
 <part name="R8" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="C11" library="ELL-i-Passives" deviceset="C" device="0402" value="6n8"/>
-<part name="C15" library="ELL-i-Passives" deviceset="C" device="0402" value="6n8"/>
+<part name="C11" library="ELL-i-Passives" deviceset="C" device="0402-B" value="6n8"/>
+<part name="C15" library="ELL-i-Passives" deviceset="C" device="0402-B" value="6n8"/>
 <part name="C12" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
 <part name="GND22" library="supply1" deviceset="GNDA" device=""/>
 <part name="R13" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
@@ -4809,6 +4891,11 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="U$2" library="ELL-i-Boards" deviceset="NUCLEO-SHIELD" device="-20PIN"/>
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED-LEDS" device="TE1888250"/>
 <part name="C4" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="U$3" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
+<part name="U$4" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
+<part name="C3" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="C10" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
+<part name="SUPPLY2" library="ELL-i-Supply" deviceset="SGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4844,13 +4931,15 @@ replaced with
 <text x="-68.58" y="-5.08" size="1.778" layer="97" rot="R90">Same zener as load</text>
 <text x="-180.34" y="220.98" size="1.778" layer="97">SGND connection?</text>
 <text x="2.54" y="198.12" size="1.778" layer="97">Calculate voltage ripple</text>
+<text x="-139.7" y="162.56" size="1.778" layer="97">Separate ESD protection 
+for easier layout</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
 <instance part="T1" gate="G$1" x="-111.76" y="248.92" rot="R180"/>
 <instance part="C34" gate="G$1" x="-149.86" y="53.34" smashed="yes">
 <attribute name="NAME" x="-148.336" y="53.721" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-154.559" y="59.436" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="-149.479" y="49.276" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="FB2" gate="G$1" x="-139.7" y="86.36"/>
 <instance part="FB3" gate="G$1" x="-139.7" y="17.78"/>
@@ -4881,14 +4970,6 @@ replaced with
 <instance part="D3" gate="G$1" x="20.32" y="93.98" rot="R180"/>
 <instance part="R16" gate="G$1" x="-5.08" y="93.98" rot="R180"/>
 <instance part="C21" gate="G$1" x="-10.16" y="101.6" rot="R90"/>
-<instance part="D17" gate="G$1" x="-160.02" y="22.86" rot="R90"/>
-<instance part="D16" gate="G$1" x="-165.1" y="22.86" rot="R90"/>
-<instance part="D15" gate="G$1" x="-170.18" y="22.86" rot="R90"/>
-<instance part="D14" gate="G$1" x="-175.26" y="22.86" rot="R90"/>
-<instance part="D10" gate="G$1" x="-160.02" y="73.66" rot="R90"/>
-<instance part="D9" gate="G$1" x="-165.1" y="73.66" rot="R90"/>
-<instance part="D8" gate="G$1" x="-170.18" y="73.66" rot="R90"/>
-<instance part="D7" gate="G$1" x="-175.26" y="73.66" rot="R90"/>
 <instance part="GND6" gate="1" x="167.64" y="203.2"/>
 <instance part="GND7" gate="1" x="228.6" y="203.2"/>
 <instance part="R4" gate="G$1" x="185.42" y="190.5" rot="R270"/>
@@ -5024,6 +5105,11 @@ replaced with
 <instance part="X1" gate="LED2" x="-167.64" y="284.48"/>
 <instance part="X1" gate="LED1" x="-167.64" y="276.86"/>
 <instance part="C4" gate="G$1" x="187.96" y="294.64" rot="R180"/>
+<instance part="U$3" gate="G$1" x="-170.18" y="71.12"/>
+<instance part="U$4" gate="G$1" x="-170.18" y="30.48"/>
+<instance part="C3" gate="G$1" x="177.8" y="294.64" rot="R180"/>
+<instance part="C10" gate="G$1" x="-172.72" y="157.48"/>
+<instance part="SUPPLY2" gate="G$1" x="-172.72" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -5064,15 +5150,6 @@ replaced with
 </net>
 <net name="POE_B-" class="1">
 <segment>
-<pinref part="D9" gate="G$1" pin="A"/>
-<pinref part="D16" gate="G$1" pin="C"/>
-<wire x1="-165.1" y1="71.12" x2="-165.1" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="48.26" x2="-165.1" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="48.26" x2="-180.34" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-165.1" y="48.26"/>
-<label x="-180.34" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="-157.48" y1="261.62" x2="-147.32" y2="261.62" width="0.1524" layer="91"/>
 <wire x1="-147.32" y1="261.62" x2="-147.32" y2="259.08" width="0.1524" layer="91"/>
@@ -5088,6 +5165,11 @@ replaced with
 <pinref part="X1" gate="RJ45" pin="POE-@7"/>
 <pinref part="X1" gate="RJ45" pin="POE-@8"/>
 </segment>
+<segment>
+<wire x1="-180.34" y1="25.4" x2="-182.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="-182.88" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="AC2"/>
+</segment>
 </net>
 <net name="N$6" class="1">
 <segment>
@@ -5096,21 +5178,14 @@ replaced with
 <pinref part="FB2" gate="G$1" pin="1"/>
 <wire x1="-149.86" y1="86.36" x2="-147.32" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-149.86" y="86.36"/>
-<wire x1="-149.86" y1="86.36" x2="-160.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="-160.02" y1="86.36" x2="-165.1" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="86.36" x2="-170.18" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="86.36" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="76.2" x2="-175.26" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="-170.18" y1="76.2" x2="-170.18" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-170.18" y="86.36"/>
-<pinref part="D9" gate="G$1" pin="C"/>
-<wire x1="-165.1" y1="76.2" x2="-165.1" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-165.1" y="86.36"/>
-<pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="-160.02" y1="76.2" x2="-160.02" y2="86.36" width="0.1524" layer="91"/>
-<junction x="-160.02" y="86.36"/>
+<wire x1="-149.86" y1="86.36" x2="-154.94" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="+"/>
+<wire x1="-157.48" y1="76.2" x2="-154.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="76.2" x2="-154.94" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="+"/>
+<wire x1="-157.48" y1="35.56" x2="-154.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="35.56" x2="-154.94" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-154.94" y="76.2"/>
 </segment>
 </net>
 <net name="N$8" class="1">
@@ -5118,23 +5193,16 @@ replaced with
 <wire x1="-149.86" y1="17.78" x2="-147.32" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="-149.86" y1="48.26" x2="-149.86" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-149.86" y="17.78"/>
 <pinref part="FB3" gate="G$1" pin="1"/>
-<wire x1="-149.86" y1="17.78" x2="-160.02" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D17" gate="G$1" pin="A"/>
-<wire x1="-160.02" y1="17.78" x2="-165.1" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-165.1" y1="17.78" x2="-170.18" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="17.78" x2="-175.26" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="20.32" x2="-160.02" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-160.02" y="17.78"/>
-<pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="-165.1" y1="20.32" x2="-165.1" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-165.1" y="17.78"/>
-<pinref part="D15" gate="G$1" pin="A"/>
-<wire x1="-170.18" y1="20.32" x2="-170.18" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-170.18" y="17.78"/>
-<pinref part="D14" gate="G$1" pin="A"/>
-<wire x1="-175.26" y1="20.32" x2="-175.26" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="-"/>
+<wire x1="-157.48" y1="66.04" x2="-152.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="66.04" x2="-152.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="25.4" x2="-152.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="17.78" x2="-149.86" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-149.86" y="17.78"/>
+<pinref part="U$4" gate="G$1" pin="-"/>
+<wire x1="-157.48" y1="25.4" x2="-152.4" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-152.4" y="25.4"/>
 </segment>
 </net>
 <net name="VSS" class="1">
@@ -5424,13 +5492,9 @@ replaced with
 </net>
 <net name="POE_A+" class="1">
 <segment>
-<pinref part="D14" gate="G$1" pin="C"/>
-<wire x1="-175.26" y1="58.42" x2="-175.26" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="58.42" x2="-180.34" y2="58.42" width="0.1524" layer="91"/>
-<label x="-180.34" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="-175.26" y1="58.42" x2="-175.26" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-175.26" y="58.42"/>
+<wire x1="-180.34" y1="76.2" x2="-182.88" y2="76.2" width="0.1524" layer="91"/>
+<label x="-182.88" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="AC1"/>
 </segment>
 <segment>
 <wire x1="-134.62" y1="215.9" x2="-134.62" y2="210.82" width="0.1524" layer="91"/>
@@ -5447,13 +5511,9 @@ replaced with
 </net>
 <net name="POE_A-" class="1">
 <segment>
-<pinref part="D8" gate="G$1" pin="A"/>
-<pinref part="D15" gate="G$1" pin="C"/>
-<wire x1="-170.18" y1="71.12" x2="-170.18" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="53.34" x2="-170.18" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="53.34" x2="-180.34" y2="53.34" width="0.1524" layer="91"/>
-<junction x="-170.18" y="53.34"/>
-<label x="-180.34" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-180.34" y1="66.04" x2="-182.88" y2="66.04" width="0.1524" layer="91"/>
+<label x="-182.88" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="AC2"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G$1" pin="RXCT"/>
@@ -5467,15 +5527,6 @@ replaced with
 </segment>
 </net>
 <net name="POE_B+" class="1">
-<segment>
-<pinref part="D10" gate="G$1" pin="A"/>
-<pinref part="D17" gate="G$1" pin="C"/>
-<wire x1="-160.02" y1="71.12" x2="-160.02" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="43.18" x2="-160.02" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="43.18" x2="-180.34" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-160.02" y="43.18"/>
-<label x="-180.34" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <wire x1="-157.48" y1="254" x2="-149.86" y2="254" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="251.46" x2="-149.86" y2="251.46" width="0.1524" layer="91"/>
@@ -5492,6 +5543,11 @@ replaced with
 <pinref part="X1" gate="RJ45" pin="POE+@4"/>
 <pinref part="X1" gate="RJ45" pin="POE+@5"/>
 </segment>
+<segment>
+<wire x1="-180.34" y1="35.56" x2="-182.88" y2="35.56" width="0.1524" layer="91"/>
+<label x="-182.88" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="AC1"/>
+</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
@@ -5502,7 +5558,7 @@ replaced with
 <pinref part="U$1" gate="G$1" pin="AUX+"/>
 </segment>
 </net>
-<net name="GNDA" class="2">
+<net name="GNDA" class="0">
 <segment>
 <pinref part="GND6" gate="1" pin="GNDA"/>
 <wire x1="167.64" y1="210.82" x2="167.64" y2="205.74" width="0.1524" layer="91"/>
@@ -5670,6 +5726,10 @@ replaced with
 <junction x="226.06" y="289.56"/>
 <wire x1="200.66" y1="289.56" x2="187.96" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="289.56" x2="177.8" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="289.56" x2="177.8" y2="292.1" width="0.1524" layer="91"/>
+<junction x="187.96" y="289.56"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GNDA"/>
@@ -5841,6 +5901,11 @@ replaced with
 <junction x="-162.56" y="233.68"/>
 <pinref part="X1" gate="RJ45" pin="GND@0"/>
 <pinref part="X1" gate="RJ45" pin="GND@2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="SGND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="-172.72" y1="144.78" x2="-172.72" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -6204,12 +6269,16 @@ replaced with
 <pinref part="U6" gate="ENC424J600" pin="VDDOSC"/>
 <pinref part="U6" gate="ENC424J600" pin="VDDTX"/>
 <wire x1="160.02" y1="302.26" x2="167.64" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="302.26" x2="187.96" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="302.26" x2="177.8" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="302.26" x2="187.96" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="279.4" x2="167.64" y2="302.26" width="0.1524" layer="91"/>
 <junction x="167.64" y="302.26"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="302.26" x2="246.38" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="299.72" x2="177.8" y2="302.26" width="0.1524" layer="91"/>
+<junction x="177.8" y="302.26"/>
 </segment>
 </net>
 <net name="ETH_SS" class="0">
@@ -6236,20 +6305,12 @@ replaced with
 <pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="170.18" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="-167.64" y1="170.18" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-147.32" y="167.64"/>
-<wire x1="-147.32" y1="167.64" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-147.32" y1="170.18" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="167.64" x2="-116.84" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="167.64" x2="-116.84" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-137.16" y="167.64"/>
 <wire x1="-142.24" y1="160.02" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-142.24" y="167.64"/>
 </segment>
 </net>
 <net name="TPOUT-" class="0">
@@ -6470,6 +6531,19 @@ replaced with
 <wire x1="119.38" y1="231.14" x2="119.38" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="233.68" x2="114.3" y2="233.68" width="0.1524" layer="91"/>
 <label x="114.3" y="233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="-147.32" y1="170.18" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="170.18" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-172.72" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="160.02" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-167.64" y="167.64"/>
 </segment>
 </net>
 </nets>
