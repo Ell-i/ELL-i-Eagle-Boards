@@ -8,20 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="4" fill="15" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="1" fill="15" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="11" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,25 +43,25 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="8" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="1" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
@@ -881,6 +885,38 @@ See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-
 <wire x1="-1.2" y1="-1.1" x2="1.2" y2="-1.1" width="0.15" layer="21"/>
 <text x="0" y="0" size="1.5" layer="25" ratio="10" align="center">&gt;NAME</text>
 </package>
+<package name="SMD2220-REFLOW">
+<description>&lt;h3&gt;Non-polarized reflow footprint for 2220 (5750 metric) SMD parts&lt;/h3&gt;
+
+&lt;p&gt;
+ Please see &lt;a href="http://product.tdk.com/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf"&gt; TDK MID VOLTAGE CAPACITOR GUIDE&lt;/a&gt; for reference.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pads are as per manufacturer recommendations. &lt;/li&gt;
+&lt;li&gt;Mechanical outline is on Measures layer.&lt;/li&gt;
+&lt;li&gt;Silkscreen outline is on tPlace layer, 0.15 mm width. Silkscreen has 0.15 mm clearance from pads.&lt;/li&gt;
+&lt;li&gt;Name is on tPlace layer, 1.5 mm height, 10 % ratio.&lt;/li&gt;
+&lt;li&gt;Assembly drawing is on tDocu layer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<wire x1="-2.85" y1="-2.5" x2="2.85" y2="-2.5" width="0.127" layer="47"/>
+<wire x1="2.85" y1="-2.5" x2="2.85" y2="2.5" width="0.127" layer="47"/>
+<wire x1="2.85" y1="2.5" x2="-2.85" y2="2.5" width="0.127" layer="47"/>
+<wire x1="-2.85" y1="2.5" x2="-2.85" y2="-2.5" width="0.127" layer="47"/>
+<smd name="P$1" x="-3.1" y="0" dx="1.4" dy="5" layer="1"/>
+<smd name="P$2" x="3.1" y="0" dx="1.4" dy="5" layer="1"/>
+<wire x1="-2.5" y1="2.7" x2="2.5" y2="2.7" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-2.7" x2="-2.5" y2="-2.7" width="0.15" layer="21"/>
+<text x="0" y="0" size="1.5" layer="27" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<rectangle x1="-4.2" y1="-3.05" x2="4.2" y2="3" layer="41"/>
+<wire x1="-4.05" y1="2.85" x2="4.05" y2="2.85" width="0.127" layer="51"/>
+<wire x1="4.05" y1="2.85" x2="4.05" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="4.05" y1="-2.9" x2="-4.05" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="-4.05" y1="-2.9" x2="-4.05" y2="2.85" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R_EU">
@@ -1122,6 +1158,15 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="2220-REFLOW" package="SMD2220-REFLOW">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FB" prefix="FB" uservalue="yes">
@@ -1158,6 +1203,42 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402-B" package="SMD0402-B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603-A" package="SMD0603-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805-A" package="SMD0805-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206-A" package="SMD1206-A">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4741,7 +4822,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="PoE 48V 1A" width="0.4" drill="0">
+<class number="1" name="PoE 48V 1A" width="0.2" drill="0">
 </class>
 <class number="2" name="High current 3A (low voltage)" width="0.8" drill="0">
 </class>
@@ -4753,15 +4834,15 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="U5" library="ELL-i-PowerIC" deviceset="TPS2378" device=""/>
 <part name="T1" library="ELL-i-Transformers" deviceset="POE-ISOLATION" device="-230NL" value="Coilcraft 230NL"/>
 <part name="C34" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="FB2" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
-<part name="FB3" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
+<part name="FB2" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
+<part name="FB3" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
 <part name="D12" library="ELL-i-DIscreteSemi" deviceset="SMAJ58A" device="" value="SMAJ58A"/>
 <part name="C35" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
 <part name="R23" library="ELL-i-Passives" deviceset="R" device="0805-A" value="24k9"/>
 <part name="R29" library="ELL-i-Passives" deviceset="R" device="0805-A" value="63R4"/>
-<part name="C32" library="ELL-i-Passives" deviceset="C" device="1206-A" value="10uF 100 V"/>
-<part name="R22" library="ELL-i-Passives" deviceset="R" device="0603" value="357k"/>
-<part name="R26" library="ELL-i-Passives" deviceset="R" device="0603" value="16k5"/>
+<part name="C32" library="ELL-i-Passives" deviceset="C" device="2220-REFLOW" value="10uF 100 V"/>
+<part name="R22" library="ELL-i-Passives" deviceset="R" device="0805-A" value="357k"/>
+<part name="R26" library="ELL-i-Passives" deviceset="R" device="0805-A" value="16k5"/>
 <part name="C37" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
 <part name="U4" library="ELL-i-PowerIC" deviceset="LT3748" device=""/>
 <part name="R31" library="ELL-i-Passives" deviceset="R" device="0805-A" value="28k"/>
@@ -4771,14 +4852,14 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="Q3" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING" value="FDMC2674HANDSOLDERING"/>
 <part name="R28" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R"/>
 <part name="R30" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R"/>
-<part name="R32" library="ELL-i-Passives" deviceset="R" device="0805" value="0R03"/>
+<part name="R32" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R03"/>
 <part name="D6" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
 <part name="R24" library="ELL-i-Passives" deviceset="R" device="0805-A" value="TBD"/>
 <part name="C30" library="ELL-i-Passives" deviceset="C" device="0805-A" value="4u7 25 V"/>
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0805-A" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
-<part name="R16" library="ELL-i-Passives" deviceset="R" device="1206" value="2k"/>
-<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805" value="100nF 100V"/>
+<part name="R16" library="ELL-i-Passives" deviceset="R" device="1206-A" value="2k"/>
+<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="R4" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
@@ -4807,8 +4888,8 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="C40" library="ELL-i-Passives" deviceset="C" device="0402-B" value="10nF 100V"/>
 <part name="C41" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
 <part name="C42" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
-<part name="FB4" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
-<part name="FB5" library="ELL-i-Passives" deviceset="FB" device="1206" value="2A"/>
+<part name="FB4" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
+<part name="FB5" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
 <part name="R35" library="ELL-i-Passives" deviceset="R" device="0805-A" value="237k"/>
 <part name="R36" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10k"/>
 <part name="D18" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
@@ -4818,13 +4899,13 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND17" library="supply1" deviceset="GNDA" device=""/>
 <part name="R9" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
 <part name="R8" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="C11" library="ELL-i-Passives" deviceset="C" device="0402-B" value="6n8"/>
-<part name="C15" library="ELL-i-Passives" deviceset="C" device="0402-B" value="6n8"/>
+<part name="C11" library="ELL-i-Passives" deviceset="C" device="0805-A" value="6n8"/>
+<part name="C15" library="ELL-i-Passives" deviceset="C" device="0805-A" value="6n8"/>
 <part name="C12" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
 <part name="GND22" library="supply1" deviceset="GNDA" device=""/>
 <part name="R13" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
 <part name="R12" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="FB1" library="ELL-i-Passives" deviceset="FB" device="0402" value="LQM15"/>
+<part name="FB1" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="LQM15"/>
 <part name="C5" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
 <part name="C6" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
 <part name="C7" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
@@ -4847,7 +4928,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND3" library="supply1" deviceset="GNDA" device=""/>
 <part name="U$8" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U$9" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="R25" library="ELL-i-Passives" deviceset="R" device="0603" value="100K"/>
+<part name="R25" library="ELL-i-Passives" deviceset="R" device="0805-A" value="100K"/>
 <part name="D11" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
 <part name="D13" library="ELL-i-DIscreteSemi" deviceset="DIODE-ZENER" device="-SOD-123" value="18V"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
@@ -4855,7 +4936,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C33" library="ELL-i-Passives" deviceset="C" device="0805-A" value="150pF 200V NP"/>
 <part name="R27" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220R"/>
-<part name="C28" library="ELL-i-Passives" deviceset="C" device="C1206" value="1nF 2kV"/>
+<part name="C28" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
 <part name="GND30" library="supply1" deviceset="GNDA" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND33" library="supply1" deviceset="GNDA" device=""/>
@@ -4875,7 +4956,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="C45" library="ELL-i-Passives" deviceset="C" device="1206-A" value="22uF"/>
 <part name="C46" library="ELL-i-Passives" deviceset="C" device="1206-A" value="22uF"/>
 <part name="C47" library="ELL-i-Passives" deviceset="C" device="1206-A" value="22uF"/>
-<part name="C48" library="ELL-i-Passives" deviceset="C" device="C1206" value="1nF 2kV"/>
+<part name="C48" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
@@ -4886,13 +4967,13 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="U$1" library="ELL-i-Transformers" deviceset="FLYBACK-3_OUTPUTS" device="_749119350"/>
+<part name="T2" library="ELL-i-Transformers" deviceset="FLYBACK-3_OUTPUTS" device="_749119350"/>
 <part name="GND1" library="supply1" deviceset="GNDA" device=""/>
 <part name="U$2" library="ELL-i-Boards" deviceset="NUCLEO-SHIELD" device="-20PIN"/>
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED-LEDS" device="TE1888250"/>
 <part name="C4" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
-<part name="U$3" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
-<part name="U$4" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
+<part name="B1" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
+<part name="B2" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
 <part name="C3" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
 <part name="C10" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
 <part name="SUPPLY2" library="ELL-i-Supply" deviceset="SGND" device=""/>
@@ -4905,7 +4986,6 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 to transformer pins</text>
 <text x="-119.38" y="10.16" size="1.778" layer="98">Allow manual 
 replacement of R29</text>
-<text x="-99.06" y="78.74" size="1.778" layer="97">TODO: replace package</text>
 <text x="-182.88" y="91.44" size="1.778" layer="97">Replace with bridge?</text>
 <text x="-142.24" y="38.1" size="1.778" layer="97" rot="R90">10 nF to simplify BoM</text>
 <text x="-154.94" y="-38.1" size="1.778" layer="97" rot="R90">10 nF to simplify BoM</text>
@@ -4917,7 +4997,6 @@ as R27 to simplify BoM</text>
 <text x="-40.64" y="-2.54" size="1.778" layer="97" rot="R90">R31, R33, C37, C38
 values?</text>
 <text x="144.78" y="307.34" size="1.778" layer="97">C8, C9 0402 for placement as close as possible to U6 pins</text>
-<text x="2.54" y="-30.48" size="1.778" layer="97">Same as Q3?</text>
 <text x="-48.26" y="215.9" size="1.778" layer="97">Values?</text>
 <text x="121.92" y="279.4" size="1.778" layer="97">Removed 100nF</text>
 <text x="264.16" y="279.4" size="1.778" layer="97">Switches to solder bridges
@@ -4933,6 +5012,12 @@ replaced with
 <text x="2.54" y="198.12" size="1.778" layer="97">Calculate voltage ripple</text>
 <text x="-139.7" y="162.56" size="1.778" layer="97">Separate ESD protection 
 for easier layout</text>
+<text x="-149.86" y="276.86" size="1.778" layer="97">PINS SWAPPED
+VERIFY</text>
+<text x="-71.12" y="276.86" size="1.778" layer="97">PINS SWAPPED
+VERIFY</text>
+<text x="-55.88" y="91.44" size="1.778" layer="97">Remove D11?</text>
+<text x="-127" y="149.86" size="1.778" layer="97">Capacitor grounding?</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
@@ -5097,7 +5182,7 @@ for easier layout</text>
 <instance part="SJ4" gate="1" x="281.94" y="287.02" smashed="yes">
 <attribute name="NAME" x="279.4" y="288.798" size="1.778" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="50.8" y="86.36"/>
+<instance part="T2" gate="G$1" x="50.8" y="86.36"/>
 <instance part="GND1" gate="1" x="68.58" y="63.5"/>
 <instance part="U$2" gate="CN7" x="322.58" y="271.78"/>
 <instance part="U$2" gate="CN10" x="322.58" y="210.82"/>
@@ -5105,8 +5190,8 @@ for easier layout</text>
 <instance part="X1" gate="LED2" x="-167.64" y="284.48"/>
 <instance part="X1" gate="LED1" x="-167.64" y="276.86"/>
 <instance part="C4" gate="G$1" x="187.96" y="294.64" rot="R180"/>
-<instance part="U$3" gate="G$1" x="-170.18" y="71.12"/>
-<instance part="U$4" gate="G$1" x="-170.18" y="30.48"/>
+<instance part="B1" gate="G$1" x="-170.18" y="71.12"/>
+<instance part="B2" gate="G$1" x="-170.18" y="30.48"/>
 <instance part="C3" gate="G$1" x="177.8" y="294.64" rot="R180"/>
 <instance part="C10" gate="G$1" x="-172.72" y="157.48"/>
 <instance part="SUPPLY2" gate="G$1" x="-172.72" y="142.24"/>
@@ -5114,38 +5199,34 @@ for easier layout</text>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="1">
+<net name="TX+" class="1">
 <segment>
-<pinref part="T1" gate="G$1" pin="TX-"/>
-<wire x1="-157.48" y1="246.38" x2="-132.08" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="X1" gate="RJ45" pin="TX-@2"/>
-</segment>
-</net>
-<net name="N$2" class="1">
-<segment>
-<wire x1="-157.48" y1="243.84" x2="-142.24" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="243.84" x2="-142.24" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="TX+"/>
-<wire x1="-142.24" y1="231.14" x2="-132.08" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="243.84" x2="-134.62" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="X1" gate="RJ45" pin="TX+@1"/>
+<pinref part="T1" gate="G$1" pin="TX-"/>
+<wire x1="-134.62" y1="243.84" x2="-134.62" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="246.38" x2="-132.08" y2="246.38" width="0.1524" layer="91"/>
+<label x="-142.24" y="243.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$3" class="1">
+<net name="RX+" class="1">
 <segment>
-<wire x1="-157.48" y1="248.92" x2="-142.24" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="248.92" x2="-142.24" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="RX+"/>
-<wire x1="-142.24" y1="251.46" x2="-132.08" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="248.92" x2="-139.7" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="X1" gate="RJ45" pin="RX+@3"/>
+<pinref part="T1" gate="G$1" pin="RX-"/>
+<wire x1="-139.7" y1="248.92" x2="-139.7" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="266.7" x2="-132.08" y2="266.7" width="0.1524" layer="91"/>
+<label x="-139.7" y="266.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="1">
+<net name="RX-" class="1">
 <segment>
 <wire x1="-157.48" y1="256.54" x2="-142.24" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="256.54" x2="-142.24" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="RX-"/>
-<wire x1="-142.24" y1="266.7" x2="-132.08" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="X1" gate="RJ45" pin="RX-@6"/>
+<pinref part="T1" gate="G$1" pin="RX+"/>
+<wire x1="-142.24" y1="256.54" x2="-142.24" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="251.46" x2="-132.08" y2="251.46" width="0.1524" layer="91"/>
+<label x="-142.24" y="256.54" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="POE_B-" class="1">
@@ -5168,7 +5249,7 @@ for easier layout</text>
 <segment>
 <wire x1="-180.34" y1="25.4" x2="-182.88" y2="25.4" width="0.1524" layer="91"/>
 <label x="-182.88" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="AC2"/>
+<pinref part="B2" gate="G$1" pin="AC2"/>
 </segment>
 </net>
 <net name="N$6" class="1">
@@ -5179,10 +5260,10 @@ for easier layout</text>
 <wire x1="-149.86" y1="86.36" x2="-147.32" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-149.86" y="86.36"/>
 <wire x1="-149.86" y1="86.36" x2="-154.94" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="+"/>
+<pinref part="B1" gate="G$1" pin="+"/>
 <wire x1="-157.48" y1="76.2" x2="-154.94" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="76.2" x2="-154.94" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="+"/>
+<pinref part="B2" gate="G$1" pin="+"/>
 <wire x1="-157.48" y1="35.56" x2="-154.94" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="35.56" x2="-154.94" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-154.94" y="76.2"/>
@@ -5194,13 +5275,13 @@ for easier layout</text>
 <pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="-149.86" y1="48.26" x2="-149.86" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="FB3" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="-"/>
+<pinref part="B1" gate="G$1" pin="-"/>
 <wire x1="-157.48" y1="66.04" x2="-152.4" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="66.04" x2="-152.4" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="25.4" x2="-152.4" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="17.78" x2="-149.86" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-149.86" y="17.78"/>
-<pinref part="U$4" gate="G$1" pin="-"/>
+<pinref part="B2" gate="G$1" pin="-"/>
 <wire x1="-157.48" y1="25.4" x2="-152.4" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-152.4" y="25.4"/>
 </segment>
@@ -5339,7 +5420,7 @@ for easier layout</text>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="-5.08"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
-<pinref part="U$1" gate="G$1" pin="AUX-"/>
+<pinref part="T2" gate="G$1" pin="AUX-"/>
 </segment>
 <segment>
 <pinref part="C30" gate="G$1" pin="2"/>
@@ -5448,7 +5529,7 @@ for easier layout</text>
 <wire x1="45.72" y1="55.88" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 <junction x="27.94" y="60.96"/>
-<pinref part="U$1" gate="G$1" pin="PRI+"/>
+<pinref part="T2" gate="G$1" pin="PRI+"/>
 </segment>
 </net>
 <net name="INTVCC" class="0">
@@ -5494,7 +5575,7 @@ for easier layout</text>
 <segment>
 <wire x1="-180.34" y1="76.2" x2="-182.88" y2="76.2" width="0.1524" layer="91"/>
 <label x="-182.88" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="AC1"/>
+<pinref part="B1" gate="G$1" pin="AC1"/>
 </segment>
 <segment>
 <wire x1="-134.62" y1="215.9" x2="-134.62" y2="210.82" width="0.1524" layer="91"/>
@@ -5513,7 +5594,7 @@ for easier layout</text>
 <segment>
 <wire x1="-180.34" y1="66.04" x2="-182.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="-182.88" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="AC2"/>
+<pinref part="B1" gate="G$1" pin="AC2"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G$1" pin="RXCT"/>
@@ -5546,7 +5627,7 @@ for easier layout</text>
 <segment>
 <wire x1="-180.34" y1="35.56" x2="-182.88" y2="35.56" width="0.1524" layer="91"/>
 <label x="-182.88" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="AC1"/>
+<pinref part="B2" gate="G$1" pin="AC1"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -5555,7 +5636,7 @@ for easier layout</text>
 <wire x1="17.78" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="78.74" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="AUX+"/>
+<pinref part="T2" gate="G$1" pin="AUX+"/>
 </segment>
 </net>
 <net name="GNDA" class="0">
@@ -5792,15 +5873,15 @@ for easier layout</text>
 <pinref part="U$2" gate="CN7" pin="GND_22"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SEC1-"/>
+<pinref part="T2" gate="G$1" pin="SEC1-"/>
 <wire x1="66.04" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SEC2-"/>
+<pinref part="T2" gate="G$1" pin="SEC2-"/>
 <wire x1="68.58" y1="81.28" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="71.12" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <junction x="68.58" y="81.28"/>
-<pinref part="U$1" gate="G$1" pin="SEC3-"/>
+<pinref part="T2" gate="G$1" pin="SEC3-"/>
 <wire x1="66.04" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="68.58" y="71.12"/>
 <pinref part="GND1" gate="1" pin="GNDA"/>
@@ -5854,6 +5935,7 @@ for easier layout</text>
 <wire x1="134.62" y1="266.7" x2="134.62" y2="276.86" width="0.1524" layer="91"/>
 <junction x="134.62" y="266.7"/>
 <pinref part="U6" gate="ENC424J600" pin="VCAP"/>
+<label x="134.62" y="276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -6015,7 +6097,7 @@ for easier layout</text>
 <wire x1="-124.46" y1="91.44" x2="-124.46" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="93.98" x2="-15.24" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-15.24" y="86.36"/>
-<pinref part="U$1" gate="G$1" pin="PRI-"/>
+<pinref part="T2" gate="G$1" pin="PRI-"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
@@ -6080,26 +6162,26 @@ for easier layout</text>
 </net>
 <net name="TPIN-" class="0">
 <segment>
-<label x="-63.5" y="266.7" size="1.778" layer="95" xref="yes"/>
-<pinref part="T1" gate="G$1" pin="RD-"/>
-<wire x1="-91.44" y1="266.7" x2="-63.5" y2="266.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
 <label x="111.76" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="TPIN+" class="0">
 <segment>
-<label x="-63.5" y="251.46" size="1.778" layer="95" xref="yes"/>
 <pinref part="T1" gate="G$1" pin="RD+"/>
 <wire x1="-91.44" y1="251.46" x2="-63.5" y2="251.46" width="0.1524" layer="91"/>
+<label x="-63.5" y="251.46" size="1.778" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="TPIN+" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="243.84" x2="111.76" y2="243.84" width="0.1524" layer="91"/>
 <label x="111.76" y="243.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="RD-"/>
+<wire x1="-91.44" y1="266.7" x2="-63.5" y2="266.7" width="0.1524" layer="91"/>
+<label x="-63.5" y="266.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6315,11 +6397,6 @@ for easier layout</text>
 </net>
 <net name="TPOUT-" class="0">
 <segment>
-<label x="-63.5" y="246.38" size="1.778" layer="95" xref="yes"/>
-<pinref part="T1" gate="G$1" pin="TD-"/>
-<wire x1="-91.44" y1="246.38" x2="-63.5" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="170.18" y1="243.84" x2="160.02" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="243.84" x2="160.02" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="193.04" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
@@ -6331,13 +6408,13 @@ for easier layout</text>
 <label x="114.3" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U6" gate="ENC424J600" pin="TPOUT-"/>
 </segment>
-</net>
-<net name="TPOUT+" class="0">
 <segment>
-<label x="-63.5" y="231.14" size="1.778" layer="95" xref="yes"/>
 <pinref part="T1" gate="G$1" pin="TD+"/>
 <wire x1="-91.44" y1="231.14" x2="-63.5" y2="231.14" width="0.1524" layer="91"/>
+<label x="-63.5" y="231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="TPOUT+" class="0">
 <segment>
 <wire x1="170.18" y1="246.38" x2="157.48" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="246.38" x2="157.48" y2="213.36" width="0.1524" layer="91"/>
@@ -6349,6 +6426,11 @@ for easier layout</text>
 <junction x="149.86" y="213.36"/>
 <label x="114.3" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U6" gate="ENC424J600" pin="TPOUT+"/>
+</segment>
+<segment>
+<pinref part="T1" gate="G$1" pin="TD-"/>
+<wire x1="-91.44" y1="246.38" x2="-63.5" y2="246.38" width="0.1524" layer="91"/>
+<label x="-63.5" y="246.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6461,15 +6543,15 @@ for easier layout</text>
 <junction x="-55.88" y="193.04"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SEC3+"/>
+<pinref part="T2" gate="G$1" pin="SEC3+"/>
 <wire x1="66.04" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="SEC2+"/>
+<pinref part="T2" gate="G$1" pin="SEC2+"/>
 <wire x1="71.12" y1="88.9" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="99.06" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <junction x="71.12" y="88.9"/>
-<pinref part="U$1" gate="G$1" pin="SEC1+"/>
+<pinref part="T2" gate="G$1" pin="SEC1+"/>
 <wire x1="66.04" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
 <junction x="71.12" y="99.06"/>
 <label x="71.12" y="104.14" size="1.778" layer="95" rot="R90" xref="yes"/>
@@ -6544,6 +6626,16 @@ for easier layout</text>
 <wire x1="-172.72" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="160.02" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-167.64" y="167.64"/>
+</segment>
+</net>
+<net name="TX-" class="0">
+<segment>
+<pinref part="X1" gate="RJ45" pin="TX-@2"/>
+<wire x1="-157.48" y1="246.38" x2="-139.7" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="TX+"/>
+<wire x1="-139.7" y1="246.38" x2="-139.7" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-139.7" y1="231.14" x2="-132.08" y2="231.14" width="0.1524" layer="91"/>
+<label x="-139.7" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
