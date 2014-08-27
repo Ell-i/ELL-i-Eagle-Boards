@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="4" fill="15" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="1" fill="15" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="11" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="11" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="4" fill="15" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="1" fill="15" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="11" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,18 +43,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="8" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="1" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="8" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="1" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -917,6 +917,37 @@ See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-
 <wire x1="4.05" y1="-2.9" x2="-4.05" y2="-2.9" width="0.127" layer="51"/>
 <wire x1="-4.05" y1="-2.9" x2="-4.05" y2="2.85" width="0.127" layer="51"/>
 </package>
+<package name="SMD0603-B">
+<description>&lt;h3&gt;IPC-7351-C compliant smd 0603 (1608 metric) footprint, variant B&lt;/h3&gt;
+&lt;p&gt;
+Variant B has nominal pads and placement courtyard. This footprint should be selected only for moderately populated designs. If the design is going to be handsoldered, consider using A-variant.
+&lt;/p&gt;
+&lt;p&gt;
+Origin is in middle of component, pin 1 is at left. Component is not polarized
+&lt;/p&gt;
+&lt;p&gt;
+Pads have 0.35 mm toes, 0.35 mm heels and 0.03 mm sides. Tolerances of body dimensions are not considered to keep footprint at reasonable size, and width of component pad is considered to be 0. Pad size is 0.7 mm * 0.86 mm. 
+&lt;/p&gt;
+&lt;p&gt;
+Silkscreen has 0.12 mm clearance from pads and 0.12 mm width. Name is printed on silkscreen on layer tNames, 0.12 mm width and 1.2 mm height. 
+&lt;/p&gt;
+&lt;p&gt;
+Component has placement courtyard of 0.25 mm from pads. 
+tDocument layer is used for assembly drawing.
+Component outline is drawn on measures layer.
+&lt;/p&gt;</description>
+<smd name="P$1" x="-0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
+<smd name="P$2" x="0.8" y="0" dx="0.7" dy="0.86" layer="1" roundness="10"/>
+<wire x1="-0.7" y1="-0.2" x2="-0.7" y2="0.2" width="0.4" layer="47"/>
+<wire x1="0.7" y1="0.2" x2="0.7" y2="-0.2" width="0.4" layer="47"/>
+<wire x1="-0.7" y1="0.3" x2="0.7" y2="0.3" width="0.2" layer="47"/>
+<wire x1="0.7" y1="-0.3" x2="-0.7" y2="-0.3" width="0.2" layer="47"/>
+<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
+<wire x1="-0.55" y1="0.59" x2="0.59" y2="0.59" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.59" x2="0.55" y2="-0.59" width="0.127" layer="21"/>
+<rectangle x1="-1.4" y1="-0.68" x2="1.4" y2="0.68" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R_EU">
@@ -1063,6 +1094,15 @@ This could be a discrete test loop or just a bare copper pad.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0603-B" package="SMD0603-B">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C" prefix="C" uservalue="yes">
@@ -1159,6 +1199,15 @@ This could be a discrete test loop or just a bare copper pad.</description>
 </technologies>
 </device>
 <device name="2220-REFLOW" package="SMD2220-REFLOW">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603-B" package="SMD0603-B">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -4833,90 +4882,87 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <parts>
 <part name="U5" library="ELL-i-PowerIC" deviceset="TPS2378" device=""/>
 <part name="T1" library="ELL-i-Transformers" deviceset="POE-ISOLATION" device="-230NL" value="Coilcraft 230NL"/>
-<part name="C34" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="FB2" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
-<part name="FB3" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
+<part name="C34" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF 100V"/>
+<part name="FB2" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
+<part name="FB3" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
 <part name="D12" library="ELL-i-DIscreteSemi" deviceset="SMAJ58A" device="" value="SMAJ58A"/>
-<part name="C35" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
-<part name="R23" library="ELL-i-Passives" deviceset="R" device="0805-A" value="24k9"/>
-<part name="R29" library="ELL-i-Passives" deviceset="R" device="0805-A" value="63R4"/>
+<part name="C35" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
+<part name="R23" library="ELL-i-Passives" deviceset="R" device="0603-B" value="24k9"/>
+<part name="R29" library="ELL-i-Passives" deviceset="R" device="0603-B" value="63R4"/>
 <part name="C32" library="ELL-i-Passives" deviceset="C" device="2220-REFLOW" value="10uF 100 V"/>
-<part name="R22" library="ELL-i-Passives" deviceset="R" device="0805-A" value="357k"/>
-<part name="R26" library="ELL-i-Passives" deviceset="R" device="0805-A" value="16k5"/>
-<part name="C37" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="R22" library="ELL-i-Passives" deviceset="R" device="0603-B" value="357k"/>
+<part name="R26" library="ELL-i-Passives" deviceset="R" device="0603-B" value="16k5"/>
+<part name="C37" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="U4" library="ELL-i-PowerIC" deviceset="LT3748" device=""/>
 <part name="R31" library="ELL-i-Passives" deviceset="R" device="0805-A" value="28k"/>
-<part name="R33" library="ELL-i-Passives" deviceset="R" device="0805-A" value="12k"/>
-<part name="C38" library="ELL-i-Passives" deviceset="C" device="0805-A" value="6n8"/>
-<part name="C39" library="ELL-i-Passives" deviceset="C" device="0805-A" value="470p"/>
+<part name="R33" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12k"/>
+<part name="C38" library="ELL-i-Passives" deviceset="C" device="0603-B" value="6n8"/>
+<part name="C39" library="ELL-i-Passives" deviceset="C" device="0603-B" value="470p"/>
 <part name="Q3" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING" value="FDMC2674HANDSOLDERING"/>
-<part name="R28" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R"/>
-<part name="R30" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R"/>
-<part name="R32" library="ELL-i-Passives" deviceset="R" device="0805-A" value="0R03"/>
+<part name="R28" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R"/>
+<part name="R32" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R10"/>
 <part name="D6" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
-<part name="R24" library="ELL-i-Passives" deviceset="R" device="0805-A" value="TBD"/>
-<part name="C30" library="ELL-i-Passives" deviceset="C" device="0805-A" value="4u7 25 V"/>
+<part name="R24" library="ELL-i-Passives" deviceset="R" device="0603-B" value="TBD"/>
+<part name="C30" library="ELL-i-Passives" deviceset="C" device="0603-B" value="4u7 25 V"/>
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0805-A" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206-A" value="2k"/>
-<part name="C21" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
+<part name="C21" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="R4" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
 <part name="R3" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
-<part name="R6" library="ELL-i-Passives" deviceset="R" device="0805-A" value="12.4k,1%"/>
+<part name="R6" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12.4k,1%"/>
 <part name="GND12" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND13" library="supply1" deviceset="GNDA" device=""/>
-<part name="C13" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10u"/>
-<part name="C1" library="ELL-i-Passives" deviceset="C" device="0805-A" value="27p"/>
-<part name="C2" library="ELL-i-Passives" deviceset="C" device="0805-A" value="27p"/>
+<part name="C13" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10u"/>
+<part name="C1" library="ELL-i-Passives" deviceset="C" device="0603-B" value="27p"/>
+<part name="C2" library="ELL-i-Passives" deviceset="C" device="0603-B" value="27p"/>
 <part name="GND15" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND16" library="supply1" deviceset="GNDA" device=""/>
-<part name="R21" library="ELL-i-Passives" deviceset="R" device="0805-A" value="75R"/>
-<part name="R20" library="ELL-i-Passives" deviceset="R" device="0805-A" value="75R"/>
-<part name="R19" library="ELL-i-Passives" deviceset="R" device="0805-A" value="75R"/>
-<part name="R18" library="ELL-i-Passives" deviceset="R" device="0805-A" value="75R"/>
-<part name="C27" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="C26" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="C25" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="C24" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF 100V"/>
-<part name="C31" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
-<part name="SUPPLY1" library="ELL-i-Supply" deviceset="SGND" device=""/>
+<part name="R21" library="ELL-i-Passives" deviceset="R" device="0603-B" value="75R"/>
+<part name="R20" library="ELL-i-Passives" deviceset="R" device="0603-B" value="75R"/>
+<part name="R19" library="ELL-i-Passives" deviceset="R" device="0603-B" value="75R"/>
+<part name="R18" library="ELL-i-Passives" deviceset="R" device="0603-B" value="75R"/>
+<part name="C27" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF 100V"/>
+<part name="C26" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF 100V"/>
+<part name="C25" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF 100V"/>
+<part name="C24" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF 100V"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM" value="M022.54MM"/>
 <part name="C40" library="ELL-i-Passives" deviceset="C" device="0402-B" value="10nF 100V"/>
-<part name="C41" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF 100V"/>
-<part name="C42" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
+<part name="C41" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
+<part name="C42" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
 <part name="FB4" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
-<part name="FB5" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="2A"/>
-<part name="R35" library="ELL-i-Passives" deviceset="R" device="0805-A" value="237k"/>
-<part name="R36" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10k"/>
+<part name="FB5" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
+<part name="R35" library="ELL-i-Passives" deviceset="R" device="0603-B" value="237k"/>
+<part name="R36" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10k"/>
 <part name="D18" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="R5" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10R"/>
 <part name="C19" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" deviceset="GNDA" device=""/>
-<part name="R9" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="R8" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="C11" library="ELL-i-Passives" deviceset="C" device="0805-A" value="6n8"/>
-<part name="C15" library="ELL-i-Passives" deviceset="C" device="0805-A" value="6n8"/>
-<part name="C12" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
+<part name="R9" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
+<part name="R8" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
+<part name="C11" library="ELL-i-Passives" deviceset="C" device="0603-B" value="6n8"/>
+<part name="C15" library="ELL-i-Passives" deviceset="C" device="0603-B" value="6n8"/>
+<part name="C12" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
 <part name="GND22" library="supply1" deviceset="GNDA" device=""/>
-<part name="R13" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
-<part name="R12" library="ELL-i-Passives" deviceset="R" device="0805-A" value="49R9"/>
+<part name="R13" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
+<part name="R12" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
 <part name="FB1" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="LQM15"/>
-<part name="C5" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
-<part name="C6" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
-<part name="C7" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="C5" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
+<part name="C6" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
+<part name="C7" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="GND23" library="supply1" deviceset="GNDA" device=""/>
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="C9" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="GND24" library="supply1" deviceset="GNDA" device=""/>
 <part name="R14" library="ELL-i-Passives" deviceset="R" device="0805-A" value="100k"/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
-<part name="R15" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10R"/>
-<part name="C22" library="ELL-i-Passives" deviceset="C" device="0805-A" value="470pF"/>
+<part name="R15" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
+<part name="C22" library="ELL-i-Passives" deviceset="C" device="0603-B" value="470pF"/>
 <part name="TP2" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
 <part name="TP3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
 <part name="TP4" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
@@ -4928,14 +4974,12 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND3" library="supply1" deviceset="GNDA" device=""/>
 <part name="U$8" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U$9" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="R25" library="ELL-i-Passives" deviceset="R" device="0805-A" value="100K"/>
-<part name="D11" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
 <part name="D13" library="ELL-i-DIscreteSemi" deviceset="DIODE-ZENER" device="-SOD-123" value="18V"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM" value="M022.54MM"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
-<part name="C33" library="ELL-i-Passives" deviceset="C" device="0805-A" value="150pF 200V NP"/>
-<part name="R27" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220R"/>
+<part name="C33" library="ELL-i-Passives" deviceset="C" device="0603-B" value="150pF 200V NP"/>
+<part name="R27" library="ELL-i-Passives" deviceset="R" device="0603-B" value="220R"/>
 <part name="C28" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
 <part name="GND30" library="supply1" deviceset="GNDA" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -4947,7 +4991,6 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND4" library="ELL-i-Supply" deviceset="GND2" device="" value="RTN"/>
 <part name="GND29" library="ELL-i-Supply" deviceset="GND2" device="" value="RTN"/>
 <part name="SUPPLY9" library="ELL-i-Supply" deviceset="SGND" device=""/>
-<part name="C36" library="ELL-i-Passives" deviceset="C" device="0805-A" value="47p"/>
 <part name="D19" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL_WITH_GND" device="" value="25 MHz"/>
 <part name="Q4" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING"/>
@@ -4971,12 +5014,12 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND1" library="supply1" deviceset="GNDA" device=""/>
 <part name="U$2" library="ELL-i-Boards" deviceset="NUCLEO-SHIELD" device="-20PIN"/>
 <part name="X1" library="ELL-i-Connectors" deviceset="POE-TP-SHIELDED-LEDS" device="TE1888250"/>
-<part name="C4" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="C4" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="B1" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
 <part name="B2" library="ELL-i-DIscreteSemi" deviceset="BRIDGE-RECTIFIER" device=""/>
-<part name="C3" library="ELL-i-Passives" deviceset="C" device="0805-A" value="100nF"/>
+<part name="C3" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="C10" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
-<part name="SUPPLY2" library="ELL-i-Supply" deviceset="SGND" device=""/>
+<part name="GND5" library="supply1" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5008,16 +5051,17 @@ to save cost</text>
 replaced with 
 10uF ceramic</text>
 <text x="-68.58" y="-5.08" size="1.778" layer="97" rot="R90">Same zener as load</text>
-<text x="-180.34" y="220.98" size="1.778" layer="97">SGND connection?</text>
+<text x="-180.34" y="220.98" size="1.778" layer="97">SGND left floating</text>
 <text x="2.54" y="198.12" size="1.778" layer="97">Calculate voltage ripple</text>
-<text x="-139.7" y="162.56" size="1.778" layer="97">Separate ESD protection 
-for easier layout</text>
 <text x="-149.86" y="276.86" size="1.778" layer="97">PINS SWAPPED
 VERIFY</text>
 <text x="-71.12" y="276.86" size="1.778" layer="97">PINS SWAPPED
 VERIFY</text>
-<text x="-55.88" y="91.44" size="1.778" layer="97">Remove D11?</text>
-<text x="-127" y="149.86" size="1.778" layer="97">Capacitor grounding?</text>
+<text x="-60.96" y="88.9" size="1.778" layer="97">Removed R25, D11</text>
+<text x="-162.56" y="149.86" size="1.778" layer="97">Capacitor grounding?</text>
+<text x="10.16" y="33.02" size="1.778" layer="97">Removed RC</text>
+<text x="-30.48" y="60.96" size="1.778" layer="97" rot="R90">Recalculate R22</text>
+<text x="22.86" y="7.62" size="1.778" layer="97" rot="R90">Ilim = 1A</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
@@ -5043,7 +5087,6 @@ VERIFY</text>
 <instance part="C39" gate="G$1" x="-20.32" y="2.54" rot="MR0"/>
 <instance part="Q3" gate="G$1" x="27.94" y="45.72"/>
 <instance part="R28" gate="G$1" x="15.24" y="43.18" rot="R180"/>
-<instance part="R30" gate="G$1" x="15.24" y="35.56" rot="R180"/>
 <instance part="R32" gate="G$1" x="27.94" y="12.7" rot="R270"/>
 <instance part="D6" gate="G$1" x="15.24" y="78.74" rot="R180"/>
 <instance part="R24" gate="G$1" x="15.24" y="53.34" rot="R180"/>
@@ -5083,8 +5126,6 @@ VERIFY</text>
 <attribute name="VALUE" x="-135.636" y="185.801" size="1.778" layer="96"/>
 </instance>
 <instance part="C24" gate="G$1" x="-116.84" y="190.5"/>
-<instance part="C31" gate="G$1" x="-142.24" y="157.48"/>
-<instance part="SUPPLY1" gate="G$1" x="-142.24" y="142.24"/>
 <instance part="J4" gate="G$1" x="-180.34" y="-22.86"/>
 <instance part="C40" gate="G$1" x="-149.86" y="-20.32"/>
 <instance part="C41" gate="G$1" x="-124.46" y="-20.32"/>
@@ -5129,8 +5170,6 @@ VERIFY</text>
 <instance part="GND3" gate="1" x="-55.88" y="157.48"/>
 <instance part="U$8" gate="G$1" x="-195.58" y="-55.88"/>
 <instance part="U$9" gate="G$1" x="-195.58" y="134.62"/>
-<instance part="R25" gate="G$1" x="-58.42" y="78.74" rot="R270"/>
-<instance part="D11" gate="G$1" x="-48.26" y="71.12" rot="R180"/>
 <instance part="D13" gate="G$1" x="-58.42" y="10.16" rot="R90"/>
 <instance part="SUPPLY6" gate="VDD" x="-124.46" y="91.44"/>
 <instance part="J3" gate="G$1" x="55.88" y="-20.32" rot="R180"/>
@@ -5151,7 +5190,6 @@ VERIFY</text>
 <instance part="GND4" gate="G$1" x="-93.98" y="157.48"/>
 <instance part="GND29" gate="G$1" x="17.78" y="60.96"/>
 <instance part="SUPPLY9" gate="G$1" x="-162.56" y="228.6"/>
-<instance part="C36" gate="G$1" x="5.08" y="27.94"/>
 <instance part="D19" gate="G$1" x="38.1" y="-20.32"/>
 <instance part="Y1" gate="G$1" x="246.38" y="248.92"/>
 <instance part="Q4" gate="G$1" x="10.16" y="-22.86" smashed="yes" rot="R270">
@@ -5194,7 +5232,7 @@ VERIFY</text>
 <instance part="B2" gate="G$1" x="-170.18" y="30.48"/>
 <instance part="C3" gate="G$1" x="177.8" y="294.64" rot="R180"/>
 <instance part="C10" gate="G$1" x="-172.72" y="157.48"/>
-<instance part="SUPPLY2" gate="G$1" x="-172.72" y="142.24"/>
+<instance part="GND5" gate="1" x="-172.72" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -5339,8 +5377,26 @@ VERIFY</text>
 <wire x1="-40.64" y1="71.12" x2="-40.64" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="71.12" x2="-40.64" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-40.64" y="71.12"/>
-<pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="-45.72" y1="71.12" x2="-40.64" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="71.12" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="40.64" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="40.64" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="73.66" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-58.42" y="40.64"/>
+<wire x1="-58.42" y1="71.12" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="71.12" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-58.42" y="71.12"/>
+<pinref part="D13" gate="G$1" pin="C"/>
+<wire x1="-58.42" y1="12.7" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="CDB"/>
+<wire x1="-53.34" y1="-12.7" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-53.34" y="40.64"/>
+<wire x1="-53.34" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="-50.8" y1="68.58" x2="-50.8" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RTN" class="1">
@@ -5416,7 +5472,6 @@ VERIFY</text>
 <wire x1="-15.24" y1="-22.86" x2="5.08" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-22.86"/>
 <pinref part="GND" gate="G$1" pin="RTN"/>
-<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="22.86" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="5.08" y="-5.08"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
@@ -5487,29 +5542,6 @@ VERIFY</text>
 <pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <wire x1="20.32" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="SENSE"/>
-<wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="43.18" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="5.08" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
-<junction x="5.08" y="35.56"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="1">
-<segment>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="40.64" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="35.56" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
-<junction x="27.94" y="35.56"/>
 </segment>
 </net>
 <net name="N$28" class="3">
@@ -5886,6 +5918,11 @@ VERIFY</text>
 <junction x="68.58" y="71.12"/>
 <pinref part="GND1" gate="1" pin="GNDA"/>
 </segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="-172.72" y1="144.78" x2="-172.72" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GNDA"/>
+</segment>
 </net>
 <net name="N$36" class="0">
 <segment>
@@ -5964,11 +6001,6 @@ VERIFY</text>
 </net>
 <net name="SGND" class="0">
 <segment>
-<pinref part="SUPPLY1" gate="G$1" pin="SGND"/>
-<pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="-142.24" y1="144.78" x2="-142.24" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY9" gate="G$1" pin="SGND"/>
 <wire x1="-162.56" y1="238.76" x2="-162.56" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="236.22" x2="-162.56" y2="233.68" width="0.1524" layer="91"/>
@@ -5983,11 +6015,6 @@ VERIFY</text>
 <junction x="-162.56" y="233.68"/>
 <pinref part="X1" gate="RJ45" pin="GND@0"/>
 <pinref part="X1" gate="RJ45" pin="GND@2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY2" gate="G$1" pin="SGND"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="-172.72" y1="144.78" x2="-172.72" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -6090,7 +6117,6 @@ VERIFY</text>
 <junction x="-124.46" y="86.36"/>
 <label x="-86.36" y="88.9" size="1.778" layer="95" rot="R180"/>
 <wire x1="-15.24" y1="86.36" x2="-15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="83.82" x2="-58.42" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-58.42" y="86.36"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
@@ -6384,15 +6410,23 @@ VERIFY</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="170.18" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="167.64" x2="-137.16" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="-116.84" y1="167.64" x2="-116.84" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="167.64" x2="-116.84" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-137.16" y="167.64"/>
-<wire x1="-142.24" y1="160.02" x2="-142.24" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="-147.32" y1="170.18" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="-167.64" y1="170.18" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-172.72" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="160.02" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-167.64" y="167.64"/>
+<wire x1="-137.16" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-147.32" y="167.64"/>
 </segment>
 </net>
 <net name="TPOUT-" class="0">
@@ -6439,28 +6473,6 @@ VERIFY</text>
 <wire x1="-30.48" y1="35.56" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="38.1" x2="-27.94" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="U5_CDB" class="0">
-<segment>
-<wire x1="-50.8" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="40.64" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="40.64" x2="-76.2" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="73.66" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-58.42" y="40.64"/>
-<pinref part="D11" gate="G$1" pin="C"/>
-<wire x1="-58.42" y1="71.12" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="71.12" x2="-58.42" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-58.42" y="71.12"/>
-<pinref part="D13" gate="G$1" pin="C"/>
-<wire x1="-58.42" y1="12.7" x2="-58.42" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="CDB"/>
-<wire x1="-53.34" y1="-12.7" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-53.34" y="40.64"/>
-<wire x1="-53.34" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6526,8 +6538,8 @@ VERIFY</text>
 <label x="50.8" y="193.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="337.82" y1="266.7" x2="345.44" y2="266.7" width="0.1524" layer="91"/>
-<label x="345.44" y="266.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="337.82" y1="266.7" x2="347.98" y2="266.7" width="0.1524" layer="91"/>
+<label x="347.98" y="266.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$2" gate="CN7" pin="VIN_24"/>
 </segment>
 </net>
@@ -6615,19 +6627,6 @@ VERIFY</text>
 <label x="114.3" y="233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="-147.32" y1="170.18" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="-167.64" y1="170.18" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="167.64" x2="-147.32" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="-172.72" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-172.72" y1="160.02" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-167.64" y="167.64"/>
-</segment>
-</net>
 <net name="TX-" class="0">
 <segment>
 <pinref part="X1" gate="RJ45" pin="TX-@2"/>
@@ -6636,6 +6635,21 @@ VERIFY</text>
 <wire x1="-139.7" y1="246.38" x2="-139.7" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="231.14" x2="-132.08" y2="231.14" width="0.1524" layer="91"/>
 <label x="-139.7" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$26" class="1">
+<segment>
+<pinref part="Q3" gate="G$1" pin="S"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="40.64" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="35.56" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<junction x="27.94" y="35.56"/>
+<pinref part="U4" gate="G$1" pin="SENSE"/>
+<wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="43.18" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
+<junction x="5.08" y="35.56"/>
+<wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
