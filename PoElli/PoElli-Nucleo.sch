@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="4" fill="15" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="1" fill="15" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="11" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="4" fill="15" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="1" fill="15" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="11" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,18 +43,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="8" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="1" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="8" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="1" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -911,7 +911,7 @@ See &lt;a href="http://blogs.mentor.com/tom-hausherr/blog/2011/01/28/pcb-design-
 <wire x1="2.5" y1="-2.7" x2="-2.5" y2="-2.7" width="0.15" layer="21"/>
 <text x="0" y="0" size="1.5" layer="27" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="51" font="vector" ratio="10" align="center">&gt;NAME</text>
-<rectangle x1="-4.2" y1="-3.05" x2="4.2" y2="3" layer="41"/>
+<rectangle x1="-4.2" y1="-3.05" x2="4.2" y2="3" layer="39"/>
 <wire x1="-4.05" y1="2.85" x2="4.05" y2="2.85" width="0.127" layer="51"/>
 <wire x1="4.05" y1="2.85" x2="4.05" y2="-2.9" width="0.127" layer="51"/>
 <wire x1="4.05" y1="-2.9" x2="-4.05" y2="-2.9" width="0.127" layer="51"/>
@@ -946,7 +946,7 @@ Component outline is drawn on measures layer.
 <text x="0" y="0" size="1.2" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <wire x1="-0.55" y1="0.59" x2="0.59" y2="0.59" width="0.127" layer="21"/>
 <wire x1="-0.55" y1="-0.59" x2="0.55" y2="-0.59" width="0.127" layer="21"/>
-<rectangle x1="-1.4" y1="-0.68" x2="1.4" y2="0.68" layer="41"/>
+<rectangle x1="-1.4" y1="-0.68" x2="1.4" y2="0.68" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1984,7 +1984,7 @@ Primary inductance is 120 uH, isolation voltage is 1,5 kV AC between primary and
 <wire x1="-6" y1="7.75" x2="-6" y2="11" width="0.127" layer="47"/>
 <wire x1="-6" y1="11" x2="-6.8" y2="11" width="0.127" layer="47"/>
 <wire x1="-6.8" y1="11" x2="-6.8" y2="7.75" width="0.127" layer="47"/>
-<rectangle x1="-9" y1="-12.9" x2="9" y2="12.9" layer="41"/>
+<rectangle x1="-9" y1="-12.9" x2="9" y2="12.9" layer="39"/>
 <wire x1="-8.3" y1="-11.9" x2="-8.3" y2="7.75" width="0.127" layer="21"/>
 <wire x1="8.3" y1="7.75" x2="8.3" y2="-7.75" width="0.127" layer="21"/>
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
@@ -4894,7 +4894,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="R26" library="ELL-i-Passives" deviceset="R" device="0603-B" value="16k5"/>
 <part name="C37" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="U4" library="ELL-i-PowerIC" deviceset="LT3748" device=""/>
-<part name="R31" library="ELL-i-Passives" deviceset="R" device="0805-A" value="28k"/>
+<part name="R31" library="ELL-i-Passives" deviceset="R" device="0603-B" value="28k"/>
 <part name="R33" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12k"/>
 <part name="C38" library="ELL-i-Passives" deviceset="C" device="0603-B" value="6n8"/>
 <part name="C39" library="ELL-i-Passives" deviceset="C" device="0603-B" value="470p"/>
@@ -4904,14 +4904,14 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="D6" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
 <part name="R24" library="ELL-i-Passives" deviceset="R" device="0603-B" value="TBD"/>
 <part name="C30" library="ELL-i-Passives" deviceset="C" device="0603-B" value="4u7 25 V"/>
-<part name="R34" library="ELL-i-Passives" deviceset="R" device="0805-A" value="6k04"/>
+<part name="R34" library="ELL-i-Passives" deviceset="R" device="0603-B" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206-A" value="2k"/>
 <part name="C21" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
-<part name="R4" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
-<part name="R3" library="ELL-i-Passives" deviceset="R" device="0805-A" value="220"/>
+<part name="R4" library="ELL-i-Passives" deviceset="R" device="0603-A" value="220"/>
+<part name="R3" library="ELL-i-Passives" deviceset="R" device="0603-A" value="220"/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
 <part name="R6" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12.4k,1%"/>
@@ -4939,8 +4939,8 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="R35" library="ELL-i-Passives" deviceset="R" device="0603-B" value="237k"/>
 <part name="R36" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10k"/>
 <part name="D18" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
-<part name="R5" library="ELL-i-Passives" deviceset="R" device="0805-A" value="10R"/>
-<part name="C19" library="ELL-i-Passives" deviceset="C" device="0805-A" value="10nF"/>
+<part name="R5" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
+<part name="C19" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" deviceset="GNDA" device=""/>
 <part name="R9" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
