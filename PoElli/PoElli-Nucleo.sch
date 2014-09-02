@@ -6279,9 +6279,9 @@ VERIFY</text>
 <label x="238.76" y="276.86" size="1.778" layer="95"/>
 <wire x1="302.26" y1="276.86" x2="215.9" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="U6" gate="ENC424J600" pin="SCK/AL"/>
-<wire x1="307.34" y1="198.12" x2="302.26" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="198.12" x2="302.26" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="CN10" pin="29_PB5"/>
+<wire x1="302.26" y1="195.58" x2="302.26" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="CN10" pin="31_PB3"/>
+<wire x1="307.34" y1="195.58" x2="302.26" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP3" gate="TP$1" pin="P$1"/>
@@ -6294,9 +6294,9 @@ VERIFY</text>
 <label x="238.76" y="274.32" size="1.778" layer="95"/>
 <wire x1="299.72" y1="274.32" x2="215.9" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="U6" gate="ENC424J600" pin="SO/WR/EN"/>
-<wire x1="307.34" y1="200.66" x2="299.72" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="200.66" x2="299.72" y2="274.32" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="CN10" pin="27_PB4"/>
+<wire x1="299.72" y1="200.66" x2="299.72" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="200.66" x2="299.72" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP5" gate="TP$1" pin="P$1"/>
@@ -6309,9 +6309,9 @@ VERIFY</text>
 <label x="238.76" y="271.78" size="1.778" layer="95"/>
 <wire x1="297.18" y1="271.78" x2="215.9" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="U6" gate="ENC424J600" pin="SI/RD/!RW"/>
-<wire x1="307.34" y1="203.2" x2="297.18" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="203.2" x2="297.18" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="CN10" pin="25_PB10"/>
+<wire x1="297.18" y1="198.12" x2="297.18" y2="271.78" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="CN10" pin="29_PB5"/>
+<wire x1="307.34" y1="198.12" x2="297.18" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="TP$1" pin="P$1"/>
