@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="4" fill="15" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="1" fill="15" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="11" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="11" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="4" fill="15" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="1" fill="15" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="11" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="11" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,27 +34,27 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="2" visible="no" active="no"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="8" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="1" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCopper" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCopper" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="8" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="1" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCopper" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCopper" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1333,24 +1333,6 @@ Has both test loops and bare copper area.</description>
 </library>
 <library name="ELL-i-DIscreteSemi">
 <packages>
-<package name="DIODE-B2100">
-<description>&lt;h3&gt;Diodes B2100 Schottky Barrier 2A 100V&lt;/H3&gt;
-
-&lt;p&gt;Special package for high current.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.diodes.com/datasheets/ds30021.pdf"&gt;Datasheet.&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R180"/>
-<smd name="C" x="2.15" y="0" dx="2.3" dy="2.5" layer="1"/>
-<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="MLP8L33">
 <description>&lt;h3&gt;MLP 3.3x3.3 8L (Power 33) - 8LD, MLP, NON JEDEC VERSION, MICROFET, 3.3MM SQUARE&lt;/h3&gt;
 
@@ -1390,56 +1372,66 @@ Has both test loops and bare copper area.</description>
 <rectangle x1="-1.1375" y1="-1.725" x2="-0.8125" y2="-1.275" layer="51"/>
 <smd name="F1" x="0" y="0.45" dx="2.37" dy="1.7" layer="1"/>
 </package>
-<package name="SOT-23">
-<description>&lt;p&gt;SOT-23 Package&lt;/p&gt;
-&lt;a href = "http://www.fairchildsemi.com/dwg/MA/MA03D.pdf"&gt;Drawing&lt;/a&gt;
+<package name="SOD-123FL-A">
+<description>&lt;h3&gt;IPC-7351 compliant SOD-123-FL footprint, variant A&lt;/h3&gt;
 &lt;p&gt;
-Not reviewd
-&lt;/p&gt;</description>
-<smd name="P$1" x="-0.95" y="-1.1" dx="1.4" dy="1" layer="1" rot="R90"/>
-<smd name="P$2" x="0.95" y="-1.1" dx="1.4" dy="1" layer="1" rot="R90"/>
-<smd name="P$3" x="0" y="1" dx="1.4" dy="1" layer="1" rot="R90"/>
-<wire x1="1.4" y1="-0.65" x2="1.25" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="1.25" y1="-0.65" x2="0.65" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-0.65" x2="-0.65" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-0.65" y1="-0.65" x2="-1.25" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-1.25" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="0.65" x2="-0.3" y2="0.65" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="0.65" x2="0.3" y2="0.65" width="0.127" layer="21"/>
-<wire x1="0.3" y1="0.65" x2="1.4" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.65" x2="1.4" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-1.25" y1="-0.65" x2="-1.25" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-1.25" y1="-1.25" x2="-0.65" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-0.65" y1="-1.25" x2="-0.65" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="1.25" y1="-0.65" x2="1.25" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="1.25" y1="-1.25" x2="0.65" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.25" x2="0.65" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="0.65" x2="-0.3" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-0.3" y1="1.2" x2="0.3" y2="1.2" width="0.127" layer="21"/>
-<wire x1="0.3" y1="1.2" x2="0.3" y2="0.65" width="0.127" layer="21"/>
-<text x="-1.06" y="-0.25" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.95" y="2.05" size="0.3048" layer="21">&gt;VALUE</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="48">1</text>
-<text x="1.27" y="-3.81" size="1.27" layer="48">2</text>
-<text x="0" y="2.54" size="1.27" layer="48">3</text>
-</package>
-<package name="SOD-323">
-<description>&lt;b&gt;Small Outline Diode 323 package&lt;/b&gt;
-
-&lt;p&gt;Used by BAV20WS&lt;/p&gt;</description>
-<wire x1="-0.8" y1="0.575" x2="0.8" y2="0.575" width="0.2032" layer="51"/>
-<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
-<wire x1="0.8" y1="-0.575" x2="-0.8" y2="-0.575" width="0.2032" layer="51"/>
-<wire x1="-0.8" y1="-0.575" x2="-0.8" y2="0.575" width="0.2032" layer="51"/>
-<smd name="C" x="-1.1" y="0" dx="1" dy="0.6" layer="1"/>
-<smd name="A" x="1.1" y="0" dx="1" dy="0.6" layer="1"/>
-<text x="-0.9" y="0.78" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.9" y="-1.805" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
-<rectangle x1="-0.75" y1="-0.575" x2="-0.375" y2="0.575" layer="51"/>
-<wire x1="0.8" y1="0.575" x2="0.8" y2="-0.575" width="0.2032" layer="51"/>
-<rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
+A-variant is suitable for handsoldering and low density boards. Pads are named "A" and "C" to avoid ambiquity.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cathode is to left&lt;/li&gt;
+&lt;li&gt;Center of component lies at origin of grid.&lt;/li&gt;
+&lt;li&gt;Silkscreen is completely visible after assembly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Pads have 0.55 mm 0.45 mm heels and 0.05 mm sides. Component has 0.5 mm placement courtyard from pads and outline. Silkscreen has 0.15 mm width and 0.15 mm clearance from pads.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Silkscreen drawing is at tPlace layer.&lt;/li&gt;
+&lt;li&gt;Silkscreen name is at tNames layer&lt;/li&gt;
+&lt;li&gt;Mechanical outline is at Measures layer.&lt;/li&gt;
+&lt;li&gt;Assembly drawing as at tDocu layer,&lt;/li&gt;
+&lt;li&gt;Placement courtyard is at tKeepout layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Component dimensios are derived from &lt;a href = "http://www.mccsemi.com/up_pdf/SMD15PL-SMD1200PL%28SOD-123FL%29.pdf"&gt;MCC schottky diode datasheet&lt;/a&gt;. 
+Please refer to &lt;a href="http://www.pcblibraries.com/downloads/Guidelines!PCB_Design_Optimization_Starts_in_the_CAD_Library.asp"&gt;PCB libraries design document&lt;/a&gt; for details of component footprint drawing.</description>
+<wire x1="-1.5" y1="-0.8" x2="-1.15" y2="-0.8" width="0.15" layer="47"/>
+<wire x1="-1.15" y1="-0.8" x2="1.5" y2="-0.8" width="0.15" layer="47"/>
+<wire x1="1.5" y1="-0.8" x2="1.5" y2="-0.5" width="0.15" layer="47"/>
+<wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.15" layer="47"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="0.8" width="0.15" layer="47"/>
+<wire x1="1.5" y1="0.8" x2="-1.15" y2="0.8" width="0.15" layer="47"/>
+<wire x1="-1.15" y1="0.8" x2="-1.5" y2="0.8" width="0.15" layer="47"/>
+<wire x1="-1.5" y1="0.8" x2="-1.5" y2="0.5" width="0.15" layer="47"/>
+<wire x1="-1.5" y1="0.5" x2="-1.5" y2="-0.5" width="0.15" layer="47"/>
+<wire x1="-1.5" y1="-0.5" x2="-1.5" y2="-0.8" width="0.15" layer="47"/>
+<wire x1="-1.15" y1="-0.8" x2="-1.15" y2="0.8" width="0.15" layer="47"/>
+<wire x1="1.5" y1="0.5" x2="1.9" y2="0.5" width="0.15" layer="47"/>
+<wire x1="1.9" y1="0.5" x2="1.9" y2="-0.5" width="0.15" layer="47"/>
+<wire x1="1.9" y1="-0.5" x2="1.5" y2="-0.5" width="0.15" layer="47"/>
+<wire x1="-1.5" y1="-0.5" x2="-1.9" y2="-0.5" width="0.15" layer="47"/>
+<wire x1="-1.9" y1="-0.5" x2="-1.9" y2="0.5" width="0.15" layer="47"/>
+<wire x1="-1.9" y1="0.5" x2="-1.5" y2="0.5" width="0.15" layer="47"/>
+<smd name="C" x="-1.75" y="0" dx="1.4" dy="1.1" layer="1"/>
+<smd name="A" x="1.75" y="0" dx="1.4" dy="1.1" layer="1"/>
+<wire x1="-2.4" y1="0.8" x2="-1.8" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-1.8" y1="0.8" x2="-1.8" y2="1.1" width="0.15" layer="21"/>
+<wire x1="-1.8" y1="1.1" x2="1.5" y2="1.1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-1.15" x2="-1.8" y2="-1.15" width="0.15" layer="21"/>
+<wire x1="-1.8" y1="-1.15" x2="-1.8" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-1.8" y1="-0.8" x2="-2.45" y2="-0.8" width="0.15" layer="21"/>
+<rectangle x1="-2.95" y1="-1.3" x2="2.95" y2="1.3" layer="39"/>
+<wire x1="-1.95" y1="-1.2" x2="-2.85" y2="-0.3" width="0.15" layer="51"/>
+<wire x1="-2.85" y1="-0.3" x2="-2.85" y2="1.2" width="0.15" layer="51"/>
+<wire x1="-2.85" y1="1.2" x2="2.85" y2="1.2" width="0.15" layer="51"/>
+<wire x1="2.85" y1="1.2" x2="2.85" y2="-1.2" width="0.15" layer="51"/>
+<wire x1="2.85" y1="-1.2" x2="-1.95" y2="-1.2" width="0.15" layer="51"/>
+<text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="SMA">
 <description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
@@ -1461,20 +1453,6 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="1.75" layer="51"/>
 <rectangle x1="-1.5" y1="1.25" x2="-0.75" y2="1.75" layer="21"/>
 <rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="-1.25" layer="21"/>
-</package>
-<package name="SOD-123FL">
-<wire x1="1.778" y1="0.635" x2="-1.8034" y2="0.635" width="0.1016" layer="51"/>
-<wire x1="1.778" y1="-0.635" x2="-1.778" y2="-0.635" width="0.1016" layer="51"/>
-<wire x1="0.7032" y1="0.6" x2="-0.3476" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.3476" y1="0" x2="0.7032" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="0.7032" y1="-0.6" x2="0.7032" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-1.8034" y1="0.635" x2="-1.8034" y2="-0.635" width="0.1016" layer="51"/>
-<wire x1="1.778" y1="0.635" x2="1.778" y2="-0.635" width="0.1016" layer="51"/>
-<rectangle x1="-1.0414" y1="-0.7874" x2="-0.4318" y2="0.7874" layer="21"/>
-<rectangle x1="-1.5748" y1="-0.635" x2="-1.3208" y2="0.635" layer="51"/>
-<smd name="A" x="1.6383" y="0" dx="0.9144" dy="1.2192" layer="1"/>
-<smd name="C" x="-1.6383" y="0" dx="0.9144" dy="1.2192" layer="1"/>
-<text x="0" y="0" size="0.381" layer="25" align="center">&gt;NAME</text>
 </package>
 <package name="MLP8L33_HS">
 <description>&lt;h3&gt;MLP8L33&lt;/h3&gt;
@@ -1614,17 +1592,6 @@ Small rectifier package.
 <vertex x="0.762" y="-0.254"/>
 </polygon>
 </symbol>
-<symbol name="D">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="1.7526" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.5814" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="DIODE-ZENER">
 <wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
@@ -1661,29 +1628,6 @@ Small rectifier package.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-SCHOTTKY" prefix="D">
-<description>&lt;h3&gt;Schottky Diodes&lt;/h3&gt;
-
-&lt;p&gt;A Schottky diode has a low forward voltage drop and a very fast switching action. A normal silicon diode has a voltage drop between 0.6–0.7 volts, while a Schottky diode voltage drop is between approximately 0.15–0.45 volts. This lower voltage drop can provide higher switching speed and better system efficiency.&lt;/p&gt;
-
-&lt;ul&gt;
-   &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Schottky_diode"&gt;Wikipedia article on Schottky diodes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="B2100" package="DIODE-B2100">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FDMC2674" prefix="Q">
 <description>&lt;h3&gt;220V N-Channel UltraFET Trench MOSFET&lt;/h3&gt;
 
@@ -1718,62 +1662,19 @@ Small rectifier package.
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAV20WS" prefix="D">
-<description>&lt;h3&gt;Small Signal Switching Diodes, High Voltage&lt;/h3&gt;
-
-&lt;ul&gt;
-   &lt;li&gt;Diodes &lt;a href="http://www.diodes.com/datasheets/ds30119.pdf"&gt;datasheet&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;Vishay &lt;a href="http://www.vishay.com/docs/85726/bav19ws.pdf"&gt;datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="-7-F"/>
-<technology name="-E3-08"/>
-<technology name="-E3-18"/>
-<technology name="-HE3-08"/>
-<technology name="-HE3-18"/>
-<technology name="Q-7-F"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BAS70" prefix="D">
-<description>&lt;h3&gt;Silicon Schottky Diodes&lt;/h3&gt;
-
+<deviceset name="SMD1XXPL">
+<description>&lt;h3&gt;Surface mount  schottky diodes, 50-&gt;200 V, 1 A DC&lt;/h3&gt;
 &lt;p&gt;
-General-purpose diode for high-speed switching.
-&lt;/p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Maximum forward current 70 mA&lt;/li&gt;
-   &lt;li&gt;Maxiumum forward voltage drop Vf 0.410 mV&lt;/li&gt;
-   &lt;li&gt;Maximum reverse voltage 70V&lt;/li&gt;
-&lt;/ul&gt;</description>
+This series of schottky diodes has SOD-123-FL package. &lt;a href ="http://www.mccsemi.com/up_pdf/SMD15PL-SMD1200PL%28SOD-123FL%29.pdf"&gt;Datasheet.&lt;/a&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="J" package="SOD-323">
+<device name="" package="SOD-123FL-A">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SOT-23">
-<connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="C" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1797,12 +1698,16 @@ General-purpose diode for high-speed switching.
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIODE-ZENER">
+<deviceset name="MMSZ4XXX" uservalue="yes">
+<description>&lt;h3&gt;500 mV zener diodes, SOD-123, 1.8-&gt;39 V&lt;/h3&gt;
+&lt;p&gt;
+MMSZ4XXX is series of zener diodes, &lt;a href="http://www.mccsemi.com/up_pdf/MMSZ4678-MMSZ4716%28SOD-123%29.pdf"&gt;Datasheet&lt;/a&gt;.
+&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
+<gate name="G$1" symbol="DIODE-ZENER" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="-SOD-123" package="SOD-123FL">
+<device name="" package="SOD-123FL-A">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -3435,6 +3340,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="FIDUCIAL-1X2">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="MICRO-FIDUCIAL">
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FR-A4L">
@@ -3465,6 +3376,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VDD" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="FIDUCIAL">
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A4L" prefix="FRAME">
@@ -3489,6 +3405,25 @@ Standard A4 size frame in Landscape</description>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+Various fiducial points for machine vision alignment.</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="MICRO-FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4873,9 +4808,9 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 </class>
 <class number="1" name="PoE 48V 1A" width="0.2" drill="0">
 </class>
-<class number="2" name="High current 3A (low voltage)" width="0.8" drill="0">
+<class number="2" name="High current 3A (low voltage)" width="0.4" drill="0">
 </class>
-<class number="3" name="High voltage 200V 1A" width="0.8" drill="0">
+<class number="3" name="High voltage 200V 1A" width="0.4" drill="0">
 <clearance class="3" value="0.5"/>
 </class>
 </classes>
@@ -4901,11 +4836,11 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="Q3" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING" value="FDMC2674HANDSOLDERING"/>
 <part name="R28" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R"/>
 <part name="R32" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R10"/>
-<part name="D6" library="ELL-i-DIscreteSemi" deviceset="BAS70" device="J"/>
+<part name="D6" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
 <part name="R24" library="ELL-i-Passives" deviceset="R" device="0603-B" value="TBD"/>
 <part name="C30" library="ELL-i-Passives" deviceset="C" device="0603-B" value="4u7 25 V"/>
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0603-B" value="6k04"/>
-<part name="D3" library="ELL-i-DIscreteSemi" deviceset="BAV20WS" device=""/>
+<part name="D3" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
 <part name="R16" library="ELL-i-Passives" deviceset="R" device="1206-A" value="2k"/>
 <part name="C21" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
@@ -4938,7 +4873,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="FB5" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
 <part name="R35" library="ELL-i-Passives" deviceset="R" device="0603-B" value="237k"/>
 <part name="R36" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10k"/>
-<part name="D18" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
+<part name="D18" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
 <part name="R5" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
 <part name="C19" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
@@ -4966,15 +4901,15 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="TP2" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
 <part name="TP3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
 <part name="TP4" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value=""/>
-<part name="TP5" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
+<part name="TP5" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value="TEST_POINT-5021"/>
 <part name="TP6" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
-<part name="TP7" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
+<part name="3V3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
 <part name="TP9" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000" value=""/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="GND3" library="supply1" deviceset="GNDA" device=""/>
 <part name="U$8" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="U$9" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
-<part name="D13" library="ELL-i-DIscreteSemi" deviceset="DIODE-ZENER" device="-SOD-123" value="18V"/>
+<part name="D13" library="ELL-i-DIscreteSemi" deviceset="MMSZ4XXX" device="" value="MMSZ4694 (8V2)"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="M02" device="2.54MM_SCREWTERM" value="M022.54MM"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
@@ -4991,7 +4926,7 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="GND4" library="ELL-i-Supply" deviceset="GND2" device="" value="RTN"/>
 <part name="GND29" library="ELL-i-Supply" deviceset="GND2" device="" value="RTN"/>
 <part name="SUPPLY9" library="ELL-i-Supply" deviceset="SGND" device=""/>
-<part name="D19" library="ELL-i-DIscreteSemi" deviceset="DIODE-SCHOTTKY" device="B2100" value="B2100"/>
+<part name="D19" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL_WITH_GND" device="" value="25 MHz"/>
 <part name="Q4" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING"/>
 <part name="C43" library="ELL-i-Passives" deviceset="C" device="1206-A" value="22uF"/>
@@ -5005,7 +4940,6 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="GREEN"/>
-<part name="TP18" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5000"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
@@ -5020,6 +4954,11 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <part name="C3" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="C10" library="ELL-i-Passives" deviceset="C" device="1206-A" value="1nF 2kV"/>
 <part name="GND5" library="supply1" deviceset="GNDA" device=""/>
+<part name="D10" library="ELL-i-DIscreteSemi" deviceset="MMSZ4XXX" device="" value="MMSZ4694"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="GND10" library="supply1" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5044,8 +4983,8 @@ values?</text>
 <text x="121.92" y="279.4" size="1.778" layer="97">Removed 100nF</text>
 <text x="264.16" y="279.4" size="1.778" layer="97">Switches to solder bridges
 to save cost</text>
-<text x="-20.32" y="170.18" size="1.778" layer="97" rot="R90">Elco removed</text>
-<text x="-15.24" y="170.18" size="1.778" layer="97" rot="R90">Add zener ~8 V</text>
+<text x="-30.48" y="170.18" size="1.778" layer="97" rot="R90">Elco removed</text>
+<text x="-15.24" y="170.18" size="1.778" layer="97" rot="R90">Added zener ~8 V</text>
 <text x="5.08" y="104.14" size="1.778" layer="97">D3, D6, D11 same diodes</text>
 <text x="-99.06" y="60.96" size="1.778" layer="97">47 uF elco 
 replaced with 
@@ -5062,6 +5001,10 @@ VERIFY</text>
 <text x="10.16" y="33.02" size="1.778" layer="97">Removed RC</text>
 <text x="-30.48" y="60.96" size="1.778" layer="97" rot="R90">Recalculate R22</text>
 <text x="22.86" y="7.62" size="1.778" layer="97" rot="R90">Ilim = 1A</text>
+<text x="294.64" y="190.5" size="1.778" layer="97" rot="R90">Fixed pin order, verify</text>
+<text x="30.48" y="-12.7" size="1.778" layer="97">Replaced to simplify BOM</text>
+<text x="-119.38" y="0" size="1.778" layer="97">Replaced to simplify BOM</text>
+<text x="-167.64" y="307.34" size="1.778" layer="97">FIDUCIALS AT EDGES</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
@@ -5164,7 +5107,7 @@ VERIFY</text>
 <instance part="TP4" gate="TP$1" x="274.32" y="190.5" rot="R90"/>
 <instance part="TP5" gate="TP$1" x="274.32" y="182.88" rot="R90"/>
 <instance part="TP6" gate="TP$1" x="274.32" y="175.26" rot="R90"/>
-<instance part="TP7" gate="TP$1" x="274.32" y="167.64" rot="R90"/>
+<instance part="3V3" gate="TP$1" x="274.32" y="167.64" rot="R90"/>
 <instance part="TP9" gate="TP$1" x="274.32" y="160.02" rot="R90"/>
 <instance part="U$6" gate="G$1" x="88.9" y="134.62"/>
 <instance part="GND3" gate="1" x="-55.88" y="157.48"/>
@@ -5207,7 +5150,6 @@ VERIFY</text>
 <instance part="+3V4" gate="G$1" x="114.3" y="208.28"/>
 <instance part="D1" gate="G$1" x="185.42" y="180.34"/>
 <instance part="D2" gate="G$1" x="195.58" y="180.34"/>
-<instance part="TP18" gate="TP$1" x="-177.8" y="233.68" rot="R270"/>
 <instance part="SJ1" gate="1" x="281.94" y="307.34" smashed="yes">
 <attribute name="NAME" x="279.4" y="309.118" size="1.778" layer="95"/>
 </instance>
@@ -5225,14 +5167,19 @@ VERIFY</text>
 <instance part="U$2" gate="CN7" x="322.58" y="271.78"/>
 <instance part="U$2" gate="CN10" x="322.58" y="210.82"/>
 <instance part="X1" gate="RJ45" x="-165.1" y="251.46" rot="R180"/>
-<instance part="X1" gate="LED2" x="-167.64" y="284.48"/>
-<instance part="X1" gate="LED1" x="-167.64" y="276.86"/>
+<instance part="X1" gate="LED2" x="-172.72" y="287.02"/>
+<instance part="X1" gate="LED1" x="-172.72" y="279.4"/>
 <instance part="C4" gate="G$1" x="187.96" y="294.64" rot="R180"/>
 <instance part="B1" gate="G$1" x="-170.18" y="71.12"/>
 <instance part="B2" gate="G$1" x="-170.18" y="30.48"/>
 <instance part="C3" gate="G$1" x="177.8" y="294.64" rot="R180"/>
 <instance part="C10" gate="G$1" x="-172.72" y="157.48"/>
 <instance part="GND5" gate="1" x="-172.72" y="142.24"/>
+<instance part="D10" gate="G$1" x="-22.86" y="180.34" rot="R90"/>
+<instance part="FID1" gate="G$1" x="-160.02" y="304.8"/>
+<instance part="FID2" gate="G$1" x="-154.94" y="304.8"/>
+<instance part="FID3" gate="G$1" x="-149.86" y="304.8"/>
+<instance part="GND10" gate="1" x="-180.34" y="271.78"/>
 </instances>
 <busses>
 </busses>
@@ -5882,6 +5829,7 @@ VERIFY</text>
 <wire x1="38.1" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 <junction x="38.1" y="165.1"/>
 <label x="50.8" y="165.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="D10" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
@@ -5923,19 +5871,15 @@ VERIFY</text>
 <wire x1="-172.72" y1="144.78" x2="-172.72" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GNDA"/>
 </segment>
-</net>
-<net name="N$36" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="185.42" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="185.42" x2="195.58" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="X1" gate="LED2" pin="C"/>
+<wire x1="-175.26" y1="287.02" x2="-180.34" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-180.34" y1="287.02" x2="-180.34" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="X1" gate="LED1" pin="C"/>
+<wire x1="-175.26" y1="279.4" x2="-180.34" y2="279.4" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GNDA"/>
+<wire x1="-180.34" y1="274.32" x2="-180.34" y2="279.4" width="0.1524" layer="91"/>
+<junction x="-180.34" y="279.4"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -6003,16 +5947,12 @@ VERIFY</text>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="SGND"/>
 <wire x1="-162.56" y1="238.76" x2="-162.56" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="236.22" x2="-162.56" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="233.68" x2="-162.56" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="236.22" x2="-162.56" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="236.22" x2="-154.94" y2="236.22" width="0.1524" layer="91"/>
 <junction x="-162.56" y="236.22"/>
 <wire x1="-154.94" y1="236.22" x2="-154.94" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="269.24" x2="-162.56" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-162.56" y1="269.24" x2="-162.56" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="TP18" gate="TP$1" pin="P$1"/>
-<wire x1="-175.26" y1="233.68" x2="-162.56" y2="233.68" width="0.1524" layer="91"/>
-<junction x="-162.56" y="233.68"/>
 <pinref part="X1" gate="RJ45" pin="GND@0"/>
 <pinref part="X1" gate="RJ45" pin="GND@2"/>
 </segment>
@@ -6217,7 +6157,7 @@ VERIFY</text>
 <wire x1="-83.82" y1="302.26" x2="-83.82" y2="299.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TP7" gate="TP$1" pin="P$1"/>
+<pinref part="3V3" gate="TP$1" pin="P$1"/>
 <wire x1="271.78" y1="167.64" x2="238.76" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="238.76" y1="167.64" x2="238.76" y2="175.26" width="0.1524" layer="91"/>
@@ -6536,6 +6476,7 @@ VERIFY</text>
 <wire x1="38.1" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 <junction x="38.1" y="193.04"/>
 <label x="50.8" y="193.04" size="1.778" layer="95" xref="yes"/>
+<pinref part="D10" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="337.82" y1="266.7" x2="347.98" y2="266.7" width="0.1524" layer="91"/>
@@ -6650,6 +6591,38 @@ VERIFY</text>
 <junction x="5.08" y="35.56"/>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LEDB" class="0">
+<segment>
+<pinref part="X1" gate="LED2" pin="A"/>
+<wire x1="-167.64" y1="287.02" x2="-162.56" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="287.02" x2="-162.56" y2="292.1" width="0.1524" layer="91"/>
+<label x="-162.56" y="292.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="185.42" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="185.42" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
+<junction x="185.42" y="185.42"/>
+<label x="177.8" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LEDA" class="0">
+<segment>
+<pinref part="X1" gate="LED1" pin="A"/>
+<wire x1="-167.64" y1="279.4" x2="-157.48" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="279.4" x2="-157.48" y2="292.1" width="0.1524" layer="91"/>
+<label x="-157.48" y="292.1" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="185.42" x2="195.58" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<label x="203.2" y="185.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="203.2" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
+<junction x="195.58" y="185.42"/>
 </segment>
 </net>
 </nets>
