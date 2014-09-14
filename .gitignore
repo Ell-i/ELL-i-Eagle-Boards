@@ -28,6 +28,21 @@ eagle.epf
 *.drl
 *.gpi
 *.pls
+*.job
+
+*.GML
+*.TXT
+*.GTL
+*.GBL
+*.GTO
+*.GBO
+*.GTP
+*.GBP
+*.GTS
+*.GBS
+*.GL2
+*.GL3
+
 
 *.drd
 *.drd.*
