@@ -1602,12 +1602,12 @@ Small rectifier package.
 <wire x1="-3.5" y1="-1" x2="-2" y2="-1" width="0.127" layer="47"/>
 <text x="-1.5" y="0" size="1.27" layer="47">~</text>
 <text x="-1.5" y="-2.5" size="1.27" layer="47">~</text>
-<text x="0.5" y="0.5" size="1.27" layer="47">+</text>
-<text x="0.5" y="-2" size="1.27" layer="47">-</text>
+<text x="0.5" y="-2.04" size="1.27" layer="47">+</text>
+<text x="0.5" y="0.54" size="1.27" layer="47">-</text>
 <smd name="AC1" x="-3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
 <smd name="AC2" x="-3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
-<smd name="+" x="3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
-<smd name="-" x="3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="-" x="3.1" y="1.25" dx="1" dy="0.8" layer="1"/>
+<smd name="+" x="3.1" y="-1.25" dx="1" dy="0.8" layer="1"/>
 <wire x1="2.5" y1="2.6" x2="-3.5" y2="2.6" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.6" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
 <rectangle x1="-4.1" y1="-2.9" x2="4.1" y2="2.9" layer="39"/>
@@ -7881,18 +7881,16 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <description>&lt;h3&gt;Nucleo shield template with 2*20 pin headers&lt;/h3&gt;
 &lt;p&gt;
 This version of shield has no Arduino headers and it has 2*20 pin headers because they're easier to source than Morpho's 2*19 pin headers.</description>
-<wire x1="-22.8" y1="-26.74" x2="10.2" y2="-26.74" width="0.127" layer="20"/>
-<wire x1="-22.8" y1="-26.74" x2="-23.8" y2="-25.74" width="0.127" layer="20"/>
-<wire x1="-23.8" y1="-25.74" x2="-33.8" y2="-25.74" width="0.127" layer="20"/>
-<wire x1="-34.8" y1="-24.74" x2="-34.8" y2="29.76" width="0.127" layer="20"/>
-<wire x1="-33.8" y1="30.76" x2="34.2" y2="30.76" width="0.127" layer="20"/>
-<wire x1="35.2" y1="-24.74" x2="35.2" y2="29.76" width="0.127" layer="20"/>
-<wire x1="34.2" y1="-25.74" x2="11.2" y2="-25.74" width="0.127" layer="20"/>
-<wire x1="10.2" y1="-26.74" x2="11.2" y2="-25.74" width="0.127" layer="20"/>
-<wire x1="-34.8" y1="29.76" x2="-33.8" y2="30.76" width="0.127" layer="20" curve="-90"/>
-<wire x1="34.2" y1="30.76" x2="35.2" y2="29.76" width="0.127" layer="20" curve="-90"/>
-<wire x1="-33.8" y1="-25.74" x2="-34.8" y2="-24.74" width="0.127" layer="20" curve="-90"/>
-<wire x1="35.2" y1="-24.74" x2="34.2" y2="-25.74" width="0.127" layer="20" curve="-90"/>
+<wire x1="-22.8" y1="-26.74" x2="12.76" y2="-26.74" width="0.127" layer="47"/>
+<wire x1="-22.8" y1="-26.74" x2="-23.8" y2="-25.74" width="0.127" layer="47"/>
+<wire x1="-23.8" y1="-25.74" x2="-33.8" y2="-25.74" width="0.127" layer="47"/>
+<wire x1="-34.8" y1="-24.74" x2="-34.8" y2="29.76" width="0.127" layer="47"/>
+<wire x1="-33.8" y1="30.76" x2="34.2" y2="30.76" width="0.127" layer="47"/>
+<wire x1="35.2" y1="-24.74" x2="35.2" y2="29.76" width="0.127" layer="47"/>
+<wire x1="-34.8" y1="29.76" x2="-33.8" y2="30.76" width="0.127" layer="47" curve="-90"/>
+<wire x1="34.2" y1="30.76" x2="35.2" y2="29.76" width="0.127" layer="47" curve="-90"/>
+<wire x1="-33.8" y1="-25.74" x2="-34.8" y2="-24.74" width="0.127" layer="47" curve="-90"/>
+<wire x1="35.2" y1="-24.74" x2="34.2" y2="-25.74" width="0.127" layer="47" curve="-90"/>
 <pad name="CN7_37" x="-31.55" y="-22.7" drill="1"/>
 <pad name="CN10_38" x="31.95" y="-22.7" drill="1"/>
 <pad name="CN7_33" x="-31.55" y="-17.62" drill="1"/>
@@ -7987,6 +7985,9 @@ This version of shield has no Arduino headers and it has 2*20 pin headers becaus
 <wire x1="33.9" y1="25.5" x2="33.9" y2="27.2" width="0.127" layer="21"/>
 <wire x1="33.9" y1="27.2" x2="32" y2="27.2" width="0.127" layer="21"/>
 <text x="29.6" y="26.8" size="1.27" layer="21">NC</text>
+<wire x1="12.76" y1="-26.74" x2="13.49" y2="-26.01" width="0.127" layer="47"/>
+<wire x1="34.21" y1="-25.73" x2="13.77" y2="-25.73" width="0.127" layer="47"/>
+<wire x1="13.77" y1="-25.73" x2="13.5" y2="-26" width="0.127" layer="47"/>
 </package>
 </packages>
 <symbols>
@@ -8669,23 +8670,23 @@ Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PC
 <part name="R23" library="ELL-i-Passives" deviceset="R" device="0603-B" value="24k9"/>
 <part name="R29" library="ELL-i-Passives" deviceset="R" device="0603-B" value="63R4"/>
 <part name="C32" library="ELL-i-Passives" deviceset="C" device="2220-REFLOW" value="10uF 100 V"/>
-<part name="R22" library="ELL-i-Passives" deviceset="R" device="0603-B" value="357k"/>
-<part name="R26" library="ELL-i-Passives" deviceset="R" device="0603-B" value="16k5"/>
+<part name="R22" library="ELL-i-Passives" deviceset="R" device="0603-B" value="24k9"/>
+<part name="R26" library="ELL-i-Passives" deviceset="R" device="0603-B" value="6k04"/>
 <part name="C37" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="U4" library="ELL-i-PowerIC" deviceset="LT3748" device=""/>
-<part name="R31" library="ELL-i-Passives" deviceset="R" device="0603-B" value="28k"/>
-<part name="R33" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12k"/>
+<part name="R31" library="ELL-i-Passives" deviceset="R" device="0603-B" value="24k9"/>
+<part name="R33" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12k4"/>
 <part name="C38" library="ELL-i-Passives" deviceset="C" device="0603-B" value="6n8"/>
-<part name="C39" library="ELL-i-Passives" deviceset="C" device="0603-B" value="470p"/>
+<part name="C39" library="ELL-i-Passives" deviceset="C" device="0603-B" value="150p"/>
 <part name="Q3" library="ELL-i-DIscreteSemi" deviceset="FDMC2674" device="HANDSOLDERING" value="FDMC2674HANDSOLDERING"/>
-<part name="R28" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R"/>
-<part name="R32" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R10"/>
+<part name="R28" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
+<part name="R32" library="ELL-i-Passives" deviceset="R" device="0603-B" value="0R082"/>
 <part name="D6" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
-<part name="R24" library="ELL-i-Passives" deviceset="R" device="0603-B" value="TBD"/>
+<part name="R24" library="ELL-i-Passives" deviceset="R" device="0603-B" value="270k"/>
 <part name="C30" library="ELL-i-Passives" deviceset="C" device="0603-B" value="4u7 25 V"/>
 <part name="R34" library="ELL-i-Passives" deviceset="R" device="0603-B" value="6k04"/>
 <part name="D3" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
-<part name="R16" library="ELL-i-Passives" deviceset="R" device="1206-A" value="2k"/>
+<part name="R16" library="ELL-i-Passives" deviceset="R" device="0603-A" value="270k"/>
 <part name="C21" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF 100V"/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
@@ -8715,8 +8716,8 @@ Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PC
 <part name="C42" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
 <part name="FB4" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
 <part name="FB5" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="2A"/>
-<part name="R35" library="ELL-i-Passives" deviceset="R" device="0603-B" value="237k"/>
-<part name="R36" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10k"/>
+<part name="R35" library="ELL-i-Passives" deviceset="R" device="0603-B" value="270k"/>
+<part name="R36" library="ELL-i-Passives" deviceset="R" device="0603-B" value="12k4"/>
 <part name="D18" library="ELL-i-DIscreteSemi" deviceset="SMD1XXPL" device="" value="SMD1200PL"/>
 <part name="R5" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
 <part name="C19" library="ELL-i-Passives" deviceset="C" device="0603-B" value="10nF"/>
@@ -8730,7 +8731,7 @@ Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PC
 <part name="GND22" library="supply1" deviceset="GNDA" device=""/>
 <part name="R13" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
 <part name="R12" library="ELL-i-Passives" deviceset="R" device="0603-B" value="49R9"/>
-<part name="FB1" library="ELL-i-Passives" deviceset="FB" device="-0805-A" value="LQM15"/>
+<part name="FB1" library="ELL-i-Passives" deviceset="FB" device="-0603-A" value="LQM15"/>
 <part name="C5" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="C6" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
 <part name="C7" library="ELL-i-Passives" deviceset="C" device="0603-B" value="100nF"/>
@@ -8738,10 +8739,10 @@ Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PC
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="C9" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="GND24" library="supply1" deviceset="GNDA" device=""/>
-<part name="R14" library="ELL-i-Passives" deviceset="R" device="0805-A" value="100k"/>
+<part name="R14" library="ELL-i-Passives" deviceset="R" device="0603-A" value="270k"/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
-<part name="R15" library="ELL-i-Passives" deviceset="R" device="0603-B" value="10R"/>
-<part name="C22" library="ELL-i-Passives" deviceset="C" device="0603-B" value="470pF"/>
+<part name="R15" library="ELL-i-Passives" deviceset="R" device="0603-B" value="220R"/>
+<part name="C22" library="ELL-i-Passives" deviceset="C" device="0603-B" value="150p"/>
 <part name="SS" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value="SS"/>
 <part name="TP3" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value="SCK"/>
 <part name="TP4" library="ELL-i-Passives" deviceset="TEST_POINT" device="-5021" value="MOSI"/>
@@ -8839,11 +8840,9 @@ replaced with
 <text x="2.54" y="198.12" size="1.778" layer="97">150 mV ripple abs max</text>
 <text x="-149.86" y="276.86" size="1.778" layer="97">PINS SWAPPED
 VERIFIED</text>
-<text x="-60.96" y="88.9" size="1.778" layer="97">Removed R25, D11</text>
 <text x="-162.56" y="149.86" size="1.778" layer="97">Capacitor grounding?</text>
 <text x="10.16" y="33.02" size="1.778" layer="97">Removed RC</text>
-<text x="-30.48" y="60.96" size="1.778" layer="97" rot="R90">Recalculate R22</text>
-<text x="22.86" y="7.62" size="1.778" layer="97" rot="R90">Ilim = 1A</text>
+<text x="22.86" y="7.62" size="1.778" layer="97" rot="R90">Ilim = 1A21</text>
 <text x="294.64" y="215.9" size="1.778" layer="97" rot="R90">Fixed pin order, 
 verified</text>
 <text x="30.48" y="-12.7" size="1.778" layer="97">Replaced to simplify BOM</text>
@@ -8851,6 +8850,9 @@ verified</text>
 <text x="-167.64" y="307.34" size="1.778" layer="97">FIDUCIALS AT EDGES</text>
 <text x="-7.62" y="162.56" size="1.778" layer="97" rot="R180">Add series resistance 
 if diode fries</text>
+<text x="-27.94" y="63.5" size="1.778" layer="97" rot="R90">next revision:
+higher UVLO voltage</text>
+<text x="-48.26" y="-2.54" size="1.778" layer="97" rot="R90">R31 37.8 k would be optimum</text>
 </plain>
 <instances>
 <instance part="U5" gate="G$1" x="-91.44" y="43.18"/>
