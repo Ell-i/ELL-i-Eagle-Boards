@@ -8739,7 +8739,7 @@ Please refer to &lt;a href ="http://www.pcblibraries.com/downloads/Guidelines!PC
 <part name="C8" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="C9" library="ELL-i-Passives" deviceset="C" device="0402-B" value="1nF"/>
 <part name="GND24" library="supply1" deviceset="GNDA" device=""/>
-<part name="R14" library="ELL-i-Passives" deviceset="R" device="0603-A" value="270k"/>
+<part name="R14" library="ELL-i-Passives" deviceset="R" device="0603-A" value="24k9"/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="B340A" device="" value="BA340A"/>
 <part name="R15" library="ELL-i-Passives" deviceset="R" device="0603-B" value="220R"/>
 <part name="C22" library="ELL-i-Passives" deviceset="C" device="0603-B" value="150p"/>
